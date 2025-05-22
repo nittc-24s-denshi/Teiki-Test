@@ -283,8 +283,10 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "b965777e4c0a90d9",
+  "active": "3ffa3e80db87f2dd",
   "lastOpenFiles": [
+    "specification.md",
+    "Application-Concept.txt",
     "2025/01/範囲表(ページ).md",
     "2025/01/範囲表(内容).md",
     "電気回路/目次.md",
@@ -310,7 +312,6 @@
     "社会と文化から見る歴史",
     "国語総合",
     "Reading",
-    "ディジタル回路",
-    "電気回路"
+    "ディジタル回路"
   ]
 }
