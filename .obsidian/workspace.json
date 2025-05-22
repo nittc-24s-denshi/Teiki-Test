@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "物理/目次.md",
+                "file": "2025/01/範囲表(ページ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "目次"
+              "title": "範囲表(ページ)"
             }
           }
         ],
@@ -283,8 +283,10 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "cfd222ede7e080f0",
+  "active": "b965777e4c0a90d9",
   "lastOpenFiles": [
+    "2025/01/範囲表(ページ).md",
+    "2025/01/範囲表(内容).md",
     "電気回路/目次.md",
     "線形代数/目次.md",
     "科学/目次.md",
