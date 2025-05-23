@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "566b1f8c30f523c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fc4ded3783ba998",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19d5cd9997d8432d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_1(ベクトル)(1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "線形1_授業ノート_1(ベクトル)(1)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b301de19b16fc1bf",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b1ffdd57c02c5893",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "ファイルエクスプローラ"
+        }
+      },
+      {
+        "id": "67334f14c349d254",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "44ceeba46852e312",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "de647e27bb5568d2",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9899cc6736a12f7a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "58df8012743881d1",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "b417812b3561865c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "d60055becb1a3179",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "8435f0fece1f558c",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "19d5cd9997d8432d",
+  "lastOpenFiles": [
+    "2025/01/線形代数/参考資料/授業ノート",
+    "2025/01/線形代数/参考資料",
+    "specification.md",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_5(演習1)_線形独立.pdf",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_4(直線、練1-6).pdf",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_3(ベクトルの成分表示、直線の表し方)(1).pdf",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_2（２点間の距離、空間座標）(1).pdf",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_2(位置ベクトル)(1).pdf",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_1(ベクトル)(1).pdf",
+    "Application-Concept.txt",
+    "2025/04/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
+    "2025/03/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
+    "2025/01/電気回路/目次.md",
+    "2025/01/線形代数/目次.md",
+    "2025/01/範囲表(内容).md",
+    "2025/01/範囲表(ページ).md",
+    "2025/01/科学/目次.md",
+    "2025/01/社会と文化から見る歴史/目次.md",
+    "2025/01/物理III/目次.md",
+    "2025/01/微分・積分/目次.md",
+    "2025/01/国語総合/目次.md",
+    "2025/01/ディジタル回路/目次.md",
+    "2025/01/Reading/目次.md",
+    "2025/01/OralCommunication/目次.md",
+    "2025/01/Grammar&Writing/目次.md"
+  ]
+}
