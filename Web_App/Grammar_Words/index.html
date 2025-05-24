@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英単語暗記アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>英単語暗記アプリ</h1>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="stats">
+                <span id="currentWord">0</span> / <span id="totalWords">0</span> 
+                | 正解: <span id="correctCount">0</span> 
+                | 不正解: <span id="incorrectCount">0</span>
+            </div>
+        </header>
+
+        <div class="loading" id="loading">
+            <p>単語リストを読み込み中...</p>
+        </div>
+
+        <div class="card-container" id="cardContainer" style="display: none;">
+            <div class="word-card" id="wordCard">
+                <div class="card-front" id="cardFront">
+                    <div class="word-type" id="wordType">英語 → 日本語</div>
+                    <div class="word-display" id="wordDisplay">responsible</div>
+                    <button class="show-answer-btn" id="showAnswerBtn">答えを表示</button>
+                </div>
+                
+                <div class="card-back" id="cardBack" style="display: none;">
+                    <div class="word-type" id="answerType">日本語</div>
+                    <div class="answer-display" id="answerDisplay">責任がある</div>
+                    <div class="answer-buttons">
+                        <button class="btn incorrect-btn" id="incorrectBtn">不正解 ✗</button>
+                        <button class="btn correct-btn" id="correctBtn">正解 ✓</button>
+                    </div>
+                </div>
+
+                <!-- 四択モード用エリア -->
+                <div class="multiple-choice" id="multipleChoice" style="display: none;">
+                    <div class="word-type" id="mcWordType">英語 → 日本語</div>
+                    <div class="word-display" id="mcWordDisplay">responsible</div>
+                    <div class="mc-options" id="mcOptions">
+                        <!-- 選択肢ボタンがここに動的に追加される -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn secondary-btn" id="modeToggle">英語→日本語</button>
+            <button class="btn secondary-btn" id="quizToggle">四択モードに切替</button>
+            <button class="btn secondary-btn" id="restartBtn">最初から開始</button>
+            <button class="btn secondary-btn" id="shuffleBtn">シャッフル</button>
+        </div>
+
+        <div class="completion-screen" id="completionScreen" style="display: none;">
+            <h2>学習完了！</h2>
+            <div class="final-stats">
+                <p>正解率: <span id="finalAccuracy">0</span>%</p>
+                <p>正解数: <span id="finalCorrect">0</span> / <span id="finalTotal">0</span></p>
+            </div>
+            <button class="btn primary-btn" id="restartFinalBtn">もう一度学習する</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 
