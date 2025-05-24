@@ -1,17 +1,9 @@
+"use strict";
 class VocabularyApp {
     constructor() {
-        this.session = {
-            words: [],
-            currentIndex: 0,
-            correctCount: 0,
-            incorrectCount: 0,
-            mode: 'en-jp',
-            showingAnswer: false
-        };
         this.allWords = [];
-        this.studyType = 'flashcard'; // 'flashcard' or 'multiple-choice'
-
-        // DOM要素
+        this.answerLogs = [];
+        this.studyType = 'flashcard';
         this.elements = {
             loading: document.getElementById('loading'),
             cardContainer: document.getElementById('cardContainer'),
@@ -44,24 +36,27 @@ class VocabularyApp {
             mcOptions: document.getElementById('mcOptions'),
             quizToggle: document.getElementById('quizToggle')
         };
-
+        this.session = {
+            words: [],
+            currentIndex: 0,
+            correctCount: 0,
+            incorrectCount: 0,
+            mode: 'en-jp',
+            showingAnswer: false
+        };
         this.init();
     }
-
     async init() {
         await this.loadWords();
-        this.shuffleAllWords();
         this.setupEventListeners();
         this.startNewSession();
     }
-
     async loadWords() {
         try {
             const response = await fetch('words.csv');
             const csvText = await response.text();
-            
             const lines = csvText.trim().split('\n');
-            
+            const headers = lines[0].split(',');
             this.allWords = lines.slice(1).map(line => {
                 const [word, japanese] = line.split(',');
                 return {
@@ -69,21 +64,13 @@ class VocabularyApp {
                     japanese: japanese.trim()
                 };
             }).filter(pair => pair.word && pair.japanese);
-
             console.log(`${this.allWords.length}個の単語を読み込みました`);
-        } catch (error) {
+        }
+        catch (error) {
             console.error('単語の読み込みに失敗しました:', error);
             alert('単語ファイルの読み込みに失敗しました。');
         }
     }
-
-    shuffleAllWords() {
-        for (let i = this.allWords.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [this.allWords[i], this.allWords[j]] = [this.allWords[j], this.allWords[i]];
-        }
-    }
-
     setupEventListeners() {
         this.elements.showAnswerBtn.addEventListener('click', () => this.showAnswer());
         this.elements.correctBtn.addEventListener('click', () => this.markAnswer(true));
@@ -93,8 +80,6 @@ class VocabularyApp {
         this.elements.restartBtn.addEventListener('click', () => this.startNewSession());
         this.elements.shuffleBtn.addEventListener('click', () => this.shuffleWords());
         this.elements.restartFinalBtn.addEventListener('click', () => this.startNewSession());
-
-        // キーボードショートカット
         document.addEventListener('keydown', (e) => {
             if (this.studyType === 'flashcard') {
                 if (e.key === ' ' || e.key === 'Enter') {
@@ -102,12 +87,14 @@ class VocabularyApp {
                     if (!this.session.showingAnswer) {
                         this.showAnswer();
                     }
-                } else if (e.key === 'ArrowRight' || e.key === '1') {
+                }
+                else if (e.key === 'ArrowRight' || e.key === '1') {
                     e.preventDefault();
                     if (this.session.showingAnswer) {
                         this.markAnswer(true);
                     }
-                } else if (e.key === 'ArrowLeft' || e.key === '2') {
+                }
+                else if (e.key === 'ArrowLeft' || e.key === '2') {
                     e.preventDefault();
                     if (this.session.showingAnswer) {
                         this.markAnswer(false);
@@ -116,24 +103,6 @@ class VocabularyApp {
             }
         });
     }
-
-    toggleMode() {
-        this.session.mode = this.session.mode === 'en-jp' ? 'jp-en' : 'en-jp';
-        this.elements.modeToggle.textContent = this.session.mode === 'en-jp' ? '英語→日本語' : '日本語→英語';
-        this.showCurrentWord();
-    }
-
-    toggleStudyType() {
-        if (this.studyType === 'flashcard') {
-            this.studyType = 'multiple-choice';
-            this.elements.quizToggle.textContent = 'フラッシュカードに切替';
-        } else {
-            this.studyType = 'flashcard';
-            this.elements.quizToggle.textContent = '四択モードに切替';
-        }
-        this.showCurrentWord();
-    }
-
     startNewSession() {
         this.shuffleAllWords();
         this.session = {
@@ -144,32 +113,47 @@ class VocabularyApp {
             mode: this.session.mode,
             showingAnswer: false
         };
-
+        this.answerLogs = [];
         this.elements.loading.style.display = 'none';
         this.elements.cardContainer.style.display = 'block';
         this.elements.completionScreen.style.display = 'none';
-
         this.updateStats();
         this.showCurrentWord();
     }
-
+    shuffleAllWords() {
+        for (let i = this.allWords.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [this.allWords[i], this.allWords[j]] = [this.allWords[j], this.allWords[i]];
+        }
+    }
     shuffleWords() {
         this.shuffleAllWords();
         this.session.words = this.allWords.slice(0, 15);
         this.session.currentIndex = 0;
         this.showCurrentWord();
     }
-
+    toggleMode() {
+        this.session.mode = this.session.mode === 'en-jp' ? 'jp-en' : 'en-jp';
+        this.showCurrentWord();
+    }
+    toggleStudyType() {
+        if (this.studyType === 'flashcard') {
+            this.studyType = 'multiple-choice';
+            this.elements.quizToggle.textContent = 'フラッシュカードに切替';
+        }
+        else {
+            this.studyType = 'flashcard';
+            this.elements.quizToggle.textContent = '四択モードに切替';
+        }
+        this.showCurrentWord();
+    }
     showCurrentWord() {
         if (this.session.currentIndex >= this.session.words.length) {
             this.showCompletionScreen();
             return;
         }
-
         const currentWord = this.session.words[this.session.currentIndex];
         this.session.showingAnswer = false;
-
-        // アニメーションなしで即時表示
         if (this.studyType === 'flashcard') {
             this.elements.cardFront.style.display = 'block';
             this.elements.cardBack.style.display = 'none';
@@ -179,13 +163,15 @@ class VocabularyApp {
                 this.elements.wordDisplay.textContent = currentWord.word;
                 this.elements.answerType.textContent = '日本語';
                 this.elements.answerDisplay.textContent = currentWord.japanese;
-            } else {
+            }
+            else {
                 this.elements.wordType.textContent = '日本語 → 英語';
                 this.elements.wordDisplay.textContent = currentWord.japanese;
                 this.elements.answerType.textContent = '英語';
                 this.elements.answerDisplay.textContent = currentWord.word;
             }
-        } else {
+        }
+        else {
             this.elements.cardFront.style.display = 'none';
             this.elements.cardBack.style.display = 'none';
             this.elements.multipleChoice.style.display = 'flex';
@@ -193,12 +179,10 @@ class VocabularyApp {
         }
         this.updateStats();
     }
-
     renderMultipleChoice(currentWord) {
         const isEnToJp = this.session.mode === 'en-jp';
         this.elements.mcWordType.textContent = isEnToJp ? '英語 → 日本語' : '日本語 → 英語';
         this.elements.mcWordDisplay.textContent = isEnToJp ? currentWord.word : currentWord.japanese;
-
         const options = [currentWord];
         const pool = this.allWords.filter(w => (isEnToJp ? w.japanese : w.word) !== (isEnToJp ? currentWord.japanese : currentWord.word));
         while (options.length < 4 && pool.length > 0) {
@@ -210,7 +194,6 @@ class VocabularyApp {
             const j = Math.floor(Math.random() * (i + 1));
             [options[i], options[j]] = [options[j], options[i]];
         }
-
         this.elements.mcOptions.innerHTML = '';
         options.forEach(opt => {
             const btn = document.createElement('button');
@@ -219,9 +202,9 @@ class VocabularyApp {
             btn.onclick = () => {
                 if ((isEnToJp && opt.japanese === currentWord.japanese) || (!isEnToJp && opt.word === currentWord.word)) {
                     btn.classList.add('correct');
-                    // 遅延なしで即時遷移
                     this.markAnswer(true);
-                } else {
+                }
+                else {
                     btn.classList.add('incorrect');
                     this.markAnswer(false);
                 }
@@ -230,52 +213,71 @@ class VocabularyApp {
             this.elements.mcOptions.appendChild(btn);
         });
     }
-
     showAnswer() {
         this.session.showingAnswer = true;
         this.elements.cardFront.style.display = 'none';
         this.elements.cardBack.style.display = 'block';
     }
-
     markAnswer(isCorrect) {
-        if (this.studyType === 'flashcard' && !this.session.showingAnswer) return;
-
+        if (this.studyType === 'flashcard' && !this.session.showingAnswer)
+            return;
+        const currentWord = this.session.words[this.session.currentIndex];
+        let userAnswer = '';
+        if (this.session.mode === 'en-jp') {
+            userAnswer = this.elements.answerDisplay.textContent || '';
+        }
+        else {
+            userAnswer = this.elements.answerDisplay.textContent || '';
+        }
+        this.answerLogs.push({
+            word: currentWord.word,
+            japanese: currentWord.japanese,
+            userAnswer: userAnswer,
+            isCorrect: isCorrect
+        });
         if (isCorrect) {
             this.session.correctCount++;
-        } else {
+        }
+        else {
             this.session.incorrectCount++;
         }
-
         this.session.currentIndex++;
         this.showCurrentWord();
     }
-
     updateStats() {
         const current = this.session.currentIndex + 1;
         const total = this.session.words.length;
         const progress = (this.session.currentIndex / total) * 100;
-
         this.elements.currentWord.textContent = current.toString();
         this.elements.totalWords.textContent = total.toString();
         this.elements.correctCount.textContent = this.session.correctCount.toString();
         this.elements.incorrectCount.textContent = this.session.incorrectCount.toString();
         this.elements.progressFill.style.width = `${progress}%`;
     }
-
     showCompletionScreen() {
         this.elements.cardContainer.style.display = 'none';
         this.elements.completionScreen.style.display = 'block';
-
         const total = this.session.correctCount + this.session.incorrectCount;
         const accuracy = total > 0 ? Math.round((this.session.correctCount / total) * 100) : 0;
-
         this.elements.finalAccuracy.textContent = accuracy.toString();
         this.elements.finalCorrect.textContent = this.session.correctCount.toString();
         this.elements.finalTotal.textContent = total.toString();
+        const resultList = this.elements.completionScreen.querySelector('#resultList');
+        resultList.innerHTML = '<h3>解答一覧</h3>';
+        const table = document.createElement('table');
+        table.style.width = '100%';
+        table.style.background = 'rgba(255,255,255,0.9)';
+        table.style.borderCollapse = 'collapse';
+        table.innerHTML = `<tr><th>英語</th><th>日本語</th><th>あなたの回答</th><th>正誤</th></tr>`;
+        this.answerLogs.forEach(log => {
+            const tr = document.createElement('tr');
+            tr.className = log.isCorrect ? 'correct-row' : 'incorrect-row';
+            tr.innerHTML = `<td>${log.word}</td><td>${log.japanese}</td><td>${log.userAnswer}</td><td>${log.isCorrect ? '○' : '✗'}</td>`;
+            table.appendChild(tr);
+        });
+        resultList.appendChild(table);
     }
 }
-
-// アプリケーション開始
 document.addEventListener('DOMContentLoaded', () => {
     new VocabularyApp();
-}); 
+});

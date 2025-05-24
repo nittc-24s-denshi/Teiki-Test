@@ -85,6 +85,7 @@ h1 {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
+    animation: fadeIn 0.2s ease;
 }
 
 .word-card:hover {
@@ -301,13 +302,9 @@ h1 {
     }
 }
 
-.word-card {
-    animation: fadeIn 0.5s ease;
-}
-
 /* カードフリップアニメーション */
 .card-flip {
-    animation: flipCard 0.6s ease-in-out;
+    animation: flipCard 0.25s ease-in-out;
 }
 
 @keyframes flipCard {
@@ -467,5 +464,37 @@ h1 {
     background: linear-gradient(90deg, #b71c1c 80%, #e57373 100%);
     border-color: #e57373;
     color: #fff;
+  }
+}
+
+/* 解答一覧テーブル用スタイル */
+#resultList table {
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 1rem;
+    color: #111;
+}
+#resultList th, #resultList td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #111;
+}
+#resultList th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+#resultList tr {
+    transition: background 0.2s;
+}
+#resultList tr:hover {
+    background: #e3f2fd;
+}
+
+@media (prefers-color-scheme: dark) {
+  #resultList table, #resultList th, #resultList td {
+    color: #fff !important;
   }
 } 

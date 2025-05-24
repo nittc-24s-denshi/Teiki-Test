@@ -3,8 +3,8 @@
     "target": "ES2018",
     "module": "ES2015",
     "lib": ["ES2018", "DOM"],
-    "outDir": "./Web_App",
-    "rootDir": "./Web_App",
+    "outDir": "./",
+    "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -14,11 +14,7 @@
     "removeComments": true,
     "noEmitOnError": true
   },
-  "include": [
+  "files": [
     "app.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "app.js"
   ]
 } 
