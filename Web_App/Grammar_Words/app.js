@@ -4,6 +4,7 @@ class VocabularyApp {
         this.allWords = [];
         this.answerLogs = [];
         this.studyType = 'flashcard';
+        this._answered = false;
         this.elements = {
             loading: document.getElementById('loading'),
             cardContainer: document.getElementById('cardContainer'),
@@ -154,6 +155,10 @@ class VocabularyApp {
         }
         const currentWord = this.session.words[this.session.currentIndex];
         this.session.showingAnswer = false;
+        // すべての要素のdisplayを明示的にリセット
+        this.elements.cardFront.style.display = 'none';
+        this.elements.cardBack.style.display = 'none';
+        this.elements.multipleChoice.style.display = 'none';
         if (this.studyType === 'flashcard') {
             this.elements.cardFront.style.display = 'block';
             this.elements.cardBack.style.display = 'none';
@@ -184,7 +189,13 @@ class VocabularyApp {
         this.elements.mcWordType.textContent = isEnToJp ? '英語 → 日本語' : '日本語 → 英語';
         this.elements.mcWordDisplay.textContent = isEnToJp ? currentWord.word : currentWord.japanese;
         const options = [currentWord];
-        const pool = this.allWords.filter(w => (isEnToJp ? w.japanese : w.word) !== (isEnToJp ? currentWord.japanese : currentWord.word));
+        const pool = this.allWords.filter(w => {
+            if (isEnToJp) {
+                return w.japanese !== currentWord.japanese;
+            } else {
+                return w.word !== currentWord.word && w.japanese !== currentWord.japanese;
+            }
+        });
         while (options.length < 4 && pool.length > 0) {
             const idx = Math.floor(Math.random() * pool.length);
             options.push(pool[idx]);
@@ -195,20 +206,26 @@ class VocabularyApp {
             [options[i], options[j]] = [options[j], options[i]];
         }
         this.elements.mcOptions.innerHTML = '';
+        this._answered = false;
         options.forEach(opt => {
             const btn = document.createElement('button');
             btn.className = 'mc-option-btn';
             btn.textContent = isEnToJp ? opt.japanese : opt.word;
+            btn.disabled = false;
             btn.onclick = () => {
-                if ((isEnToJp && opt.japanese === currentWord.japanese) || (!isEnToJp && opt.word === currentWord.word)) {
+                if (this._answered) return;
+                this._answered = true;
+                Array.from(this.elements.mcOptions.children).forEach(b => b.disabled = true);
+                const isCorrect = isEnToJp
+                    ? (btn.textContent === currentWord.japanese)
+                    : (btn.textContent === currentWord.word);
+                if (isCorrect) {
                     btn.classList.add('correct');
                     this.markAnswer(true);
-                }
-                else {
+                } else {
                     btn.classList.add('incorrect');
                     this.markAnswer(false);
                 }
-                Array.from(this.elements.mcOptions.children).forEach(b => b.disabled = true);
             };
             this.elements.mcOptions.appendChild(btn);
         });
@@ -229,6 +246,7 @@ class VocabularyApp {
         else {
             userAnswer = this.elements.answerDisplay.textContent || '';
         }
+        console.log('[markAnswer] isCorrect:', isCorrect, 'currentIndex:', this.session.currentIndex, 'currentWord:', currentWord);
         this.answerLogs.push({
             word: currentWord.word,
             japanese: currentWord.japanese,
@@ -266,7 +284,6 @@ class VocabularyApp {
         resultList.innerHTML = '<h3>解答一覧</h3>';
         const table = document.createElement('table');
         table.style.width = '100%';
-        table.style.background = 'rgba(255,255,255,0.9)';
         table.style.borderCollapse = 'collapse';
         table.innerHTML = `<tr><th>英語</th><th>日本語</th><th>あなたの回答</th><th>正誤</th></tr>`;
         this.answerLogs.forEach(log => {
