@@ -475,6 +475,7 @@ h1 {
     overflow: hidden;
     font-size: 1rem;
     color: #111;
+    background: #fff;
 }
 #resultList th, #resultList td {
     padding: 8px 12px;
@@ -493,8 +494,27 @@ h1 {
     background: #e3f2fd;
 }
 
+#resultList tr.correct-row {
+    background: #e8f5e9;
+}
+#resultList tr.incorrect-row {
+    background: #ffebee;
+}
 @media (prefers-color-scheme: dark) {
-  #resultList table, #resultList th, #resultList td {
-    color: #fff !important;
+  #resultList tr.correct-row {
+    background: #2e7d32;
+  }
+  #resultList tr.incorrect-row {
+    background: #b71c1c;
+  }
+}
+#resultList th {
+    background: #fafafa;
+    color: #222;
+}
+@media (prefers-color-scheme: dark) {
+  #resultList th {
+    background: #333;
+    color: #fff;
   }
 } 
