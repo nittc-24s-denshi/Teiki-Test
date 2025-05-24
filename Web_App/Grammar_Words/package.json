@@ -4,14 +4,7 @@
   "description": "英単語暗記用Webアプリ",
   "main": "app.js",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
-    "serve": "npx http-server . -p 8080",
-    "dev": "npm run build && npm run serve"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^18.0.0"
+    "serve": "npx http-server . -p 8080"
   },
   "keywords": [
     "vocabulary",
