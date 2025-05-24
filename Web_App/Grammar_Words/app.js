@@ -35,7 +35,8 @@ class VocabularyApp {
             mcWordType: document.getElementById('mcWordType'),
             mcWordDisplay: document.getElementById('mcWordDisplay'),
             mcOptions: document.getElementById('mcOptions'),
-            quizToggle: document.getElementById('quizToggle')
+            quizToggle: document.getElementById('quizToggle'),
+            themeToggleBtn: document.getElementById('themeToggleBtn')
         };
         this.session = {
             words: [],
@@ -50,6 +51,7 @@ class VocabularyApp {
     async init() {
         await this.loadWords();
         this.setupEventListeners();
+        this.setupThemeToggle();
         this.startNewSession();
     }
     async loadWords() {
@@ -103,6 +105,44 @@ class VocabularyApp {
                 }
             }
         });
+    }
+    setupThemeToggle() {
+        const btn = this.elements.themeToggleBtn;
+        const body = document.body;
+        // 初期状態
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            body.setAttribute('data-theme', savedTheme);
+            this.updateThemeBtnText(savedTheme);
+        } else {
+            this.updateThemeBtnText(this.getCurrentTheme());
+        }
+        btn.addEventListener('click', () => {
+            const current = this.getCurrentTheme();
+            const next = current === 'dark' ? 'light' : 'dark';
+            body.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            this.updateThemeBtnText(next);
+        });
+    }
+    getCurrentTheme() {
+        const body = document.body;
+        if (body.getAttribute('data-theme')) {
+            return body.getAttribute('data-theme');
+        }
+        // OS設定に従う
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark';
+        }
+        return 'light';
+    }
+    updateThemeBtnText(theme) {
+        const btn = this.elements.themeToggleBtn;
+        if (theme === 'dark') {
+            btn.textContent = '☀️ ライトモード';
+        } else {
+            btn.textContent = '🌙 ダークモード';
+        }
     }
     startNewSession() {
         this.shuffleAllWords();
