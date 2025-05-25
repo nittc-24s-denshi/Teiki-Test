@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "566b1f8c30f523c2",
+    "id": "f903bea953239f7a",
     "type": "split",
     "children": [
       {
-        "id": "8fc4ded3783ba998",
+        "id": "c72a46abb9c621a0",
         "type": "tabs",
         "children": [
           {
-            "id": "19d5cd9997d8432d",
+            "id": "76deca04dd0f9764",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "2025/01/範囲表(内容).md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace-mobile.json",
+                "bFile": ".obsidian/workspace-mobile.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "範囲表(内容)"
+              "icon": "git-pull-request",
+              "title": "Diff: workspace-mobile.json"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b301de19b16fc1bf",
+    "id": "50ebd11d6387306c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "b1ffdd57c02c5893",
+        "id": "925747cd85c0cad3",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,7 +44,7 @@
         }
       },
       {
-        "id": "67334f14c349d254",
+        "id": "7303ecba9d0a5fd2",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -57,11 +57,11 @@
             "sortOrder": "alphabetical"
           },
           "icon": "lucide-search",
-          "title": "Search"
+          "title": "検索"
         }
       },
       {
-        "id": "44ceeba46852e312",
+        "id": "197b4f8e53b3eb80",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,28 +72,28 @@
             "searchQuery": ""
           },
           "icon": "lucide-tags",
-          "title": "Tags"
+          "title": "タグ"
         }
       },
       {
-        "id": "de647e27bb5568d2",
+        "id": "22109a53795caae0",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
           "state": {},
           "icon": "lucide-bookmark",
-          "title": "Bookmarks"
+          "title": "ブックマーク"
         }
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "9899cc6736a12f7a",
+    "id": "727107de061662f5",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "58df8012743881d1",
+        "id": "8a5601e4fc39b8ab",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -107,11 +107,11 @@
             "unlinkedCollapsed": true
           },
           "icon": "links-coming-in",
-          "title": "Backlinks"
+          "title": "バックリンク"
         }
       },
       {
-        "id": "b417812b3561865c",
+        "id": "05687aa2b8fd90be",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -120,11 +120,11 @@
             "unlinkedCollapsed": true
           },
           "icon": "links-going-out",
-          "title": "Outgoing links"
+          "title": "アウトゴーイングリンク"
         }
       },
       {
-        "id": "d60055becb1a3179",
+        "id": "49a630c85aac9100",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -134,11 +134,11 @@
             "searchQuery": ""
           },
           "icon": "lucide-list",
-          "title": "Outline"
+          "title": "アウトライン"
         }
       },
       {
-        "id": "8435f0fece1f558c",
+        "id": "76d4113aea9d769f",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -161,28 +161,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19d5cd9997d8432d",
+  "active": "76deca04dd0f9764",
   "lastOpenFiles": [
-    "2025/01/線形代数/目次.md",
-    "2025/01/線形代数/参考資料/教科書/書籍 2025_05_23.pdf",
-    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_1(ベクトル)(1).pdf",
-    "無題のファイル.md",
-    "2025/01/線形代数/参考資料/教科書",
-    "2025/01/線形代数/参考資料/講義トランスクリプト",
-    "2025/01/線形代数/参考資料/授業ノート",
-    "2025/01/線形代数/参考資料",
+    "2025/01/電気回路/ノートまとめ.md",
     "specification.md",
-    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_5(演習1)_線形独立.pdf",
-    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_4(直線、練1-6).pdf",
-    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_3(ベクトルの成分表示、直線の表し方)(1).pdf",
-    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_2（２点間の距離、空間座標）(1).pdf",
+    "Web_App/Grammar_Words/words.csv",
+    "Web_App/Grammar_Words/style.css",
+    "Web_App/Grammar_Words/package.json",
+    "Web_App/Grammar_Words/package-lock.json",
+    "Web_App/Grammar_Words/index.html",
+    "Web_App/Grammar_Words/app.js",
+    "Web_App/Grammar_Words/README.md",
+    "Application-Concept.txt",
+    "2025/04/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
+    "2025/03/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
+    "2025/02/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
     "2025/01/電気回路/目次.md",
+    "2025/01/線形代数/目次.md",
     "2025/01/範囲表(内容).md",
     "2025/01/範囲表(ページ).md",
     "2025/01/科学/目次.md",
     "2025/01/社会と文化から見る歴史/目次.md",
     "2025/01/物理III/目次.md",
     "2025/01/微分・積分/目次.md",
+    "2025/01/微分・積分/公式リスト.md",
     "2025/01/国語総合/目次.md",
     "2025/01/ディジタル回路/目次.md",
     "2025/01/Reading/目次.md",
