@@ -11,6 +11,11 @@
         <header>
             <h1>英単語暗記アプリ</h1>
             <button id="themeToggleBtn" style="position:absolute;top:20px;right:30px;z-index:10;" class="btn secondary-btn">🌙 ダークモード</button>
+            <div style="margin: 10px 0;">
+                <label style="color:white;font-weight:bold;">学習ファイル：</label>
+                <div id="wordFileCheckboxes" style="display:flex;gap:10px;flex-wrap:wrap;"></div>
+                <div style="color:white;font-size:0.95em;">※ 複数のファイルを同時に選択できます</div>
+            </div>
             <div class="progress-bar">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
@@ -18,6 +23,8 @@
                 <span id="currentWord">0</span> / <span id="totalWords">0</span> 
                 | 正解: <span id="correctCount">0</span> 
                 | 不正解: <span id="incorrectCount">0</span>
+                | <span id="allWordsCount" style="font-weight:bold;">全0問</span>
+                | 出題数: <input id="quizCountInput" type="number" min="1" value="15" style="width:60px;">問
             </div>
         </header>
 

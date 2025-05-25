@@ -5,6 +5,15 @@ class VocabularyApp {
         this.answerLogs = [];
         this.studyType = 'flashcard';
         this._answered = false;
+        this.availableFiles = [
+            'Grammar_words(前期中間).csv',
+            'Oral-Lesson1-Vocabulary.csv',
+            'Oral-Lesson2-Vocabulary.csv',
+            'Oral-Lesson3-Vocabulary.csv',
+            'Oral-Lesson4-Vocabulary.csv',
+            'Oral-Lesson5-Vocabulary.csv'
+        ];
+        this.selectedFiles = [this.availableFiles[0]];
         this.elements = {
             loading: document.getElementById('loading'),
             cardContainer: document.getElementById('cardContainer'),
@@ -36,7 +45,10 @@ class VocabularyApp {
             mcWordDisplay: document.getElementById('mcWordDisplay'),
             mcOptions: document.getElementById('mcOptions'),
             quizToggle: document.getElementById('quizToggle'),
-            themeToggleBtn: document.getElementById('themeToggleBtn')
+            themeToggleBtn: document.getElementById('themeToggleBtn'),
+            wordFileCheckboxes: document.getElementById('wordFileCheckboxes'),
+            allWordsCount: document.getElementById('allWordsCount'),
+            quizCountInput: document.getElementById('quizCountInput')
         };
         this.session = {
             words: [],
@@ -46,32 +58,92 @@ class VocabularyApp {
             mode: 'en-jp',
             showingAnswer: false
         };
+        this.quizCount = parseInt(this.elements.quizCountInput.value, 10) || 15;
         this.init();
     }
     async init() {
+        this.initFileCheckboxes();
         await this.loadWords();
         this.setupEventListeners();
         this.setupThemeToggle();
         this.startNewSession();
+        this.elements.quizCountInput.addEventListener('change', () => {
+            let val = parseInt(this.elements.quizCountInput.value, 10);
+            if (isNaN(val) || val < 1) val = 1;
+            if (val > this.allWords.length) val = this.allWords.length;
+            this.quizCount = val;
+            this.elements.quizCountInput.value = val;
+            this.startNewSession();
+        });
+    }
+    initFileCheckboxes() {
+        const container = this.elements.wordFileCheckboxes;
+        container.innerHTML = '';
+        this.availableFiles.forEach(file => {
+            const label = document.createElement('label');
+            label.style.marginRight = '8px';
+            label.style.color = 'white';
+            label.style.fontWeight = 'normal';
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = file;
+            checkbox.checked = this.selectedFiles.includes(file);
+            checkbox.addEventListener('change', async () => {
+                // 選択中のファイルを更新
+                this.selectedFiles = Array.from(container.querySelectorAll('input[type=checkbox]:checked')).map(cb => cb.value);
+                if (this.selectedFiles.length === 0) {
+                    // 1つは必ず選択されているようにする
+                    checkbox.checked = true;
+                    this.selectedFiles = [file];
+                    return;
+                }
+                this.elements.loading.style.display = 'block';
+                this.elements.cardContainer.style.display = 'none';
+                this.elements.completionScreen.style.display = 'none';
+                await this.loadWords();
+                this.startNewSession();
+            });
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(file));
+            container.appendChild(label);
+        });
     }
     async loadWords() {
         try {
-            const response = await fetch('words.csv');
-            const csvText = await response.text();
-            const lines = csvText.trim().split('\n');
-            const headers = lines[0].split(',');
-            this.allWords = lines.slice(1).map(line => {
-                const [word, japanese] = line.split(',');
-                return {
-                    word: word.trim(),
-                    japanese: japanese.trim()
-                };
-            }).filter(pair => pair.word && pair.japanese);
-            console.log(`${this.allWords.length}個の単語を読み込みました`);
+            let allWords = [];
+            for (const file of this.selectedFiles) {
+                const response = await fetch(file);
+                const csvText = await response.text();
+                const lines = csvText.trim().split('\n');
+                // 1行目はヘッダーとしてスキップ
+                const fileWords = lines.slice(1).map(line => {
+                    const [word, japanese] = line.split(',');
+                    return {
+                        word: word ? word.trim() : '',
+                        japanese: japanese ? japanese.trim() : ''
+                    };
+                }).filter(pair => pair.word && pair.japanese);
+                allWords = allWords.concat(fileWords);
+            }
+            this.allWords = allWords;
+            this.updateAllWordsCount();
+            if (this.elements.quizCountInput) {
+                this.elements.quizCountInput.max = this.allWords.length;
+                if (parseInt(this.elements.quizCountInput.value, 10) > this.allWords.length) {
+                    this.elements.quizCountInput.value = this.allWords.length;
+                    this.quizCount = this.allWords.length;
+                }
+            }
+            console.log(`${this.allWords.length}個の単語を${this.selectedFiles.join(', ')}から読み込みました`);
         }
         catch (error) {
             console.error('単語の読み込みに失敗しました:', error);
             alert('単語ファイルの読み込みに失敗しました。');
+        }
+    }
+    updateAllWordsCount() {
+        if (this.elements.allWordsCount) {
+            this.elements.allWordsCount.textContent = `全${this.allWords.length}問`;
         }
     }
     setupEventListeners() {
@@ -146,8 +218,11 @@ class VocabularyApp {
     }
     startNewSession() {
         this.shuffleAllWords();
+        let count = this.quizCount;
+        if (!count || count < 1) count = 1;
+        if (count > this.allWords.length) count = this.allWords.length;
         this.session = {
-            words: this.allWords.slice(0, 15),
+            words: this.allWords.slice(0, count),
             currentIndex: 0,
             correctCount: 0,
             incorrectCount: 0,
@@ -160,6 +235,7 @@ class VocabularyApp {
         this.elements.completionScreen.style.display = 'none';
         this.updateStats();
         this.showCurrentWord();
+        this.updateAllWordsCount();
     }
     shuffleAllWords() {
         for (let i = this.allWords.length - 1; i > 0; i--) {
