@@ -11,44 +11,15 @@
             "id": "28e004ec9f5b7644",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/01/Grammar&Writing/目次.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "目次"
-            }
-          },
-          {
-            "id": "41771cb288f1e9e9",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.pdf"
+                "file": "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ③.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "社会と文化からみる歴史Ⅰ①"
-            }
-          },
-          {
-            "id": "8a250ca1354a9546",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "社会と文化からみる歴史Ⅰ①"
+              "title": "社会と文化からみる歴史Ⅰ③"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,11 +168,15 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "8a250ca1354a9546",
+  "active": "28e004ec9f5b7644",
   "lastOpenFiles": [
-    "README.md",
+    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ②.md",
+    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ②.pdf",
+    "2025/01/Grammar&Writing/目次.md",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.pdf",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.md",
+    "2025/01/Reading/Clues_解答.pdf",
+    "README.md",
     "2025/01/Grammar&Writing/文法事項.md",
     "2025/01/社会と文化から見る歴史/output.md",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑨.pdf",
@@ -211,8 +186,6 @@
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑤.pdf",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ④.pdf",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ③.pdf",
-    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ②.pdf",
-    "2025/01/電気回路/参考資料/(演習)/電気回路演習I_01_演習.docx",
     "2025/01/OralCommunication/Conversation.md",
     "2025/01/Grammar&Writing/重要箇所.md",
     "2025/01/Grammar&Writing/ノートまとめ.md",
@@ -223,7 +196,6 @@
     "2025/01/ディジタル回路/授業資料/授業資料0428(済).md",
     "2025/01/ディジタル回路/授業資料/授業資料0421(済).md",
     "2025/01/Grammar&Writing/教科書.md",
-    "2025/01/Grammar&Writing/目次.md",
     "2025/01/範囲表(内容).md",
     "2025/01/電気回路/ノートまとめ.md",
     "Web_App/README.md",
@@ -232,8 +204,6 @@
     "Web_App/Grammar_Words/node_modules/undici-types/README.md",
     "Web_App/Grammar_Words/node_modules/typescript/SECURITY.md",
     "Web_App/Grammar_Words/node_modules/typescript/README.md",
-    "Web_App/node_modules/@types/node/README.md",
-    "Web_App/node_modules/undici-types/README.md",
-    "Web_App/node_modules/typescript/README.md"
+    "Web_App/node_modules/@types/node/README.md"
   ]
 }
