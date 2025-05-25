@@ -45,7 +45,6 @@ class VocabularyApp {
             mcWordDisplay: document.getElementById('mcWordDisplay'),
             mcOptions: document.getElementById('mcOptions'),
             quizToggle: document.getElementById('quizToggle'),
-            themeToggleBtn: document.getElementById('themeToggleBtn'),
             wordFileCheckboxes: document.getElementById('wordFileCheckboxes'),
             allWordsCount: document.getElementById('allWordsCount'),
             quizCountInput: document.getElementById('quizCountInput')
@@ -65,7 +64,6 @@ class VocabularyApp {
         this.initFileCheckboxes();
         await this.loadWords();
         this.setupEventListeners();
-        this.setupThemeToggle();
         this.startNewSession();
         this.elements.quizCountInput.addEventListener('change', () => {
             let val = parseInt(this.elements.quizCountInput.value, 10);
@@ -177,46 +175,6 @@ class VocabularyApp {
                 }
             }
         });
-    }
-    setupThemeToggle() {
-        const btn = this.elements.themeToggleBtn;
-        const body = document.body;
-        // 初期状態
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            body.setAttribute('data-theme', savedTheme);
-            this.updateThemeBtnText(savedTheme);
-        } else {
-            this.updateThemeBtnText(this.getCurrentTheme());
-        }
-        btn.addEventListener('click', () => {
-            const current = this.getCurrentTheme();
-            const next = current === 'dark' ? 'light' : 'dark';
-            body.setAttribute('data-theme', next);
-            localStorage.setItem('theme', next);
-            this.updateThemeBtnText(next);
-        });
-    }
-    getCurrentTheme() {
-        const body = document.body;
-        if (body.getAttribute('data-theme')) {
-            return body.getAttribute('data-theme');
-        }
-        // OS設定に従う
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            return 'dark';
-        }
-        return 'light';
-    }
-    updateThemeBtnText(theme) {
-        const btn = this.elements.themeToggleBtn;
-        if (theme === 'dark') {
-            // ライトモード用（太陽アイコン）
-            btn.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>`;
-        } else {
-            // ダークモード用（月アイコン）
-            btn.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>`;
-        }
     }
     startNewSession() {
         this.shuffleAllWords();
