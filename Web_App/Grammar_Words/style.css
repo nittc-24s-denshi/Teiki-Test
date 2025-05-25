@@ -539,4 +539,22 @@ body[data-theme="dark"] #resultList td {
         height: 32px;
         font-size: 1.1rem;
     }
+}
+
+.pc-help {
+    background: rgba(255,255,255,0.7);
+    color: #222;
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin: 0 auto 18px auto;
+    max-width: 700px;
+    font-size: 1.05rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    border: 1px solid #eee;
+    text-align: left;
+}
+body[data-theme="dark"] .pc-help {
+    background: rgba(30,30,30,0.85);
+    color: #eee;
+    border: 1px solid #444;
 } 

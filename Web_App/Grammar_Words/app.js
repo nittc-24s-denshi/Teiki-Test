@@ -409,4 +409,21 @@ class VocabularyApp {
 }
 document.addEventListener('DOMContentLoaded', () => {
     new VocabularyApp();
+    // PC判定
+    const isPC = window.matchMedia('(pointer:fine)').matches && window.innerWidth > 900;
+    if (isPC) {
+        const help = document.getElementById('pcHelp');
+        if (help) {
+            help.style.display = '';
+            help.innerHTML = `
+                <b>操作方法（PC）</b><br>
+                ・スペースキー/Enter：答えを表示<br>
+                ・1/→キー：正解<br>
+                ・2/←キー：不正解<br>
+                ・マウスクリック：各ボタン操作<br>
+                ・テーマ切替：右上のボタン<br>
+                <span style='font-size:0.95em;color:#888;'>※ 四択モード時は選択肢をクリックしてください</span>
+            `;
+        }
+    }
 });
