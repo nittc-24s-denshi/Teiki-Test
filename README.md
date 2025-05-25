@@ -85,12 +85,6 @@ A. ObsidianやVSCode、Typoraなど、一般的なMarkdownエディタで編集�
 
 ---
 
-## ライセンス
-
-MIT License
-
----
-
 ## 開発・貢献
 
 - バグ報告・機能提案はIssueまたはPull Requestでお願いします。
