@@ -79,18 +79,24 @@ class VocabularyApp {
         container.innerHTML = '';
         this.availableFiles.forEach(file => {
             const label = document.createElement('label');
-            label.style.marginRight = '8px';
-            label.style.color = 'white';
-            label.style.fontWeight = 'normal';
+            label.className = 'checkbox-container';
+
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.value = file;
             checkbox.checked = this.selectedFiles.includes(file);
+
+            const checkmark = document.createElement('span');
+            checkmark.className = 'checkmark';
+
+            const labelText = document.createElement('span');
+            labelText.className = 'checkbox-label';
+            labelText.textContent = file;
+
             checkbox.addEventListener('change', async () => {
-                // 選択中のファイルを更新
+                // 既存のイベントリスナー処理をここに保持
                 this.selectedFiles = Array.from(container.querySelectorAll('input[type=checkbox]:checked')).map(cb => cb.value);
                 if (this.selectedFiles.length === 0) {
-                    // 1つは必ず選択されているようにする
                     checkbox.checked = true;
                     this.selectedFiles = [file];
                     return;
@@ -101,8 +107,10 @@ class VocabularyApp {
                 await this.loadWords();
                 this.startNewSession();
             });
+
             label.appendChild(checkbox);
-            label.appendChild(document.createTextNode(file));
+            label.appendChild(checkmark);
+            label.appendChild(labelText);
             container.appendChild(label);
         });
     }
