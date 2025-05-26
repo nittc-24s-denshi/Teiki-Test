@@ -14,9 +14,10 @@ body {
 body .container {
     background: none;
 }
+
 body header {
     background: rgba(30, 30, 30, 0.7);
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     text-align: center;
     margin-bottom: 30px;
     padding: 20px;
@@ -24,20 +25,24 @@ body header {
     backdrop-filter: blur(10px);
     position: relative;
 }
+
 body h1 {
     color: #fff;
     font-size: 2.5rem;
     margin-bottom: 20px;
     text-shadow: 0 2px 8px #000a;
 }
+
 body .progress-bar {
-    background: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.08);
 }
+
 body .stats {
     color: #eee;
     font-size: 1.1rem;
     font-weight: 500;
 }
+
 body .word-card {
     background: #23272e;
     color: #eee;
@@ -51,13 +56,21 @@ body .word-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     animation: fadeIn 0.2s ease;
+    margin: 0 auto;
+    /* 水平方向の中央配置を追加 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* 垂直方向の中央配置を追加 */
 }
+
 body .word-type {
     color: #bbb;
     font-size: 1rem;
     margin-bottom: 20px;
     font-weight: 500;
 }
+
 body .word-display,
 body .answer-display {
     color: #fff;
@@ -66,38 +79,46 @@ body .answer-display {
     margin: 30px 0;
     line-height: 1.2;
 }
+
 body .answer-display {
     color: #81c784;
 }
+
 body .show-answer-btn,
 body .primary-btn {
     background: linear-gradient(135deg, #232526, #764ba2);
     color: #fff;
 }
+
 body .show-answer-btn:hover,
 body .primary-btn:hover {
     box-shadow: 0 10px 20px #764ba288;
 }
+
 body .secondary-btn {
-    background: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.08);
     color: #fff;
     border: 1px solid #444;
 }
+
 body .secondary-btn:hover {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
 }
+
 body .correct-btn {
     background: linear-gradient(135deg, #388e3c, #2e7d32);
     color: #fff;
     border: 2px solid #66bb6a;
 }
+
 body .incorrect-btn {
     background: linear-gradient(135deg, #b71c1c, #d32f2f);
     color: #fff;
     border: 2px solid #e57373;
 }
+
 body .completion-screen {
-    background: rgba(30,30,30,0.7);
+    background: rgba(30, 30, 30, 0.7);
     border: 1px solid #444;
     text-align: center;
     padding: 40px;
@@ -105,45 +126,55 @@ body .completion-screen {
     backdrop-filter: blur(10px);
     margin-top: 50px;
 }
+
 body .final-stats {
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
+
 body .mc-option-btn {
     background: linear-gradient(90deg, #23272e 80%, #414345 100%);
     color: #fff;
     border: 2px solid #666;
 }
+
 body .mc-option-btn:hover,
 body .mc-option-btn:focus {
     background: linear-gradient(90deg, #333 80%, #764ba2 100%);
     border-color: #9575cd;
     outline: 2px solid #9575cd;
 }
+
 body .mc-option-btn.correct {
     background: linear-gradient(90deg, #388e3c 80%, #81c784 100%);
     border-color: #66bb6a;
     color: #fff;
 }
+
 body .mc-option-btn.incorrect {
     background: linear-gradient(90deg, #b71c1c 80%, #e57373 100%);
     border-color: #e57373;
     color: #fff;
 }
+
 body #resultList table {
     background: #23272e;
 }
+
 body #resultList th {
     background: #333;
     color: #fff;
 }
+
 body #resultList tr.correct-row {
     background: #2e7d32;
 }
+
 body #resultList tr.incorrect-row {
     background: #b71c1c;
 }
+
 body #resultList table,
 body #resultList th,
 body #resultList td {
@@ -151,12 +182,12 @@ body #resultList td {
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #themeToggleBtn {
@@ -196,6 +227,8 @@ body #resultList td {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    min-height: 60vh;
+    /* 最小高さを設定して中央配置を強化 */
 }
 
 .word-card:hover {
@@ -237,15 +270,17 @@ body #resultList td {
     cursor: pointer;
     transition: all 0.3s ease;
     min-width: 140px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.correct-btn:focus, .correct-btn:hover {
+.correct-btn:focus,
+.correct-btn:hover {
     outline: 3px solid #81c784;
     box-shadow: 0 0 0 4px #c8e6c9;
 }
 
-.incorrect-btn:focus, .incorrect-btn:hover {
+.incorrect-btn:focus,
+.incorrect-btn:hover {
     outline: 3px solid #e57373;
     box-shadow: 0 0 0 4px #ffcdd2;
 }
@@ -283,30 +318,31 @@ body #resultList td {
     .container {
         padding: 15px;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
+
     .word-card {
         padding: 30px 20px;
         min-height: 250px;
     }
-    
-    .word-display, .answer-display {
+
+    .word-display,
+    .answer-display {
         font-size: 2rem;
     }
-    
+
     .controls {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .answer-buttons {
         flex-direction: row;
         gap: 16px;
     }
-    
+
     .btn {
         width: 100%;
         max-width: 180px;
@@ -319,20 +355,21 @@ body #resultList td {
     h1 {
         font-size: 1.8rem;
     }
-    
-    .word-display, .answer-display {
+
+    .word-display,
+    .answer-display {
         font-size: 1.5rem;
     }
-    
+
     .word-card {
         padding: 20px 15px;
     }
-    
+
     .answer-buttons {
         flex-direction: column;
         gap: 18px;
     }
-    
+
     .btn {
         max-width: 100%;
         font-size: 1rem;
@@ -346,6 +383,7 @@ body #resultList td {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -361,9 +399,11 @@ body #resultList td {
     0% {
         transform: rotateY(0deg);
     }
+
     50% {
         transform: rotateY(90deg);
     }
+
     100% {
         transform: rotateY(0deg);
     }
@@ -375,6 +415,8 @@ body #resultList td {
     align-items: center;
     justify-content: center;
     min-height: 300px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .mc-options {
@@ -398,10 +440,11 @@ body #resultList td {
     color: #333;
     cursor: pointer;
     transition: all 0.2s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-.mc-option-btn:hover, .mc-option-btn:focus {
+.mc-option-btn:hover,
+.mc-option-btn:focus {
     background: linear-gradient(90deg, #e3f2fd 80%, #bbdefb 100%);
     border-color: #1976d2;
     outline: 2px solid #1976d2;
@@ -428,19 +471,185 @@ body #resultList td {
 }
 
 .pc-help {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255, 255, 255, 0.7);
     color: #222;
     border-radius: 10px;
     padding: 12px 18px;
     margin: 0 auto 18px auto;
     max-width: 700px;
     font-size: 1.05rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
     border: 1px solid #eee;
     text-align: left;
 }
+
 body[data-theme="dark"] .pc-help {
-    background: rgba(30,30,30,0.85);
+    background: rgba(30, 30, 30, 0.85);
     color: #eee;
     border: 1px solid #444;
-} 
+}
+
+/* カスタムチェックボックスのスタイル */
+.checkbox-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin: 6px 8px 6px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* デフォルトのチェックボックスを隠す */
+.checkbox-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* カスタムチェックボックスのスタイル */
+.checkbox-container .checkmark {
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: rgba(30, 30, 30, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* ホバー時のスタイル */
+.checkbox-container:hover .checkmark {
+    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* チェック時のスタイル */
+.checkbox-container input:checked~.checkmark {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-color: #667eea;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+/* チェックマーク（✓）のスタイル */
+.checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* チェック時にチェックマークを表示 */
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* チェックボックスのラベルテキスト */
+.checkbox-container .checkbox-label {
+    color: #eee;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: top;
+    line-height: 18px;
+    transition: color 0.3s ease;
+}
+
+.checkbox-container:hover .checkbox-label {
+    color: #fff;
+}
+
+/* 数字入力欄のスタイル */
+input[type="number"] {
+    background: rgba(30, 30, 30, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    color: #eee;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    min-width: 60px;
+    text-align: center;
+}
+
+/* フォーカス時のスタイル */
+input[type="number"]:focus {
+    outline: none;
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+    transform: translateY(-1px);
+}
+
+/* ホバー時のスタイル */
+input[type="number"]:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* プレースホルダーのスタイル */
+input[type="number"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* 数字入力欄の矢印ボタンをカスタマイズ（Webkit系ブラウザ） */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox用 */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* 既存のwordFileCheckboxesのスタイルを調整 */
+#wordFileCheckboxes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+#wordFileCheckboxes label {
+    color: white !important;
+    font-weight: normal !important;
+    margin-right: 0 !important;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    #wordFileCheckboxes {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .checkbox-container {
+        margin: 4px 0;
+    }
+
+    input[type="number"] {
+        min-width: 50px;
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
