@@ -431,8 +431,10 @@ class VocabularyApp {
         resultList.appendChild(table);
     }
 }
-const APP_VERSION = 'v0.10.0';
+const APP_VERSION = 'v0.12.1';
 const CHANGELOG = [
+    'v0.12.1: 単語リスト編集モーダルのテーブルに縦スクロールを追加し、多数の単語も編集しやすく改善',
+    'v0.12.0: 単語リスト編集UI（追加・編集・削除）機能を追加',
     'v0.11.0: 変更履歴を動的に表示するように修正。バージョン情報と変更履歴をフッターに表示。',
     'v0.10.0: 四択モードで正誤フィードバックを毎回表示。不正解時は正解選択肢を強調。単語部分や選択肢再クリックで即次の問題へ進む仕様を追加。',
     'v0.9.0: ファビコンをGoogleのものに変更。UIの細部デザインを調整。',
@@ -464,6 +466,8 @@ function updateFooterVersionAndChangelog() {
 document.addEventListener('DOMContentLoaded', () => {
     updateFooterVersionAndChangelog();
     new VocabularyApp();
+    // 単語リスト編集UIの初期化
+    initWordListEditor();
     // PC判定
     const isPC = window.matchMedia('(pointer:fine)').matches && window.innerWidth > 900;
     if (isPC) {
@@ -482,3 +486,92 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+function initWordListEditor() {
+    const editBtn = document.getElementById('editWordListBtn');
+    const modalBg = document.getElementById('wordListModalBg');
+    const closeBtn = document.getElementById('closeWordListModal');
+    const tableBody = document.querySelector('#wordListTable tbody');
+    const addBtn = document.getElementById('addWordBtn');
+    const newWordInput = document.getElementById('newWordInput');
+    const newJapaneseInput = document.getElementById('newJapaneseInput');
+    let editingIndex = null;
+    let wordList = [];
+    // CSVファイルから現在の単語リストを取得
+    async function loadCurrentWordList() {
+        // ここでは最初のファイルを編集対象とする
+        const file = 'Grammar_words(前期中間).csv';
+        const response = await fetch(file);
+        const csvText = await response.text();
+        const lines = csvText.trim().split('\n').slice(1);
+        wordList = lines.map(line => {
+            const [word, japanese] = line.split(',');
+            return { word: word ? word.trim() : '', japanese: japanese ? japanese.trim() : '' };
+        });
+        renderTable();
+    }
+    function renderTable() {
+        tableBody.innerHTML = '';
+        wordList.forEach((row, idx) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td><input type='text' value='${row.word}' data-idx='${idx}' class='edit-word'></td><td><input type='text' value='${row.japanese}' data-idx='${idx}' class='edit-japanese'></td><td><button class='edit-btn' data-idx='${idx}'>保存</button><button class='delete-btn' data-idx='${idx}'>削除</button></td>`;
+            tableBody.appendChild(tr);
+        });
+    }
+    // 編集・削除イベント
+    tableBody.addEventListener('click', e => {
+        if (e.target.classList.contains('edit-btn')) {
+            const idx = +e.target.dataset.idx;
+            const word = tableBody.querySelector(`input.edit-word[data-idx='${idx}']`).value.trim();
+            const japanese = tableBody.querySelector(`input.edit-japanese[data-idx='${idx}']`).value.trim();
+            wordList[idx] = { word, japanese };
+            renderTable();
+        } else if (e.target.classList.contains('delete-btn')) {
+            const idx = +e.target.dataset.idx;
+            wordList.splice(idx, 1);
+            renderTable();
+        }
+    });
+    // 追加イベント
+    addBtn.addEventListener('click', () => {
+        const word = newWordInput.value.trim();
+        const japanese = newJapaneseInput.value.trim();
+        if (!word || !japanese) return;
+        wordList.push({ word, japanese });
+        newWordInput.value = '';
+        newJapaneseInput.value = '';
+        renderTable();
+    });
+    // モーダル表示・非表示
+    editBtn.addEventListener('click', () => {
+        modalBg.style.display = 'flex';
+        loadCurrentWordList();
+    });
+    closeBtn.addEventListener('click', () => {
+        modalBg.style.display = 'none';
+    });
+    // モーダル外クリックで閉じる
+    modalBg.addEventListener('click', e => {
+        if (e.target === modalBg) modalBg.style.display = 'none';
+    });
+    // 保存（ダウンロード）機能
+    // 本来はサーバー保存だが、ここではCSVダウンロードで対応
+    const saveBtn = document.createElement('button');
+    saveBtn.textContent = 'CSVとして保存';
+    saveBtn.className = 'add-row-btn';
+    saveBtn.style.marginLeft = '10px';
+    saveBtn.onclick = () => {
+        let csv = 'word,japanese\n';
+        wordList.forEach(row => {
+            csv += `${row.word},${row.japanese}\n`;
+        });
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Grammar_words(前期中間)_edited.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+    };
+    document.querySelector('.modal').appendChild(saveBtn);
+}
