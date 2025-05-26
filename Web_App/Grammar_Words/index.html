@@ -1,11 +1,232 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英単語暗記アプリ</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* 正誤表（結果表示）のスタイル */
+        #resultList {
+            margin: 30px 0;
+            background: rgba(30, 30, 30, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        #resultList h3 {
+            color: #fff;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        #resultList table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(35, 39, 46, 0.8);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        #resultList th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 15px 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        #resultList td {
+            padding: 12px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #eee;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background-color 0.2s ease;
+        }
+
+        /* 正解行のスタイル */
+        #resultList tr.correct-row {
+            background: linear-gradient(90deg, rgba(56, 142, 60, 0.6) 0%, rgba(129, 199, 132, 0.4) 100%);
+            border-left: 4px solid #4caf50;
+        }
+
+        #resultList tr.correct-row:hover {
+            background: linear-gradient(90deg, rgba(56, 142, 60, 0.8) 0%, rgba(129, 199, 132, 0.6) 100%);
+        }
+
+        #resultList tr.correct-row td:last-child {
+            color: #4caf50;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* 不正解行のスタイル */
+        #resultList tr.incorrect-row {
+            background: linear-gradient(90deg, rgba(183, 28, 28, 0.6) 0%, rgba(229, 115, 115, 0.4) 100%);
+            border-left: 4px solid #f44336;
+        }
+
+        #resultList tr.incorrect-row:hover {
+            background: linear-gradient(90deg, rgba(183, 28, 28, 0.8) 0%, rgba(229, 115, 115, 0.6) 100%);
+        }
+
+        #resultList tr.incorrect-row td:last-child {
+            color: #f44336;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* ダークテーマでの正誤表スタイル調整 */
+        body[data-theme="dark"] #resultList {
+            background: rgba(30, 30, 30, 0.95);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        body[data-theme="dark"] #resultList table {
+            background: rgba(35, 39, 46, 0.9);
+        }
+
+        body[data-theme="dark"] #resultList th {
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+
+        body[data-theme="dark"] #resultList td {
+            color: #eee;
+            border-bottom-color: rgba(255, 255, 255, 0.08);
+        }
+
+        /* 表の列幅調整 */
+        #resultList th:nth-child(1),
+        #resultList td:nth-child(1) {
+            width: 25%;
+            font-weight: 600;
+        }
+
+        #resultList th:nth-child(2),
+        #resultList td:nth-child(2) {
+            width: 25%;
+            font-weight: 600;
+        }
+
+        #resultList th:nth-child(3),
+        #resultList td:nth-child(3) {
+            width: 35%;
+            font-style: italic;
+        }
+
+        #resultList th:nth-child(4),
+        #resultList td:nth-child(4) {
+            width: 15%;
+            font-weight: bold;
+        }
+
+        /* スクロール可能にする（多くの問題がある場合） */
+        #resultList {
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+
+        #resultList::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #resultList::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        #resultList::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+        }
+
+        #resultList::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 768px) {
+            #resultList {
+                padding: 15px;
+                margin: 20px 0;
+            }
+
+            #resultList h3 {
+                font-size: 1.2rem;
+                margin-bottom: 15px;
+            }
+
+            #resultList th,
+            #resultList td {
+                padding: 8px 6px;
+                font-size: 0.8rem;
+            }
+
+            #resultList th:nth-child(1),
+            #resultList td:nth-child(1),
+            #resultList th:nth-child(2),
+            #resultList td:nth-child(2) {
+                width: 30%;
+            }
+
+            #resultList th:nth-child(3),
+            #resultList td:nth-child(3) {
+                width: 25%;
+            }
+
+            #resultList th:nth-child(4),
+            #resultList td:nth-child(4) {
+                width: 15%;
+            }
+        }
+
+        /* 完了画面のスタイル調整 */
+        .completion-screen {
+            background: rgba(30, 30, 30, 0.9) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .completion-screen h2 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: none;
+            margin-bottom: 25px;
+        }
+
+        .final-stats {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .final-stats p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 8px 0;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -19,8 +240,8 @@
                 <div class="progress-fill" id="progressFill"></div>
             </div>
             <div class="stats">
-                <span id="currentWord">0</span> / <span id="totalWords">0</span> 
-                | 正解: <span id="correctCount">0</span> 
+                <span id="currentWord">0</span> / <span id="totalWords">0</span>
+                | 正解: <span id="correctCount">0</span>
                 | 不正解: <span id="incorrectCount">0</span>
                 | <span id="allWordsCount" style="font-weight:bold;">全0問</span>
                 | 出題数: <input id="quizCountInput" type="number" min="1" value="15" style="width:60px;">問
@@ -38,7 +259,7 @@
                     <div class="word-display" id="wordDisplay">responsible</div>
                     <button class="show-answer-btn" id="showAnswerBtn">答えを表示</button>
                 </div>
-                
+
                 <div class="card-back" id="cardBack" style="display: none;">
                     <div class="word-type" id="answerType">日本語</div>
                     <div class="answer-display" id="answerDisplay">責任がある</div>
@@ -79,4 +300,5 @@
     <script src="app.js"></script>
     <div id="pcHelp" class="pc-help" style="display:none;"></div>
 </body>
-</html> 
+
+</html>
