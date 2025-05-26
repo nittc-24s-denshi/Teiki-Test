@@ -59,6 +59,8 @@ class VocabularyApp {
         };
         this.quizCount = parseInt(this.elements.quizCountInput.value, 10) || 15;
         this.init();
+        this.setupCsvFileInput();
+        setTimeout(() => { initWordListEditor(); }, 0);
     }
     async init() {
         this.initFileCheckboxes();
@@ -118,8 +120,13 @@ class VocabularyApp {
         try {
             let allWords = [];
             for (const file of this.selectedFiles) {
-                const response = await fetch(file);
-                const csvText = await response.text();
+                let csvText;
+                if (this._virtualFiles && this._virtualFiles[file]) {
+                    csvText = this._virtualFiles[file];
+                } else {
+                    const response = await fetch(file);
+                    csvText = await response.text();
+                }
                 const lines = csvText.trim().split('\n');
                 // 1行目はヘッダーとしてスキップ
                 const fileWords = lines.slice(1).map(line => {
@@ -186,6 +193,21 @@ class VocabularyApp {
                 }
             }
         });
+        // 音声読み上げボタン
+        const speakBtn = document.getElementById('speakWordBtn');
+        if (speakBtn) {
+            speakBtn.onclick = () => {
+                const word = this.elements.wordDisplay.textContent.split(' ')[0];
+                speakEnglish(word);
+            };
+        }
+        const speakMcBtn = document.getElementById('speakMcWordBtn');
+        if (speakMcBtn) {
+            speakMcBtn.onclick = () => {
+                const word = this.elements.mcWordDisplay.textContent.split(' ')[0];
+                speakEnglish(word);
+            };
+        }
     }
     startNewSession() {
         this.shuffleAllWords();
@@ -270,6 +292,23 @@ class VocabularyApp {
             this.renderMultipleChoice(currentWord);
         }
         this.updateStats();
+        // 音声ボタン再登録
+        setTimeout(() => {
+            const speakBtn = document.getElementById('speakWordBtn');
+            if (speakBtn) {
+                speakBtn.onclick = () => {
+                    const word = this.elements.wordDisplay.textContent.split(' ')[0];
+                    speakEnglish(word);
+                };
+            }
+            const speakMcBtn = document.getElementById('speakMcWordBtn');
+            if (speakMcBtn) {
+                speakMcBtn.onclick = () => {
+                    const word = this.elements.mcWordDisplay.textContent.split(' ')[0];
+                    speakEnglish(word);
+                };
+            }
+        }, 0);
     }
     renderMultipleChoice(currentWord) {
         const isEnToJp = this.session.mode === 'en-jp';
@@ -429,10 +468,68 @@ class VocabularyApp {
             table.appendChild(tr);
         });
         resultList.appendChild(table);
+        // 履歴保存
+        saveStudyHistory({
+            date: new Date().toLocaleString(),
+            correct: this.session.correctCount,
+            incorrect: this.session.incorrectCount,
+            accuracy: (this.session.correctCount + this.session.incorrectCount) > 0 ? Math.round((this.session.correctCount / (this.session.correctCount + this.session.incorrectCount)) * 100) : 0,
+            total: this.session.correctCount + this.session.incorrectCount,
+            wrongWords: this.answerLogs.filter(log => !log.isCorrect).map(log => ({ word: log.word, japanese: log.japanese }))
+        });
+    }
+    setupCsvFileInput() {
+        const csvInput = document.getElementById('csvFileInput');
+        if (!csvInput) return;
+        csvInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const csvText = event.target.result;
+                // ファイル名を一意にする
+                const fileName = file.name.replace(/[^\w\d\-_\.]/g, '_');
+                // 既存リストに追加
+                if (!this.availableFiles.includes(fileName)) {
+                    this.availableFiles.push(fileName);
+                }
+                // 仮想ファイルとして内容を保存
+                if (!this._virtualFiles) this._virtualFiles = {};
+                this._virtualFiles[fileName] = csvText;
+                // チェックボックス再描画
+                this.initFileCheckboxes();
+                // 追加したファイルを選択状態に
+                this.selectedFiles = [fileName];
+                this.loadWords();
+            };
+            reader.readAsText(file, 'utf-8');
+        });
+    }
+    startReviewSession(wrongWords) {
+        this.session = {
+            words: wrongWords,
+            currentIndex: 0,
+            correctCount: 0,
+            incorrectCount: 0,
+            mode: this.session.mode,
+            showingAnswer: false
+        };
+        this.answerLogs = [];
+        this.elements.loading.style.display = 'none';
+        this.elements.cardContainer.style.display = 'block';
+        this.elements.completionScreen.style.display = 'none';
+        this.updateStats();
+        this.showCurrentWord();
+        this.updateAllWordsCount();
     }
 }
-const APP_VERSION = 'v0.12.1';
+const APP_VERSION = 'v0.15.0';
 const CHANGELOG = [
+    'v0.15.0: UIをシンプルに整理・再設計（ファイル選択・進捗・ボタン配置・余白など）',
+    'v0.14.0: 音声読み上げ（英単語の発音）機能を追加',
+    'v0.13.0: 学習履歴の自動保存・一覧表示・削除・苦手単語復習機能を追加',
+    'v0.12.3: 単語リスト編集ボタンの初期化タイミングを修正し、正常に動作するよう改善',
+    'v0.12.2: ユーザーがCSVファイルをアップロードして学習ファイルとして利用できる機能を追加',
     'v0.12.1: 単語リスト編集モーダルのテーブルに縦スクロールを追加し、多数の単語も編集しやすく改善',
     'v0.12.0: 単語リスト編集UI（追加・編集・削除）機能を追加',
     'v0.11.0: 変更履歴を動的に表示するように修正。バージョン情報と変更履歴をフッターに表示。',
@@ -465,9 +562,8 @@ function updateFooterVersionAndChangelog() {
 
 document.addEventListener('DOMContentLoaded', () => {
     updateFooterVersionAndChangelog();
-    new VocabularyApp();
-    // 単語リスト編集UIの初期化
-    initWordListEditor();
+    const app = new VocabularyApp();
+    setupHistoryModal(app);
     // PC判定
     const isPC = window.matchMedia('(pointer:fine)').matches && window.innerWidth > 900;
     if (isPC) {
@@ -574,4 +670,81 @@ function initWordListEditor() {
         URL.revokeObjectURL(url);
     };
     document.querySelector('.modal').appendChild(saveBtn);
+}
+
+function saveStudyHistory(entry) {
+    const key = 'studyHistory';
+    let history = [];
+    try { history = JSON.parse(localStorage.getItem(key)) || []; } catch(e) {}
+    history.unshift(entry);
+    if (history.length > 30) history = history.slice(0, 30);
+    localStorage.setItem(key, JSON.stringify(history));
+}
+
+function loadStudyHistory() {
+    try { return JSON.parse(localStorage.getItem('studyHistory')) || []; } catch(e) { return []; }
+}
+
+function deleteStudyHistory(index) {
+    let history = loadStudyHistory();
+    history.splice(index, 1);
+    localStorage.setItem('studyHistory', JSON.stringify(history));
+}
+
+function setupHistoryModal(app) {
+    const showBtn = document.getElementById('showHistoryBtn');
+    const modalBg = document.getElementById('historyModalBg');
+    const closeBtn = document.getElementById('closeHistoryModal');
+    const listDiv = document.getElementById('historyList');
+    function render() {
+        const history = loadStudyHistory();
+        if (!history.length) {
+            listDiv.innerHTML = '<div style="color:#ccc;padding:20px;">履歴がありません</div>';
+            return;
+        }
+        let html = '<table style="width:100%;margin-bottom:10px;"><thead><tr><th>日付</th><th>正解/全体</th><th>正答率</th><th>苦手単語</th><th>操作</th></tr></thead><tbody>';
+        history.forEach((h, i) => {
+            html += `<tr><td>${h.date}</td><td>${h.correct}/${h.total}</td><td>${h.accuracy}%</td><td>${h.wrongWords.length}</td><td><button class='delete-history-btn' data-idx='${i}'>削除</button> <button class='review-wrong-btn' data-idx='${i}'>復習</button></td></tr>`;
+        });
+        html += '</tbody></table>';
+        html += '<div style="font-size:0.95em;color:#888;">苦手単語数をクリックで詳細表示</div>';
+        listDiv.innerHTML = html;
+        // 詳細表示
+        Array.from(listDiv.querySelectorAll('td:nth-child(4)')).forEach((td, i) => {
+            td.style.cursor = 'pointer';
+            td.onclick = () => {
+                const wrong = history[i].wrongWords;
+                if (!wrong.length) { alert('苦手単語はありません'); return; }
+                alert(wrong.map(w => `${w.word} : ${w.japanese}`).join('\n'));
+            };
+        });
+        // 削除
+        Array.from(listDiv.querySelectorAll('.delete-history-btn')).forEach(btn => {
+            btn.onclick = () => { deleteStudyHistory(+btn.dataset.idx); render(); };
+        });
+        // 復習
+        Array.from(listDiv.querySelectorAll('.review-wrong-btn')).forEach(btn => {
+            btn.onclick = () => {
+                const wrong = history[+btn.dataset.idx].wrongWords;
+                if (!wrong.length) { alert('苦手単語はありません'); return; }
+                modalBg.style.display = 'none';
+                app.startReviewSession(wrong);
+            };
+        });
+    }
+    showBtn.addEventListener('click', () => { modalBg.style.display = 'flex'; render(); });
+    closeBtn.addEventListener('click', () => { modalBg.style.display = 'none'; });
+    modalBg.addEventListener('click', e => { if (e.target === modalBg) modalBg.style.display = 'none'; });
+}
+
+function speakEnglish(word) {
+    if (!window.speechSynthesis) {
+        alert('このブラウザは音声読み上げに対応していません');
+        return;
+    }
+    const utter = new SpeechSynthesisUtterance(word);
+    utter.lang = 'en-US';
+    utter.rate = 0.95;
+    utter.pitch = 1.0;
+    window.speechSynthesis.speak(utter);
 }

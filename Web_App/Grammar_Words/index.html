@@ -225,21 +225,35 @@
             font-weight: 500;
             margin: 8px 0;
         }
+
+        .speak-btn {
+            background: none;
+            border: none;
+            color: #667eea;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-left: 8px;
+            vertical-align: middle;
+            transition: color 0.2s;
+        }
+        .speak-btn:hover { color: #4caf50; }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <h1>英単語暗記アプリ</h1>
-            <div style="margin: 10px 0;">
-                <label style="color:white;font-weight:bold;">学習ファイル：</label>
-                <div id="wordFileCheckboxes" style="display:flex;gap:10px;flex-wrap:wrap;"></div>
-                <div style="color:white;font-size:0.95em;">※ 複数のファイルを同時に選択できます</div>
-            </div>
-            <div class="progress-bar">
-                <div class="progress-fill" id="progressFill"></div>
-            </div>
+        <header style="position:relative;">
+            <h1 style="text-align:center;margin-bottom:10px;">英単語暗記アプリ</h1>
+            <button id="showHistoryBtn" class="primary-btn" style="position:absolute;top:18px;right:30px;padding:8px 18px;">学習履歴</button>
+        </header>
+        <div class="file-controls">
+            <div id="wordFileCheckboxes" style="display:flex;gap:10px;flex-wrap:wrap;"></div>
+            <input type="file" id="csvFileInput" accept=".csv" style="margin-left:10px;">
+            <button id="editWordListBtn" class="primary-btn" style="margin-left:10px;">単語リスト編集</button>
+        </div>
+        <div style="color:white;font-size:0.95em;margin-bottom:10px;">※ 複数のファイルを同時に選択できます</div>
+        <div class="stats-bar">
+            <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
             <div class="stats">
                 <span id="currentWord">0</span> / <span id="totalWords">0</span>
                 | 正解: <span id="correctCount">0</span>
@@ -247,7 +261,7 @@
                 | <span id="allWordsCount" style="font-weight:bold;">全0問</span>
                 | 出題数: <input id="quizCountInput" type="number" min="1" value="15" style="width:60px;">問
             </div>
-        </header>
+        </div>
 
         <div class="loading" id="loading">
             <p>単語リストを読み込み中...</p>
@@ -257,7 +271,7 @@
             <div class="word-card" id="wordCard">
                 <div class="card-front" id="cardFront">
                     <div class="word-type" id="wordType">英語 → 日本語</div>
-                    <div class="word-display" id="wordDisplay">responsible</div>
+                    <div class="word-display" id="wordDisplay">responsible <button id="speakWordBtn" class="speak-btn" title="発音"><span aria-label="音声">🔊</span></button></div>
                     <button class="show-answer-btn" id="showAnswerBtn">答えを表示</button>
                 </div>
 
@@ -273,7 +287,7 @@
                 <!-- 四択モード用エリア -->
                 <div class="multiple-choice" id="multipleChoice" style="display: none;">
                     <div class="word-type" id="mcWordType">英語 → 日本語</div>
-                    <div class="word-display" id="mcWordDisplay">responsible</div>
+                    <div class="word-display" id="mcWordDisplay">responsible <button id="speakMcWordBtn" class="speak-btn" title="発音"><span aria-label="音声">🔊</span></button></div>
                     <div class="mc-options" id="mcOptions">
                         <!-- 選択肢ボタンがここに動的に追加される -->
                     </div>
@@ -290,7 +304,7 @@
             <div id="resultList"></div>
             <button class="btn primary-btn" id="restartFinalBtn">もう一度学習する</button>
         </div>
-        <div class="controls">
+        <div class="controls controls-row">
             <button class="btn secondary-btn" id="modeToggle">英語→日本語</button>
             <button class="btn secondary-btn" id="quizToggle">四択モードに切替</button>
             <button class="btn secondary-btn" id="restartBtn">最初から開始</button>
@@ -298,10 +312,18 @@
         </div>
     </div>
 
+    <div class="modal-bg" id="historyModalBg">
+        <div class="modal" style="max-width:600px;">
+            <button class="close-btn" id="closeHistoryModal">×</button>
+            <h2>学習履歴</h2>
+            <div id="historyList"></div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
     <div id="pcHelp" class="pc-help" style="display:none;"></div>
     <footer style="margin-top:40px;text-align:center;color:#bbb;font-size:0.95em;">
-        <div id="versionInfo"></div>
+        <div id="versionInfo">バージョン: v0.15.0</div>
         <div id="changelog" style="margin-top:10px;text-align:left;max-width:600px;margin-left:auto;margin-right:auto;"></div>
     </footer>
 </body>
