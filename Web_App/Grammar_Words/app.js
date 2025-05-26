@@ -294,12 +294,41 @@ class VocabularyApp {
         }
         this.elements.mcOptions.innerHTML = '';
         this._answered = false;
+        // フィードバック用要素を用意
+        let feedback = this.elements.multipleChoice.querySelector('.mc-feedback');
+        if (!feedback) {
+            feedback = document.createElement('div');
+            feedback.className = 'mc-feedback';
+            feedback.style.fontSize = '1.3rem';
+            feedback.style.fontWeight = 'bold';
+            feedback.style.margin = '18px 0 0 0';
+            feedback.style.minHeight = '2em';
+            feedback.style.textAlign = 'center';
+            this.elements.multipleChoice.appendChild(feedback);
+        }
+        feedback.textContent = '';
+        let feedbackTimeout = null;
+        // 単語部分クリックで次の問題へ進む
+        this.elements.mcWordDisplay.onclick = () => {
+            if (this._answered && feedback.textContent) {
+                if (feedbackTimeout) clearTimeout(feedbackTimeout);
+                this.session.currentIndex++;
+                this.showCurrentWord();
+            }
+        };
         options.forEach(opt => {
             const btn = document.createElement('button');
             btn.className = 'mc-option-btn';
             btn.textContent = isEnToJp ? opt.japanese : opt.word;
             btn.disabled = false;
             btn.onclick = () => {
+                // すでにフィードバック表示中なら即次へ
+                if (this._answered && feedback.textContent) {
+                    if (feedbackTimeout) clearTimeout(feedbackTimeout);
+                    this.session.currentIndex++;
+                    this.showCurrentWord();
+                    return;
+                }
                 if (this._answered) return;
                 this._answered = true;
                 Array.from(this.elements.mcOptions.children).forEach(b => b.disabled = true);
@@ -308,10 +337,30 @@ class VocabularyApp {
                     : (btn.textContent === currentWord.word);
                 if (isCorrect) {
                     btn.classList.add('correct');
+                    feedback.textContent = '正解！';
+                    feedback.style.color = '#4caf50';
                 } else {
                     btn.classList.add('incorrect');
+                    feedback.textContent = '不正解...';
+                    feedback.style.color = '#f44336';
                 }
-                this.markAnswer(isCorrect, btn.textContent);
+                // 回答記録
+                this.answerLogs.push({
+                    word: currentWord.word,
+                    japanese: currentWord.japanese,
+                    userAnswer: btn.textContent,
+                    isCorrect: isCorrect
+                });
+                if (isCorrect) {
+                    this.session.correctCount++;
+                } else {
+                    this.session.incorrectCount++;
+                }
+                // 数秒後に自動で次の問題へ
+                feedbackTimeout = setTimeout(() => {
+                    this.session.currentIndex++;
+                    this.showCurrentWord();
+                }, 1000);
             };
             this.elements.mcOptions.appendChild(btn);
         });
