@@ -431,7 +431,38 @@ class VocabularyApp {
         resultList.appendChild(table);
     }
 }
+const APP_VERSION = 'v0.10.0';
+const CHANGELOG = [
+    'v0.11.0: 変更履歴を動的に表示するように修正。バージョン情報と変更履歴をフッターに表示。',
+    'v0.10.0: 四択モードで正誤フィードバックを毎回表示。不正解時は正解選択肢を強調。単語部分や選択肢再クリックで即次の問題へ進む仕様を追加。',
+    'v0.9.0: ファビコンをGoogleのものに変更。UIの細部デザインを調整。',
+    'v0.8.0: 四択モード（multiple-choice）を実装。選択肢ランダム化・出題数制限対応。',
+    'v0.7.0: 複数CSVファイルの同時選択・出題数指定機能を追加。ファイル選択UIをチェックボックス化。',
+    'v0.6.0: 学習完了画面・正誤表（解答一覧）を追加。正解率・正誤数を表示。',
+    'v0.5.1: ダークモード切替ボタン追加。テーマ切替時の配色バグ修正。',
+    'v0.5.0: フラッシュカード基本機能（英→日/日→英切替、正誤カウント、進捗バー）を実装。',
+    'v0.4.0: CSVファイルから単語リストを読み込み、学習セッションを生成する機能を追加。',
+    'v0.3.0: UIデザインをモダン化。レスポンシブ対応。',
+    'v0.2.0: 単語リストのシャッフル・リスタート機能を追加。',
+    'v0.1.0: プロトタイプ作成。英単語・日本語の表示のみ対応。'
+];
+
+function updateFooterVersionAndChangelog() {
+    const versionInfo = document.getElementById('versionInfo');
+    if (versionInfo) versionInfo.textContent = `バージョン: ${APP_VERSION}`;
+    const changelog = document.getElementById('changelog');
+    if (changelog) {
+        let html = '<b>変更履歴</b><ul style="margin:8px 0 0 1.2em;padding:0;text-align:left;">';
+        for (const log of CHANGELOG) {
+            html += `<li>${log}</li>`;
+        }
+        html += '</ul>';
+        changelog.innerHTML = html;
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    updateFooterVersionAndChangelog();
     new VocabularyApp();
     // PC判定
     const isPC = window.matchMedia('(pointer:fine)').matches && window.innerWidth > 900;
@@ -449,32 +480,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span style='font-size:0.95em;color:#888;'>※ 四択モード時は選択肢をクリックしてください</span>
             `;
         }
-    }
-    // バージョン情報と変更履歴
-    const APP_VERSION = 'v0.10.0';
-    const CHANGELOG = [
-        'v0.10.0: 四択モードで正誤フィードバックを毎回表示。不正解時は正解選択肢を強調。単語部分や選択肢再クリックで即次の問題へ進む仕様を追加。',
-        'v0.9.0: ファビコンをGoogleのものに変更。UIの細部デザインを調整。',
-        'v0.8.0: 四択モード（multiple-choice）を実装。選択肢ランダム化・出題数制限対応。',
-        'v0.7.0: 複数CSVファイルの同時選択・出題数指定機能を追加。ファイル選択UIをチェックボックス化。',
-        'v0.6.0: 学習完了画面・正誤表（解答一覧）を追加。正解率・正誤数を表示。',
-        'v0.5.1: ダークモード切替ボタン追加。テーマ切替時の配色バグ修正。',
-        'v0.5.0: フラッシュカード基本機能（英→日/日→英切替、正誤カウント、進捗バー）を実装。',
-        'v0.4.0: CSVファイルから単語リストを読み込み、学習セッションを生成する機能を追加。',
-        'v0.3.0: UIデザインをモダン化。レスポンシブ対応。',
-        'v0.2.0: 単語リストのシャッフル・リスタート機能を追加。',
-        'v0.1.0: プロトタイプ作成。英単語・日本語の表示のみ対応。'
-    ];
-    // バージョン・履歴の反映
-    const versionInfo = document.getElementById('versionInfo');
-    if (versionInfo) versionInfo.textContent = `バージョン: ${APP_VERSION}`;
-    const changelog = document.getElementById('changelog');
-    if (changelog) {
-        let html = '<b>変更履歴</b><ul style="margin:8px 0 0 1.2em;padding:0;text-align:left;">';
-        for (const log of CHANGELOG) {
-            html += `<li>${log}</li>`;
-        }
-        html += '</ul>';
-        changelog.innerHTML = html;
     }
 });
