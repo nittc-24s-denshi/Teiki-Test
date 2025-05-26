@@ -162,6 +162,9 @@ class VocabularyApp {
         this.elements.shuffleBtn.addEventListener('click', () => this.shuffleWords());
         this.elements.restartFinalBtn.addEventListener('click', () => this.startNewSession());
         document.addEventListener('keydown', (e) => {
+            // 入力欄やtextareaにフォーカスがある場合は何もしない
+            const tag = document.activeElement.tagName.toLowerCase();
+            if (tag === 'input' || tag === 'textarea') return;
             if (this.studyType === 'flashcard') {
                 if (e.key === ' ' || e.key === 'Enter') {
                     e.preventDefault();
