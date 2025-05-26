@@ -343,6 +343,12 @@ class VocabularyApp {
                     btn.classList.add('incorrect');
                     feedback.textContent = '不正解...';
                     feedback.style.color = '#f44336';
+                    // 正解の選択肢にも色を付ける
+                    Array.from(this.elements.mcOptions.children).forEach(b => {
+                        if ((isEnToJp && b.textContent === currentWord.japanese) || (!isEnToJp && b.textContent === currentWord.word)) {
+                            b.classList.add('correct');
+                        }
+                    });
                 }
                 // 回答記録
                 this.answerLogs.push({
