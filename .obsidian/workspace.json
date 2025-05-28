@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp/国語感想文.md",
-                "mode": "source",
+                "file": "2025/01/Reading/目次.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "国語感想文"
+              "title": "目次"
             }
           }
         ],
@@ -168,8 +168,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
             }
           }
         ],
@@ -182,7 +182,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -194,6 +193,20 @@
   },
   "active": "92877cc2e7fd56f0",
   "lastOpenFiles": [
+    "2025/01/Reading/教科書(AXEL).pdf",
+    "2025/01/Reading/AXEL_解答.pdf",
+    "2025/01/Reading/Clues_解答.pdf",
+    "2025/01/範囲表(内容).md",
+    "2025/01/OralCommunication/Conversation.md",
+    "2025/01/OralCommunication/目次.md",
+    "2025/01/Grammar&Writing/生データ/問題.pdf",
+    "2025/01/Grammar&Writing/目次.md",
+    "2025/01/Grammar&Writing/文法事項.md",
+    "2025/01/Grammar&Writing/重要箇所.md",
+    "2025/01/Grammar&Writing/生データ/教科書.pdf",
+    "2025/01/Grammar&Writing/生データ",
+    "2025/01/Grammar&Writing/教科書.md",
+    "2025/01/Grammar&Writing/ノートまとめ.md",
     "tmp/screencapture-gemini-google-app-f1b2564f64d76a10-2025-05-28-11_49_55-2.png",
     "tmp/screencapture-gemini-google-app-f1b2564f64d76a10-2025-05-28-11_49_55.png",
     "tmp/Pasted image 20250528114941.png",
@@ -205,33 +218,19 @@
     "tmp",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ②.md",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ②.pdf",
-    "2025/01/Grammar&Writing/目次.md",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.pdf",
     "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.md",
-    "2025/01/Reading/Clues_解答.pdf",
     "README.md",
-    "2025/01/Grammar&Writing/文法事項.md",
     "2025/01/社会と文化から見る歴史/output.md",
-    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑨.pdf",
-    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑧.pdf",
-    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑦.pdf",
-    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑥.pdf",
-    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ⑤.pdf",
-    "2025/01/OralCommunication/Conversation.md",
-    "2025/01/Grammar&Writing/重要箇所.md",
-    "2025/01/Grammar&Writing/ノートまとめ.md",
     "2025/01/ディジタル回路/授業資料/授業資料0519.md",
     "2025/01/ディジタル回路/授業資料/授業資料0519(済).md",
     "2025/01/ディジタル回路/授業資料/授業資料0512(済).md",
     "2025/01/ディジタル回路/授業資料/授業資料0414(済).md",
     "2025/01/ディジタル回路/授業資料/授業資料0428(済).md",
     "2025/01/ディジタル回路/授業資料/授業資料0421(済).md",
-    "2025/01/Grammar&Writing/教科書.md",
-    "2025/01/範囲表(内容).md",
     "2025/01/電気回路/ノートまとめ.md",
     "Web_App/README.md",
     "Web_App/Grammar_Words/README.md",
-    "Web_App/Grammar_Words/node_modules/@types/node/README.md",
-    "Web_App/Grammar_Words/node_modules/undici-types/README.md"
+    "Web_App/Grammar_Words/node_modules/@types/node/README.md"
   ]
 }
