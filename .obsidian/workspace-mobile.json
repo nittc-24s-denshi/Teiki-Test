@@ -11,10 +11,14 @@
             "id": "4f25ce9dbf10f92b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025/01/範囲表(ページ).md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "範囲表(ページ)"
             }
           }
         ]
@@ -144,12 +148,12 @@
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "925747cd85c0cad3",
+  "active": "4f25ce9dbf10f92b",
   "lastOpenFiles": [
+    "2025/01/科学/科学教科書.pdf",
     "2025/01/Reading/教科書(Clues).pdf",
     "2025/01/電気回路/ノートまとめ.md",
     "specification.md",
@@ -163,7 +167,6 @@
     "Application-Concept.txt",
     "2025/04/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
     "2025/03/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
-    "2025/02/どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。",
     "2025/01/電気回路/目次.md",
     "2025/01/線形代数/目次.md",
     "2025/01/範囲表(内容).md",
