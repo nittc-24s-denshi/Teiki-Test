@@ -1,0 +1,41 @@
+English, Japanese
+Internet,インターネット
+use the internet,インターネットを使う
+surf the internet,ネットを見る
+watch videos online,ネットで動画を見る
+send an email,（パソコンで）メールを送る
+install an app,アプリをインストールする
+personality,性格
+kind,親切な
+gentle,優しい
+warm-hearted,心の温かい
+friendly,親しみやすい
+cheerful,明るい
+funny,おもしろい
+active,積極的な
+careful,慎重な・注意深い
+considerate,思いやりのある
+easy-going,のんきな
+sensitive,神経質な
+stubborn,頑固な
+positive,前向きな
+frank,率直な
+talkative,おしゃべりな
+shy,恥ずかしがりの
+quiet,おとなしい
+honest,正直な
+polite,礼儀正しい
+hardworking,勤勉な
+modest,謙虚な
+punctual,時間を守る
+assertive,自己主張する
+holidays,祝日
+events,イベント
+anniversary,記念日
+New Year's Day,元日
+Summer festival,夏祭り
+Christmas,クリスマス
+New Year's Eve,大みそか
+burst,爆発する
+stir,かき混ぜる
+barrier,障壁
