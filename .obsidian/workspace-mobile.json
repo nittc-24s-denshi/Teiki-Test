@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c72a46abb9c621a0",
+        "id": "9f4a4d0bed7ab632",
         "type": "tabs",
         "children": [
           {
-            "id": "76deca04dd0f9764",
+            "id": "4f25ce9dbf10f92b",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace-mobile.json",
-                "bFile": ".obsidian/workspace-mobile.json",
-                "aRef": ""
-              },
-              "icon": "git-pull-request",
-              "title": "Diff: workspace-mobile.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
             }
           }
         ]
@@ -136,22 +132,13 @@
           "icon": "lucide-list",
           "title": "アウトライン"
         }
-      },
-      {
-        "id": "76d4113aea9d769f",
-        "type": "leaf",
-        "state": {
-          "type": "git-view",
-          "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
-        }
       }
     ],
     "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Markdownインポーターを開く": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -161,7 +148,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76deca04dd0f9764",
+  "active": "4f25ce9dbf10f92b",
   "lastOpenFiles": [
     "2025/01/電気回路/ノートまとめ.md",
     "specification.md",
