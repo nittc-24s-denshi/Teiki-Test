@@ -11,7 +11,10 @@ class VocabularyApp {
             'Oral-Lesson2-Vocabulary.csv',
             'Oral-Lesson3-Vocabulary.csv',
             'Oral-Lesson4-Vocabulary.csv',
-            'Oral-Lesson5-Vocabulary.csv'
+            'Oral-Lesson5-Vocabulary.csv',
+            'Oral-Lesson6-Vocabulary.csv',
+            'Oral-Lesson7-Vocabulary.csv',
+            'Oral-Lesson8-Vocabulary.csv'
         ];
         this.selectedFiles = [this.availableFiles[0]];
         this.elements = {
