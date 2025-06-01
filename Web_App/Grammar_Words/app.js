@@ -122,21 +122,26 @@ class VocabularyApp {
     async loadWords() {
         try {
             let allWords = [];
+            let header = null;
             for (const file of this.selectedFiles) {
                 const response = await fetch(file);
                 const csvText = await response.text();
                 const lines = csvText.trim().split('\n');
+                if (!header && lines.length > 0) {
+                    header = lines[0].split(',').map(h => h.trim());
+                }
                 // 1行目はヘッダーとしてスキップ
                 const fileWords = lines.slice(1).map(line => {
-                    const [word, japanese] = line.split(',');
+                    const cols = line.split(',');
                     return {
-                        word: word ? word.trim() : '',
-                        japanese: japanese ? japanese.trim() : ''
+                        term1: cols[0] ? cols[0].trim() : '',
+                        term2: cols[1] ? cols[1].trim() : ''
                     };
-                }).filter(pair => pair.word && pair.japanese);
+                }).filter(pair => pair.term1 && pair.term2);
                 allWords = allWords.concat(fileWords);
             }
             this.allWords = allWords;
+            this.header = header || ['用語1', '用語2'];
             this.updateAllWordsCount();
             if (this.elements.quizCountInput) {
                 this.elements.quizCountInput.max = this.allWords.length;
@@ -251,21 +256,23 @@ class VocabularyApp {
         this.elements.cardFront.style.display = 'none';
         this.elements.cardBack.style.display = 'none';
         this.elements.multipleChoice.style.display = 'none';
+        const h1 = (this.header && this.header[0]) ? this.header[0] : '用語1';
+        const h2 = (this.header && this.header[1]) ? this.header[1] : '用語2';
         if (this.studyType === 'flashcard') {
             this.elements.cardFront.style.display = 'block';
             this.elements.cardBack.style.display = 'none';
             this.elements.multipleChoice.style.display = 'none';
             if (this.session.mode === 'en-jp') {
-                this.elements.wordType.textContent = '英語 → 日本語';
-                this.elements.wordDisplay.textContent = currentWord.word;
-                this.elements.answerType.textContent = '日本語';
-                this.elements.answerDisplay.textContent = currentWord.japanese;
+                this.elements.wordType.textContent = `${h1} → ${h2}`;
+                this.elements.wordDisplay.textContent = currentWord.term1;
+                this.elements.answerType.textContent = h2;
+                this.elements.answerDisplay.textContent = currentWord.term2;
             }
             else {
-                this.elements.wordType.textContent = '日本語 → 英語';
-                this.elements.wordDisplay.textContent = currentWord.japanese;
-                this.elements.answerType.textContent = '英語';
-                this.elements.answerDisplay.textContent = currentWord.word;
+                this.elements.wordType.textContent = `${h2} → ${h1}`;
+                this.elements.wordDisplay.textContent = currentWord.term2;
+                this.elements.answerType.textContent = h1;
+                this.elements.answerDisplay.textContent = currentWord.term1;
             }
         }
         else {
@@ -278,14 +285,16 @@ class VocabularyApp {
     }
     renderMultipleChoice(currentWord) {
         const isEnToJp = this.session.mode === 'en-jp';
-        this.elements.mcWordType.textContent = isEnToJp ? '英語 → 日本語' : '日本語 → 英語';
-        this.elements.mcWordDisplay.textContent = isEnToJp ? currentWord.word : currentWord.japanese;
+        const h1 = (this.header && this.header[0]) ? this.header[0] : '用語1';
+        const h2 = (this.header && this.header[1]) ? this.header[1] : '用語2';
+        this.elements.mcWordType.textContent = isEnToJp ? `${h1} → ${h2}` : `${h2} → ${h1}`;
+        this.elements.mcWordDisplay.textContent = isEnToJp ? currentWord.term1 : currentWord.term2;
         const options = [currentWord];
         const pool = this.allWords.filter(w => {
             if (isEnToJp) {
-                return w.japanese !== currentWord.japanese;
+                return w.term2 !== currentWord.term2;
             } else {
-                return w.word !== currentWord.word && w.japanese !== currentWord.japanese;
+                return w.term1 !== currentWord.term1 && w.term2 !== currentWord.term2;
             }
         });
         while (options.length < 4 && pool.length > 0) {
@@ -324,7 +333,7 @@ class VocabularyApp {
         options.forEach(opt => {
             const btn = document.createElement('button');
             btn.className = 'mc-option-btn';
-            btn.textContent = isEnToJp ? opt.japanese : opt.word;
+            btn.textContent = isEnToJp ? opt.term2 : opt.term1;
             btn.disabled = false;
             btn.onclick = () => {
                 // すでにフィードバック表示中なら即次へ
@@ -338,8 +347,8 @@ class VocabularyApp {
                 this._answered = true;
                 Array.from(this.elements.mcOptions.children).forEach(b => b.disabled = true);
                 const isCorrect = isEnToJp
-                    ? (btn.textContent === currentWord.japanese)
-                    : (btn.textContent === currentWord.word);
+                    ? (btn.textContent === currentWord.term2)
+                    : (btn.textContent === currentWord.term1);
                 if (isCorrect) {
                     btn.classList.add('correct');
                     feedback.textContent = '正解！';
@@ -350,15 +359,15 @@ class VocabularyApp {
                     feedback.style.color = '#f44336';
                     // 正解の選択肢にも色を付ける
                     Array.from(this.elements.mcOptions.children).forEach(b => {
-                        if ((isEnToJp && b.textContent === currentWord.japanese) || (!isEnToJp && b.textContent === currentWord.word)) {
+                        if ((isEnToJp && b.textContent === currentWord.term2) || (!isEnToJp && b.textContent === currentWord.term1)) {
                             b.classList.add('correct');
                         }
                     });
                 }
                 // 回答記録
                 this.answerLogs.push({
-                    word: currentWord.word,
-                    japanese: currentWord.japanese,
+                    term1: currentWord.term1,
+                    term2: currentWord.term2,
                     userAnswer: btn.textContent,
                     isCorrect: isCorrect
                 });
@@ -389,8 +398,8 @@ class VocabularyApp {
             userAnswer = this.elements.answerDisplay.textContent || '';
         }
         this.answerLogs.push({
-            word: currentWord.word,
-            japanese: currentWord.japanese,
+            term1: currentWord.term1,
+            term2: currentWord.term2,
             userAnswer: userAnswer,
             isCorrect: isCorrect
         });
@@ -423,21 +432,24 @@ class VocabularyApp {
         this.elements.finalTotal.textContent = total.toString();
         const resultList = this.elements.completionScreen.querySelector('#resultList');
         resultList.innerHTML = '<h3>解答一覧</h3>';
+        const h1 = (this.header && this.header[0]) ? this.header[0] : '用語1';
+        const h2 = (this.header && this.header[1]) ? this.header[1] : '用語2';
         const table = document.createElement('table');
         table.style.width = '100%';
         table.style.borderCollapse = 'collapse';
-        table.innerHTML = `<tr><th>英語</th><th>日本語</th><th>あなたの回答</th><th>正誤</th></tr>`;
+        table.innerHTML = `<tr><th>${h1}</th><th>${h2}</th><th>あなたの回答</th><th>正誤</th></tr>`;
         this.answerLogs.forEach(log => {
             const tr = document.createElement('tr');
             tr.className = log.isCorrect ? 'correct-row' : 'incorrect-row';
-            tr.innerHTML = `<td>${log.word}</td><td>${log.japanese}</td><td>${log.userAnswer}</td><td>${log.isCorrect ? '○' : '✗'}</td>`;
+            tr.innerHTML = `<td>${log.term1}</td><td>${log.term2}</td><td>${log.userAnswer}</td><td>${log.isCorrect ? '○' : '✗'}</td>`;
             table.appendChild(tr);
         });
         resultList.appendChild(table);
     }
 }
-const APP_VERSION = 'v0.12.0';
+const APP_VERSION = 'v0.13.0';
 const CHANGELOG = [
+    'v0.13.0: CSVヘッダー（1行目）を自動で読み取り、UIの用語ラベルを動的に表示する機能を追加',
     'v0.12.0: 日本語意味・漢字データ（Japanese_Imi.csv, Japanese_Kanji.csv）を選択可能に',
     'v0.11.0: 変更履歴を動的に表示するように修正。バージョン情報と変更履歴をフッターに表示。',
     'v0.10.0: 四択モードで正誤フィードバックを毎回表示。不正解時は正解選択肢を強調。単語部分や選択肢再クリックで即次の問題へ進む仕様を追加。',
