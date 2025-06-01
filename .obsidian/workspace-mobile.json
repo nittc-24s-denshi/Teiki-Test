@@ -41,10 +41,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_1(ベクトル)(1).pdf"
+                "file": "2025/01/国語総合/プリント.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "線形1_授業ノート_1(ベクトル)(1)"
+              "title": "プリント"
             }
           }
         ],
@@ -156,7 +156,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2025/01/微分・積分/プリント.md",
+            "file": "2025/01/国語総合/プリント.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -179,11 +179,13 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "925747cd85c0cad3",
+  "active": "e3d61e89ad546e9c",
   "lastOpenFiles": [
+    "無題のファイル.canvas",
+    "2025/01/国語総合/プリント.pdf",
+    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_1(ベクトル)(1).pdf",
     "2025/01/線形代数/確認ノート.md",
     "2025/01/線形代数/予想問題.md",
-    "2025/01/国語総合/プリント.pdf",
     "Web_App/Grammar_Words/Oral-Lesson8-Vocabulary.csv",
     "Web_App/Grammar_Words/Oral-Lesson7-Vocabulary.csv",
     "Web_App/Grammar_Words/Oral-Lesson6-Vocabulary.csv",
@@ -200,7 +202,6 @@
     "2025/01/Grammar&Writing/生データ/問題.pdf",
     "2025/01/Reading/目次.md",
     "2025/01/Reading/教科書(AXEL).pdf",
-    "2025/01/Reading/Clues_text.pdf",
     "2025/01/範囲表(ページ).md",
     "2025/01/電気回路/ノートまとめ.md",
     "specification.md",
