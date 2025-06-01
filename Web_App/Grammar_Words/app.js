@@ -14,7 +14,9 @@ class VocabularyApp {
             'Oral-Lesson5-Vocabulary.csv',
             'Oral-Lesson6-Vocabulary.csv',
             'Oral-Lesson7-Vocabulary.csv',
-            'Oral-Lesson8-Vocabulary.csv'
+            'Oral-Lesson8-Vocabulary.csv',
+            'Japanese_Imi.csv',
+            'Japanese_Kanji.csv'
         ];
         this.selectedFiles = [this.availableFiles[0]];
         this.elements = {
@@ -434,8 +436,9 @@ class VocabularyApp {
         resultList.appendChild(table);
     }
 }
-const APP_VERSION = 'v0.10.0';
+const APP_VERSION = 'v0.12.0';
 const CHANGELOG = [
+    'v0.12.0: 日本語意味・漢字データ（Japanese_Imi.csv, Japanese_Kanji.csv）を選択可能に',
     'v0.11.0: 変更履歴を動的に表示するように修正。バージョン情報と変更履歴をフッターに表示。',
     'v0.10.0: 四択モードで正誤フィードバックを毎回表示。不正解時は正解選択肢を強調。単語部分や選択肢再クリックで即次の問題へ進む仕様を追加。',
     'v0.9.0: ファビコンをGoogleのものに変更。UIの細部デザインを調整。',
