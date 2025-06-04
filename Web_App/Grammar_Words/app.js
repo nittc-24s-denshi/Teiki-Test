@@ -258,21 +258,31 @@ class VocabularyApp {
         this.elements.multipleChoice.style.display = 'none';
         const h1 = (this.header && this.header[0]) ? this.header[0] : '用語1';
         const h2 = (this.header && this.header[1]) ? this.header[1] : '用語2';
+        // --- ここから漢字判定用関数 ---
+        function setTextWithKanjiClass(el, text) {
+            el.textContent = text;
+            if (/[\u4E00-\u9FFF]/.test(text)) {
+                el.classList.add('kanji');
+            } else {
+                el.classList.remove('kanji');
+            }
+        }
+        // --- ここまで ---
         if (this.studyType === 'flashcard') {
             this.elements.cardFront.style.display = 'block';
             this.elements.cardBack.style.display = 'none';
             this.elements.multipleChoice.style.display = 'none';
             if (this.session.mode === 'en-jp') {
                 this.elements.wordType.textContent = `${h1} → ${h2}`;
-                this.elements.wordDisplay.textContent = currentWord.term1;
+                setTextWithKanjiClass(this.elements.wordDisplay, currentWord.term1);
                 this.elements.answerType.textContent = h2;
-                this.elements.answerDisplay.textContent = currentWord.term2;
+                setTextWithKanjiClass(this.elements.answerDisplay, currentWord.term2);
             }
             else {
                 this.elements.wordType.textContent = `${h2} → ${h1}`;
-                this.elements.wordDisplay.textContent = currentWord.term2;
+                setTextWithKanjiClass(this.elements.wordDisplay, currentWord.term2);
                 this.elements.answerType.textContent = h1;
-                this.elements.answerDisplay.textContent = currentWord.term1;
+                setTextWithKanjiClass(this.elements.answerDisplay, currentWord.term1);
             }
         }
         else {
@@ -288,7 +298,17 @@ class VocabularyApp {
         const h1 = (this.header && this.header[0]) ? this.header[0] : '用語1';
         const h2 = (this.header && this.header[1]) ? this.header[1] : '用語2';
         this.elements.mcWordType.textContent = isEnToJp ? `${h1} → ${h2}` : `${h2} → ${h1}`;
-        this.elements.mcWordDisplay.textContent = isEnToJp ? currentWord.term1 : currentWord.term2;
+        // --- ここから漢字判定用関数 ---
+        function setTextWithKanjiClass(el, text) {
+            el.textContent = text;
+            if (/[\u4E00-\u9FFF]/.test(text)) {
+                el.classList.add('kanji');
+            } else {
+                el.classList.remove('kanji');
+            }
+        }
+        // --- ここまで ---
+        setTextWithKanjiClass(this.elements.mcWordDisplay, isEnToJp ? currentWord.term1 : currentWord.term2);
         const options = [currentWord];
         const pool = this.allWords.filter(w => {
             if (isEnToJp) {
