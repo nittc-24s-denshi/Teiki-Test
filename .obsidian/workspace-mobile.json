@@ -39,14 +39,12 @@
             "id": "e3d61e89ad546e9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.md",
-                "mode": "preview",
-                "source": false
+                "file": "2025/01/Reading/英語教科書 Clues & AXEL 全問題解説.pdf"
               },
-              "icon": "lucide-file",
-              "title": "社会と文化からみる歴史Ⅰ①"
+              "icon": "lucide-file-text",
+              "title": "英語教科書 Clues & AXEL 全問題解説"
             }
           }
         ],
@@ -183,6 +181,8 @@
   },
   "active": "e3d61e89ad546e9c",
   "lastOpenFiles": [
+    "2025/01/社会と文化から見る歴史/社会と文化からみる歴史Ⅰ①.md",
+    "2025/01/Reading/英語教科書 Clues & AXEL 全問題解説.pdf",
     "2025/01/社会と文化から見る歴史/3〜4.pdf",
     "2025/01/科学/科学ノート(諦め).md",
     "2025/01/科学/ノート.pdf",
@@ -199,7 +199,6 @@
     "2025/01/ディジタル回路/授業資料/授業資料0526.pdf",
     "2025/01/ディジタル回路/授業資料/授業資料0519(済).pdf",
     "2025/01/ディジタル回路/授業資料/授業資料0512(済).pdf",
-    "2025/01/ディジタル回路/授業資料/授業資料0428(済).pdf",
     "無題のファイル.canvas",
     "2025/01/Reading/教科書(AXEL).md",
     "2025/01/Reading/Clues_text.md",
