@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>一文表示型 穴埋め問題作成アプリ Ver.11</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
     <style>
         /* Base styles are now primarily handled by Tailwind classes in HTML */
         /* Custom scrollbar for dark mode (optional, for webkit browsers) */
@@ -157,9 +159,21 @@
             </button>
         </header>
 
+        <section id="problemSetSelector" class="mb-6">
+            <div class="bg-slate-50 dark:bg-slate-700 p-4 rounded-lg">
+                <h2 class="text-lg font-semibold text-slate-700 dark:text-slate-200 mb-3">問題セットを選択</h2>
+                <div id="problemSetList" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <!-- 問題セットの選択肢はJavaScriptで動的に生成されます -->
+                </div>
+            </div>
+        </section>
+
         <section class="mb-4">
             <div class="text-md sm:text-lg font-semibold text-sky-600 dark:text-sky-400 text-center">
                 <span id="sentenceCounter">文 1 / X</span>
+            </div>
+            <div id="currentSetInfo" class="text-sm text-slate-600 dark:text-slate-400 text-center mt-1">
+                <!-- 現在の問題セット情報はJavaScriptで動的に生成されます -->
             </div>
         </section>
 
@@ -355,4 +369,176 @@
                 return;
             }
             
-           
+            const currentPercentage = parseInt(percentageSlider.value, 10) / 100;
+            let numToSelect = Math.max(1, Math.floor(selectableIndices.length * currentPercentage));
+            if (currentPercentage === 0) numToSelect = 0; // Allow 0% selection
+            if (currentPercentage === 1) numToSelect = selectableIndices.length; // Ensure 100% selects all
+
+
+            numToSelect = Math.min(numToSelect, selectableIndices.length);
+            const shuffledSelectable = shuffleArray(selectableIndices);
+            for (let i = 0; i < numToSelect; i++) {
+                selectedIndices.add(shuffledSelectable[i]);
+            }
+
+            // This check might be redundant if numToSelect logic is correct, but good for safety
+            if (numToSelect > 0 && selectedIndices.size === 0 && selectableIndices.length > 0) {
+                 selectedIndices.add(shuffledSelectable[0]);
+            }
+
+
+            if (numToSelect > 0 && selectedIndices.size === 0) { // Only if we expected to select but didn't
+                questionAreaEl.textContent = "問題の作成に失敗しました。";
+                 showToast("問題の作成に失敗しました。", "error");
+                return;
+            }
+            generateQuestion();
+        }
+
+        function generateQuestion() {
+            questionAreaEl.innerHTML = '';
+            const questionAreaStyle = getComputedStyle(questionAreaEl);
+            const font = `${questionAreaStyle.fontWeight} ${questionAreaStyle.fontSize}/${questionAreaStyle.lineHeight} ${questionAreaStyle.fontFamily}`;
+
+            originalWords.forEach((word, index) => {
+                const originalWordText = word;
+
+                if (originalWordText === '\n') {
+                    questionAreaEl.appendChild(document.createElement('br'));
+                    return; 
+                }
+
+                if (selectedIndices.has(index)) {
+                    const blankSpan = document.createElement('span');
+                    blankSpan.classList.add('blank', 'border-blue-500', 'dark:border-blue-400', 'text-blue-600', 'dark:text-blue-400');
+                    blankSpan.dataset.originalWord = originalWordText;
+                    blankSpan.dataset.revealed = 'false';
+                    
+                    const tempRevealed = document.createElement('span');
+                    tempRevealed.classList.add('revealed-in-place', 'text-amber-500', 'dark:text-amber-400', 'bg-amber-50', 'dark:bg-amber-900');
+                    offscreenSpan.appendChild(tempRevealed);
+                    const revealedStyle = getComputedStyle(tempRevealed);
+                    const revealedFont = `${revealedStyle.fontWeight} ${revealedStyle.fontSize}/${revealedStyle.lineHeight} ${revealedStyle.fontFamily}`;
+                    offscreenSpan.removeChild(tempRevealed);
+
+                    const wordWidth = getTextWidth(originalWordText, revealedFont);
+                    
+                    blankSpan.style.width = `${wordWidth}px`; 
+                    blankSpan.style.minWidth = `${wordWidth}px`; 
+                    blankSpan.textContent = `___`; 
+                    
+                    blankSpan.addEventListener('click', function(event) {
+                        event.stopPropagation(); 
+                        if (this.dataset.revealed === 'false') {
+                            this.textContent = this.dataset.originalWord;
+                            this.className = ''; 
+                            this.classList.add('revealed-in-place', 'text-amber-500', 'dark:text-amber-400', 'bg-amber-50', 'dark:bg-amber-900');
+                            this.dataset.revealed = 'true';
+                        }
+                    });
+                    questionAreaEl.appendChild(blankSpan);
+                } else {
+                    questionAreaEl.appendChild(document.createTextNode(originalWordText));
+                }
+
+                if (index < originalWords.length - 1 && originalWords[index+1] !== '\n' && originalWordText !== '\n') {
+                    questionAreaEl.appendChild(document.createTextNode(' '));
+                }
+            });
+        }
+
+        function isPunctuation(char) {
+            if (char === undefined || char === null) return false;
+            return /^[.,;:!?]$/.test(char.trim());
+        }
+
+        function updateNavigationButtons() {
+            prevSentenceButton.disabled = currentShuffledIndex === 0;
+            nextSentenceButton.disabled = currentShuffledIndex === sentenceData.length - 1;
+        }
+        
+        function showToast(message, type = 'success') {
+            document.querySelectorAll('.toast-message').forEach(toast => toast.remove());
+            const toast = document.createElement('div');
+            toast.textContent = message;
+            // Apply base toast classes and type-specific background
+            toast.className = `toast-message fixed bottom-5 left-1/2 -translate-x-1/2 text-white py-2 px-4 rounded-md shadow-lg text-sm z-50`;
+            if (type === 'success') toast.classList.add('bg-emerald-500');
+            else if (type === 'error') toast.classList.add('bg-red-500');
+            else if (type === 'warning') toast.classList.add('bg-amber-500');
+            
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // --- イベントリスナー ---
+        darkModeToggleEl.addEventListener('click', () => {
+            toggleUserDarkMode(); 
+        });
+        
+        percentageSlider.addEventListener('input', (event) => {
+            percentageValueEl.textContent = event.target.value;
+        });
+        percentageSlider.addEventListener('change', (event) => { // Regenerate question on slider value change (mouseup)
+            performAutoSelectionAndGenerateQuestion();
+            showToast(`穴埋め割合を ${event.target.value}% に変更しました。`, "success");
+        });
+        
+        prevSentenceButton.addEventListener('click', () => {
+            if (currentShuffledIndex > 0) {
+                currentShuffledIndex--;
+                displayCurrentSentenceAndQuestion();
+                updateNavigationButtons();
+            }
+        });
+
+        nextSentenceButton.addEventListener('click', () => {
+            if (currentShuffledIndex < sentenceData.length - 1) {
+                currentShuffledIndex++;
+                displayCurrentSentenceAndQuestion();
+                updateNavigationButtons();
+            } else {
+                showToast("全問終了しました！「最初からやり直す」で再度挑戦できます。", "success");
+            }
+        });
+        
+        restartButton.addEventListener('click', () => {
+            initializeApp(true);
+        });
+        
+        showAnswerButton.addEventListener('click', () => {
+            let allRevealed = true;
+            questionAreaEl.querySelectorAll('.blank[data-revealed="false"]').forEach(blank => {
+                allRevealed = false; 
+                blank.textContent = blank.dataset.originalWord;
+                blank.className = ''; 
+                blank.classList.add('revealed-in-place', 'text-amber-500', 'dark:text-amber-400', 'bg-amber-50', 'dark:bg-amber-900');
+                blank.dataset.revealed = 'true';
+            });
+
+            if (allRevealed) {
+                showToast("全ての空欄は既に表示されています。", "warning");
+            } else {
+                 showToast("全ての空欄を表示しました。", "success");
+            }
+        });
+
+        resetCurrentSentenceButton.addEventListener('click', () => {
+            displayCurrentSentenceAndQuestion(); 
+            showToast("同じ文で新しい問題を作成しました。", "success");
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeApp();
+        });
+
+        window.addEventListener('beforeunload', () => {
+            if (offscreenSpan && offscreenSpan.parentNode) {
+                offscreenSpan.parentNode.removeChild(offscreenSpan);
+            }
+        });
+    </script>
+</body>
+</html>

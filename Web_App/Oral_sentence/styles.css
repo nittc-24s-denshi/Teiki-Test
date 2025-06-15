@@ -1,0 +1,154 @@
+/* Base styles are now primarily handled by Tailwind classes in HTML */
+/* Custom scrollbar for dark mode (optional, for webkit browsers) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #e2e8f0; /* slate-200 */
+}
+.dark ::-webkit-scrollbar-track {
+    background-color: #334155; /* slate-700 */
+}
+::-webkit-scrollbar-thumb {
+    background-color: #94a3b8; /* slate-400 */
+    border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+    background-color: #64748b; /* slate-500 */
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #64748b; /* slate-500 */
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+    background-color: #475569; /* slate-600 */
+}
+
+.text-display-area {
+    white-space: pre-wrap; 
+    line-height: 1.85;
+}
+
+.blank {
+    display: inline-block;
+    border-bottom-width: 1.5px;
+    border-bottom-style: dashed;
+    margin: 0 1px;
+    padding: 0 1px;
+    text-align: center;
+    font-weight: 600; /* semibold */
+    cursor: pointer;
+    transition: background-color 0.2s;
+    vertical-align: baseline; 
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.revealed-in-place {
+    display: inline-block;
+    border-bottom: 1.5px solid transparent;
+    margin: 0 1px;
+    padding: 0 1px;
+    font-weight: 600; /* semibold */
+    border-radius: 3px;
+    cursor: default;
+    white-space: pre-wrap; 
+    vertical-align: baseline;
+}
+
+.toast-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Range slider custom styles */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #cbd5e1; /* slate-300 */
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+}
+
+.dark input[type="range"] {
+    background-color: #475569; /* slate-600 */
+}
+
+input[type="range"]:hover {
+    opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0ea5e9; /* sky-500 */
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.dark input[type="range"]::-webkit-slider-thumb {
+    background-color: #38bdf8; /* sky-400 */
+    border-color: #334155; /* slate-700 */
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0ea5e9; /* sky-500 */
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.dark input[type="range"]::-moz-range-thumb {
+    background-color: #38bdf8; /* sky-400 */
+    border-color: #334155; /* slate-700 */
+}
+
+/* Problem set selector styles */
+.problem-set-button {
+    transition: all 0.2s ease-in-out;
+}
+
+.problem-set-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.problem-set-button.border-sky-400 {
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+.dark .problem-set-button.border-sky-400 {
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.3);
+}
+
+.problem-set-checkbox {
+    transition: all 0.2s ease-in-out;
+}
+
+.problem-set-button:hover .problem-set-checkbox {
+    border-color: rgb(56, 189, 248); /* sky-400 */
+}
+
+.check-icon {
+    transition: transform 0.2s ease-in-out;
+}
+
+.problem-set-button:hover .check-icon {
+    transform: scale(1.1);
+}
+
+/* ダークモード対応 */
+.dark .problem-set-button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+} 
