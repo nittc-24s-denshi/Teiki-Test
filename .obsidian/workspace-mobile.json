@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2025/02/Reading/RAW/ワーク解答.pdf"
+                "file": "2025/02/線形代数/RAW/線形1_授業ノート-結合済み.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ワーク解答"
+              "title": "線形1_授業ノート-結合済み"
             }
           }
         ],
@@ -167,13 +167,14 @@
   },
   "active": "925747cd85c0cad3",
   "lastOpenFiles": [
+    "2025/02/線形代数/教科書.md",
+    "2025/02/Reading/RAW/ワーク解答.pdf",
+    "2025/02/線形代数/RAW/教科書.pdf",
     "2025/02/OralCommunication/RAW/文章.jpg",
     "2025/02/Reading/RAW",
     "2025/02/Reading",
-    "2025/02/Reading/RAW/ワーク解答.pdf",
     "2025/02/OralCommunication/RAW/単語2.jpg",
     "2025/02/OralCommunication/RAW/単語1.jpg",
-    "2025/02/線形代数/教科書.md",
     "2025/02/OralCommunication/RAW",
     "2025/02/OralCommunication",
     "2025/02/線形代数/RAW/線形1_授業ノート-結合済み.pdf",
@@ -184,7 +185,6 @@
     "2025/01/微分・積分/公式リスト.md",
     "Web_App/Oral_sentence",
     "2025/02/線形代数/参考資料/授業ノート/21_線形1_授業ノート_8(内積).pdf",
-    "2025/01/線形代数/参考資料/授業ノート/線形1_授業ノート_5(演習1)_線形独立.pdf",
     "2025/01/微分・積分/プリント.md",
     "2025/01/物理III/目次.md",
     "2025/01/Grammar&Writing/重要箇所.md",
