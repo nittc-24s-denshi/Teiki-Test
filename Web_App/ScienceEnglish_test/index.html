@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英単語穴埋め暗記アプリ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        #answer-sentence {
+            transition: opacity 0.3s ease-in-out;
+        }
+        .fade-in {
+            opacity: 1;
+        }
+        .fade-out {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="w-full max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-6 md:p-8">
+        <div class="text-center mb-6">
+            <h1 class="text-3xl font-bold text-gray-800">英単語 穴埋め暗記アプリ</h1>
+            <p id="quiz-info" class="text-gray-500 mt-2 h-6"></p>
+        </div>
+        
+        <div class="border-t border-b border-gray-200 py-3 mb-6">
+            <div id="status-container" class="grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-2 text-xs text-gray-600">
+                <div id="status-quiz">クイズ機能: <span class="font-bold"></span></div>
+                <div id="status-speech">音声合成: <span class="font-bold"></span></div>
+                <div id="status-hint">ヒント機能: <span class="font-bold"></span></div>
+                <div id="status-nav">ナビゲーション: <span class="font-bold"></span></div>
+            </div>
+        </div>
+
+
+        <!-- Quiz Area -->
+        <div id="quiz-container">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold text-gray-800">問題</h2>
+                <button id="show-words-btn" class="text-sm bg-yellow-400 text-yellow-900 font-semibold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-colors duration-300">
+                    ヒント
+                </button>
+            </div>
+            <div id="quiz-sentence" class="text-lg bg-gray-50 p-4 rounded-lg text-gray-700 leading-relaxed min-h-[100px]"></div>
+            
+            <!-- ★変更点: transition-all を追加して高さの変更を滑らかに -->
+            <div id="answer-container" class="relative mt-4 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer hover:border-green-400 flex items-center justify-center transition-all duration-300">
+                 <div id="answer-placeholder" class="text-center text-gray-500 p-4">
+                    <h3 class="text-lg font-semibold text-gray-800">答え</h3>
+                    <p>ここをクリックして表示</p>
+                 </div>
+                 <p id="answer-sentence" class="absolute inset-0 p-4 text-lg text-green-700 bg-white rounded-lg fade-out pointer-events-none"></p>
+            </div>
+           
+            <div class="mt-6 flex flex-col sm:flex-row gap-4">
+                <button id="listen-btn" class="w-full bg-indigo-500 text-white font-bold py-3 px-4 rounded-lg hover:bg-indigo-600 transition-colors duration-300 flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.879 8.464a5 5 0 000 7.072m2.828 9.9a9 9 0 000-12.728M12 12a3 3 0 100-6 3 3 0 000 6z" />
+                    </svg>
+                    音声で聞く
+                </button>
+            </div>
+             <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <button id="prev-quiz-btn" class="w-full bg-gray-500 text-white font-bold py-3 px-4 rounded-lg hover:bg-gray-600 transition-colors duration-300">
+                    前の問題へ
+                </button>
+                <button id="next-quiz-btn" class="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                    次の問題へ
+                </button>
+             </div>
+        </div>
+    </div>
+
+    <!-- 単語リスト表示用のモーダル -->
+    <div id="word-list-modal" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 hidden z-50">
+        <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-sm">
+            <div class="flex justify-between items-center mb-4 border-b pb-2">
+                <h3 id="modal-title" class="text-lg font-bold text-gray-800">単語リスト（全問題）</h3>
+                <button id="close-modal-btn" class="text-gray-500 hover:text-gray-900 text-2xl leading-none">&times;</button>
+            </div>
+            <ul id="word-list" class="list-disc list-inside space-y-2 text-lg"></ul>
+        </div>
+    </div>
+
+
+    <script>
+        const quizData = [
+            {
+                sentence: "Kenji goes to a technical school. His school has 627 male students and 215 female students.",
+                words: "technical,male,female"
+            },
+            {
+                sentence: "How many students does his school have in total?",
+                words: "total"
+            },
+            {
+                sentence: "The total number of students in Kenji's school is the sum of the number of male students and the number of female students.",
+                words: "total,sum,male,female"
+            },
+            {
+                sentence: "If you add the two numbers together, you can find the total number of students in Kenji's school.",
+                words: "add,total"
+            },
+            {
+                sentence: "Therefore, Kenji's school has 842 students, because 627 plus 215 equals 842.",
+                words: "Therefore,plus,equals"
+            }
+        ];
+        
+        const quizInfoEl = document.getElementById('quiz-info');
+        const quizSentenceEl = document.getElementById('quiz-sentence');
+        const answerContainer = document.getElementById('answer-container');
+        const answerPlaceholder = document.getElementById('answer-placeholder');
+        const answerSentenceEl = document.getElementById('answer-sentence');
+        const listenBtn = document.getElementById('listen-btn');
+        const nextQuizBtn = document.getElementById('next-quiz-btn');
+        const prevQuizBtn = document.getElementById('prev-quiz-btn');
+        const showWordsBtn = document.getElementById('show-words-btn');
+        const wordListModal = document.getElementById('word-list-modal');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+        const wordListEl = document.getElementById('word-list');
+
+        let currentQuizIndex = 0;
+        let processedSpeechSentence = '';
+        let isAnswerVisible = false;
+        
+        function updateStatus(elementId, isAvailable, message = '') {
+            const el = document.getElementById(elementId).querySelector('span');
+            if (isAvailable) {
+                el.textContent = message || '利用可能です';
+                el.classList.add('text-green-600');
+                el.classList.remove('text-red-600', 'text-yellow-600');
+            } else {
+                el.textContent = message || '利用できません';
+                el.classList.add('text-red-600');
+                el.classList.remove('text-green-600', 'text-yellow-600');
+            }
+        }
+
+
+        function generateQuiz(index) {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+            }
+
+            if (index >= quizData.length) {
+                quizSentenceEl.innerHTML = '<p class="text-center">すべての問題が完了しました！</p>';
+                quizInfoEl.textContent = `完了`;
+                answerContainer.style.display = 'none';
+                showWordsBtn.style.display = 'none';
+                listenBtn.disabled = true;
+                nextQuizBtn.textContent = '最初からやり直す';
+                currentQuizIndex = -1; 
+                prevQuizBtn.disabled = false;
+                prevQuizBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                return;
+            }
+            
+            answerContainer.style.display = 'flex';
+            showWordsBtn.style.display = 'block';
+            
+            answerSentenceEl.style.transition = 'none';
+            isAnswerVisible = false;
+            answerSentenceEl.classList.remove('fade-in');
+            answerSentenceEl.classList.add('fade-out');
+            void answerSentenceEl.offsetWidth;
+
+            if (index <= 0) {
+                prevQuizBtn.disabled = true;
+                prevQuizBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            } else {
+                prevQuizBtn.disabled = false;
+                prevQuizBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+            }
+
+            const currentQuiz = quizData[index];
+            const sentence = currentQuiz.sentence;
+            const wordsToHideStr = currentQuiz.words;
+            const wordsToHide = wordsToHideStr.split(',').map(word => word.trim()).filter(Boolean);
+            
+            const regex = new RegExp(`\\b(${wordsToHide.join('|')})\\b`, 'gi');
+            const quizSentence = sentence.replace(regex, (match) => '<u>' + '&nbsp;'.repeat(match.length) + '</u>');
+            const answerSentenceWithUnderline = sentence.replace(regex, (match) => `<u class="font-bold text-green-800 no-underline decoration-2 decoration-wavy">${match}</u>`);
+
+            let blankCounter = 0;
+            processedSpeechSentence = sentence.replace(regex, () => `|||空欄${blankCounter++ + 1}|||`);
+            
+            // ★★★ ここから高さ計算処理 ★★★
+            // 1. 一時的な要素を作成して、これから表示する答えの高さを計測
+            const tempAnswer = document.createElement('p');
+            tempAnswer.className = 'p-4 text-lg'; // 実際の答えの要素と同じスタイルを適用
+            tempAnswer.style.width = answerContainer.clientWidth + 'px'; // 横幅を合わせる（重要）
+            tempAnswer.style.visibility = 'hidden';
+            tempAnswer.style.position = 'absolute';
+            tempAnswer.innerHTML = answerSentenceWithUnderline;
+            document.body.appendChild(tempAnswer);
+            const answerHeight = tempAnswer.offsetHeight;
+            document.body.removeChild(tempAnswer);
+
+            // 2. プレースホルダーの高さを取得
+            const placeholderHeight = answerPlaceholder.offsetHeight;
+
+            // 3. 2つのうち大きい方の高さにコンテナの最小高さを設定
+            const requiredHeight = Math.max(answerHeight, placeholderHeight);
+            answerContainer.style.minHeight = requiredHeight + 'px';
+            // ★★★ ここまで高さ計算処理 ★★★
+
+            quizSentenceEl.innerHTML = quizSentence;
+            answerSentenceEl.innerHTML = answerSentenceWithUnderline;
+            quizInfoEl.textContent = `問題 ${index + 1} / ${quizData.length}`;
+            
+            answerSentenceEl.style.transition = 'opacity 0.3s ease-in-out';
+
+            if ('speechSynthesis' in window) {
+                listenBtn.disabled = false;
+            }
+            nextQuizBtn.textContent = '次の問題へ';
+        }
+        
+        answerContainer.addEventListener('click', () => {
+            isAnswerVisible = !isAnswerVisible;
+            answerSentenceEl.classList.toggle('fade-in', isAnswerVisible);
+            answerSentenceEl.classList.toggle('fade-out', !isAnswerVisible);
+        });
+
+        listenBtn.addEventListener('click', () => {
+            if (!('speechSynthesis' in window) || !processedSpeechSentence) return;
+            speechSynthesis.cancel();
+            
+            const speechSegments = processedSpeechSentence.split('|||').filter(part => part.trim() !== '');
+            let spokenCount = 0;
+
+            speechSegments.forEach(segment => {
+                const trimmedSegment = segment.trim();
+                const utterance = new SpeechSynthesisUtterance(trimmedSegment);
+                
+                if (/^空欄\d+$/.test(trimmedSegment)) {
+                    utterance.lang = 'ja-JP';
+                } else {
+                    utterance.lang = 'en-US';
+                }
+
+                utterance.onstart = () => { if (spokenCount === 0) { updateStatus('status-speech', true, '再生中...'); listenBtn.disabled = true; } };
+                utterance.onend = () => { spokenCount++; if (spokenCount === speechSegments.length) { updateStatus('status-speech', true); listenBtn.disabled = false; } };
+                utterance.onerror = () => { updateStatus('status-speech', false, 'エラー'); listenBtn.disabled = false; };
+                speechSynthesis.speak(utterance);
+            });
+        });
+
+        nextQuizBtn.addEventListener('click', () => {
+            currentQuizIndex = (currentQuizIndex === -1) ? 0 : currentQuizIndex + 1;
+            generateQuiz(currentQuizIndex);
+        });
+
+        prevQuizBtn.addEventListener('click', () => {
+             if (currentQuizIndex === -1) {
+                currentQuizIndex = quizData.length - 1;
+            } else if (currentQuizIndex > 0) {
+                currentQuizIndex--;
+            }
+            generateQuiz(currentQuizIndex);
+        });
+        
+        showWordsBtn.addEventListener('click', () => wordListModal.classList.remove('hidden'));
+        closeModalBtn.addEventListener('click', () => wordListModal.classList.add('hidden'));
+        wordListModal.addEventListener('click', (event) => {
+            if (event.target === wordListModal) {
+                wordListModal.classList.add('hidden');
+            }
+        });
+
+        window.onload = () => {
+            const isQuizAvailable = Array.isArray(quizData) && quizData.length > 0;
+            updateStatus('status-quiz', isQuizAvailable);
+            
+            const isSpeechAvailable = 'speechSynthesis' in window;
+            updateStatus('status-speech', isSpeechAvailable);
+            if (!isSpeechAvailable) {
+                listenBtn.disabled = true;
+                listenBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            }
+
+            const allWords = quizData.flatMap(quiz => quiz.words.split(',').map(word => word.trim()).filter(Boolean));
+            const isHintAvailable = allWords.length > 0;
+            updateStatus('status-hint', isHintAvailable);
+            updateStatus('status-nav', isQuizAvailable);
+
+            if (isHintAvailable) {
+                 const uniqueSortedWords = [...new Set(allWords)].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
+                wordListEl.innerHTML = '';
+                uniqueSortedWords.forEach(word => {
+                    const li = document.createElement('li');
+                    li.textContent = word;
+                    li.className = 'text-gray-700';
+                    wordListEl.appendChild(li);
+                });
+            }
+
+            if(isQuizAvailable) {
+                generateQuiz(currentQuizIndex);
+            } else {
+                quizSentenceEl.innerHTML = '<p class="text-center text-red-500">問題データが登録されていません。</p>';
+                [listenBtn, nextQuizBtn, prevQuizBtn, showWordsBtn, answerContainer].forEach(el => el.style.display = 'none');
+            }
+        };
+    </script>
+</body>
+</html>
+
+
