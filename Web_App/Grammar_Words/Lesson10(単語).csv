@@ -1,0 +1,41 @@
+questionId,question,answers,wrongChoices,explanation,ordered,generatedWrongChoices
+050e15f3-790c-4402-9b26-5bbee647b77a,飲み物,beverage,"","",0,0
+a5cfd64a-76c4-41c1-8611-0ee528416ee4,自然食品,organic food,"","",0,0
+02318903-6cc2-449c-a4c9-4c30fe8bfea3,加工食品,processed food,"","",0,0
+33473944-6172-4c2f-9ead-6b489dfd0f63,乳製品,dairy product,"","",0,0
+c43b3357-6e4a-44ac-a29e-f22645a45ceb,食物アレルギー,food allergy,"","",0,0
+79ee7a41-713c-454c-8331-b4baf8d9d273,菜食主義者,vegetarian,"","",0,0
+0ff54dfa-d5e8-4a0e-90a3-be8cf1505528,経済不況,economic depression,"","",0,0
+a9793416-8872-4a35-b273-97f663910610,景気後退,recession,"","",0,0
+f6bbbf5b-c559-4172-a822-9674ee6ed473,失業,unemployment,"","",0,0
+e3ca5352-46b0-40e0-9d4a-f6c836f40e0a,少子化・出生率低下,declining birthrate,"","",0,0
+8eb6fef0-2132-48c4-8b11-4409b13aee39,高齢化社会,aging society,"","",0,0
+57fee2dc-18c7-4f3c-9a1f-5611a7e716d3,寿命,life span,"","",0,0
+0309e1b1-65bd-483c-afc4-58e13b31c563,労働人口,workforce,"","",0,0
+1105ab61-13e5-4f2b-a2f1-1b4e94d8d460,労働力不足,labor shortage,"","",0,0
+e01ecdf2-7af3-4517-8be7-b1408d38e6a9,社会保障,social security,"","",0,0
+7fcf4a6b-0869-492c-a716-ac22191c9b09,介護,nursing care,"","",0,0
+d276923d-46f4-46b1-9bfa-987557b29d76,育児休暇,parental leave,"","",0,0
+a1c5b451-ce19-45bc-a5d1-6bf29b6c1a96,社会参加,social participation,"","",0,0
+e12c1ae8-c695-4186-87aa-b023e403e8b4,医療費,medical expenses,"","",0,0
+303e0cf9-0efb-4057-94e5-b31ee858e4b4,年金,pension,"","",0,0
+7bbd887a-936e-4fb9-8cfd-eacff93ff239,投票率,voter turnout,"","",0,0
+dff56003-51e7-4b3a-b345-5668c1be567b,選挙権年齢,voting age,"","",0,0
+d0514b51-c8da-4432-95c2-a39cce33340e,クローン,clone,"","",0,0
+74e81f84-02e1-4fb6-b670-7e5832cadfb5,受動喫煙,passive smoking,"","",0,0
+f8c287b1-f736-4efc-9ff2-7b884dc427ef,ワクチン,vaccine,"","",0,0
+8014f8e9-7274-4624-91d0-5b77bddaf44f,情報格差,digital divide,"","",0,0
+3c677171-7142-4b77-95ab-468407baaf1e,ネット犯罪,cybercrime,"","",0,0
+c5c0345e-d5a4-4089-ab48-c83b0d9872ae,罰金を科す,fine,"","",0,0
+66acdcaf-4541-4aac-8425-754965ee3e73,ゲーム依存症,video game addiction,"","",0,0
+e7d90c3a-d1e9-48f2-a0d5-37242e87bec7,住宅・住居,housing,"","",0,0
+18bc244b-2e8a-4c9c-b198-78c6811a3a88,都市部,urban area,"","",0,0
+b5b90cb5-dce3-4044-84d6-8450a6a8a941,郊外,suburb,"","",0,0
+7499010b-70a9-432e-b934-40005af76d91,田舎,rural area,"","",0,0
+6d303469-a619-49e2-8c4c-e510790ff110,アパート,apartment,"","",0,0
+3fd75986-5b34-48db-bfe4-abdaa47695e7,マンション,condominium,"","",0,0
+788cedbe-1e64-47e6-8831-b15101f1c289,仮設住宅,temporary housing,"","",0,0
+c66ec133-f9cb-4685-aafa-7be32f4b646a,広げる,spread,"","",0,0
+e1078353-1887-484b-b545-470ac4718afd,凍る,freeze,"","",0,0
+57d7c3fa-ddc4-4d22-aebe-cfd3b6cfe42f,沈下する,sink,"","",0,0
+2e53b78e-2b52-4d0c-a2ab-3b9802abdb69,分析,analysis,"","",0,0

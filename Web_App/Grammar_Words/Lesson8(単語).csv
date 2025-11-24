@@ -1,0 +1,41 @@
+questionId,question,answers,wrongChoices,explanation,ordered,generatedWrongChoices
+3ad01520-d731-4698-a786-1275d4d20573,言語,language,"","",0,0
+e6b1a8c1-3232-4324-a649-7187966d4fe0,母語,mother tongue,"","",0,0
+2fb521d9-7a4a-4f3f-b926-4c79961bbbab,外国語,foreign language,"","",0,0
+c41ae384-60cf-40a6-b197-718b136edbcc,方言,dialect,"","",0,0
+a27d4381-86fd-4381-9df7-1659cde9ed14,なまり,accent,"","",0,0
+79222742-40fa-44a4-821b-644e94793852,発音,pronunciation,"","",0,0
+353d2e94-43d5-4e72-9179-05890e9719c0,俗語,slang,"","",0,0
+04896e0e-33f6-4ae4-b0e4-4ceb1ba4356d,表現,expression,"","",0,0
+dd34c918-77c9-4fe1-9846-60a7aa4ac0a8,ことわざ,proverb,"","",0,0
+50bd4068-8db2-4a19-8019-a315d5c752b3,慣用句,idiom,"","",0,0
+1a26a871-3956-4c64-add9-45fa02d6f3ac,あいさつ,greeting,"","",0,0
+7eab7e07-51a1-4f23-b10e-4e41bccdbddf,母音,vowel,"","",0,0
+bd0ad645-911f-4a82-87ec-b37e9ebdb7fa,子音,consonant,"","",0,0
+1a9364ec-ce96-4fe7-9b1b-c6ca963c69b2,品詞,part of speech,"","",0,0
+a9628b43-9fda-4420-aa97-c080fd51c7cd,名詞,noun,"","",0,0
+d40986fa-7a4c-47ee-a98e-9ff117f5335f,動詞,verb,"","",0,0
+243ba566-7516-4e16-baef-05716dfb0e3d,形容詞,adjective,"","",0,0
+1b4cf5ee-189f-4244-a5d0-274e1b176859,副詞,adverb,"","",0,0
+93eda01e-e7e4-4fa5-8916-057510261239,前置詞,preposition,"","",0,0
+25835369-a640-4874-9434-1e502e88e772,接続詞,conjunction,"","",0,0
+db7e720b-ba46-47bd-9ede-f9210dda4462,服,clothes,"","",0,0
+4578c463-a977-4172-952d-f9f744f947a1,服を着る,get dressed,"","",0,0
+ac89a54b-e964-4f4f-9ed9-7ffd13fd74fb,着ている,wear,"","",0,0
+1f8cfc2f-6754-4189-ba29-fa526b0a4b34,着替える,change clothes,"","",0,0
+ce1052db-049c-4f68-a03c-6463ef8681b6,着る・身に付ける,put on ~,"","",0,0
+53f07aa5-4bbd-4ef7-b5ed-76c245db1a4c,脱ぐ,take off ~,"","",0,0
+389daf7b-9217-4c4a-9b7b-9993ee03b414,きつい,tight,"","",0,0
+a2df300a-98b7-4aee-b462-20d2e4742e3f,ゆるい,loose,"","",0,0
+23b40e09-8c70-4b7e-b3a8-ddb270bb9445,民族衣装,traditional dress,"","",0,0
+429a36ee-3911-4e3d-ae4f-37361a59c7af,半袖のシャツ,short-sleeved shirt,"","",0,0
+cb7d2499-13fc-4f7b-94f0-6ed4562ef943,長袖のシャツ,long-sleeved shirt,"","",0,0
+9aca47e9-24f0-4e6f-b06e-bc5a69006e94,ズボン,pants,"","",0,0
+bb20667e-c689-4463-89c6-a20ea207bf9b,半ズボン,shorts,"","",0,0
+b273c116-e317-439b-9de4-59eb057c83b0,靴,a pair of shoes,"","",0,0
+fed677ce-96ee-4fde-8bb4-3ac0ebec24f5,手袋,a pair of gloves,"","",0,0
+3f056035-0cdf-4a1f-a8c7-5ec89b5f099e,マフラー,scarf,"","",0,0
+ea87bd6a-b9c6-4109-9c1c-e4eb4eb4f352,帽子,hat,"","",0,0
+c1312315-24f9-4879-aa6c-ba5c9f2dca41,食文化,food culture,"","",0,0
+1ec02d95-d41e-41fb-b561-9b8ac1eafa4c,主食,staple food,"","",0,0
+58d85c37-0f47-4726-8307-f842725eb4eb,地元の料理,local cuisine,"","",0,0

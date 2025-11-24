@@ -1,0 +1,41 @@
+questionId,question,answers,wrongChoices,explanation,ordered,generatedWrongChoices
+a1fedb8a-f2a2-4de1-8c56-0f0b8a582233,和菓子,Japanese confectionery,"","",0,0
+2e849bf6-c868-47ce-a876-a6a126fddb56,あんこ,sweet bean paste,"","",0,0
+54dd26d6-8642-4c66-b138-ea5e8e8cf107,和食,Japanese food,"","",0,0
+94397766-c231-43db-96b8-302babf2a7e4,中華料理,Chinese food,"","",0,0
+c22ac91a-3107-44e6-92c9-f37cc549c41a,組織,organizations,"","",0,0
+989022c2-79fe-431f-8dad-c5eb75519b8d,先進国,advanced nation,"","",0,0
+8e18e44e-d14a-4ec1-9817-c4f9a82cad52,発展途上国,developing country,"","",0,0
+134f6d74-b601-4326-9d24-9ba94a4458b0,世界,the world,"","",0,0
+af0d7ec3-c984-41e7-8839-7de6121ce46f,国際連合,the United Nations,"","",0,0
+5b80bb52-abd9-4cfd-87ab-ced56a5d1789,非営利組織,nonprofit organization,"","",0,0
+972ce21a-5ab8-4ebf-a16f-2725fee0dcc7,政府,government,"","",0,0
+a1e5bd08-ec16-430d-99c2-4e9e531418b9,国際問題,international issue,"","",0,0
+3a99e1f7-0cd3-4ced-9ed6-278911427744,経済成長,economic growth,"","",0,0
+7d303372-304a-4e62-aab2-b9a0900af501,公共投資,public investment,"","",0,0
+51fa736b-de73-4599-88e0-4a95a1df2e10,インフラ,infrastructure,"","",0,0
+688c489f-21a2-4e05-a4a9-91dcf4d3c363,外交,diplomacy,"","",0,0
+c9a384fd-a8ee-4a86-9fe5-b8d64efe6758,福祉,welfare,"","",0,0
+0cd91d06-8bd0-4462-a4af-b8c04e7f508d,人道支援,humanitarian aid,"","",0,0
+65811e9b-a74b-4fbc-ace9-c6c3afb2a6ce,平和,peace,"","",0,0
+ce5b4a5b-d2c5-4196-8742-e60d30413f2a,内戦,civil war,"","",0,0
+acb550d5-94bd-4af9-b578-b908794641df,難民,refugee,"","",0,0
+7db8c80a-cbdd-4f9a-99a6-1a34b9de2590,軍事力,military force,"","",0,0
+74c75459-ea2e-4d2e-bb88-cfb429a7a461,軍縮,disarmament,"","",0,0
+b5bc2c44-0ffc-41ee-9b3a-413c86bf78e0,テロリズム,terrorism,"","",0,0
+546cd777-1e08-40f0-9199-de20f0301293,紛争,conflict,"","",0,0
+71b6a311-f03c-4f54-92da-824fba3a6d99,安全保障,security,"","",0,0
+b12ba499-3afb-4446-a3fe-1a52b3f9ca5a,交渉,negotiation,"","",0,0
+5dc88045-fd4a-4b67-a465-e2114df7d596,平和維持,peacekeeping,"","",0,0
+df7fcb7e-32cd-40af-8576-761f299c0be1,社会,society,"","",0,0
+c6bf5f65-ec94-4140-b1eb-b86777de4a05,不平等,inequality,"","",0,0
+08eb32a8-b576-41fa-8c2e-841409401526,人権,human rights,"","",0,0
+2946f0a9-c045-4ba2-b39d-f737a918c131,貧困,poverty,"","",0,0
+3f7aba08-6499-466a-a99f-448fbfdfd337,飢餓,hunger,"","",0,0
+8f043be3-adcf-4224-b42c-6b46703cbc7a,環境,environment,"","",0,0
+2f0694f6-3707-46c6-8a10-711a1715f2eb,気候変動,climate change,"","",0,0
+4c50318d-524f-47ad-8849-1c2ce2551a76,地球温暖化,global warming,"","",0,0
+8dcb46ca-2d8c-4f6e-adc4-1957b4f1ac9e,水不足,water shortage,"","",0,0
+7d9b8ff2-bc8f-4174-af39-97f9e213ac56,汚染,pollution,"","",0,0
+f6e7deb5-76d3-4163-9923-8a2ee100f623,天然資源,natural resource,"","",0,0
+bff2a6ee-a79a-4eae-a2ed-6a95ae193ad5,許す,forgive,"","",0,0

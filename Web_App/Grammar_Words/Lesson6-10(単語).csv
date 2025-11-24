@@ -1,0 +1,41 @@
+questionId,question,answers,wrongChoices,explanation,ordered,generatedWrongChoices
+759831ab-b572-4cdf-83ab-5dc8afb61386,病気,sickness,"","",0,0
+63ed4611-2555-442c-b8ef-8f9c7c57a695,腹痛,stomachache,"","",0,0
+4efb1f74-ca57-4906-8f19-7f8801d2d2bf,風邪を引く,catch a cold,"","",0,0
+ef0ebd43-3092-4f48-bbfe-b7b3dbeb76a7,風邪を引いている,have a cold,"","",0,0
+3c686ea3-7193-47b9-8dc6-21df9f2fd93b,熱がある,have a fever,"","",0,0
+af7d4966-b29e-4450-82c7-cac242169e39,痛みがある,have an ache,"","",0,0
+e12b72de-8e0c-4741-abbe-578ab8c7a1a1,気分が良くなる,feel better,"","",0,0
+39de0058-619d-4bca-a2d8-b9e9e3b017b5,怪我,injury,"","",0,0
+a6585b8f-b80c-465f-8df8-d02a2d749276,怪我をする,get hurt,"","",0,0
+a6410c8c-a821-4456-a553-887e58dae09e,指を切る,cut one's finger,"","",0,0
+6f8ce8f2-d524-472b-bb7c-3342bdbee02f,手をやけどする,burn one's hand,"","",0,0
+f77a94b0-0340-445b-ad26-e157e43777ed,足を折る,break one's leg,"","",0,0
+37d81a3e-ac78-43c4-a208-03f4a4530cae,手術を受ける,have an operation,"","",0,0
+81777afa-afaf-4a2c-a8e9-6a14783e59dd,内科医,physician,"","",0,0
+1f09161d-c9a4-4b5e-9da7-dded278e185f,外科医,surgeon,"","",0,0
+3efb4360-0b23-4a4d-955d-ad42dcdb57ea,患者,patient,"","",0,0
+70f8250d-bb88-4d7c-ba57-f3aa4c1081e1,医者に診てもらう,see a doctor,"","",0,0
+8ae8f985-61a4-49b2-a382-c2dc375545be,熱を測る,take one's temperature,"","",0,0
+f7371fdc-c69a-417b-928d-b2cf8f88e202,薬を飲む,take medicine,"","",0,0
+910ea45c-309a-4548-a011-8cf17c280f33,入院している,be in the hospital,"","",0,0
+b9119dc4-b2da-4125-ba11-064c0fea643e,習慣,habit,"","",0,0
+6aa26c22-3d45-4b4d-ba54-8f7a7eada6bb,脳,brain,"","",0,0
+0a1415d1-8989-4c49-a48b-ba1900991cad,内容,content,"","",0,0
+8d1285f4-2a6f-4cdf-96ea-6c4361382051,重要な,significant,"","",0,0
+a5242cbd-7262-40e7-9184-16026bde88e3,根本的な、基本となる,fundamental,"","",0,0
+a5c25a34-b05b-4de5-b95f-0bcf2cbbf834,可能性,potential,"","",0,0
+cea294ec-d3bd-4eb1-aee0-3d2a2cb29720,経済,economy,"","",0,0
+95649e95-71fc-4c5c-8127-49bbae6f34b3,電話,telephone,"","",0,0
+639d68c4-fe9f-4e11-973b-299fa49ac91f,通話,a phone call,"","",0,0
+2596f4ed-439e-40ab-af7b-42b3be9c706f,電話をする,make a phone call,"","",0,0
+6cc03170-1086-4287-b7cf-3581f1f15ceb,電話に出る,answer the phone,"","",0,0
+04cafda2-27c0-42dc-bcef-3cb0622a2240,電話を切る,hang up the phone,"","",0,0
+1e30ef0a-5fb4-46f5-a5e6-c4b21bb6c104,後で電話を下さい,Call me back later.,"","",0,0
+9bdae0e7-7ada-4426-94ac-3d0ac5c321d5,お電話ありがとう,Thanks for calling.,"","",0,0
+89f292e2-25b7-466e-8d9c-f7807acb3db3,携帯電話,mobile phone,"","",0,0
+aea6564b-476b-434c-a8ef-302146f7a275,アドレス帳,address book,"","",0,0
+3be32a78-744d-4560-aa90-b7bf18d36f9e,メッセージを残す,leave a message,"","",0,0
+b258aad2-8466-4a40-a668-c52886cd10d1,充電する,charge the battery,"","",0,0
+6e9e93bd-4b3c-4834-ac46-274a1ba1a544,メッセージを送る,send a text message,"","",0,0
+91bb7dc7-2914-4516-aa09-0c024eaeb9aa,注ぐ,pour,"","",0,0

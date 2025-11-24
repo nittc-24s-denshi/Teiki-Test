@@ -18,17 +18,17 @@
             }
           },
           {
-            "id": "92877cc2e7fd56f0",
+            "id": "00ac1dfa64b9a9ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/02/線形代数/線形代数_ ベクトルの内積.md",
+                "file": "2025/03/文法要点まとめ_最終版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "線形代数_ ベクトルの内積"
+              "title": "文法要点まとめ_最終版"
             }
           }
         ],
@@ -168,8 +168,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "アクティブでなくなったプラグイン"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -182,6 +182,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -191,8 +192,13 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "92877cc2e7fd56f0",
+  "active": "00ac1dfa64b9a9ca",
   "lastOpenFiles": [
+    "2025/03/Reading文法ノート.md",
+    "2025/03/文法要点まとめ_最終版.md",
+    "2025/03/Axel単語.csv",
+    "2025/03/Clues単語.csv",
+    "2025/02/線形代数/線形代数_ ベクトルの内積.md",
     "2025/01/化学/科学教科書.pdf",
     "2025/01/化学/科学ノート(諦め).md",
     "2025/01/化学/化学 まとめノート（テスト直前確認用）.pdf",
@@ -200,7 +206,6 @@
     "2025/01/化学/ノート.pdf",
     "2025/01/化学",
     "2025/02/線形代数/教科書.md",
-    "2025/02/線形代数/線形代数_ ベクトルの内積.md",
     "2025/02/線形代数/参考資料/授業ノート/21_線形1_授業ノート_8(内積).pdf",
     "2025/01/Reading/目次.md",
     "lite-version-for-gemini/Reading/AXEL_解答.md",
@@ -211,12 +216,9 @@
     "2025/01/範囲表(内容).md",
     "2025/01/OralCommunication/Conversation.md",
     "2025/01/OralCommunication/目次.md",
-    "2025/01/Grammar&Writing/生データ/問題.pdf",
     "2025/01/Grammar&Writing/目次.md",
     "2025/01/Grammar&Writing/文法事項.md",
     "2025/01/Grammar&Writing/重要箇所.md",
-    "2025/01/Grammar&Writing/生データ/教科書.pdf",
-    "2025/01/Grammar&Writing/生データ",
     "2025/01/Grammar&Writing/教科書.md",
     "2025/01/Grammar&Writing/ノートまとめ.md",
     "tmp/screencapture-gemini-google-app-f1b2564f64d76a10-2025-05-28-11_49_55-2.png",
@@ -231,7 +233,6 @@
     "README.md",
     "2025/01/社会と文化から見る歴史/output.md",
     "2025/01/ディジタル回路/授業資料/授業資料0519.md",
-    "2025/01/ディジタル回路/授業資料/授業資料0519(済).md",
-    "2025/01/ディジタル回路/授業資料/授業資料0512(済).md"
+    "2025/01/ディジタル回路/授業資料/授業資料0519(済).md"
   ]
 }
