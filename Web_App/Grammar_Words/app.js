@@ -15,6 +15,8 @@ class VocabularyApp {
             'Oral-Lesson6-Vocabulary.csv',
             'Oral-Lesson7-Vocabulary.csv',
             'Oral-Lesson8-Vocabulary.csv',
+            'Oral-Lesson9-Vocabulary.csv',
+            'Oral-Lesson10-Vocabulary.csv',
             'Japanese_Imi.csv',
             'Japanese_Kanji.csv'
         ];
