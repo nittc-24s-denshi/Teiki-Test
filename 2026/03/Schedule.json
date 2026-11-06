@@ -1,0 +1,5 @@
+{
+  "date": null,
+  "note": "科目別の試験日時は未定（TBD）。公式日程が届き次第、date と subjectLists を記入する。暦の窓は 2026-11-24〜2026-11-30 JST（後期中間）であり、各科目の開始・終了時刻は未定。形は 2025/01/Schedule.json の date と subjectLists に合わせた空の置き場。",
+  "subjectLists": []
+}
