@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question Bank — 構造化問題</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="top">
+      <div>
+        <h1>Question Bank</h1>
+        <p class="sub" id="metaLine">構造化 JSON を読み込む汎用テスト対策</p>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="テーマ切替">☾</button>
+    </header>
+
+    <section class="controls" aria-label="絞り込み">
+      <label>科目
+        <select id="subjectFilter"></select>
+      </label>
+      <label>単元
+        <select id="unitFilter"></select>
+      </label>
+      <label>形式
+        <select id="formFilter">
+          <option value="all">すべて</option>
+          <option value="flashcard">フラッシュカード</option>
+          <option value="multiple_choice">選択式</option>
+          <option value="cloze">穴埋め</option>
+          <option value="short_answer">短答</option>
+          <option value="calculation">計算</option>
+          <option value="other">その他</option>
+        </select>
+      </label>
+      <label>出題モード
+        <select id="modeSelect">
+          <option value="study">学習（即表示可）</option>
+          <option value="quiz">確認（解答隠し）</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="onlyUncertain"> 推定/未確認のみ</label>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <main id="card" class="card" hidden>
+      <div class="badges" id="badges"></div>
+      <div class="qid" id="qid"></div>
+      <div class="unit-line" id="unitLine"></div>
+      <div class="stem" id="stem"></div>
+      <div class="choices" id="choices"></div>
+      <div class="actions">
+        <button type="button" id="showAnswer" class="primary">解答を表示</button>
+        <button type="button" id="prevBtn">前へ</button>
+        <button type="button" id="nextBtn">次へ</button>
+      </div>
+      <div class="answer-block" id="answerBlock" hidden>
+        <h2>解答 <span id="answerBadge"></span></h2>
+        <div id="answer"></div>
+        <h2>解説 <span id="explBadge"></span></h2>
+        <div id="explanation"></div>
+        <div id="conflicts" class="conflicts"></div>
+        <div id="sources" class="sources"></div>
+      </div>
+    </main>
+
+    <p id="empty" class="empty">データを読み込み中…</p>
+    <footer class="foot">
+      <a href="../index.html">ポータルへ</a>
+      · data: <code>data/questions.json</code>
+      · schema v1.0.0
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

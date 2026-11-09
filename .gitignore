@@ -1,3 +1,6 @@
 Web_App/Grammar_Words/node_modules
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+__pycache__/
+*.py[cod]
+.pytest_cache/

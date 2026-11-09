@@ -1,0 +1,47 @@
+[
+  {
+    "id": "SAMPLE-MC-001",
+    "unit": "基礎計算（仮）",
+    "form": "multiple_choice",
+    "tags": [
+      "仮",
+      "math"
+    ],
+    "stem": "仮：$1+1$ の値はどれか。",
+    "stem_status": "original",
+    "answer": "C",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "choices": [
+      {
+        "key": "A",
+        "text": "$0$",
+        "status": "original"
+      },
+      {
+        "key": "B",
+        "text": "$1$",
+        "status": "original"
+      },
+      {
+        "key": "C",
+        "text": "$2$",
+        "status": "original"
+      },
+      {
+        "key": "D",
+        "text": "$3$",
+        "status": "original"
+      }
+    ]
+  }
+]

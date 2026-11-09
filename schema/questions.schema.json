@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nittc-24s-denshi/Teiki-Test/schema/questions.schema.json",
+  "title": "Teiki structured questions",
+  "description": "定期テスト対策用の構造化問題データ。原文/推定/未確認を区別する。",
+  "type": "object",
+  "required": ["schema_version", "exam", "subject", "questions"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "exam": {
+      "type": "string",
+      "description": "YYYY/NN",
+      "pattern": "^[0-9]{4}/[0-9]{2}$"
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "description": "ISO 8601。個人名は含めない。"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "reliabilityStatus": {
+      "type": "string",
+      "enum": ["original", "inferred", "unverified"]
+    },
+    "provenanceValue": {
+      "type": "object",
+      "required": ["value", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "description": "文字列または構造化可能な JSON 値（数式は LaTeX 文字列可）"
+        },
+        "status": { "$ref": "#/$defs/reliabilityStatus" },
+        "rationale": {
+          "type": "string",
+          "description": "status=inferred のとき必須（検証スクリプトでも確認）"
+        },
+        "tools": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "補完・抽出に使ったツール名"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "inferred" } },
+            "required": ["status"]
+          },
+          "then": {
+            "required": ["rationale", "tools"],
+            "properties": {
+              "tools": { "minItems": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "sourceRef": {
+      "type": "object",
+      "required": ["file"],
+      "additionalProperties": false,
+      "properties": {
+        "file": {
+          "type": "string",
+          "description": "元ファイル（通常 RAW/ からの相対またはファイル名）"
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "figureRef": {
+      "type": "object",
+      "required": ["path"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "type": "string" },
+        "caption": { "$ref": "#/$defs/provenanceValue" },
+        "page": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "correction": {
+      "type": "object",
+      "required": ["field", "before", "after", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "field": { "type": "string" },
+        "before": {},
+        "after": {},
+        "reason": { "type": "string" }
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "required": ["field", "values", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "field": { "type": "string" },
+        "values": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["value", "source"],
+            "additionalProperties": false,
+            "properties": {
+              "value": {},
+              "source": { "type": "string" },
+              "status": { "$ref": "#/$defs/reliabilityStatus" }
+            }
+          }
+        },
+        "reason": { "type": "string" }
+      }
+    },
+    "choice": {
+      "type": "object",
+      "required": ["key", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string" },
+        "text": { "$ref": "#/$defs/provenanceValue" }
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "unit", "form", "stem", "answer", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "科目内で一意"
+        },
+        "unit": {
+          "type": "string",
+          "description": "単元名"
+        },
+        "form": {
+          "type": "string",
+          "enum": [
+            "short_answer",
+            "multiple_choice",
+            "cloze",
+            "true_false",
+            "calculation",
+            "essay",
+            "flashcard",
+            "other"
+          ]
+        },
+        "stem": { "$ref": "#/$defs/provenanceValue" },
+        "choices": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/choice" }
+        },
+        "answer": { "$ref": "#/$defs/provenanceValue" },
+        "explanation": { "$ref": "#/$defs/provenanceValue" },
+        "figures": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/figureRef" }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sourceRef" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "corrections": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/correction" }
+        },
+        "conflicts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/conflict" }
+        }
+      }
+    }
+  }
+}

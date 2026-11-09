@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "exam": "2026/03",
+  "subject": "サンプル科目（仮）",
+  "questions": [
+    {
+      "id": "SAMPLE-IHATOV-001",
+      "unit": "イーハトーブ文学（仮）",
+      "form": "short_answer",
+      "stem": {
+        "value": "仮：二人の若い紳士が連れていた、白熊のような動物は何か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "犬",
+        "status": "original"
+      },
+      "explanation": {
+        "value": "『注文の多い料理店』冒頭「白熊のような犬を二疋」。",
+        "status": "inferred",
+        "rationale": "青空文庫パブリックドメイン抜粋からの要約",
+        "tools": [
+          "manual"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "イーハトーブ"
+      ],
+      "corrections": [
+        {
+          "field": "stem.value",
+          "before": "白熊の様な",
+          "after": "白熊のような",
+          "reason": "現代仮名遣いに統一"
+        }
+      ]
+    }
+  ]
+}

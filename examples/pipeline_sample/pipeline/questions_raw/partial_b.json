@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0.0",
+  "exam": "2026/03",
+  "subject": "サンプル科目（仮）",
+  "questions": [
+    {
+      "id": "SAMPLE-IHATOV-001b",
+      "unit": "イーハトーブ文学（仮）",
+      "form": "short_answer",
+      "stem": {
+        "value": "仮：二人の若い紳士が連れていた、白熊のような動物は何か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "犬（二疋）",
+        "status": "inferred",
+        "rationale": "別プリントでは頭数も解答に含めていた",
+        "tools": [
+          "Gemini"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov_alt.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "イーハトーブ"
+      ]
+    },
+    {
+      "id": "SAMPLE-MATH-001",
+      "unit": "基礎計算（仮）",
+      "form": "calculation",
+      "stem": {
+        "value": "仮：次を計算せよ。 $3+4$",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$7$",
+        "status": "original"
+      },
+      "explanation": {
+        "value": "整数の和。検算: $7-4=3$。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "仮",
+        "math"
+      ]
+    },
+    {
+      "id": "SAMPLE-MC-001",
+      "unit": "基礎計算（仮）",
+      "form": "multiple_choice",
+      "stem": {
+        "value": "仮：$1+1$ の値はどれか。",
+        "status": "original"
+      },
+      "choices": [
+        {
+          "key": "A",
+          "text": {
+            "value": "$0$",
+            "status": "original"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "value": "$1$",
+            "status": "original"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "value": "$2$",
+            "status": "original"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "value": "$3$",
+            "status": "original"
+          }
+        }
+      ],
+      "answer": {
+        "value": "C",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "仮",
+        "math"
+      ]
+    },
+    {
+      "id": "SAMPLE-EN-001",
+      "unit": "語彙（仮）",
+      "form": "flashcard",
+      "stem": {
+        "value": "Ihatov",
+        "status": "original"
+      },
+      "answer": {
+        "value": "イーハトーブ",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "english",
+        "vocab"
+      ]
+    },
+    {
+      "id": "SAMPLE-CLOZE-001",
+      "unit": "イーハトーブ文学（仮）",
+      "form": "cloze",
+      "stem": {
+        "value": "仮：ぜんたい、ここらの山は{{怪しからん}}ね。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "怪しからん",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "cloze"
+      ]
+    }
+  ]
+}

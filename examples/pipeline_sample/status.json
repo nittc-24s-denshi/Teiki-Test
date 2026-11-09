@@ -1,0 +1,17 @@
+{
+  "exam": "2026/03",
+  "subject": "サンプル科目（仮）",
+  "updated": "2026-11-09T08:01:08Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": true,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true
+  },
+  "notes": "examples/pipeline_sample の通し実行結果。公式範囲ではない。"
+}

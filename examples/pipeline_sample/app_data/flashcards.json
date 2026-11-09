@@ -1,0 +1,149 @@
+[
+  {
+    "id": "SAMPLE-IHATOV-001",
+    "unit": "イーハトーブ文学（仮）",
+    "form": "short_answer",
+    "tags": [
+      "仮",
+      "イーハトーブ"
+    ],
+    "stem": "仮：二人の若い紳士が連れていた、白熊のような動物は何か。",
+    "stem_status": "original",
+    "answer": "犬",
+    "answer_status": "original",
+    "explanation": "『注文の多い料理店』冒頭「白熊のような犬を二疋」。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 1
+      },
+      {
+        "file": "RAW/sample_ihatov_alt.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [
+      {
+        "field": "answer",
+        "values": [
+          {
+            "value": "犬",
+            "source": "RAW/sample_ihatov.pdf:p1",
+            "status": "original"
+          },
+          {
+            "value": "犬（二疋）",
+            "source": "RAW/sample_ihatov_alt.pdf:p1",
+            "status": "inferred"
+          }
+        ],
+        "reason": "同一または類似問題で解答が不一致"
+      }
+    ],
+    "front": "仮：二人の若い紳士が連れていた、白熊のような動物は何か。",
+    "back": "犬"
+  },
+  {
+    "id": "SAMPLE-MATH-001",
+    "unit": "基礎計算（仮）",
+    "form": "calculation",
+    "tags": [
+      "仮",
+      "math"
+    ],
+    "stem": "仮：次を計算せよ。 $3+4$",
+    "stem_status": "original",
+    "answer": "$7$",
+    "answer_status": "original",
+    "explanation": "整数の和。検算: $7-4=3$。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "仮：次を計算せよ。 $3+4$",
+    "back": "$7$"
+  },
+  {
+    "id": "SAMPLE-MC-001",
+    "unit": "基礎計算（仮）",
+    "form": "multiple_choice",
+    "tags": [
+      "仮",
+      "math"
+    ],
+    "stem": "仮：$1+1$ の値はどれか。",
+    "stem_status": "original",
+    "answer": "C",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "仮：$1+1$ の値はどれか。",
+    "back": "C"
+  },
+  {
+    "id": "SAMPLE-EN-001",
+    "unit": "語彙（仮）",
+    "form": "flashcard",
+    "tags": [
+      "仮",
+      "english",
+      "vocab"
+    ],
+    "stem": "Ihatov",
+    "stem_status": "original",
+    "answer": "イーハトーブ",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "Ihatov",
+    "back": "イーハトーブ"
+  },
+  {
+    "id": "SAMPLE-CLOZE-001",
+    "unit": "イーハトーブ文学（仮）",
+    "form": "cloze",
+    "tags": [
+      "仮",
+      "cloze"
+    ],
+    "stem": "仮：ぜんたい、ここらの山は{{怪しからん}}ね。",
+    "stem_status": "original",
+    "answer": "怪しからん",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "仮：ぜんたい、ここらの山は{{怪しからん}}ね。",
+    "back": "怪しからん"
+  }
+]

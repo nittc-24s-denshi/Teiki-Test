@@ -1,0 +1,18 @@
+{
+  "source_id": "sample_ihatov",
+  "input": "/agent/repos/Teiki-Test/examples/pipeline_sample/RAW/sample_ihatov.pdf",
+  "page_count": 2,
+  "embedded_images": 0,
+  "pages": [
+    "pages/sample_ihatov_p001.pdf",
+    "pages/sample_ihatov_p002.pdf"
+  ],
+  "images": [
+    "images/pages/sample_ihatov_p001.png",
+    "images/pages/sample_ihatov_p002.png"
+  ],
+  "transcripts": [
+    "transcripts/sample_ihatov_p001.md",
+    "transcripts/sample_ihatov_p002.md"
+  ]
+}

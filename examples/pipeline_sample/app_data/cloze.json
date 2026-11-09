@@ -1,0 +1,26 @@
+[
+  {
+    "id": "SAMPLE-CLOZE-001",
+    "unit": "イーハトーブ文学（仮）",
+    "form": "cloze",
+    "tags": [
+      "仮",
+      "cloze"
+    ],
+    "stem": "仮：ぜんたい、ここらの山は{{怪しからん}}ね。",
+    "stem_status": "original",
+    "answer": "怪しからん",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/sample_ihatov.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "template": "仮：ぜんたい、ここらの山は{{怪しからん}}ね。"
+  }
+]

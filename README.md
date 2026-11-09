@@ -29,15 +29,25 @@
 
 ```
 Teiki-test/
-├── 2025/                ... 各年度・教科ごとの教材・ノート・単語リスト
+├── 2025/ 2026/          ... 各年度・教科ごとの教材・ノート・単語リスト
 │   └── [回数]/[教科]/     ... PDF, Markdown, CSV, Word, PowerPoint等
 ├── Web_App/
-│   └── Grammar_Words/   ... 英単語学習Webアプリ（HTML/CSS/JS/CSV）
+│   ├── Grammar_Words/   ... 英単語学習Webアプリ（HTML/CSS/JS/CSV）
+│   └── Question_Bank/   ... 構造化 JSON 対応の汎用問題アプリ
+├── AGENTS.md            ... 全 AI エージェント向け入口（パイプライン・skill）
+├── docs/pipeline/       ... 教材自動処理パイプライン手順
+├── schema/              ... 問題データ JSON Schema
+├── tools/               ... PDF 処理・検証・アプリデータ生成（Python）
+├── examples/            ... パイプライン通しサンプル（仮本文）
 ├── specification.md     ... システム全体の仕様書
 ├── Application-Concept.txt ... 開発コンセプト・設計思想
 ├── .obsidian/           ... Obsidian用設定（ノート管理用）
 └── .trash/              ... ゴミ箱（不要ファイル一時保管）
 ```
+
+### 教材パイプライン・エージェント向け案内
+
+PDF 教材の取り込み〜構造化〜検証〜コミット、および対策アプリ用データ生成は [`AGENTS.md`](AGENTS.md) を起点に、`docs/pipeline/` と `.cursor/skills/` を参照してください（Cursor / Codex / Claude / Gemini 共通）。
 
 ---
 
@@ -48,6 +58,11 @@ Teiki-test/
 - `Web_App/Grammar_Words/index.html` をブラウザで開くだけで利用可能
 - 単語リスト（CSV）は自由に追加・編集可能
 - 詳細は `Web_App/Grammar_Words/README.md` を参照
+
+### 1b. 構造化問題アプリ（Question Bank）
+
+- `Web_App/Question_Bank/index.html` を開く（`data/questions.json` を読み込み）
+- 科目・単元・形式の絞り込み、数式表示、推定/未確認バッジに対応
 
 ### 2. 教材・ノート管理
 
