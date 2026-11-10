@@ -1,0 +1,23 @@
+{
+  "id": "PS-L3-DEF-reg",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "flashcard",
+  "stem": {
+    "value": "最小二乗法による回帰直線 $\\hat{y}=ax+b$ の傾き・切片を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$a=c_{xy}/v_x$（または $a=r s_y/s_x$），$b=\\bar{y}-a\\bar{x}$。必ず点$(\\bar{x},\\bar{y})$を通る。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "回帰直線",
+    "定義"
+  ]
+}

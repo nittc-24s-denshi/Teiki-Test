@@ -1,0 +1,37 @@
+{
+  "id": "PS-L3-E2",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習2】データBについて平均を求め、偏差表を完成させて共分散を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\bar{x}=6$，$\\bar{y}=8$；積和の計=-28；$c_{xy}=-28/6=-14/3\\approx-4.67$（手書きは-4.67）",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。表の各セルをページ画像で照合。厳密値-14/3。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 12
+    }
+  ],
+  "tags": [
+    "演習",
+    "共分散"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "-4.67 のみ",
+      "after": "-14/3（≈-4.67）を併記",
+      "reason": "検算。手書きは小数近似"
+    }
+  ]
+}

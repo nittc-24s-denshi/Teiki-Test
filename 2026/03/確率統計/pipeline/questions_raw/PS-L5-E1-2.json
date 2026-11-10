@@ -1,0 +1,29 @@
+{
+  "id": "PS-L5-E1-2",
+  "unit": "第5回 反復試行・条件付き確率・乗法定理",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習1(2)】コインを5枚投げる時、一度は表が出る確率を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$1-1/2^5=31/32$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。全裏の余事象。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 19
+    }
+  ],
+  "tags": [
+    "演習",
+    "反復試行"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "PS-META-TRANSCRIPT-QC",
+  "unit": "メタ（文字起こし訂正）",
+  "form": "other",
+  "stem": {
+    "value": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 1,
+      "note": "メタ"
+    }
+  ],
+  "tags": [
+    "meta",
+    "corrections"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:p2.example.rel_freq",
+      "before": "0.475",
+      "after": "0.375",
+      "reason": "ページ画像照合。例表 度数3/8=0.375。Gemini誤読"
+    },
+    {
+      "field": "transcript:p9.margin_data",
+      "before": "62, 67, 64, 66, 65, 61",
+      "after": "62, 63, 64, 66, 65, 61",
+      "reason": "ページ画像照合。余白メモの第2数が63"
+    },
+    {
+      "field": "transcript:p9.margin_xbar2",
+      "before": "149225/36",
+      "after": "148225/36",
+      "reason": "ページ画像照合。余白計算の分子は148225"
+    },
+    {
+      "field": "transcript:p16.A_cap_B",
+      "before": "A ∩ B = {{∅}}",
+      "after": "A ∩ B = ∅",
+      "reason": "ページ画像照合。空集合記号。{∅}ではない"
+    },
+    {
+      "field": "transcript:p16.ex2_even",
+      "before": "P(B̄)=3/4 等の断片的表記",
+      "after": "P(B)=9/36=1/4（偶×偶）",
+      "reason": "ページ画像照合。偶偶の場合の数3×3=9を明記"
+    },
+    {
+      "field": "transcript:p12.cxy",
+      "before": "-4.67（手書き通り）",
+      "after": "-4.67（手書き）。厳密値は -28/6 = -14/3",
+      "reason": "検算。手書きは小数近似。解答では厳密値も併記"
+    },
+    {
+      "field": "transcript:p8.total_dev",
+      "before": "計の (x-x̄)=2, (x-x̄)²=30",
+      "after": "手書き通り保持。加重和 Σf(x-x̄)=0 が正しいが、表の計欄は非加重の列和を書いた模様",
+      "reason": "ページ画像照合。最終の Σf(x-x̄)²=32 と分散4は正しい"
+    },
+    {
+      "field": "transcript:p2.class_upper",
+      "before": "70〜80 に手書き79",
+      "after": "70〜79（手書きで80を訂正）",
+      "reason": "ページ画像照合。階級上限の訂正記入"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "PS-L5-E5",
+  "unit": "第5回 反復試行・条件付き確率・乗法定理",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習5】(1)雨の日0.4。雨のとき遅刻0.2・晴れのとき0.05。遅刻の確率。(2)予報が雨・晴れとも正答率0.8のとき、雨と予報する確率。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入・未確認）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 22,
+      "note": "演習5 未記入"
+    }
+  ],
+  "tags": [
+    "演習",
+    "乗法定理",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "注: プリント脚注どおり『予報が0.8で正しい』だけでは雨予報確率は一意に定まらない、という注意あり。",
+    "status": "original"
+  }
+}

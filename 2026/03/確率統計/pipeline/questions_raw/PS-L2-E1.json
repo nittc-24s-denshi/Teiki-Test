@@ -1,0 +1,39 @@
+{
+  "id": "PS-L2-E1",
+  "unit": "第2回 分散と標準偏差",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習1】値3,5,6,8,10（度数1,3,2,1,1）のデータのレンジ・分散・標準偏差を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "平均6；レンジ7；分散4；標準偏差2",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。Σf(x-x̄)²=32，v=32/8=4，s=2，R=10-3=7。ページ画像の表と一致。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 8,
+      "note": "演習1（p.7-8）"
+    }
+  ],
+  "tags": [
+    "演習",
+    "分散",
+    "標準偏差"
+  ],
+  "corrections": [
+    {
+      "field": "answer.table_total",
+      "before": "計欄 (x-x̄)=2, (x-x̄)²=30",
+      "after": "手書きの計欄は非加重列和。分散計算に使う Σf(x-x̄)²=32 は正しい",
+      "reason": "原本照合・検算"
+    }
+  ]
+}

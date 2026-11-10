@@ -1,0 +1,34 @@
+{
+  "exam": "2026/03",
+  "subject": "確率統計",
+  "updated": "2026-11-10T23:43:54Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": false,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 53,
+    "corrections": 8,
+    "unverified": 8,
+    "inferred_answers": 29
+  },
+  "unverified_ids": [
+    "PS-L1-E3-table",
+    "PS-L1-E6-table",
+    "PS-L1-E6-reps",
+    "PS-L1-E7-table",
+    "PS-L1-E7-reps",
+    "PS-L5-E3-2",
+    "PS-L5-E4",
+    "PS-L5-E5"
+  ],
+  "notes": "進捗: 整備中。schema検証済み。空欄穴埋めは未実施（filled=false / unverified残）。公式範囲表は未入手。Question Bank catalog に ps_2026_03 を登録。"
+}

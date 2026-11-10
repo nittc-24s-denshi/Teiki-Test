@@ -1,0 +1,35 @@
+{
+  "id": "PS-L1-E6-table",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習6-1】小テスト20人データについて4点刻み5階級の度数分布表（階級値・度数・相対度数・累積度数）を完成させよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入・未確認）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 5,
+      "note": "演習6 表未記入"
+    }
+  ],
+  "tags": [
+    "演習",
+    "度数分布表",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex6_hist_axes.png",
+      "page": 5,
+      "caption": {
+        "value": "演習6用ヒストグラム座標軸（空）",
+        "status": "original"
+      }
+    }
+  ]
+}

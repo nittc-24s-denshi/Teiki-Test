@@ -1,0 +1,24 @@
+{
+  "id": "PS-L2-DEF-vsd",
+  "unit": "第2回 分散と標準偏差",
+  "form": "flashcard",
+  "stem": {
+    "value": "レンジ $R$、分散 $v_x$、標準偏差 $s_x$ の定義を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$R=(\\text{最大})-(\\text{最小})$，$v_x=\\frac{1}{n}\\sum(x_i-\\bar{x})^2$，$s_x=\\sqrt{v_x}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 7
+    }
+  ],
+  "tags": [
+    "分散",
+    "標準偏差",
+    "定義"
+  ]
+}

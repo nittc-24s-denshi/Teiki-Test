@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fig_ex3_phone_axes",
+    "path": "pipeline/images/figures/fig_ex3_phone_axes.png",
+    "page": 3,
+    "box_frac": [
+      0.05,
+      0.5,
+      0.95,
+      0.74
+    ],
+    "size": [
+      912,
+      396
+    ]
+  },
+  {
+    "id": "fig_ex4_hist_40",
+    "path": "pipeline/images/figures/fig_ex4_hist_40.png",
+    "page": 3,
+    "box_frac": [
+      0.05,
+      0.76,
+      0.95,
+      0.96
+    ],
+    "size": [
+      912,
+      330
+    ]
+  },
+  {
+    "id": "fig_ex6_hist_axes",
+    "path": "pipeline/images/figures/fig_ex6_hist_axes.png",
+    "page": 5,
+    "box_frac": [
+      0.08,
+      0.58,
+      0.92,
+      0.9
+    ],
+    "size": [
+      888,
+      529
+    ]
+  },
+  {
+    "id": "fig_ex7_hist_axes",
+    "path": "pipeline/images/figures/fig_ex7_hist_axes.png",
+    "page": 6,
+    "box_frac": [
+      0.08,
+      0.55,
+      0.92,
+      0.88
+    ],
+    "size": [
+      902,
+      545
+    ]
+  },
+  {
+    "id": "fig_ex1_scatter_A",
+    "path": "pipeline/images/figures/fig_ex1_scatter_A.png",
+    "page": 11,
+    "box_frac": [
+      0.55,
+      0.32,
+      0.97,
+      0.58
+    ],
+    "size": [
+      472,
+      428
+    ]
+  },
+  {
+    "id": "fig_ex1_scatter_B",
+    "path": "pipeline/images/figures/fig_ex1_scatter_B.png",
+    "page": 11,
+    "box_frac": [
+      0.55,
+      0.7,
+      0.97,
+      0.94
+    ],
+    "size": [
+      472,
+      396
+    ]
+  },
+  {
+    "id": "fig_ex4_regression_A",
+    "path": "pipeline/images/figures/fig_ex4_regression_A.png",
+    "page": 14,
+    "box_frac": [
+      0.52,
+      0.38,
+      0.98,
+      0.58
+    ],
+    "size": [
+      442,
+      329
+    ]
+  },
+  {
+    "id": "fig_markov_weather",
+    "path": "pipeline/images/figures/fig_markov_weather.png",
+    "page": 23,
+    "box_frac": [
+      0.45,
+      0.08,
+      0.98,
+      0.42
+    ],
+    "size": [
+      589,
+      561
+    ]
+  }
+]

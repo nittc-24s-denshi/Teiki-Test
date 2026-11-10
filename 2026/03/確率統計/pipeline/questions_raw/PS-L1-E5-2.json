@@ -1,0 +1,29 @@
+{
+  "id": "PS-L1-E5-2",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習5-2】演習2の度数分布表のみを用いてメディアンの近似値を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "64.5",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。累積度数が初めて20以上（半数）になるのは60〜69階級（累積24）→階級値64.5。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "演習",
+    "メディアン近似"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "PS-L1-DEF-median",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "flashcard",
+  "stem": {
+    "value": "メディアン（中央値）$Me$ の定義を述べよ（$n$ が奇数・偶数の場合）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "昇順 $y_1\\le\\cdots\\le y_n$ の真ん中の値。$n$ が偶数のときは真ん中2つの平均。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "代表値",
+    "メディアン",
+    "定義"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "PS-L1-E1-3",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習1-3】40人データを昇順に並べたとき20番目・21番目がともに67点であった。メディアン $Me$ を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$Me=67$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。偶数個なので $(67+67)/2=67$。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 1,
+      "note": "演習1(3)"
+    }
+  ],
+  "tags": [
+    "演習",
+    "メディアン"
+  ]
+}

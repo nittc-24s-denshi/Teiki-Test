@@ -1,0 +1,29 @@
+{
+  "id": "PS-L4-E5",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習5】子供2・大人2が円形に並ぶとき、子供が隣り合う確率を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$2/3$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。1人固定で残り3!=6通りのうち隣り合う4通り→4/6=2/3。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 18
+    }
+  ],
+  "tags": [
+    "演習",
+    "円順列"
+  ]
+}

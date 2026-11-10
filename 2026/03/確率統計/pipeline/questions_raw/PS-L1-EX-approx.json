@@ -1,0 +1,30 @@
+{
+  "id": "PS-L1-EX-approx",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【例】度数分布表（階級値0.5〜5.5、度数1,4,8,9,2,1、n=25）から平均値・メディアン・モードの近似値を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "平均近似2.9、メディアン近似2.5、モード3.5",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。Σx_i f_i /25=72.5/25=2.9。累積相対が初めて0.5以上となる階級値2.5。最大度数9の階級値3.5。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 4,
+      "note": "例（手書き解答）"
+    }
+  ],
+  "tags": [
+    "代表値近似",
+    "例"
+  ]
+}

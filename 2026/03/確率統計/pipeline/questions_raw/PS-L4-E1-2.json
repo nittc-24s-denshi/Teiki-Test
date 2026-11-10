@@ -1,0 +1,37 @@
+{
+  "id": "PS-L4-E1-2",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "short_answer",
+  "stem": {
+    "value": "【演習1(2)】どちらも3以上の事象Bと $A\\cap B$ を外延的記法で表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$B=\\{\\{3,4\\},\\{3,5\\},\\{4,5\\}\\}$，$A\\cap B=\\emptyset$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。ページ画像は空集合記号。Geminiの {∅} は誤読。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "演習",
+    "事象"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "A∩B={{∅}}",
+      "after": "A∩B=∅",
+      "reason": "ページ画像照合"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "PS-L1-E4-hist",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "other",
+  "stem": {
+    "value": "【演習4】演習2の度数分布表をもとにヒストグラムを描け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "階級40〜50:3, 50〜60:9, 60〜70:12, 70〜80:8, 80〜90:6, 90〜100:2 の柱",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。ページ下部の手書きヒストグラムの柱高を画像で確認（3,9,12,8,6,2）。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 3,
+      "note": "演習4"
+    }
+  ],
+  "tags": [
+    "演習",
+    "ヒストグラム"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex4_hist_40.png",
+      "page": 3,
+      "caption": {
+        "value": "演習4 40人データのヒストグラム（手書き）",
+        "status": "inferred",
+        "rationale": "原本ページ画像の手書き記入を読み取り",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      }
+    }
+  ]
+}

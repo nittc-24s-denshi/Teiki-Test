@@ -1,0 +1,39 @@
+{
+  "id": "PS-L3-E4",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習4】データBの回帰直線を求め、$x=7$ の予測値と観測値 $y=3$ に対する残差を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$a=-1/2$，$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。a=(-14/3)/(28/3)=-1/2，b=8-(-1/2)·6=11。予測7.5、残差3-7.5=-4.5。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "演習",
+    "回帰直線"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex4_regression_A.png",
+      "page": 14,
+      "caption": {
+        "value": "データAの回帰と残差の例図",
+        "status": "original"
+      }
+    }
+  ]
+}

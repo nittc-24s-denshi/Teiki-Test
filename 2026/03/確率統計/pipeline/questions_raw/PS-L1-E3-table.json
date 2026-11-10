@@ -1,0 +1,45 @@
+{
+  "id": "PS-L1-E3-table",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習3】スマホ利用時間データ14人（0.2〜5.6）について、1.0時間刻み6階級の度数分布表の未記入欄（2.0〜6.0未満の度数・相対度数と合計）を埋めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入・未確認）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 3,
+      "note": "演習3 空欄（未記入）"
+    }
+  ],
+  "tags": [
+    "演習",
+    "度数分布表",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex3_phone_axes.png",
+      "page": 3,
+      "caption": {
+        "value": "演習3用ヒストグラム座標軸（空）",
+        "status": "original"
+      }
+    }
+  ],
+  "explanation": {
+    "value": "印刷で2.0以上の行が空欄。手書き記入なしのため unverified（別途穴埋め予定）。参考: データから 2.0〜3.0:1, 3.0〜4.0:2, 4.0〜5.0:3, 5.0〜6.0:2, 合計14。",
+    "status": "inferred",
+    "rationale": "データ再集計による参考値。解答欄未記入のため answer は unverified",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  }
+}

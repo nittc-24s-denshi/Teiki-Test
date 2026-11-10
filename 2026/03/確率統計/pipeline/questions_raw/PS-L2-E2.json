@@ -1,0 +1,37 @@
+{
+  "id": "PS-L2-E2",
+  "unit": "第2回 分散と標準偏差",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習2】値3,5,6,8,10（度数1,3,2,1,1）の分散を $v_x=\\overline{x^2}-\\bar{x}^2$ で求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\bar{x}=6$，$\\overline{x^2}=40$，$v_x=40-36=4$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。ページ画像の手書き計算を照合。余白の別データ計算は本問の解答ではない。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 9
+    }
+  ],
+  "tags": [
+    "演習",
+    "分散"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:margin",
+      "before": "余白メモを本問解答に混入しうる",
+      "after": "余白(62,63,...)は別計算。本問解答から分離",
+      "reason": "ページ画像照合"
+    }
+  ]
+}

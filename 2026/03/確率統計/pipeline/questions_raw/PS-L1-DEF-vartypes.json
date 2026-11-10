@@ -1,0 +1,23 @@
+{
+  "id": "PS-L1-DEF-vartypes",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "flashcard",
+  "stem": {
+    "value": "連続型変数・離散型変数・質的変数・量的変数の違いを例とともに述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "連続型:区間内の任意実数（身長等）／離散型:最小単位あり（点数等）／質的:大小を考えない（血液型等）／量的:大小を考える（温度・身長等）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "変数の種類",
+    "定義"
+  ]
+}

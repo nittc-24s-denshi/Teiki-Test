@@ -1,0 +1,30 @@
+{
+  "id": "PS-L1-E2-rank",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "short_answer",
+  "stem": {
+    "value": "【演習2】72点であるあなたは上位およそ何%に属するか。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "70〜79階級まで累積相対度数0.8なので、概ね上位20%（80点以上が約20%）",
+    "status": "inferred",
+    "rationale": "度数表の累積相対0.8より、79点以下が80%。72点は同階級内のため厳密な順位は未確定だがプリントの問いの意図に沿い上位約20%。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 2,
+      "note": "演習2 位置付け"
+    }
+  ],
+  "tags": [
+    "演習",
+    "相対度数"
+  ]
+}

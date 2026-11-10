@@ -1,0 +1,29 @@
+{
+  "id": "PS-L4-E4",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習4】赤4・黒8の袋から2個。 (1)2個とも赤 (2)黒が少なくとも1 (3)同色 の確率。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "(1) $1/11$ (2) $10/11$ (3) $17/33$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。n(Ω)=C(12,2)=66。赤赤C(4,2)=6→1/11。余事象で(2)。同色=赤赤+黒黒=6+28=34→17/33。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 18
+    }
+  ],
+  "tags": [
+    "演習",
+    "組合せ確率"
+  ]
+}

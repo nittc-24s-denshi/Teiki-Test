@@ -1,0 +1,23 @@
+{
+  "id": "PS-L3-DEF-cov",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "flashcard",
+  "stem": {
+    "value": "共分散 $c_{xy}$ の定義式を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$c_{xy}=\\frac{1}{n}\\sum(x_i-\\bar{x})(y_i-\\bar{y})=\\frac{1}{n}\\sum x_i y_i - \\bar{x}\\bar{y}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 12
+    }
+  ],
+  "tags": [
+    "共分散",
+    "定義"
+  ]
+}

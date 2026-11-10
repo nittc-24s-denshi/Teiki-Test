@@ -1,0 +1,31 @@
+{
+  "id": "PS-L1-E1-1",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習1-1】5人分の小テストデータ $(68,74,82,55,91)$ の平均値・中央値を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "平均値 $\\bar{x}=74$，中央値 $Me=74$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。$(68+74+82+55+91)/5=74$。昇順55,68,74,82,91の中央=74。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 1,
+      "note": "演習1(1)"
+    }
+  ],
+  "tags": [
+    "演習",
+    "平均",
+    "メディアン"
+  ]
+}

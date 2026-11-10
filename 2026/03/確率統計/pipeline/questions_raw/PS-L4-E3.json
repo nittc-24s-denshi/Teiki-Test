@@ -1,0 +1,29 @@
+{
+  "id": "PS-L4-E3",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習3】1〜8のカードから2枚。積が奇数の事象A、和が6の倍数の事象Bについて P(A),P(B),P(A∩B),P(A∪B),P(補(A∪B)) を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$P(A)=6/28=3/14$，$P(B)=4/28=1/7$，$P(A\\cap B)=2/28=1/14$，$P(A\\cup B)=2/7$，$P(\\overline{A\\cup B})=5/7$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。奇数4枚からC(4,2)=6。B={{1,5},{2,4},{4,8},{5,7}}。検算: 3/14+1/7-1/14=2/7。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 17
+    }
+  ],
+  "tags": [
+    "演習",
+    "確率の性質"
+  ]
+}

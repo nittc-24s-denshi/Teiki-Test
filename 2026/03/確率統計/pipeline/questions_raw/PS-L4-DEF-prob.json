@@ -1,0 +1,23 @@
+{
+  "id": "PS-L4-DEF-prob",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "flashcard",
+  "stem": {
+    "value": "根元事象が全て同様に確からしいとき、事象Aの確率の公式を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$P(A)=n(A)/n(\\Omega)$（$0\\le P(A)\\le1$，$P(\\emptyset)=0$，$P(\\Omega)=1$）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "確率",
+    "定義"
+  ]
+}

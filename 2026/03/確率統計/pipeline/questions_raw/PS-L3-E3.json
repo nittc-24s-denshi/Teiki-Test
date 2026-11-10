@@ -1,0 +1,29 @@
+{
+  "id": "PS-L3-E3",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習3】データBの相関係数を求め、データA（r=0.75）と向き・強さを比較せよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$v_x=v_y=28/3\\approx9.33$，$c_{xy}=-14/3\\approx-4.67$，$r=-0.5$。データBは負の相関で、|r|はデータA(0.75)より小さい。",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。r=-4.67/(√9.33)²=-0.5。比較文は表の数値から推定補完。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "演習",
+    "相関係数"
+  ]
+}

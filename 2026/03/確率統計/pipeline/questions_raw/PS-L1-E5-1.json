@@ -1,0 +1,29 @@
+{
+  "id": "PS-L1-E5-1",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習5-1】演習2の度数分布表のみを用いて平均値の近似値を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "67.25",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。(44.5·3+54.5·9+64.5·12+74.5·8+84.5·6+94.5·2)/40=2690/40=67.25。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "演習",
+    "平均近似"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "PS-L1-DEF-mean",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "flashcard",
+  "stem": {
+    "value": "平均値 $\\bar{x}$ の定義（データ $x_1,\\dots,x_n$）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\bar{x} = \\dfrac{1}{n}\\sum_{i=1}^{n} x_i$",
+    "status": "inferred",
+    "rationale": "印刷定義＋手書き公式をページ画像で照合",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 1,
+      "note": "定義・手書き補完"
+    }
+  ],
+  "tags": [
+    "代表値",
+    "平均",
+    "定義"
+  ]
+}

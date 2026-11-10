@@ -1,0 +1,34 @@
+{
+  "id": "PS-L3-DEF-scatter",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "flashcard",
+  "stem": {
+    "value": "散布図・正の相関・負の相関を説明せよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "散布図:各組(x_i,y_i)を平面上の点で表した図。正の相関:右上がり傾向。負の相関:右下がり傾向。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "散布図",
+    "相関",
+    "定義"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex1_scatter_A.png",
+      "page": 11,
+      "caption": {
+        "value": "データAの散布図（例）",
+        "status": "original"
+      }
+    }
+  ]
+}

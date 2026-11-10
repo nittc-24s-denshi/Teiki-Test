@@ -1,0 +1,25 @@
+{
+  "id": "PS-L1-E7-reps",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習7-2】度数分布表を用いて平均値近似・メディアン近似・モードを求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入・未確認）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 6,
+      "note": "演習7 代表値未記入"
+    }
+  ],
+  "tags": [
+    "演習",
+    "代表値近似",
+    "未記入"
+  ]
+}

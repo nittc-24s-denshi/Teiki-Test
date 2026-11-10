@@ -1,0 +1,35 @@
+{
+  "id": "PS-L1-E7-table",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習7-1】苗の高さ20本データについて0.5cm刻み5階級の度数分布表を完成させよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入・未確認）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 6,
+      "note": "演習7 表未記入"
+    }
+  ],
+  "tags": [
+    "演習",
+    "度数分布表",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex7_hist_axes.png",
+      "page": 6,
+      "caption": {
+        "value": "演習7用ヒストグラム座標軸（空）",
+        "status": "original"
+      }
+    }
+  ]
+}

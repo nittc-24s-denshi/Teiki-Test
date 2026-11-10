@@ -1,0 +1,30 @@
+{
+  "id": "PS-L2-E3",
+  "unit": "第2回 分散と標準偏差",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習3】偏差値 $T=50+10\\cdot(X-\\bar{x})/s_x$ の平均・標準偏差を求めよ。また平均68・標準偏差12の試験で74点の偏差値を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\bar{t}=50$，$s_t=10$；偏差値 $50+10\\cdot(74-68)/12=55$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。一次変換公式より a=10/s_x, b=50-10x̄/s_x → 平均50, SD=10。数値検算一致。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 10
+    }
+  ],
+  "tags": [
+    "演習",
+    "偏差値",
+    "標準化"
+  ]
+}

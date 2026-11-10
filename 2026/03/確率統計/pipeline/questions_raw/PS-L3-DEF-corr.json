@@ -1,0 +1,23 @@
+{
+  "id": "PS-L3-DEF-corr",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "flashcard",
+  "stem": {
+    "value": "相関係数 $r$ の定義ととりうる範囲を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$r=c_{xy}/(s_x s_y)$。範囲 $-1\\le r\\le 1$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "相関係数",
+    "定義"
+  ]
+}

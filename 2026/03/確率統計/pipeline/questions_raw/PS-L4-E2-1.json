@@ -1,0 +1,29 @@
+{
+  "id": "PS-L4-E2-1",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習2(1)】2つのサイコロで目の和が5となる確率を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A=\\{(1,4),(2,3),(3,2),(4,1)\\}$，$P(A)=4/36=1/9$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。検算一致。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "演習",
+    "確率"
+  ]
+}

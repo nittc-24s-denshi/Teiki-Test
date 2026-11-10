@@ -1,0 +1,1445 @@
+[
+  {
+    "id": "PS-META-TRANSCRIPT-QC",
+    "unit": "メタ（文字起こし訂正）",
+    "form": "other",
+    "tags": [
+      "meta",
+      "corrections"
+    ],
+    "stem": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "stem_status": "original",
+    "answer": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 1,
+        "note": "メタ"
+      }
+    ],
+    "conflicts": [],
+    "front": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "back": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）"
+  },
+  {
+    "id": "PS-L1-DEF-mean",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "flashcard",
+    "tags": [
+      "代表値",
+      "平均",
+      "定義"
+    ],
+    "stem": "平均値 $\\bar{x}$ の定義（データ $x_1,\\dots,x_n$）を書け。",
+    "stem_status": "original",
+    "answer": "$\\bar{x} = \\dfrac{1}{n}\\sum_{i=1}^{n} x_i$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 1,
+        "note": "定義・手書き補完"
+      }
+    ],
+    "conflicts": [],
+    "front": "平均値 $\\bar{x}$ の定義（データ $x_1,\\dots,x_n$）を書け。",
+    "back": "$\\bar{x} = \\dfrac{1}{n}\\sum_{i=1}^{n} x_i$"
+  },
+  {
+    "id": "PS-L1-DEF-median",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "flashcard",
+    "tags": [
+      "代表値",
+      "メディアン",
+      "定義"
+    ],
+    "stem": "メディアン（中央値）$Me$ の定義を述べよ（$n$ が奇数・偶数の場合）。",
+    "stem_status": "original",
+    "answer": "昇順 $y_1\\le\\cdots\\le y_n$ の真ん中の値。$n$ が偶数のときは真ん中2つの平均。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "メディアン（中央値）$Me$ の定義を述べよ（$n$ が奇数・偶数の場合）。",
+    "back": "昇順 $y_1\\le\\cdots\\le y_n$ の真ん中の値。$n$ が偶数のときは真ん中2つの平均。"
+  },
+  {
+    "id": "PS-L1-E1-1",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "平均",
+      "メディアン"
+    ],
+    "stem": "【演習1-1】5人分の小テストデータ $(68,74,82,55,91)$ の平均値・中央値を求めよ。",
+    "stem_status": "original",
+    "answer": "平均値 $\\bar{x}=74$，中央値 $Me=74$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 1,
+        "note": "演習1(1)"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1-1】5人分の小テストデータ $(68,74,82,55,91)$ の平均値・中央値を求めよ。",
+    "back": "平均値 $\\bar{x}=74$，中央値 $Me=74$"
+  },
+  {
+    "id": "PS-L1-E1-2",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "平均"
+    ],
+    "stem": "【演習1-2】冒頭の40人データの合計は2701点である。平均値 $\\bar{x}$ を求めよ。",
+    "stem_status": "original",
+    "answer": "$\\bar{x}=2701/40=67.525$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 1,
+        "note": "演習1(2)"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1-2】冒頭の40人データの合計は2701点である。平均値 $\\bar{x}$ を求めよ。",
+    "back": "$\\bar{x}=2701/40=67.525$"
+  },
+  {
+    "id": "PS-L1-E1-3",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "メディアン"
+    ],
+    "stem": "【演習1-3】40人データを昇順に並べたとき20番目・21番目がともに67点であった。メディアン $Me$ を求めよ。",
+    "stem_status": "original",
+    "answer": "$Me=67$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 1,
+        "note": "演習1(3)"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1-3】40人データを昇順に並べたとき20番目・21番目がともに67点であった。メディアン $Me$ を求めよ。",
+    "back": "$Me=67$"
+  },
+  {
+    "id": "PS-L1-DEF-class",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "flashcard",
+    "tags": [
+      "度数分布表",
+      "定義"
+    ],
+    "stem": "度数分布表における階級・階級値・度数・相対度数・累積度数・累積相対度数をそれぞれ一言で述べよ。",
+    "stem_status": "original",
+    "answer": "階級=データの区切り／階級値=階級内を満遍なくとった平均／度数=属する個数／相対度数=度数/データ数／累積度数=その階級以下の度数和／累積相対度数=相対度数の累積（または累積度数の相対）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "度数分布表における階級・階級値・度数・相対度数・累積度数・累積相対度数をそれぞれ一言で述べよ。",
+    "back": "階級=データの区切り／階級値=階級内を満遍なくとった平均／度数=属する個数／相対度数=度数/データ数／累積度数=その階級以下の度数和／累積相対度数=相対度数の累積（または累積度数の相対）"
+  },
+  {
+    "id": "PS-L1-E2-table",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "度数分布表"
+    ],
+    "stem": "【演習2】冒頭40人データを10点刻みで整理した度数分布表を完成させよ（60〜69,70〜79,80〜89,90〜99の度数・相対度数・累積度数・累積相対度数と合計）。",
+    "stem_status": "original",
+    "answer": "60〜69: 度数12, 相対0.3, 累積24, 累積相対0.6／70〜79: 8, 0.2, 32, 0.8／80〜89: 6, 0.15, 38, 0.95／90〜99: 2, 0.05, 40, 1／合計: 度数40, 相対1",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 2,
+        "note": "演習2 表"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2】冒頭40人データを10点刻みで整理した度数分布表を完成させよ（60〜69,70〜79,80〜89,90〜99の度数・相対度数・累積度数・累積相対度数と合計）。",
+    "back": "60〜69: 度数12, 相対0.3, 累積24, 累積相対0.6／70〜79: 8, 0.2, 32, 0.8／80〜89: 6, 0.15, 38, 0.95／90〜99: 2, 0.05, 40, 1／合計: 度数40, 相対1"
+  },
+  {
+    "id": "PS-L1-E2-rank",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "short_answer",
+    "tags": [
+      "演習",
+      "相対度数"
+    ],
+    "stem": "【演習2】72点であるあなたは上位およそ何%に属するか。",
+    "stem_status": "original",
+    "answer": "70〜79階級まで累積相対度数0.8なので、概ね上位20%（80点以上が約20%）",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 2,
+        "note": "演習2 位置付け"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2】72点であるあなたは上位およそ何%に属するか。",
+    "back": "70〜79階級まで累積相対度数0.8なので、概ね上位20%（80点以上が約20%）"
+  },
+  {
+    "id": "PS-L1-DEF-vartypes",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "flashcard",
+    "tags": [
+      "変数の種類",
+      "定義"
+    ],
+    "stem": "連続型変数・離散型変数・質的変数・量的変数の違いを例とともに述べよ。",
+    "stem_status": "original",
+    "answer": "連続型:区間内の任意実数（身長等）／離散型:最小単位あり（点数等）／質的:大小を考えない（血液型等）／量的:大小を考える（温度・身長等）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "連続型変数・離散型変数・質的変数・量的変数の違いを例とともに述べよ。",
+    "back": "連続型:区間内の任意実数（身長等）／離散型:最小単位あり（点数等）／質的:大小を考えない（血液型等）／量的:大小を考える（温度・身長等）"
+  },
+  {
+    "id": "PS-L1-E3-table",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "度数分布表",
+      "未記入"
+    ],
+    "stem": "【演習3】スマホ利用時間データ14人（0.2〜5.6）について、1.0時間刻み6階級の度数分布表の未記入欄（2.0〜6.0未満の度数・相対度数と合計）を埋めよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": "印刷で2.0以上の行が空欄。手書き記入なしのため unverified（別途穴埋め予定）。参考: データから 2.0〜3.0:1, 3.0〜4.0:2, 4.0〜5.0:3, 5.0〜6.0:2, 合計14。",
+    "explanation_status": "inferred",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex3_phone_axes.png",
+        "page": 3,
+        "caption": {
+          "value": "演習3用ヒストグラム座標軸（空）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 3,
+        "note": "演習3 空欄（未記入）"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習3】スマホ利用時間データ14人（0.2〜5.6）について、1.0時間刻み6階級の度数分布表の未記入欄（2.0〜6.0未満の度数・相対度数と合計）を埋めよ。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L1-E4-hist",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "other",
+    "tags": [
+      "演習",
+      "ヒストグラム"
+    ],
+    "stem": "【演習4】演習2の度数分布表をもとにヒストグラムを描け。",
+    "stem_status": "original",
+    "answer": "階級40〜50:3, 50〜60:9, 60〜70:12, 70〜80:8, 80〜90:6, 90〜100:2 の柱",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex4_hist_40.png",
+        "page": 3,
+        "caption": {
+          "value": "演習4 40人データのヒストグラム（手書き）",
+          "status": "inferred",
+          "rationale": "原本ページ画像の手書き記入を読み取り",
+          "tools": [
+            "gemini-transcript",
+            "manual-page-image-check",
+            "manual-calc-check"
+          ]
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 3,
+        "note": "演習4"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習4】演習2の度数分布表をもとにヒストグラムを描け。",
+    "back": "階級40〜50:3, 50〜60:9, 60〜70:12, 70〜80:8, 80〜90:6, 90〜100:2 の柱"
+  },
+  {
+    "id": "PS-L1-EX-approx",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "代表値近似",
+      "例"
+    ],
+    "stem": "【例】度数分布表（階級値0.5〜5.5、度数1,4,8,9,2,1、n=25）から平均値・メディアン・モードの近似値を求めよ。",
+    "stem_status": "original",
+    "answer": "平均近似2.9、メディアン近似2.5、モード3.5",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 4,
+        "note": "例（手書き解答）"
+      }
+    ],
+    "conflicts": [],
+    "front": "【例】度数分布表（階級値0.5〜5.5、度数1,4,8,9,2,1、n=25）から平均値・メディアン・モードの近似値を求めよ。",
+    "back": "平均近似2.9、メディアン近似2.5、モード3.5"
+  },
+  {
+    "id": "PS-L1-E5-1",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "平均近似"
+    ],
+    "stem": "【演習5-1】演習2の度数分布表のみを用いて平均値の近似値を求めよ。",
+    "stem_status": "original",
+    "answer": "67.25",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習5-1】演習2の度数分布表のみを用いて平均値の近似値を求めよ。",
+    "back": "67.25"
+  },
+  {
+    "id": "PS-L1-E5-2",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "メディアン近似"
+    ],
+    "stem": "【演習5-2】演習2の度数分布表のみを用いてメディアンの近似値を求めよ。",
+    "stem_status": "original",
+    "answer": "64.5",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習5-2】演習2の度数分布表のみを用いてメディアンの近似値を求めよ。",
+    "back": "64.5"
+  },
+  {
+    "id": "PS-L1-E5-3",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "モード"
+    ],
+    "stem": "【演習5-3】演習2の度数分布表のみを用いてモード（最頻値）を求めよ。",
+    "stem_status": "original",
+    "answer": "64.5",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習5-3】演習2の度数分布表のみを用いてモード（最頻値）を求めよ。",
+    "back": "64.5"
+  },
+  {
+    "id": "PS-L1-E6-table",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "度数分布表",
+      "未記入"
+    ],
+    "stem": "【演習6-1】小テスト20人データについて4点刻み5階級の度数分布表（階級値・度数・相対度数・累積度数）を完成させよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex6_hist_axes.png",
+        "page": 5,
+        "caption": {
+          "value": "演習6用ヒストグラム座標軸（空）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 5,
+        "note": "演習6 表未記入"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習6-1】小テスト20人データについて4点刻み5階級の度数分布表（階級値・度数・相対度数・累積度数）を完成させよ。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L1-E6-reps",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "代表値近似",
+      "未記入"
+    ],
+    "stem": "【演習6-2】度数分布表を用いて平均値近似・メディアン近似・モードを求めよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 5,
+        "note": "演習6 代表値未記入"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習6-2】度数分布表を用いて平均値近似・メディアン近似・モードを求めよ。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L1-E7-table",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "度数分布表",
+      "未記入"
+    ],
+    "stem": "【演習7-1】苗の高さ20本データについて0.5cm刻み5階級の度数分布表を完成させよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex7_hist_axes.png",
+        "page": 6,
+        "caption": {
+          "value": "演習7用ヒストグラム座標軸（空）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 6,
+        "note": "演習7 表未記入"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習7-1】苗の高さ20本データについて0.5cm刻み5階級の度数分布表を完成させよ。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L1-E7-reps",
+    "unit": "第1回 度数分布表・ヒストグラム・代表値",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "代表値近似",
+      "未記入"
+    ],
+    "stem": "【演習7-2】度数分布表を用いて平均値近似・メディアン近似・モードを求めよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 6,
+        "note": "演習7 代表値未記入"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習7-2】度数分布表を用いて平均値近似・メディアン近似・モードを求めよ。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L2-DEF-vsd",
+    "unit": "第2回 分散と標準偏差",
+    "form": "flashcard",
+    "tags": [
+      "分散",
+      "標準偏差",
+      "定義"
+    ],
+    "stem": "レンジ $R$、分散 $v_x$、標準偏差 $s_x$ の定義を書け。",
+    "stem_status": "original",
+    "answer": "$R=(\\text{最大})-(\\text{最小})$，$v_x=\\frac{1}{n}\\sum(x_i-\\bar{x})^2$，$s_x=\\sqrt{v_x}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 7
+      }
+    ],
+    "conflicts": [],
+    "front": "レンジ $R$、分散 $v_x$、標準偏差 $s_x$ の定義を書け。",
+    "back": "$R=(\\text{最大})-(\\text{最小})$，$v_x=\\frac{1}{n}\\sum(x_i-\\bar{x})^2$，$s_x=\\sqrt{v_x}$"
+  },
+  {
+    "id": "PS-L2-E1",
+    "unit": "第2回 分散と標準偏差",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "分散",
+      "標準偏差"
+    ],
+    "stem": "【演習1】値3,5,6,8,10（度数1,3,2,1,1）のデータのレンジ・分散・標準偏差を求めよ。",
+    "stem_status": "original",
+    "answer": "平均6；レンジ7；分散4；標準偏差2",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 8,
+        "note": "演習1（p.7-8）"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1】値3,5,6,8,10（度数1,3,2,1,1）のデータのレンジ・分散・標準偏差を求めよ。",
+    "back": "平均6；レンジ7；分散4；標準偏差2"
+  },
+  {
+    "id": "PS-L2-DEF-formula",
+    "unit": "第2回 分散と標準偏差",
+    "form": "flashcard",
+    "tags": [
+      "分散",
+      "公式"
+    ],
+    "stem": "分散と平均の関係式（計算公式）を書け。",
+    "stem_status": "original",
+    "answer": "$v_x=\\frac{1}{n}\\sum x_i^2 - \\bar{x}^2$（分散＝2乗の平均−平均の2乗）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "分散と平均の関係式（計算公式）を書け。",
+    "back": "$v_x=\\frac{1}{n}\\sum x_i^2 - \\bar{x}^2$（分散＝2乗の平均−平均の2乗）"
+  },
+  {
+    "id": "PS-L2-E2",
+    "unit": "第2回 分散と標準偏差",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "分散"
+    ],
+    "stem": "【演習2】値3,5,6,8,10（度数1,3,2,1,1）の分散を $v_x=\\overline{x^2}-\\bar{x}^2$ で求めよ。",
+    "stem_status": "original",
+    "answer": "$\\bar{x}=6$，$\\overline{x^2}=40$，$v_x=40-36=4$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 9
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2】値3,5,6,8,10（度数1,3,2,1,1）の分散を $v_x=\\overline{x^2}-\\bar{x}^2$ で求めよ。",
+    "back": "$\\bar{x}=6$，$\\overline{x^2}=40$，$v_x=40-36=4$"
+  },
+  {
+    "id": "PS-L2-E3",
+    "unit": "第2回 分散と標準偏差",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "偏差値",
+      "標準化"
+    ],
+    "stem": "【演習3】偏差値 $T=50+10\\cdot(X-\\bar{x})/s_x$ の平均・標準偏差を求めよ。また平均68・標準偏差12の試験で74点の偏差値を求めよ。",
+    "stem_status": "original",
+    "answer": "$\\bar{t}=50$，$s_t=10$；偏差値 $50+10\\cdot(74-68)/12=55$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 10
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習3】偏差値 $T=50+10\\cdot(X-\\bar{x})/s_x$ の平均・標準偏差を求めよ。また平均68・標準偏差12の試験で74点の偏差値を求めよ。",
+    "back": "$\\bar{t}=50$，$s_t=10$；偏差値 $50+10\\cdot(74-68)/12=55$"
+  },
+  {
+    "id": "PS-L3-DEF-scatter",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "flashcard",
+    "tags": [
+      "散布図",
+      "相関",
+      "定義"
+    ],
+    "stem": "散布図・正の相関・負の相関を説明せよ。",
+    "stem_status": "original",
+    "answer": "散布図:各組(x_i,y_i)を平面上の点で表した図。正の相関:右上がり傾向。負の相関:右下がり傾向。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex1_scatter_A.png",
+        "page": 11,
+        "caption": {
+          "value": "データAの散布図（例）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 11
+      }
+    ],
+    "conflicts": [],
+    "front": "散布図・正の相関・負の相関を説明せよ。",
+    "back": "散布図:各組(x_i,y_i)を平面上の点で表した図。正の相関:右上がり傾向。負の相関:右下がり傾向。"
+  },
+  {
+    "id": "PS-L3-E1",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "short_answer",
+    "tags": [
+      "演習",
+      "散布図",
+      "相関"
+    ],
+    "stem": "【演習1】データB（x:7,2,11,5,8,3 / y:3,12,9,7,6,11）の散布図を描き、どのような相関が見られるか答えよ。",
+    "stem_status": "original",
+    "answer": "負の相関（右下がり）",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex1_scatter_B.png",
+        "page": 11,
+        "caption": {
+          "value": "データBの散布図（手書き）",
+          "status": "inferred",
+          "rationale": "原本ページ画像の手書き記入を読み取り",
+          "tools": [
+            "gemini-transcript",
+            "manual-page-image-check",
+            "manual-calc-check"
+          ]
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 11
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1】データB（x:7,2,11,5,8,3 / y:3,12,9,7,6,11）の散布図を描き、どのような相関が見られるか答えよ。",
+    "back": "負の相関（右下がり）"
+  },
+  {
+    "id": "PS-L3-DEF-cov",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "flashcard",
+    "tags": [
+      "共分散",
+      "定義"
+    ],
+    "stem": "共分散 $c_{xy}$ の定義式を書け。",
+    "stem_status": "original",
+    "answer": "$c_{xy}=\\frac{1}{n}\\sum(x_i-\\bar{x})(y_i-\\bar{y})=\\frac{1}{n}\\sum x_i y_i - \\bar{x}\\bar{y}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "共分散 $c_{xy}$ の定義式を書け。",
+    "back": "$c_{xy}=\\frac{1}{n}\\sum(x_i-\\bar{x})(y_i-\\bar{y})=\\frac{1}{n}\\sum x_i y_i - \\bar{x}\\bar{y}$"
+  },
+  {
+    "id": "PS-L3-E2",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "共分散"
+    ],
+    "stem": "【演習2】データBについて平均を求め、偏差表を完成させて共分散を求めよ。",
+    "stem_status": "original",
+    "answer": "$\\bar{x}=6$，$\\bar{y}=8$；積和の計=-28；$c_{xy}=-28/6=-14/3\\approx-4.67$（手書きは-4.67）",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2】データBについて平均を求め、偏差表を完成させて共分散を求めよ。",
+    "back": "$\\bar{x}=6$，$\\bar{y}=8$；積和の計=-28；$c_{xy}=-28/6=-14/3\\approx-4.67$（手書きは-4.67）"
+  },
+  {
+    "id": "PS-L3-DEF-corr",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "flashcard",
+    "tags": [
+      "相関係数",
+      "定義"
+    ],
+    "stem": "相関係数 $r$ の定義ととりうる範囲を書け。",
+    "stem_status": "original",
+    "answer": "$r=c_{xy}/(s_x s_y)$。範囲 $-1\\le r\\le 1$。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 13
+      }
+    ],
+    "conflicts": [],
+    "front": "相関係数 $r$ の定義ととりうる範囲を書け。",
+    "back": "$r=c_{xy}/(s_x s_y)$。範囲 $-1\\le r\\le 1$。"
+  },
+  {
+    "id": "PS-L3-E3",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "相関係数"
+    ],
+    "stem": "【演習3】データBの相関係数を求め、データA（r=0.75）と向き・強さを比較せよ。",
+    "stem_status": "original",
+    "answer": "$v_x=v_y=28/3\\approx9.33$，$c_{xy}=-14/3\\approx-4.67$，$r=-0.5$。データBは負の相関で、|r|はデータA(0.75)より小さい。",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 13
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習3】データBの相関係数を求め、データA（r=0.75）と向き・強さを比較せよ。",
+    "back": "$v_x=v_y=28/3\\approx9.33$，$c_{xy}=-14/3\\approx-4.67$，$r=-0.5$。データBは負の相関で、|r|はデータA(0.75)より小さい。"
+  },
+  {
+    "id": "PS-L3-DEF-reg",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "flashcard",
+    "tags": [
+      "回帰直線",
+      "定義"
+    ],
+    "stem": "最小二乗法による回帰直線 $\\hat{y}=ax+b$ の傾き・切片を書け。",
+    "stem_status": "original",
+    "answer": "$a=c_{xy}/v_x$（または $a=r s_y/s_x$），$b=\\bar{y}-a\\bar{x}$。必ず点$(\\bar{x},\\bar{y})$を通る。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 14
+      }
+    ],
+    "conflicts": [],
+    "front": "最小二乗法による回帰直線 $\\hat{y}=ax+b$ の傾き・切片を書け。",
+    "back": "$a=c_{xy}/v_x$（または $a=r s_y/s_x$），$b=\\bar{y}-a\\bar{x}$。必ず点$(\\bar{x},\\bar{y})$を通る。"
+  },
+  {
+    "id": "PS-L3-E4",
+    "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "回帰直線"
+    ],
+    "stem": "【演習4】データBの回帰直線を求め、$x=7$ の予測値と観測値 $y=3$ に対する残差を求めよ。",
+    "stem_status": "original",
+    "answer": "$a=-1/2$，$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex4_regression_A.png",
+        "page": 14,
+        "caption": {
+          "value": "データAの回帰と残差の例図",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 14
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習4】データBの回帰直線を求め、$x=7$ の予測値と観測値 $y=3$ に対する残差を求めよ。",
+    "back": "$a=-1/2$，$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$"
+  },
+  {
+    "id": "PS-L4-DEF-events",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "flashcard",
+    "tags": [
+      "事象",
+      "定義"
+    ],
+    "stem": "試行・事象・根元事象・全事象・空事象・積事象・和事象・余事象・排反を簡潔に述べよ。",
+    "stem_status": "original",
+    "answer": "試行=観測実験／事象=結果の集まり／根元=1結果／全事象=すべて／空=∅／積=∩／和=∪／余=補集合／排反=積が空",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 15
+      }
+    ],
+    "conflicts": [],
+    "front": "試行・事象・根元事象・全事象・空事象・積事象・和事象・余事象・排反を簡潔に述べよ。",
+    "back": "試行=観測実験／事象=結果の集まり／根元=1結果／全事象=すべて／空=∅／積=∩／和=∪／余=補集合／排反=積が空"
+  },
+  {
+    "id": "PS-L4-E1-1",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "short_answer",
+    "tags": [
+      "演習",
+      "事象"
+    ],
+    "stem": "【演習1(1)】カード1〜5から2枚引く。和が5以下の事象Aとその余事象を外延的記法で表せ。",
+    "stem_status": "original",
+    "answer": "$A=\\{\\{1,2\\},\\{1,3\\},\\{1,4\\},\\{2,3\\}\\}$，$\\overline{A}=\\{\\{1,5\\},\\{2,4\\},\\{2,5\\},\\{3,4\\},\\{3,5\\},\\{4,5\\}\\}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1(1)】カード1〜5から2枚引く。和が5以下の事象Aとその余事象を外延的記法で表せ。",
+    "back": "$A=\\{\\{1,2\\},\\{1,3\\},\\{1,4\\},\\{2,3\\}\\}$，$\\overline{A}=\\{\\{1,5\\},\\{2,4\\},\\{2,5\\},\\{3,4\\},\\{3,5\\},\\{4,5\\}\\}$"
+  },
+  {
+    "id": "PS-L4-E1-2",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "short_answer",
+    "tags": [
+      "演習",
+      "事象"
+    ],
+    "stem": "【演習1(2)】どちらも3以上の事象Bと $A\\cap B$ を外延的記法で表せ。",
+    "stem_status": "original",
+    "answer": "$B=\\{\\{3,4\\},\\{3,5\\},\\{4,5\\}\\}$，$A\\cap B=\\emptyset$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1(2)】どちらも3以上の事象Bと $A\\cap B$ を外延的記法で表せ。",
+    "back": "$B=\\{\\{3,4\\},\\{3,5\\},\\{4,5\\}\\}$，$A\\cap B=\\emptyset$"
+  },
+  {
+    "id": "PS-L4-DEF-prob",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "flashcard",
+    "tags": [
+      "確率",
+      "定義"
+    ],
+    "stem": "根元事象が全て同様に確からしいとき、事象Aの確率の公式を書け。",
+    "stem_status": "original",
+    "answer": "$P(A)=n(A)/n(\\Omega)$（$0\\le P(A)\\le1$，$P(\\emptyset)=0$，$P(\\Omega)=1$）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "根元事象が全て同様に確からしいとき、事象Aの確率の公式を書け。",
+    "back": "$P(A)=n(A)/n(\\Omega)$（$0\\le P(A)\\le1$，$P(\\emptyset)=0$，$P(\\Omega)=1$）"
+  },
+  {
+    "id": "PS-L4-E2-1",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "確率"
+    ],
+    "stem": "【演習2(1)】2つのサイコロで目の和が5となる確率を求めよ。",
+    "stem_status": "original",
+    "answer": "$A=\\{(1,4),(2,3),(3,2),(4,1)\\}$，$P(A)=4/36=1/9$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2(1)】2つのサイコロで目の和が5となる確率を求めよ。",
+    "back": "$A=\\{(1,4),(2,3),(3,2),(4,1)\\}$，$P(A)=4/36=1/9$"
+  },
+  {
+    "id": "PS-L4-E2-2",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "確率"
+    ],
+    "stem": "【演習2(2)】2つのサイコロの目がどちらも偶数となる確率を求めよ。",
+    "stem_status": "original",
+    "answer": "$P(B)=9/36=1/4$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2(2)】2つのサイコロの目がどちらも偶数となる確率を求めよ。",
+    "back": "$P(B)=9/36=1/4$"
+  },
+  {
+    "id": "PS-L4-E3",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "確率の性質"
+    ],
+    "stem": "【演習3】1〜8のカードから2枚。積が奇数の事象A、和が6の倍数の事象Bについて P(A),P(B),P(A∩B),P(A∪B),P(補(A∪B)) を求めよ。",
+    "stem_status": "original",
+    "answer": "$P(A)=6/28=3/14$，$P(B)=4/28=1/7$，$P(A\\cap B)=2/28=1/14$，$P(A\\cup B)=2/7$，$P(\\overline{A\\cup B})=5/7$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 17
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習3】1〜8のカードから2枚。積が奇数の事象A、和が6の倍数の事象Bについて P(A),P(B),P(A∩B),P(A∪B),P(補(A∪B)) を求めよ。",
+    "back": "$P(A)=6/28=3/14$，$P(B)=4/28=1/7$，$P(A\\cap B)=2/28=1/14$，$P(A\\cup B)=2/7$，$P(\\overline{A\\cup B})=5/7$"
+  },
+  {
+    "id": "PS-L4-E4",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "組合せ確率"
+    ],
+    "stem": "【演習4】赤4・黒8の袋から2個。 (1)2個とも赤 (2)黒が少なくとも1 (3)同色 の確率。",
+    "stem_status": "original",
+    "answer": "(1) $1/11$ (2) $10/11$ (3) $17/33$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 18
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習4】赤4・黒8の袋から2個。 (1)2個とも赤 (2)黒が少なくとも1 (3)同色 の確率。",
+    "back": "(1) $1/11$ (2) $10/11$ (3) $17/33$"
+  },
+  {
+    "id": "PS-L4-E5",
+    "unit": "第4回 確率（事象・確率の基本）",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "円順列"
+    ],
+    "stem": "【演習5】子供2・大人2が円形に並ぶとき、子供が隣り合う確率を求めよ。",
+    "stem_status": "original",
+    "answer": "$2/3$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 18
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習5】子供2・大人2が円形に並ぶとき、子供が隣り合う確率を求めよ。",
+    "back": "$2/3$"
+  },
+  {
+    "id": "PS-L5-DEF-indep",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "flashcard",
+    "tags": [
+      "反復試行",
+      "定義"
+    ],
+    "stem": "独立な試行・反復試行の確率（各回事象 $A_i$）の公式を書け。",
+    "stem_status": "original",
+    "answer": "$P(A)=\\prod P(A_i)$。特に毎回同じ事象Bなら $P(B)^n$。ちょうどk回なら ${}_n C_k p^k(1-p)^{n-k}$。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 19
+      }
+    ],
+    "conflicts": [],
+    "front": "独立な試行・反復試行の確率（各回事象 $A_i$）の公式を書け。",
+    "back": "$P(A)=\\prod P(A_i)$。特に毎回同じ事象Bなら $P(B)^n$。ちょうどk回なら ${}_n C_k p^k(1-p)^{n-k}$。"
+  },
+  {
+    "id": "PS-L5-E1-1",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "反復試行"
+    ],
+    "stem": "【演習1(1)】サイコロを4回投げる時、$n$回目の出目が$n$以上である確率を求めよ。",
+    "stem_status": "original",
+    "answer": "$5/18$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 19
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1(1)】サイコロを4回投げる時、$n$回目の出目が$n$以上である確率を求めよ。",
+    "back": "$5/18$"
+  },
+  {
+    "id": "PS-L5-E1-2",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "反復試行"
+    ],
+    "stem": "【演習1(2)】コインを5枚投げる時、一度は表が出る確率を求めよ。",
+    "stem_status": "original",
+    "answer": "$1-1/2^5=31/32$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 19
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習1(2)】コインを5枚投げる時、一度は表が出る確率を求めよ。",
+    "back": "$1-1/2^5=31/32$"
+  },
+  {
+    "id": "PS-L5-E2",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "二項確率"
+    ],
+    "stem": "【演習2】硬貨を5回投げ、表がちょうど3回出る確率を求めよ。",
+    "stem_status": "original",
+    "answer": "${}_5 C_3 (1/2)^5 = 10/32 = 5/16$（手書きは $5/2^4$ と同値）",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習2】硬貨を5回投げ、表がちょうど3回出る確率を求めよ。",
+    "back": "${}_5 C_3 (1/2)^5 = 10/32 = 5/16$（手書きは $5/2^4$ と同値）"
+  },
+  {
+    "id": "PS-L5-E3-1",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "二項確率"
+    ],
+    "stem": "【演習3(1)】不良品確率0.2の製品7個で、不良品がちょうど3個となる確率。",
+    "stem_status": "original",
+    "answer": "${}_7 C_3 · 0.2^3 · 0.8^4 = 7·4^4 / 5^6$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習3(1)】不良品確率0.2の製品7個で、不良品がちょうど3個となる確率。",
+    "back": "${}_7 C_3 · 0.2^3 · 0.8^4 = 7·4^4 / 5^6$"
+  },
+  {
+    "id": "PS-L5-E3-2",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "二項確率",
+      "判読不能"
+    ],
+    "stem": "【演習3(2)】不良品が3個以下となる確率。",
+    "stem_status": "original",
+    "answer": "途中式に塗りつぶしあり。手書き最終形の整理では $\\dfrac{7\\times 4^{4}\\times 33}{5^{7}}$ と読めるが、k=0項の扱い等で判読・整合に不安あり",
+    "answer_status": "unverified",
+    "explanation": "Geminiも[判読不能（塗りつぶし）]と記載。ページ画像でも一部塗りつぶし。別途穴埋め・再読が必要。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 20,
+        "note": "演習3(2) 判読不能箇所あり"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習3(2)】不良品が3個以下となる確率。",
+    "back": "途中式に塗りつぶしあり。手書き最終形の整理では $\\dfrac{7\\times 4^{4}\\times 33}{5^{7}}$ と読めるが、k=0項の扱い等で判読・整合に不安あり"
+  },
+  {
+    "id": "PS-L5-DEF-cond",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "flashcard",
+    "tags": [
+      "条件付き確率",
+      "定義"
+    ],
+    "stem": "条件付き確率 $P(B|A)$ の定義を書け。",
+    "stem_status": "original",
+    "answer": "$P(A)\\ne0$ のとき $P(B|A)=P(A\\cap B)/P(A)$。同様に確からしい場合 $n(A\\cap B)/n(A)$。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 21
+      }
+    ],
+    "conflicts": [],
+    "front": "条件付き確率 $P(B|A)$ の定義を書け。",
+    "back": "$P(A)\\ne0$ のとき $P(B|A)=P(A\\cap B)/P(A)$。同様に確からしい場合 $n(A\\cap B)/n(A)$。"
+  },
+  {
+    "id": "PS-L5-E4",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "条件付き確率",
+      "未記入"
+    ],
+    "stem": "【演習4】1年200人(女子45)・2年208人(女子48)の計408人から1人。 (1)女子／2年女子 (2)女子条件で2年 (3)男子条件で1年 の確率。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 21,
+        "note": "演習4 未記入"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習4】1年200人(女子45)・2年208人(女子48)の計408人から1人。 (1)女子／2年女子 (2)女子条件で2年 (3)男子条件で1年 の確率。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L5-DEF-mult",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "flashcard",
+    "tags": [
+      "乗法定理",
+      "定義"
+    ],
+    "stem": "確率の乗法定理を書け。",
+    "stem_status": "original",
+    "answer": "$P(A\\cap B)=P(A)P(B|A)=P(B)P(A|B)$（各条件で分母≠0）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 22
+      }
+    ],
+    "conflicts": [],
+    "front": "確率の乗法定理を書け。",
+    "back": "$P(A\\cap B)=P(A)P(B|A)=P(B)P(A|B)$（各条件で分母≠0）"
+  },
+  {
+    "id": "PS-L5-E5",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "乗法定理",
+      "未記入"
+    ],
+    "stem": "【演習5】(1)雨の日0.4。雨のとき遅刻0.2・晴れのとき0.05。遅刻の確率。(2)予報が雨・晴れとも正答率0.8のとき、雨と予報する確率。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": "注: プリント脚注どおり『予報が0.8で正しい』だけでは雨予報確率は一意に定まらない、という注意あり。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 22,
+        "note": "演習5 未記入"
+      }
+    ],
+    "conflicts": [],
+    "front": "【演習5】(1)雨の日0.4。雨のとき遅刻0.2・晴れのとき0.05。遅刻の確率。(2)予報が雨・晴れとも正答率0.8のとき、雨と予報する確率。",
+    "back": "（未記入・未確認）"
+  },
+  {
+    "id": "PS-L5-MARKOV",
+    "unit": "第5回 反復試行・条件付き確率・乗法定理",
+    "form": "flashcard",
+    "tags": [
+      "マルコフ連鎖",
+      "余談"
+    ],
+    "stem": "天気のマルコフ連鎖の遷移行列（状態 雨・曇・晴 = 1,2,3、$p_{ij}$=j→i）と、定常分布の条件を述べよ。",
+    "stem_status": "original",
+    "answer": "$P=\\begin{pmatrix}0.5&0.3&0.1\\\\0.4&0.4&0.2\\\\0.1&0.3&0.7\\end{pmatrix}$。定常 $Pq=q$（成分和1）で $q=(6/22,7/22,9/22)^T$。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_markov_weather.png",
+        "page": 23,
+        "caption": {
+          "value": "天気の状態遷移図",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_freq_dist_2026-11.pdf",
+        "page": 23
+      }
+    ],
+    "conflicts": [],
+    "front": "天気のマルコフ連鎖の遷移行列（状態 雨・曇・晴 = 1,2,3、$p_{ij}$=j→i）と、定常分布の条件を述べよ。",
+    "back": "$P=\\begin{pmatrix}0.5&0.3&0.1\\\\0.4&0.4&0.2\\\\0.1&0.3&0.7\\end{pmatrix}$。定常 $Pq=q$（成分和1）で $q=(6/22,7/22,9/22)^T$。"
+  }
+]

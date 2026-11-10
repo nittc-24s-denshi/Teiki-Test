@@ -1,0 +1,23 @@
+{
+  "id": "PS-L4-DEF-events",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "flashcard",
+  "stem": {
+    "value": "試行・事象・根元事象・全事象・空事象・積事象・和事象・余事象・排反を簡潔に述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "試行=観測実験／事象=結果の集まり／根元=1結果／全事象=すべて／空=∅／積=∩／和=∪／余=補集合／排反=積が空",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 15
+    }
+  ],
+  "tags": [
+    "事象",
+    "定義"
+  ]
+}

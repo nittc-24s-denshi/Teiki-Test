@@ -1,0 +1,23 @@
+{
+  "id": "PS-L5-DEF-indep",
+  "unit": "第5回 反復試行・条件付き確率・乗法定理",
+  "form": "flashcard",
+  "stem": {
+    "value": "独立な試行・反復試行の確率（各回事象 $A_i$）の公式を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$P(A)=\\prod P(A_i)$。特に毎回同じ事象Bなら $P(B)^n$。ちょうどk回なら ${}_n C_k p^k(1-p)^{n-k}$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 19
+    }
+  ],
+  "tags": [
+    "反復試行",
+    "定義"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "PS-L4-E2-2",
+  "unit": "第4回 確率（事象・確率の基本）",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習2(2)】2つのサイコロの目がどちらも偶数となる確率を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$P(B)=9/36=1/4$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。偶数{2,4,6}で3×3=9通り。ページ画像で9/36=1/4を確認。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "演習",
+    "確率"
+  ],
+  "corrections": [
+    {
+      "field": "transcript",
+      "before": "断片的な余事象表記中心",
+      "after": "P(B)=9/36=1/4 を採用",
+      "reason": "ページ画像照合"
+    }
+  ]
+}

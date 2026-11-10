@@ -1,0 +1,38 @@
+{
+  "id": "PS-L1-E2-table",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習2】冒頭40人データを10点刻みで整理した度数分布表を完成させよ（60〜69,70〜79,80〜89,90〜99の度数・相対度数・累積度数・累積相対度数と合計）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "60〜69: 度数12, 相対0.3, 累積24, 累積相対0.6／70〜79: 8, 0.2, 32, 0.8／80〜89: 6, 0.15, 38, 0.95／90〜99: 2, 0.05, 40, 1／合計: 度数40, 相対1",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。データ再集計でも各階級 3,9,12,8,6,2 で手書きと一致。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 2,
+      "note": "演習2 表"
+    }
+  ],
+  "tags": [
+    "演習",
+    "度数分布表"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "Gemini表値を転記",
+      "after": "手書き値をページ画像で確認し検算一致",
+      "reason": "原本照合"
+    }
+  ]
+}

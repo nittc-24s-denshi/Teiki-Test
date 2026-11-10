@@ -1,0 +1,30 @@
+{
+  "id": "PS-L1-E1-2",
+  "unit": "第1回 度数分布表・ヒストグラム・代表値",
+  "form": "calculation",
+  "stem": {
+    "value": "【演習1-2】冒頭の40人データの合計は2701点である。平均値 $\\bar{x}$ を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\bar{x}=2701/40=67.525$",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。合計2701は印刷、40で割ると67.525。データ一覧の和も2701で一致。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 1,
+      "note": "演習1(2)"
+    }
+  ],
+  "tags": [
+    "演習",
+    "平均"
+  ]
+}

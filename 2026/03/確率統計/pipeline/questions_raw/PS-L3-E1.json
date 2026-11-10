@@ -1,0 +1,46 @@
+{
+  "id": "PS-L3-E1",
+  "unit": "第3回 散布図・共分散・相関係数・回帰直線",
+  "form": "short_answer",
+  "stem": {
+    "value": "【演習1】データB（x:7,2,11,5,8,3 / y:3,12,9,7,6,11）の散布図を描き、どのような相関が見られるか答えよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "負の相関（右下がり）",
+    "status": "inferred",
+    "rationale": "原本ページ画像の手書き記入を照合・検算。「負の相関」と記入。散布図にも右下がりの傾向線。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "演習",
+    "散布図",
+    "相関"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex1_scatter_B.png",
+      "page": 11,
+      "caption": {
+        "value": "データBの散布図（手書き）",
+        "status": "inferred",
+        "rationale": "原本ページ画像の手書き記入を読み取り",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      }
+    }
+  ]
+}

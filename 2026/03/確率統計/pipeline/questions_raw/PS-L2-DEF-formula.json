@@ -1,0 +1,23 @@
+{
+  "id": "PS-L2-DEF-formula",
+  "unit": "第2回 分散と標準偏差",
+  "form": "flashcard",
+  "stem": {
+    "value": "分散と平均の関係式（計算公式）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$v_x=\\frac{1}{n}\\sum x_i^2 - \\bar{x}^2$（分散＝2乗の平均−平均の2乗）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_freq_dist_2026-11.pdf",
+      "page": 8
+    }
+  ],
+  "tags": [
+    "分散",
+    "公式"
+  ]
+}
