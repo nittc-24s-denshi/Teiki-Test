@@ -1,0 +1,33 @@
+{
+  "id": "EM2-D007",
+  "unit": "4. 誘電体 / 4.2 誘電体の分極",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑦] 「導電体は⑦を流し，誘電体は⑧を流さない」の⑦に入る語句。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "自由な電流",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 2,
+      "note": "穴埋め/設問 ⑦"
+    }
+  ],
+  "tags": [
+    "誘電体",
+    "導電体",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "電気 / 電流",
+      "after": "自由な電流",
+      "reason": "ページ画像照合。Gemini文字起こしの⑦読み違い（電気/電流）を訂正。手書きは「自由な電流」。"
+    }
+  ]
+}

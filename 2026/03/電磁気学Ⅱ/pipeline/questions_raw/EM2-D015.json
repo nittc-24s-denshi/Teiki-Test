@@ -1,0 +1,33 @@
+{
+  "id": "EM2-D015",
+  "unit": "4. 誘電体 / 電束とガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑮] 電束に関するガウスの法則の一般形（単位 [C]）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】空欄のまま（想定: $\\oint \\mathbf{D}\\cdot d\\mathbf{S} = Q$）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 4,
+      "note": "穴埋め/設問 ⑮"
+    }
+  ],
+  "tags": [
+    "ガウスの法則",
+    "穴埋め",
+    "未記入"
+  ],
+  "corrections": [
+    {
+      "field": "answer.status",
+      "before": "（Geminiは空欄として未記載、一部読み取りで誤補完の疑い）",
+      "after": "unverified",
+      "reason": "ページ画像照合の結果、⑮は未記入。穴埋め補完は別途外部AI運用のためここでは埋めない。"
+    }
+  ]
+}

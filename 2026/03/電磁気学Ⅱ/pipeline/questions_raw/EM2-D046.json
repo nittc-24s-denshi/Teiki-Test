@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D046",
+  "unit": "5. 電流 / 境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-⑨] 境界面における電流密度の法線連続（式5.10）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$J_{1n}=J_{2n}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 13,
+      "note": "穴埋め/設問 5-⑨"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ]
+}

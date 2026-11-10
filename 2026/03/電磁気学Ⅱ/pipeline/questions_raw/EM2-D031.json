@@ -1,0 +1,38 @@
+{
+  "id": "EM2-D031",
+  "unit": "4. 誘電体 / 4.5 エネルギーと力",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉛] ファラデー管（力管）の始点・終点の性質を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "単位正の電荷から始まり、単位負の電荷に終わる",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 8,
+      "note": "穴埋め/設問 ㉛"
+    }
+  ],
+  "tags": [
+    "ファラデー管",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "㉡",
+      "after": "㉛",
+      "reason": "Gemini既知誤り。画像は㉛。"
+    },
+    {
+      "field": "answer.value",
+      "before": "正の電荷から発生し、負の電荷に終わる",
+      "after": "単位正の電荷から始まり、単位負の電荷に終わる",
+      "reason": "画像照合。手書きに「単位」が付く。"
+    }
+  ]
+}

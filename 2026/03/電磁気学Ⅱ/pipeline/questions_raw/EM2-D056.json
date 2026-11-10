@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D056",
+  "unit": "6. 真空中の静磁界 / 6.3 磁気の性質と強さ",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-⑥] 磁荷 m₁ が距離 r に作る磁界 H（式6.3）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$H=\\dfrac{1}{4\\pi\\mu_0}\\dfrac{m_1}{r^2}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 16,
+      "note": "穴埋め/設問 6-⑥"
+    }
+  ],
+  "tags": [
+    "磁界",
+    "穴埋め"
+  ]
+}

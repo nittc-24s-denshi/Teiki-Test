@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D042",
+  "unit": "5. 電流 / 5.1 電流と電流密度",
+  "form": "calculation",
+  "stem": {
+    "value": "[例題5.1] 導線に 2 A が流れている。1 C の移動に要する時間を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$t=Q/I=1/2=0.5\\,\\mathrm{s}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 12,
+      "note": "穴埋め/設問 例題5.1"
+    }
+  ],
+  "tags": [
+    "例題",
+    "電流"
+  ]
+}

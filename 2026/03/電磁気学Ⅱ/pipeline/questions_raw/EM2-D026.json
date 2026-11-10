@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D026",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉖] 境界面近傍の閉曲線 abcd に対する電界の線積分（式4.13）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\oint_{abcd}\\mathbf{E}\\cdot d\\mathbf{l}=-E_{1t}|ab|+E_{2t}|cd|$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 7,
+      "note": "穴埋め/設問 ㉖"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ]
+}

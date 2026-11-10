@@ -1,0 +1,32 @@
+{
+  "id": "EM2-D025",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉕] 境界面における電束密度の法線成分についての結論を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "境界面における電束密度の法線方向の成分は連続である",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 6,
+      "note": "穴埋め/設問 ㉕"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "㉥",
+      "after": "㉕",
+      "reason": "Gemini既知誤り。画像上の丸数字は㉕。"
+    }
+  ]
+}

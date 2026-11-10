@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D001",
+  "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+  "form": "cloze",
+  "stem": {
+    "value": "[①] 比誘電率 ε_r を、真空時の静電容量 C_0 と誘電体充填時の静電容量 C で表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\varepsilon_r = \\dfrac{C}{C_0}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 1,
+      "note": "穴埋め/設問 ①"
+    }
+  ],
+  "tags": [
+    "比誘電率",
+    "穴埋め"
+  ]
+}

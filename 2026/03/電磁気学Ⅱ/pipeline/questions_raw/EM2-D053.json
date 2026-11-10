@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D053",
+  "unit": "6. 真空中の静磁界 / 6.2 磁力線の特性",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-③] N と m, μ₀ の式。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$N=\\dfrac{m}{\\mu_0}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 15,
+      "note": "穴埋め/設問 6-③"
+    }
+  ],
+  "tags": [
+    "磁力線",
+    "穴埋め"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D055",
+  "unit": "6. 真空中の静磁界 / 6.3 磁気の性質と強さ",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-⑤] F₁ を m₂ と磁界で表す途中式。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$F_1=m_2\\dfrac{1}{4\\pi\\mu_0}\\dfrac{m_1}{r^2}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 16,
+      "note": "穴埋め/設問 6-⑤"
+    }
+  ],
+  "tags": [
+    "磁界",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig6_3_coulomb.png",
+      "page": 17,
+      "caption": {
+        "value": "図6.3 磁気に関するクーロンの法則",
+        "status": "original"
+      }
+    }
+  ]
+}

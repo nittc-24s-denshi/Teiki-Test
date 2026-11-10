@@ -1,0 +1,33 @@
+{
+  "id": "EM2-D018",
+  "unit": "4. 誘電体 / 電束とガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑱] 電気力線数 N=Q/ε [本] について、周囲との関係を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】判読不能・ほぼ空白（想定: 周囲の物質の影響を受ける）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 4,
+      "note": "穴埋め/設問 ⑱"
+    }
+  ],
+  "tags": [
+    "電気力線",
+    "穴埋め",
+    "判読不能"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "）",
+      "after": "【未確認】判読不能・ほぼ空白",
+      "reason": "Gemini既知疑いどおり。強調画像でも明確な文字を確認できず unverified。"
+    }
+  ]
+}

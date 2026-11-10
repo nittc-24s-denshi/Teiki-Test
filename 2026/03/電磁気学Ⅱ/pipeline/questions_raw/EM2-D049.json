@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D049",
+  "unit": "5. 電流 / 境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-⑫] 定常電流界の接線成分の連続を式で書け（式5.13）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】空欄（想定: $E_{1t}=E_{2t}$ または $J_{1t}/\\sigma_1=J_{2t}/\\sigma_2$）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 13,
+      "note": "穴埋め/設問 5-⑫"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "未記入"
+  ]
+}

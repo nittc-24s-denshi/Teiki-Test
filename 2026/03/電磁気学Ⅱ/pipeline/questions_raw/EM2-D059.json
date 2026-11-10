@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D059",
+  "unit": "6. 真空中の静磁界 / 6.5 磁束密度と磁界",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-⑨] 微小領域の磁束収支（式6.9）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\Delta\\phi_2-\\Delta\\phi_1=0$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 18,
+      "note": "穴埋め/設問 6-⑨"
+    }
+  ],
+  "tags": [
+    "磁束保存",
+    "穴埋め"
+  ]
+}

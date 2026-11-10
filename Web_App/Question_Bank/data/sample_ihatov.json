@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0.0",
+  "exam": "2026/03",
+  "subject": "サンプル科目（仮）",
+  "notes": "仮サンプル。本文は宮沢賢治『注文の多い料理店』（パブリックドメイン）由来の設問と自作の簡単な数式。",
+  "questions": [
+    {
+      "id": "SAMPLE-IHATOV-001",
+      "unit": "イーハトーブ文学（仮）",
+      "form": "short_answer",
+      "stem": {
+        "value": "仮：二人の若い紳士が連れていた、白熊のような動物は何か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "犬",
+        "status": "original"
+      },
+      "explanation": {
+        "value": "『注文の多い料理店』冒頭「白熊のような犬を二疋」。",
+        "status": "inferred",
+        "rationale": "青空文庫パブリックドメイン抜粋からの要約",
+        "tools": [
+          "manual"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 1
+        },
+        {
+          "file": "RAW/sample_ihatov_alt.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "イーハトーブ"
+      ],
+      "corrections": [
+        {
+          "field": "stem.value",
+          "before": "白熊の様な",
+          "after": "白熊のような",
+          "reason": "現代仮名遣いに統一"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "answer",
+          "values": [
+            {
+              "value": "犬",
+              "source": "RAW/sample_ihatov.pdf:p1",
+              "status": "original"
+            },
+            {
+              "value": "犬（二疋）",
+              "source": "RAW/sample_ihatov_alt.pdf:p1",
+              "status": "inferred"
+            }
+          ],
+          "reason": "同一または類似問題で解答が不一致"
+        }
+      ]
+    },
+    {
+      "id": "SAMPLE-MATH-001",
+      "unit": "基礎計算（仮）",
+      "form": "calculation",
+      "stem": {
+        "value": "仮：次を計算せよ。 $3+4$",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$7$",
+        "status": "original"
+      },
+      "explanation": {
+        "value": "整数の和。検算: $7-4=3$。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "仮",
+        "math"
+      ]
+    },
+    {
+      "id": "SAMPLE-MC-001",
+      "unit": "基礎計算（仮）",
+      "form": "multiple_choice",
+      "stem": {
+        "value": "仮：$1+1$ の値はどれか。",
+        "status": "original"
+      },
+      "choices": [
+        {
+          "key": "A",
+          "text": {
+            "value": "$0$",
+            "status": "original"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "value": "$1$",
+            "status": "original"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "value": "$2$",
+            "status": "original"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "value": "$3$",
+            "status": "original"
+          }
+        }
+      ],
+      "answer": {
+        "value": "C",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "仮",
+        "math"
+      ]
+    },
+    {
+      "id": "SAMPLE-EN-001",
+      "unit": "語彙（仮）",
+      "form": "flashcard",
+      "stem": {
+        "value": "Ihatov",
+        "status": "original"
+      },
+      "answer": {
+        "value": "イーハトーブ",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "english",
+        "vocab"
+      ]
+    },
+    {
+      "id": "SAMPLE-CLOZE-001",
+      "unit": "イーハトーブ文学（仮）",
+      "form": "cloze",
+      "stem": {
+        "value": "仮：ぜんたい、ここらの山は{{怪しからん}}ね。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "怪しからん",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/sample_ihatov.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "仮",
+        "cloze"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-09T08:01:08Z"
+}

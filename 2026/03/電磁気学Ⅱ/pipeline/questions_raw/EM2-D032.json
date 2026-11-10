@@ -1,0 +1,38 @@
+{
+  "id": "EM2-D032",
+  "unit": "4. 誘電体 / 4.5.1 電界エネルギー",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉜] エネルギー体積密度 w = (1/2)·(ΔV/Δl)·(1/ΔS) = (1/2)·□ （式4.19）。□を埋めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$ED$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 8,
+      "note": "穴埋め/設問 ㉜"
+    }
+  ],
+  "tags": [
+    "エネルギー密度",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "㉢",
+      "after": "㉜",
+      "reason": "Gemini既知誤り。画像は㉜。"
+    },
+    {
+      "field": "answer.value",
+      "before": "\\frac{1}{2} E D",
+      "after": "ED",
+      "reason": "印刷の 1/2 は箱の外。箱内手書きは ED。"
+    }
+  ]
+}

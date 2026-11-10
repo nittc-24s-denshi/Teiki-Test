@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D012",
+  "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑫] 分極 P を分極率 χ（または比分極率 χ_r）と E_p で表せ（式4.6）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$P = \\chi E_p = \\varepsilon_0 \\chi_r E_p$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 3,
+      "note": "穴埋め/設問 ⑫"
+    }
+  ],
+  "tags": [
+    "分極",
+    "穴埋め"
+  ]
+}

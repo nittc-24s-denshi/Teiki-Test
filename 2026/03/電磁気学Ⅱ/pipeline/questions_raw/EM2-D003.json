@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D003",
+  "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+  "form": "cloze",
+  "stem": {
+    "value": "[③] 極板間を誘電率 ε の誘電体で満たしたときの静電容量 C を表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$C = \\varepsilon \\dfrac{S}{d}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 1,
+      "note": "穴埋め/設問 ③"
+    }
+  ],
+  "tags": [
+    "静電容量",
+    "穴埋め"
+  ]
+}

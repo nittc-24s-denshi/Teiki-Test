@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D057",
+  "unit": "6. 真空中の静磁界 / 6.4 磁束の特性",
+  "form": "other",
+  "stem": {
+    "value": "[6-⑦] 図6.4 磁石周辺の磁束（枠内⑦）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】図枠が空白（図の描画・説明未記入）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 17,
+      "note": "穴埋め/設問 6-⑦"
+    }
+  ],
+  "tags": [
+    "磁束",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig6_4_flux_blank.png",
+      "page": 17,
+      "caption": {
+        "value": "図6.4 磁石周辺の磁束（空白）",
+        "status": "original"
+      }
+    }
+  ]
+}

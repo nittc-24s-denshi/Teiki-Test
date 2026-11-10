@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D045",
+  "unit": "5. 電流 / 境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-⑧] 境界面の電流連続（式5.9）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\oint_S J_n\\,dS=-J_{1n}\\Delta S+J_{2n}\\Delta S=0$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 13,
+      "note": "穴埋め/設問 5-⑧"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig5_4_conductor_boundary.png",
+      "page": 13,
+      "caption": {
+        "value": "図5.4 導体境界面の電流密度条件",
+        "status": "original"
+      }
+    }
+  ]
+}

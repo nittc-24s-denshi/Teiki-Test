@@ -1,0 +1,38 @@
+{
+  "id": "EM2-D033",
+  "unit": "4. 誘電体 / 4.5.1 電界エネルギー",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉝] w = (1/2)ED = (1/2)·□ （式4.20）。□を埋めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\dfrac{D^2}{\\varepsilon}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 8,
+      "note": "穴埋め/設問 ㉝"
+    }
+  ],
+  "tags": [
+    "エネルギー密度",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "㉣",
+      "after": "㉝",
+      "reason": "Gemini既知誤り。画像は㉝。"
+    },
+    {
+      "field": "answer.value",
+      "before": "\\frac{1}{2}\\frac{D^2}{\\varepsilon}",
+      "after": "\\dfrac{D^2}{\\varepsilon}",
+      "reason": "1/2 は箱の外。箱内は D²/ε。"
+    }
+  ]
+}

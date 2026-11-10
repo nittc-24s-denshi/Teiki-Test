@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D002",
+  "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+  "form": "cloze",
+  "stem": {
+    "value": "[②] 平行平板コンデンサ（極板面積 S、間隔 d）の真空時静電容量 C_0 を表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$C_0 = \\varepsilon_0 \\dfrac{S}{d}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 1,
+      "note": "穴埋め/設問 ②"
+    }
+  ],
+  "tags": [
+    "静電容量",
+    "穴埋め"
+  ]
+}

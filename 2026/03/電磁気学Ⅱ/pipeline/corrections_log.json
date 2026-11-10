@@ -1,0 +1,139 @@
+{
+  "generated_at": "2026-11-10T14:02:54Z",
+  "count": 19,
+  "items": [
+    {
+      "id": "EM2-D007",
+      "field": "answer.value",
+      "before": "電気 / 電流",
+      "after": "自由な電流",
+      "reason": "ページ画像照合。Gemini文字起こしの⑦読み違い（電気/電流）を訂正。手書きは「自由な電流」。"
+    },
+    {
+      "id": "EM2-D008",
+      "field": "answer.value",
+      "before": "電気 / 電流",
+      "after": "ほとんど電流",
+      "reason": "ページ画像照合。Gemini文字起こしの⑧読み違いを訂正。手書きは「ほとんど電流」。"
+    },
+    {
+      "id": "EM2-D015",
+      "field": "answer.status",
+      "before": "（Geminiは空欄として未記載、一部読み取りで誤補完の疑い）",
+      "after": "unverified",
+      "reason": "ページ画像照合の結果、⑮は未記入。穴埋め補完は別途外部AI運用のためここでは埋めない。"
+    },
+    {
+      "id": "EM2-D017",
+      "field": "answer.value",
+      "before": "周囲の影響は受けない（Gemini）／周囲の物質は無関係（別読み）",
+      "after": "周囲の影響は受けない",
+      "reason": "強調コントラスト画像で再読。手書きは「周囲の影響は受けない」と判定。"
+    },
+    {
+      "id": "EM2-D018",
+      "field": "answer.value",
+      "before": "）",
+      "after": "【未確認】判読不能・ほぼ空白",
+      "reason": "Gemini既知疑いどおり。強調画像でも明確な文字を確認できず unverified。"
+    },
+    {
+      "id": "EM2-D023",
+      "field": "local_number",
+      "before": "欠落（Gemini既知誤り）",
+      "after": "㉓",
+      "reason": "図4.5枠内左上の丸数字㉓と手書き成分分解を確認。transcriptから欠落していたため復元。"
+    },
+    {
+      "id": "EM2-D025",
+      "field": "local_number",
+      "before": "㉥",
+      "after": "㉕",
+      "reason": "Gemini既知誤り。画像上の丸数字は㉕。"
+    },
+    {
+      "id": "EM2-D027",
+      "field": "answer.value",
+      "before": "$D_1\\sin\\theta_1=D_2\\sin\\theta_2$",
+      "after": "$D_1\\cos\\theta_1=D_2\\cos\\theta_2$",
+      "reason": "画像照合。法線成分は cos。sin は接線成分。Geminiがsinと誤記。"
+    },
+    {
+      "id": "EM2-D030",
+      "field": "local_number",
+      "before": "㉠",
+      "after": "㉚",
+      "reason": "Gemini既知誤り（㉠〜㉣表記）。画像は㉚。"
+    },
+    {
+      "id": "EM2-D030",
+      "field": "answer.value",
+      "before": "ファラデー管",
+      "after": "力管",
+      "reason": "画像照合。手書きは「力管」。直後に「力管をファラデー管と呼ぶ」と続く。"
+    },
+    {
+      "id": "EM2-D031",
+      "field": "local_number",
+      "before": "㉡",
+      "after": "㉛",
+      "reason": "Gemini既知誤り。画像は㉛。"
+    },
+    {
+      "id": "EM2-D031",
+      "field": "answer.value",
+      "before": "正の電荷から発生し、負の電荷に終わる",
+      "after": "単位正の電荷から始まり、単位負の電荷に終わる",
+      "reason": "画像照合。手書きに「単位」が付く。"
+    },
+    {
+      "id": "EM2-D032",
+      "field": "local_number",
+      "before": "㉢",
+      "after": "㉜",
+      "reason": "Gemini既知誤り。画像は㉜。"
+    },
+    {
+      "id": "EM2-D032",
+      "field": "answer.value",
+      "before": "\\frac{1}{2} E D",
+      "after": "ED",
+      "reason": "印刷の 1/2 は箱の外。箱内手書きは ED。"
+    },
+    {
+      "id": "EM2-D033",
+      "field": "local_number",
+      "before": "㉣",
+      "after": "㉝",
+      "reason": "Gemini既知誤り。画像は㉝。"
+    },
+    {
+      "id": "EM2-D033",
+      "field": "answer.value",
+      "before": "\\frac{1}{2}\\frac{D^2}{\\varepsilon}",
+      "after": "\\dfrac{D^2}{\\varepsilon}",
+      "reason": "1/2 は箱の外。箱内は D²/ε。"
+    },
+    {
+      "id": "EM2-D034",
+      "field": "local_number",
+      "before": "㉤",
+      "after": "㉞",
+      "reason": "Gemini既知誤り。連番上㉞（画像の丸数字も34系）。"
+    },
+    {
+      "id": "EM2-D036",
+      "field": "answer.value",
+      "before": "F=\\frac{1}{2}\\varepsilon_0(2V/d)^2",
+      "after": "F=\\frac{1}{2}\\varepsilon_0(2V_1/d)^2（部分・Vに添字1）",
+      "reason": "画像では V に添字1が見える。全体解答は未記入のため unverified。"
+    },
+    {
+      "id": "EM2-D060",
+      "field": "answer.value",
+      "before": "BS → ∮ B·dS = 0",
+      "after": "∮ B·dS = 0（印字BをΦと斜線訂正の痕跡）",
+      "reason": "画像で印字記号への手書き訂正を確認。法則としては磁束の閉曲面積分=0。"
+    }
+  ]
+}

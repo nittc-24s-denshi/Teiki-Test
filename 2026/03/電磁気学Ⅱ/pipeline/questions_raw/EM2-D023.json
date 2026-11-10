@@ -1,0 +1,50 @@
+{
+  "id": "EM2-D023",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉓] 図4.5の電束密度の接線・法線成分の分解（θ は法線からの角）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$D_{1t}=D_1\\sin\\theta_1,\\ D_{1n}=D_1\\cos\\theta_1,\\ D_{2t}=D_2\\sin\\theta_2,\\ D_{2n}=D_2\\cos\\theta_2$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 6,
+      "note": "穴埋め/設問 ㉓"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ],
+  "explanation": {
+    "value": "図4.4に生徒が μ₁, μ₂ と書き込んでいるが、文脈は誘電率 ε₁, ε₂。透磁率との取り違え候補。",
+    "status": "inferred",
+    "rationale": "図キャプション・本文は誘電率。μ は磁気の章の記号。",
+    "tools": [
+      "manual-physics-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig4_5_boundary_components.png",
+      "page": 6,
+      "caption": {
+        "value": "図4.5 異なる2つの誘電率を持つ境界面（㉓）",
+        "status": "original"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "欠落（Gemini既知誤り）",
+      "after": "㉓",
+      "reason": "図4.5枠内左上の丸数字㉓と手書き成分分解を確認。transcriptから欠落していたため復元。"
+    }
+  ]
+}

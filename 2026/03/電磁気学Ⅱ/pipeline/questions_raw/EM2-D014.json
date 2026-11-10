@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D014",
+  "unit": "4. 誘電体 / 電束とガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑭] 電荷 Q を覆う半径 r の球面の電束密度 D を表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$D = \\dfrac{Q}{4\\pi r^2}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 4,
+      "note": "穴埋め/設問 ⑭"
+    }
+  ],
+  "tags": [
+    "電束密度",
+    "穴埋め"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D029",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉙] tanθ₁/tanθ₂=ε₁/ε₂ を、電気力線と電束の何と呼ぶか。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "屈折の法則",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 7,
+      "note": "穴埋め/設問 ㉙"
+    }
+  ],
+  "tags": [
+    "屈折の法則",
+    "穴埋め"
+  ]
+}

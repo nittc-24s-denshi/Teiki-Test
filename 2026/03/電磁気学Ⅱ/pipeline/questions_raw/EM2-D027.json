@@ -1,0 +1,32 @@
+{
+  "id": "EM2-D027",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉗] 電束密度の法線連続から得られる角度関係（式4.14上段）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$D_1\\cos\\theta_1=D_2\\cos\\theta_2$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 7,
+      "note": "穴埋め/設問 ㉗"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "$D_1\\sin\\theta_1=D_2\\sin\\theta_2$",
+      "after": "$D_1\\cos\\theta_1=D_2\\cos\\theta_2$",
+      "reason": "画像照合。法線成分は cos。sin は接線成分。Geminiがsinと誤記。"
+    }
+  ]
+}

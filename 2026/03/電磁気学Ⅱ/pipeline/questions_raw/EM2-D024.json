@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D024",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉔] 薄い円柱閉曲面に対する電束の収支（自由表面電荷なし）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\Delta S (D_{2n}-D_{1n})=0$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 6,
+      "note": "穴埋め/設問 ㉔"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ]
+}

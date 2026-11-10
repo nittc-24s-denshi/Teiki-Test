@@ -1,0 +1,182 @@
+[
+  {
+    "id": "fig4_1_electron_polarization",
+    "path": "pipeline/images/figures/fig4_1_electron_polarization.png",
+    "source": "print_dielectric_2026-11_p002_img01.jpeg",
+    "size": [
+      1200,
+      536
+    ]
+  },
+  {
+    "id": "fig4_1_dielectric_polarization",
+    "path": "pipeline/images/figures/fig4_1_dielectric_polarization.png",
+    "source": "print_dielectric_2026-11_p002_img01.jpeg",
+    "size": [
+      1200,
+      515
+    ]
+  },
+  {
+    "id": "fig4_2_apparent_charge",
+    "path": "pipeline/images/figures/fig4_2_apparent_charge.png",
+    "source": "print_dielectric_2026-11_p003_img01.jpeg",
+    "size": [
+      1200,
+      539
+    ]
+  },
+  {
+    "id": "fig4_3_field_flux",
+    "path": "pipeline/images/figures/fig4_3_field_flux.png",
+    "source": "print_dielectric_2026-11_p005_img01.jpeg",
+    "size": [
+      1200,
+      626
+    ]
+  },
+  {
+    "id": "fig4_4_refraction_lines",
+    "path": "pipeline/images/figures/fig4_4_refraction_lines.png",
+    "source": "print_dielectric_2026-11_p006_img01.jpeg",
+    "size": [
+      1200,
+      656
+    ]
+  },
+  {
+    "id": "fig4_5_boundary_components",
+    "path": "pipeline/images/figures/fig4_5_boundary_components.png",
+    "source": "print_dielectric_2026-11_p006_img01.jpeg",
+    "size": [
+      1200,
+      673
+    ]
+  },
+  {
+    "id": "fig4_6_faraday_tube",
+    "path": "pipeline/images/figures/fig4_6_faraday_tube.png",
+    "source": "print_dielectric_2026-11_p008_img01.jpeg",
+    "size": [
+      1200,
+      617
+    ]
+  },
+  {
+    "id": "fig_ex4_1_coaxial",
+    "path": "pipeline/images/figures/fig_ex4_1_coaxial.png",
+    "source": "print_dielectric_2026-11_p009_img01.jpeg",
+    "size": [
+      1120,
+      873
+    ]
+  },
+  {
+    "id": "fig_prob4_2_capacitors",
+    "path": "pipeline/images/figures/fig_prob4_2_capacitors.png",
+    "source": "print_dielectric_2026-11_p010_img01.jpeg",
+    "size": [
+      1200,
+      779
+    ]
+  },
+  {
+    "id": "fig5_1_current",
+    "path": "pipeline/images/figures/fig5_1_current.png",
+    "source": "print_dielectric_2026-11_p011_img01.jpeg",
+    "size": [
+      857,
+      665
+    ]
+  },
+  {
+    "id": "fig5_2_current_continuity",
+    "path": "pipeline/images/figures/fig5_2_current_continuity.png",
+    "source": "print_dielectric_2026-11_p012_img01.jpeg",
+    "size": [
+      765,
+      812
+    ]
+  },
+  {
+    "id": "fig5_3_steady_current_field",
+    "path": "pipeline/images/figures/fig5_3_steady_current_field.png",
+    "source": "print_dielectric_2026-11_p012_img01.jpeg",
+    "size": [
+      1147,
+      662
+    ]
+  },
+  {
+    "id": "fig5_4_conductor_boundary",
+    "path": "pipeline/images/figures/fig5_4_conductor_boundary.png",
+    "source": "print_dielectric_2026-11_p013_img01.jpeg",
+    "size": [
+      1200,
+      734
+    ]
+  },
+  {
+    "id": "fig_ex5_2_leaky_capacitor",
+    "path": "pipeline/images/figures/fig_ex5_2_leaky_capacitor.png",
+    "source": "print_dielectric_2026-11_p014_img01.jpeg",
+    "size": [
+      880,
+      815
+    ]
+  },
+  {
+    "id": "fig6_1_magnetism",
+    "path": "pipeline/images/figures/fig6_1_magnetism.png",
+    "source": "print_dielectric_2026-11_p015_img01.jpeg",
+    "size": [
+      1200,
+      514
+    ]
+  },
+  {
+    "id": "fig6_2_field_lines",
+    "path": "pipeline/images/figures/fig6_2_field_lines.png",
+    "source": "print_dielectric_2026-11_p015_img01.jpeg",
+    "size": [
+      1200,
+      593
+    ]
+  },
+  {
+    "id": "fig6_3_coulomb",
+    "path": "pipeline/images/figures/fig6_3_coulomb.png",
+    "source": "print_dielectric_2026-11_p017_img01.jpeg",
+    "size": [
+      1200,
+      632
+    ]
+  },
+  {
+    "id": "fig6_4_flux_blank",
+    "path": "pipeline/images/figures/fig6_4_flux_blank.png",
+    "source": "print_dielectric_2026-11_p017_img01.jpeg",
+    "size": [
+      1147,
+      649
+    ]
+  },
+  {
+    "id": "fig6_5_flux_gauss",
+    "path": "pipeline/images/figures/fig6_5_flux_gauss.png",
+    "source": "print_dielectric_2026-11_p018_img01.jpeg",
+    "size": [
+      896,
+      960
+    ]
+  },
+  {
+    "id": "fig_prob6_1_magnets",
+    "path": "pipeline/images/figures/fig_prob6_1_magnets.png",
+    "source": "print_dielectric_2026-11_p019_img01.jpeg",
+    "size": [
+      1200,
+      887
+    ]
+  }
+]

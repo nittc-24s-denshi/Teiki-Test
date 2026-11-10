@@ -1,0 +1,42 @@
+{
+  "id": "EM2-D060",
+  "unit": "6. 真空中の静磁界 / 6.5 磁束密度と磁界",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-⑩] 磁束密度に関するガウスの法則（式6.10）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\oint_S\\mathbf{B}\\cdot d\\mathbf{S}=0$（手書きで印字 B を Φ と訂正した痕跡あり）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 18,
+      "note": "穴埋め/設問 6-⑩"
+    }
+  ],
+  "tags": [
+    "ガウスの法則",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig6_5_flux_gauss.png",
+      "page": 18,
+      "caption": {
+        "value": "図6.5 磁石周辺の磁束",
+        "status": "original"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "BS → ∮ B·dS = 0",
+      "after": "∮ B·dS = 0（印字BをΦと斜線訂正の痕跡）",
+      "reason": "画像で印字記号への手書き訂正を確認。法則としては磁束の閉曲面積分=0。"
+    }
+  ]
+}

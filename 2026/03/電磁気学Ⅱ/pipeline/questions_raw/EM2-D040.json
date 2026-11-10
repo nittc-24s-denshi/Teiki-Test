@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D040",
+  "unit": "5. 電流 / 5.1 電流と電流密度",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-④] 電流を電流密度の面積分で表せ（式5.3）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$I=\\oint_S J\\,dS$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 11,
+      "note": "穴埋め/設問 5-④"
+    }
+  ],
+  "tags": [
+    "電流密度",
+    "穴埋め"
+  ]
+}

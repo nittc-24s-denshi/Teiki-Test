@@ -1,0 +1,42 @@
+{
+  "id": "EM2-D050",
+  "unit": "5. 電流 / 漏れ電流",
+  "form": "calculation",
+  "stem": {
+    "value": "[例題5.2] 平行板（S, d, 起電力 V, 媒質 ε, σ）の漏れ電流・漏れコンダクタンス G、および C と G の関係。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$I=\\sigma(V/d)S,\\quad G=\\sigma S/d,\\quad C/G=\\varepsilon/\\sigma$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 14,
+      "note": "穴埋め/設問 例題5.2"
+    }
+  ],
+  "tags": [
+    "例題",
+    "漏れコンダクタンス"
+  ],
+  "explanation": {
+    "value": "問題文は起電力を E[V] と書いているが解答は V を使用。記号の揺れに注意（原文維持）。",
+    "status": "inferred",
+    "rationale": "同一ページ内で E と V が混在",
+    "tools": [
+      "manual"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex5_2_leaky_capacitor.png",
+      "page": 14,
+      "caption": {
+        "value": "例題5.2 漏れのあるコンデンサ",
+        "status": "original"
+      }
+    }
+  ]
+}

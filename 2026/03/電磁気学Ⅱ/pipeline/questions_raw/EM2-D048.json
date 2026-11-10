@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D048",
+  "unit": "5. 電流 / 境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-⑪] 電流密度法線を定常電流界で書いた式（式5.12）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\sigma_1 E_1\\cos\\theta_1=\\sigma_2 E_2\\cos\\theta_2$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 13,
+      "note": "穴埋め/設問 5-⑪"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ]
+}

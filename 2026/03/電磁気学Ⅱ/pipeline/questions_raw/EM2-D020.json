@@ -1,0 +1,32 @@
+{
+  "id": "EM2-D020",
+  "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑳] 平行平板全体の電気力線の数（式4.9）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\oint_S E_p\\,\\Delta S = \\dfrac{Q-Q_p}{\\varepsilon_0}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 5,
+      "note": "穴埋め/設問 ⑳"
+    }
+  ],
+  "tags": [
+    "ガウスの法則",
+    "穴埋め"
+  ],
+  "explanation": {
+    "value": "プリント注記に $Q=\\Delta S\\sigma/\\varepsilon_0$ とあるが、真電荷は $Q=\\sigma\\Delta S$ が次元的に正しい。注記は印刷側の誤記候補（解答⑳の手書き本体は式4.9の形として採用）。",
+    "status": "inferred",
+    "rationale": "電荷密度σ[C/m²]×面積→電荷[C]。ε0で割ると次元が合わない。",
+    "tools": [
+      "manual-dimensional-check"
+    ]
+  }
+}

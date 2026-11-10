@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D004",
+  "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+  "form": "cloze",
+  "stem": {
+    "value": "[④] 誘電率 ε と比誘電率 ε_r、真空の誘電率 ε_0 の関係を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\varepsilon = \\varepsilon_r \\varepsilon_0$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 1,
+      "note": "穴埋め/設問 ④"
+    }
+  ],
+  "tags": [
+    "比誘電率",
+    "穴埋め"
+  ]
+}

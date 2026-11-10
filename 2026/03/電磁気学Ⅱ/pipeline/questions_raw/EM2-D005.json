@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D005",
+  "unit": "4. 誘電体 / 4.2 誘電体の分極",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑤] 電界により原子が2つの極を持つようになった状態は、何を形成した状態か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "電気双極子",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 2,
+      "note": "穴埋め/設問 ⑤"
+    }
+  ],
+  "tags": [
+    "分極",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig4_1_electron_polarization.png",
+      "page": 2,
+      "caption": {
+        "value": "図4.1a 電子分極",
+        "status": "original"
+      }
+    }
+  ]
+}

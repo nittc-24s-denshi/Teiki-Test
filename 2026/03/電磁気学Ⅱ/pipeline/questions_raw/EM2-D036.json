@@ -1,0 +1,69 @@
+{
+  "id": "EM2-D036",
+  "unit": "4. 誘電体 / 4.5.2 電極に働く力",
+  "form": "calculation",
+  "stem": {
+    "value": "[問題4.2] (a)真空 (b)真空+誘電体(各 d/2) (c)誘電体 の3条件で、同面積・同間隔・同電圧の＋電極単位面積あたりの力を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】完全解答なし。手書き部分: $F=\\frac{1}{2}\\varepsilon_0\\left(\\frac{2V_1}{d}\\right)^2$（(b)真空層側の途中式と推定）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 10,
+      "note": "穴埋め/設問 問題4.2"
+    }
+  ],
+  "tags": [
+    "問題",
+    "応力",
+    "未完成"
+  ],
+  "explanation": {
+    "value": "完全解の候補（inferred・穴埋め別途）: (a) $F=\\frac{1}{2}\\varepsilon_0(V/d)^2$; (c) $F=\\frac{1}{2}\\varepsilon(V/d)^2$; (b) 直列で D 一定、真空層の E_0=σ/ε_0、力は電極側真空なら $\\sigma^2/(2\\varepsilon_0)$。生徒の (2V₁/d) は真空層厚さ d/2 のときの E=2V₁/d として形は妥当だが、V₁ と全電圧 V の関係・(a)(c) が未記載のため正解確定はしない。",
+    "status": "inferred",
+    "rationale": "応力公式 F=½DE と直列誘電体の境界条件から整理",
+    "tools": [
+      "manual-physics-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_prob4_2_capacitors.png",
+      "page": 10,
+      "caption": {
+        "value": "問題4.2 3種の平行平板",
+        "status": "original"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "F=\\frac{1}{2}\\varepsilon_0(2V/d)^2",
+      "after": "F=\\frac{1}{2}\\varepsilon_0(2V_1/d)^2（部分・Vに添字1）",
+      "reason": "画像では V に添字1が見える。全体解答は未記入のため unverified。"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "answer",
+      "values": [
+        {
+          "value": "$F=\\frac{1}{2}\\varepsilon_0(2V_1/d)^2$（手書き部分）",
+          "source": "RAW/print_dielectric_2026-11.pdf:p10",
+          "status": "original"
+        },
+        {
+          "value": "(a)(b)(c)の完全な力の式は資料上未記入",
+          "source": "page-image-review",
+          "status": "unverified"
+        }
+      ],
+      "reason": "問題4.2の解答が部分記入のみ"
+    }
+  ]
+}

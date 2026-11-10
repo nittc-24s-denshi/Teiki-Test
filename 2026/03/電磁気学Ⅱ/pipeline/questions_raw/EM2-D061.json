@@ -1,0 +1,35 @@
+{
+  "id": "EM2-D061",
+  "unit": "6. 真空中の静磁界 / 問題",
+  "form": "calculation",
+  "stem": {
+    "value": "[問題6.1] 磁極 ±m、長さ l の2本の棒磁石を同種極を相対させて距離 d 離したときの力。また r≪L のとき。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】解答欄未記入",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 19,
+      "note": "穴埋め/設問 問題6.1"
+    }
+  ],
+  "tags": [
+    "問題",
+    "磁力",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_prob6_1_magnets.png",
+      "page": 19,
+      "caption": {
+        "value": "問題6.1 相対する棒磁石",
+        "status": "original"
+      }
+    }
+  ]
+}

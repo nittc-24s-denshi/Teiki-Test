@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D037",
+  "unit": "5. 電流 / 5.1 電流と電流密度",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-①] 「ここでは，定常的に流れる①について検討する」の①。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "【未確認】空欄（想定: 電流 / 定常電流）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 11,
+      "note": "穴埋め/設問 5-①"
+    }
+  ],
+  "tags": [
+    "電流",
+    "未記入"
+  ]
+}

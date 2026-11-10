@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D013",
+  "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑬] 電束密度 D を ε_0, E_p, P で表せ（式4.7）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\mathbf{D} = \\varepsilon_0 E_p + P$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 3,
+      "note": "穴埋め/設問 ⑬"
+    }
+  ],
+  "tags": [
+    "電束密度",
+    "穴埋め"
+  ]
+}

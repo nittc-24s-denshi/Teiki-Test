@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D038",
+  "unit": "5. 電流 / 5.1 電流と電流密度",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-②] 電流の定義 I（式5.1）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$I=\\dfrac{dQ}{dt}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 11,
+      "note": "穴埋め/設問 5-②"
+    }
+  ],
+  "tags": [
+    "電流",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig5_1_current.png",
+      "page": 11,
+      "caption": {
+        "value": "図5.1 電流",
+        "status": "original"
+      }
+    }
+  ]
+}

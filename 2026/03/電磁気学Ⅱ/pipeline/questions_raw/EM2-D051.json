@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D051",
+  "unit": "6. 真空中の静磁界 / 6.2 磁力線の特性",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-①] 磁力線の特性(3): 単位面積あたりの磁力線と磁界の関係。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "単位面積あたりの磁力線の数，すなわち磁力線密度，と磁界の強さは等しい",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 15,
+      "note": "穴埋め/設問 6-①"
+    }
+  ],
+  "tags": [
+    "磁力線",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig6_2_field_lines.png",
+      "page": 15,
+      "caption": {
+        "value": "図6.2 磁力線",
+        "status": "original"
+      }
+    }
+  ]
+}

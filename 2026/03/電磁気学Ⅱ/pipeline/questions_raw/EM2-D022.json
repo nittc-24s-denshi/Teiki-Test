@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D022",
+  "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉒] 電束に関するガウスの法則（式4.11）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\oint_S D_n\\cdot dS = Q$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 5,
+      "note": "穴埋め/設問 ㉒"
+    }
+  ],
+  "tags": [
+    "ガウスの法則",
+    "穴埋め"
+  ]
+}

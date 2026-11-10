@@ -1,0 +1,1481 @@
+[
+  {
+    "id": "EM2-D001",
+    "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+    "form": "cloze",
+    "tags": [
+      "比誘電率",
+      "穴埋め"
+    ],
+    "stem": "[①] 比誘電率 ε_r を、真空時の静電容量 C_0 と誘電体充填時の静電容量 C で表せ。",
+    "stem_status": "original",
+    "answer": "$\\varepsilon_r = \\dfrac{C}{C_0}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 1,
+        "note": "穴埋め/設問 ①"
+      }
+    ],
+    "conflicts": [],
+    "template": "[①] 比誘電率 ε_r を、真空時の静電容量 C_0 と誘電体充填時の静電容量 C で表せ。"
+  },
+  {
+    "id": "EM2-D002",
+    "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+    "form": "cloze",
+    "tags": [
+      "静電容量",
+      "穴埋め"
+    ],
+    "stem": "[②] 平行平板コンデンサ（極板面積 S、間隔 d）の真空時静電容量 C_0 を表せ。",
+    "stem_status": "original",
+    "answer": "$C_0 = \\varepsilon_0 \\dfrac{S}{d}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 1,
+        "note": "穴埋め/設問 ②"
+      }
+    ],
+    "conflicts": [],
+    "template": "[②] 平行平板コンデンサ（極板面積 S、間隔 d）の真空時静電容量 C_0 を表せ。"
+  },
+  {
+    "id": "EM2-D003",
+    "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+    "form": "cloze",
+    "tags": [
+      "静電容量",
+      "穴埋め"
+    ],
+    "stem": "[③] 極板間を誘電率 ε の誘電体で満たしたときの静電容量 C を表せ。",
+    "stem_status": "original",
+    "answer": "$C = \\varepsilon \\dfrac{S}{d}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 1,
+        "note": "穴埋め/設問 ③"
+      }
+    ],
+    "conflicts": [],
+    "template": "[③] 極板間を誘電率 ε の誘電体で満たしたときの静電容量 C を表せ。"
+  },
+  {
+    "id": "EM2-D004",
+    "unit": "4. 誘電体 / 4.1 誘電体と比誘電率",
+    "form": "cloze",
+    "tags": [
+      "比誘電率",
+      "穴埋め"
+    ],
+    "stem": "[④] 誘電率 ε と比誘電率 ε_r、真空の誘電率 ε_0 の関係を書け。",
+    "stem_status": "original",
+    "answer": "$\\varepsilon = \\varepsilon_r \\varepsilon_0$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 1,
+        "note": "穴埋め/設問 ④"
+      }
+    ],
+    "conflicts": [],
+    "template": "[④] 誘電率 ε と比誘電率 ε_r、真空の誘電率 ε_0 の関係を書け。"
+  },
+  {
+    "id": "EM2-D005",
+    "unit": "4. 誘電体 / 4.2 誘電体の分極",
+    "form": "cloze",
+    "tags": [
+      "分極",
+      "穴埋め"
+    ],
+    "stem": "[⑤] 電界により原子が2つの極を持つようになった状態は、何を形成した状態か。",
+    "stem_status": "original",
+    "answer": "電気双極子",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig4_1_electron_polarization.png",
+        "page": 2,
+        "caption": {
+          "value": "図4.1a 電子分極",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 2,
+        "note": "穴埋め/設問 ⑤"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑤] 電界により原子が2つの極を持つようになった状態は、何を形成した状態か。"
+  },
+  {
+    "id": "EM2-D006",
+    "unit": "4. 誘電体 / 4.2 誘電体の分極",
+    "form": "cloze",
+    "tags": [
+      "分極",
+      "穴埋め"
+    ],
+    "stem": "[⑥] 原子が電界により双極子を形成することを何と呼ぶか。",
+    "stem_status": "original",
+    "answer": "電子分極",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 2,
+        "note": "穴埋め/設問 ⑥"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑥] 原子が電界により双極子を形成することを何と呼ぶか。"
+  },
+  {
+    "id": "EM2-D007",
+    "unit": "4. 誘電体 / 4.2 誘電体の分極",
+    "form": "cloze",
+    "tags": [
+      "誘電体",
+      "導電体",
+      "穴埋め"
+    ],
+    "stem": "[⑦] 「導電体は⑦を流し，誘電体は⑧を流さない」の⑦に入る語句。",
+    "stem_status": "original",
+    "answer": "自由な電流",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 2,
+        "note": "穴埋め/設問 ⑦"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑦] 「導電体は⑦を流し，誘電体は⑧を流さない」の⑦に入る語句。"
+  },
+  {
+    "id": "EM2-D008",
+    "unit": "4. 誘電体 / 4.2 誘電体の分極",
+    "form": "cloze",
+    "tags": [
+      "誘電体",
+      "導電体",
+      "穴埋め"
+    ],
+    "stem": "[⑧] 「導電体は⑦を流し，誘電体は⑧を流さない」の⑧に入る語句。",
+    "stem_status": "original",
+    "answer": "ほとんど電流",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 2,
+        "note": "穴埋め/設問 ⑧"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑧] 「導電体は⑦を流し，誘電体は⑧を流さない」の⑧に入る語句。"
+  },
+  {
+    "id": "EM2-D009",
+    "unit": "4. 誘電体 / 4.2 誘電体の分極",
+    "form": "cloze",
+    "tags": [
+      "誘電体",
+      "穴埋め"
+    ],
+    "stem": "[⑨] 「導電体は⑨を蓄えることができないが，誘電体は…⑨を蓄えることができる」の⑨。",
+    "stem_status": "original",
+    "answer": "電荷",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 2,
+        "note": "穴埋め/設問 ⑨"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑨] 「導電体は⑨を蓄えることができないが，誘電体は…⑨を蓄えることができる」の⑨。"
+  },
+  {
+    "id": "EM2-D010",
+    "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+    "form": "cloze",
+    "tags": [
+      "電界",
+      "分極電荷",
+      "穴埋め"
+    ],
+    "stem": "[⑩] 誘電体表面に ±σ_p が生じるとき、誘電体内の電界 E_p を σ, σ_p, ε_0 で表せ。",
+    "stem_status": "original",
+    "answer": "$E_p = \\dfrac{\\sigma - \\sigma_p}{\\varepsilon_0}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig4_2_apparent_charge.png",
+        "page": 3,
+        "caption": {
+          "value": "図4.2 平行平板導体間の電界（見かけ電荷）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 3,
+        "note": "穴埋め/設問 ⑩"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑩] 誘電体表面に ±σ_p が生じるとき、誘電体内の電界 E_p を σ, σ_p, ε_0 で表せ。"
+  },
+  {
+    "id": "EM2-D011",
+    "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+    "form": "cloze",
+    "tags": [
+      "見かけの電荷",
+      "穴埋め"
+    ],
+    "stem": "[⑪] 見かけの電荷密度を σ, σ_p で表せ。",
+    "stem_status": "original",
+    "answer": "$\\pm(\\sigma - \\sigma_p)$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 3,
+        "note": "穴埋め/設問 ⑪"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑪] 見かけの電荷密度を σ, σ_p で表せ。"
+  },
+  {
+    "id": "EM2-D012",
+    "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+    "form": "cloze",
+    "tags": [
+      "分極",
+      "穴埋め"
+    ],
+    "stem": "[⑫] 分極 P を分極率 χ（または比分極率 χ_r）と E_p で表せ（式4.6）。",
+    "stem_status": "original",
+    "answer": "$P = \\chi E_p = \\varepsilon_0 \\chi_r E_p$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 3,
+        "note": "穴埋め/設問 ⑫"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑫] 分極 P を分極率 χ（または比分極率 χ_r）と E_p で表せ（式4.6）。"
+  },
+  {
+    "id": "EM2-D013",
+    "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+    "form": "cloze",
+    "tags": [
+      "電束密度",
+      "穴埋め"
+    ],
+    "stem": "[⑬] 電束密度 D を ε_0, E_p, P で表せ（式4.7）。",
+    "stem_status": "original",
+    "answer": "$\\mathbf{D} = \\varepsilon_0 E_p + P$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 3,
+        "note": "穴埋め/設問 ⑬"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑬] 電束密度 D を ε_0, E_p, P で表せ（式4.7）。"
+  },
+  {
+    "id": "EM2-D014",
+    "unit": "4. 誘電体 / 電束とガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "電束密度",
+      "穴埋め"
+    ],
+    "stem": "[⑭] 電荷 Q を覆う半径 r の球面の電束密度 D を表せ。",
+    "stem_status": "original",
+    "answer": "$D = \\dfrac{Q}{4\\pi r^2}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 4,
+        "note": "穴埋め/設問 ⑭"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑭] 電荷 Q を覆う半径 r の球面の電束密度 D を表せ。"
+  },
+  {
+    "id": "EM2-D015",
+    "unit": "4. 誘電体 / 電束とガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "ガウスの法則",
+      "穴埋め",
+      "未記入"
+    ],
+    "stem": "[⑮] 電束に関するガウスの法則の一般形（単位 [C]）を書け。",
+    "stem_status": "original",
+    "answer": "【未確認】空欄のまま（想定: $\\oint \\mathbf{D}\\cdot d\\mathbf{S} = Q$）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 4,
+        "note": "穴埋め/設問 ⑮"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑮] 電束に関するガウスの法則の一般形（単位 [C]）を書け。"
+  },
+  {
+    "id": "EM2-D016",
+    "unit": "4. 誘電体 / 電束とガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "電束密度",
+      "穴埋め"
+    ],
+    "stem": "[⑯] 電束密度 D と電界 E の関係を書け。",
+    "stem_status": "original",
+    "answer": "$D = \\varepsilon E$",
+    "answer_status": "original",
+    "explanation": "手書き解答 $D=\\varepsilon E$ は関係式として正しい。印刷の単位 [V/m] は E の単位であり、D の単位 [C/m²] と不一致。プリント側の単位表記の誤りの可能性が高い。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 4,
+        "note": "穴埋め/設問 ⑯"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑯] 電束密度 D と電界 E の関係を書け。"
+  },
+  {
+    "id": "EM2-D017",
+    "unit": "4. 誘電体 / 電束とガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "電束",
+      "穴埋め"
+    ],
+    "stem": "[⑰] 電束数 Q=φ [C] について、周囲との関係を述べよ。",
+    "stem_status": "original",
+    "answer": "周囲の影響は受けない",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 4,
+        "note": "穴埋め/設問 ⑰"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑰] 電束数 Q=φ [C] について、周囲との関係を述べよ。"
+  },
+  {
+    "id": "EM2-D018",
+    "unit": "4. 誘電体 / 電束とガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "電気力線",
+      "穴埋め",
+      "判読不能"
+    ],
+    "stem": "[⑱] 電気力線数 N=Q/ε [本] について、周囲との関係を述べよ。",
+    "stem_status": "original",
+    "answer": "【未確認】判読不能・ほぼ空白（想定: 周囲の物質の影響を受ける）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 4,
+        "note": "穴埋め/設問 ⑱"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑱] 電気力線数 N=Q/ε [本] について、周囲との関係を述べよ。"
+  },
+  {
+    "id": "EM2-D019",
+    "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "ガウスの法則",
+      "穴埋め"
+    ],
+    "stem": "[⑲] 見かけの電荷を用いた微小面積 ΔS の電気力線の本数 N（式4.8）。",
+    "stem_status": "original",
+    "answer": "$N = \\dfrac{\\Delta S(\\sigma-\\sigma_p)}{\\varepsilon_0} = E_p\\,\\Delta S$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig4_3_field_flux.png",
+        "page": 5,
+        "caption": {
+          "value": "図4.3 平行平板間の電界（見かけ電荷）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 5,
+        "note": "穴埋め/設問 ⑲"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑲] 見かけの電荷を用いた微小面積 ΔS の電気力線の本数 N（式4.8）。"
+  },
+  {
+    "id": "EM2-D020",
+    "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "ガウスの法則",
+      "穴埋め"
+    ],
+    "stem": "[⑳] 平行平板全体の電気力線の数（式4.9）を書け。",
+    "stem_status": "original",
+    "answer": "$\\oint_S E_p\\,\\Delta S = \\dfrac{Q-Q_p}{\\varepsilon_0}$",
+    "answer_status": "original",
+    "explanation": "プリント注記に $Q=\\Delta S\\sigma/\\varepsilon_0$ とあるが、真電荷は $Q=\\sigma\\Delta S$ が次元的に正しい。注記は印刷側の誤記候補（解答⑳の手書き本体は式4.9の形として採用）。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 5,
+        "note": "穴埋め/設問 ⑳"
+      }
+    ],
+    "conflicts": [],
+    "template": "[⑳] 平行平板全体の電気力線の数（式4.9）を書け。"
+  },
+  {
+    "id": "EM2-D021",
+    "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "電束",
+      "穴埋め"
+    ],
+    "stem": "[㉑] 電束と真電荷の関係（式4.10）を書け。",
+    "stem_status": "original",
+    "answer": "$\\Delta S\\,\\sigma = \\Delta S\\,D$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 5,
+        "note": "穴埋め/設問 ㉑"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉑] 電束と真電荷の関係（式4.10）を書け。"
+  },
+  {
+    "id": "EM2-D022",
+    "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+    "form": "cloze",
+    "tags": [
+      "ガウスの法則",
+      "穴埋め"
+    ],
+    "stem": "[㉒] 電束に関するガウスの法則（式4.11）を書け。",
+    "stem_status": "original",
+    "answer": "$\\oint_S D_n\\cdot dS = Q$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 5,
+        "note": "穴埋め/設問 ㉒"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉒] 電束に関するガウスの法則（式4.11）を書け。"
+  },
+  {
+    "id": "EM2-D023",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[㉓] 図4.5の電束密度の接線・法線成分の分解（θ は法線からの角）。",
+    "stem_status": "original",
+    "answer": "$D_{1t}=D_1\\sin\\theta_1,\\ D_{1n}=D_1\\cos\\theta_1,\\ D_{2t}=D_2\\sin\\theta_2,\\ D_{2n}=D_2\\cos\\theta_2$",
+    "answer_status": "original",
+    "explanation": "図4.4に生徒が μ₁, μ₂ と書き込んでいるが、文脈は誘電率 ε₁, ε₂。透磁率との取り違え候補。",
+    "explanation_status": "inferred",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig4_5_boundary_components.png",
+        "page": 6,
+        "caption": {
+          "value": "図4.5 異なる2つの誘電率を持つ境界面（㉓）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 6,
+        "note": "穴埋め/設問 ㉓"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉓] 図4.5の電束密度の接線・法線成分の分解（θ は法線からの角）。"
+  },
+  {
+    "id": "EM2-D024",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[㉔] 薄い円柱閉曲面に対する電束の収支（自由表面電荷なし）を書け。",
+    "stem_status": "original",
+    "answer": "$\\Delta S (D_{2n}-D_{1n})=0$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 6,
+        "note": "穴埋め/設問 ㉔"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉔] 薄い円柱閉曲面に対する電束の収支（自由表面電荷なし）を書け。"
+  },
+  {
+    "id": "EM2-D025",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[㉕] 境界面における電束密度の法線成分についての結論を書け。",
+    "stem_status": "original",
+    "answer": "境界面における電束密度の法線方向の成分は連続である",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 6,
+        "note": "穴埋め/設問 ㉕"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉕] 境界面における電束密度の法線成分についての結論を書け。"
+  },
+  {
+    "id": "EM2-D026",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[㉖] 境界面近傍の閉曲線 abcd に対する電界の線積分（式4.13）。",
+    "stem_status": "original",
+    "answer": "$\\oint_{abcd}\\mathbf{E}\\cdot d\\mathbf{l}=-E_{1t}|ab|+E_{2t}|cd|$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 7,
+        "note": "穴埋め/設問 ㉖"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉖] 境界面近傍の閉曲線 abcd に対する電界の線積分（式4.13）。"
+  },
+  {
+    "id": "EM2-D027",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[㉗] 電束密度の法線連続から得られる角度関係（式4.14上段）。",
+    "stem_status": "original",
+    "answer": "$D_1\\cos\\theta_1=D_2\\cos\\theta_2$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 7,
+        "note": "穴埋め/設問 ㉗"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉗] 電束密度の法線連続から得られる角度関係（式4.14上段）。"
+  },
+  {
+    "id": "EM2-D028",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[㉘] 電界の接線連続から得られる角度関係（式4.14下段）。",
+    "stem_status": "original",
+    "answer": "$E_1\\sin\\theta_1=E_2\\sin\\theta_2$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 7,
+        "note": "穴埋め/設問 ㉘"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉘] 電界の接線連続から得られる角度関係（式4.14下段）。"
+  },
+  {
+    "id": "EM2-D029",
+    "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+    "form": "cloze",
+    "tags": [
+      "屈折の法則",
+      "穴埋め"
+    ],
+    "stem": "[㉙] tanθ₁/tanθ₂=ε₁/ε₂ を、電気力線と電束の何と呼ぶか。",
+    "stem_status": "original",
+    "answer": "屈折の法則",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 7,
+        "note": "穴埋め/設問 ㉙"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉙] tanθ₁/tanθ₂=ε₁/ε₂ を、電気力線と電束の何と呼ぶか。"
+  },
+  {
+    "id": "EM2-D030",
+    "unit": "4. 誘電体 / 4.5 エネルギーと力",
+    "form": "cloze",
+    "tags": [
+      "ファラデー管",
+      "穴埋め"
+    ],
+    "stem": "[㉚] 電束が管状になったものを何と呼ぶか（ファラデー管の直前の用語）。",
+    "stem_status": "original",
+    "answer": "力管",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig4_6_faraday_tube.png",
+        "page": 8,
+        "caption": {
+          "value": "図4.6 力管",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 8,
+        "note": "穴埋め/設問 ㉚"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉚] 電束が管状になったものを何と呼ぶか（ファラデー管の直前の用語）。"
+  },
+  {
+    "id": "EM2-D031",
+    "unit": "4. 誘電体 / 4.5 エネルギーと力",
+    "form": "cloze",
+    "tags": [
+      "ファラデー管",
+      "穴埋め"
+    ],
+    "stem": "[㉛] ファラデー管（力管）の始点・終点の性質を述べよ。",
+    "stem_status": "original",
+    "answer": "単位正の電荷から始まり、単位負の電荷に終わる",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 8,
+        "note": "穴埋め/設問 ㉛"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉛] ファラデー管（力管）の始点・終点の性質を述べよ。"
+  },
+  {
+    "id": "EM2-D032",
+    "unit": "4. 誘電体 / 4.5.1 電界エネルギー",
+    "form": "cloze",
+    "tags": [
+      "エネルギー密度",
+      "穴埋め"
+    ],
+    "stem": "[㉜] エネルギー体積密度 w = (1/2)·(ΔV/Δl)·(1/ΔS) = (1/2)·□ （式4.19）。□を埋めよ。",
+    "stem_status": "original",
+    "answer": "$ED$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 8,
+        "note": "穴埋め/設問 ㉜"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉜] エネルギー体積密度 w = (1/2)·(ΔV/Δl)·(1/ΔS) = (1/2)·□ （式4.19）。□を埋めよ。"
+  },
+  {
+    "id": "EM2-D033",
+    "unit": "4. 誘電体 / 4.5.1 電界エネルギー",
+    "form": "cloze",
+    "tags": [
+      "エネルギー密度",
+      "穴埋め"
+    ],
+    "stem": "[㉝] w = (1/2)ED = (1/2)·□ （式4.20）。□を埋めよ。",
+    "stem_status": "original",
+    "answer": "$\\dfrac{D^2}{\\varepsilon}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 8,
+        "note": "穴埋め/設問 ㉝"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉝] w = (1/2)ED = (1/2)·□ （式4.20）。□を埋めよ。"
+  },
+  {
+    "id": "EM2-D034",
+    "unit": "4. 誘電体 / 4.5.2 電極に働く力",
+    "form": "cloze",
+    "tags": [
+      "応力",
+      "穴埋め"
+    ],
+    "stem": "[㉞] 真空の平行平板で電極の単位面積に働く応力 F_0（式4.21）。",
+    "stem_status": "original",
+    "answer": "$\\dfrac{1}{2}DE$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 10,
+        "note": "穴埋め/設問 ㉞"
+      }
+    ],
+    "conflicts": [],
+    "template": "[㉞] 真空の平行平板で電極の単位面積に働く応力 F_0（式4.21）。"
+  },
+  {
+    "id": "EM2-D037",
+    "unit": "5. 電流 / 5.1 電流と電流密度",
+    "form": "cloze",
+    "tags": [
+      "電流",
+      "未記入"
+    ],
+    "stem": "[5-①] 「ここでは，定常的に流れる①について検討する」の①。",
+    "stem_status": "original",
+    "answer": "【未確認】空欄（想定: 電流 / 定常電流）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 11,
+        "note": "穴埋め/設問 5-①"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-①] 「ここでは，定常的に流れる①について検討する」の①。"
+  },
+  {
+    "id": "EM2-D038",
+    "unit": "5. 電流 / 5.1 電流と電流密度",
+    "form": "cloze",
+    "tags": [
+      "電流",
+      "穴埋め"
+    ],
+    "stem": "[5-②] 電流の定義 I（式5.1）。",
+    "stem_status": "original",
+    "answer": "$I=\\dfrac{dQ}{dt}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig5_1_current.png",
+        "page": 11,
+        "caption": {
+          "value": "図5.1 電流",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 11,
+        "note": "穴埋め/設問 5-②"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-②] 電流の定義 I（式5.1）。"
+  },
+  {
+    "id": "EM2-D039",
+    "unit": "5. 電流 / 5.1 電流と電流密度",
+    "form": "cloze",
+    "tags": [
+      "電流密度",
+      "穴埋め"
+    ],
+    "stem": "[5-③] 電流密度 J の定義（式5.2）。",
+    "stem_status": "original",
+    "answer": "$J=\\dfrac{dI}{dS}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 11,
+        "note": "穴埋め/設問 5-③"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-③] 電流密度 J の定義（式5.2）。"
+  },
+  {
+    "id": "EM2-D040",
+    "unit": "5. 電流 / 5.1 電流と電流密度",
+    "form": "cloze",
+    "tags": [
+      "電流密度",
+      "穴埋め"
+    ],
+    "stem": "[5-④] 電流を電流密度の面積分で表せ（式5.3）。",
+    "stem_status": "original",
+    "answer": "$I=\\oint_S J\\,dS$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 11,
+        "note": "穴埋め/設問 5-④"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-④] 電流を電流密度の面積分で表せ（式5.3）。"
+  },
+  {
+    "id": "EM2-D041",
+    "unit": "5. 電流 / 5.1 電流と電流密度",
+    "form": "cloze",
+    "tags": [
+      "電流密度",
+      "穴埋め"
+    ],
+    "stem": "[5-⑤] 電荷密度 n・電荷 q・平均速度 v のときの電流密度（式5.4）。",
+    "stem_status": "original",
+    "answer": "$J=nqv$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 11,
+        "note": "穴埋め/設問 5-⑤"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑤] 電荷密度 n・電荷 q・平均速度 v のときの電流密度（式5.4）。"
+  },
+  {
+    "id": "EM2-D043",
+    "unit": "5. 電流 / 5.2 定常電流界",
+    "form": "cloze",
+    "tags": [
+      "電荷保存則",
+      "穴埋め"
+    ],
+    "stem": "[5-⑥] 定常電流の電荷保存則（式5.6）。",
+    "stem_status": "original",
+    "answer": "$\\oint_S\\mathbf{J}\\cdot d\\mathbf{S}=\\oint J_n\\,dS=0$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig5_2_current_continuity.png",
+        "page": 12,
+        "caption": {
+          "value": "図5.2 電流の連続",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 12,
+        "note": "穴埋め/設問 5-⑥"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑥] 定常電流の電荷保存則（式5.6）。"
+  },
+  {
+    "id": "EM2-D044",
+    "unit": "5. 電流 / 5.2 定常電流界",
+    "form": "cloze",
+    "tags": [
+      "定常電流界",
+      "穴埋め"
+    ],
+    "stem": "[5-⑦] オームの法則 J=σE を用いた式（式5.7）。",
+    "stem_status": "original",
+    "answer": "$\\oint_S J_n\\,dS=\\sigma\\oint_S E_n\\,dS=0$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 12,
+        "note": "穴埋め/設問 5-⑦"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑦] オームの法則 J=σE を用いた式（式5.7）。"
+  },
+  {
+    "id": "EM2-D045",
+    "unit": "5. 電流 / 境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[5-⑧] 境界面の電流連続（式5.9）。",
+    "stem_status": "original",
+    "answer": "$\\oint_S J_n\\,dS=-J_{1n}\\Delta S+J_{2n}\\Delta S=0$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig5_4_conductor_boundary.png",
+        "page": 13,
+        "caption": {
+          "value": "図5.4 導体境界面の電流密度条件",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 13,
+        "note": "穴埋め/設問 5-⑧"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑧] 境界面の電流連続（式5.9）。"
+  },
+  {
+    "id": "EM2-D046",
+    "unit": "5. 電流 / 境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[5-⑨] 境界面における電流密度の法線連続（式5.10）。",
+    "stem_status": "original",
+    "answer": "$J_{1n}=J_{2n}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 13,
+        "note": "穴埋め/設問 5-⑨"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑨] 境界面における電流密度の法線連続（式5.10）。"
+  },
+  {
+    "id": "EM2-D047",
+    "unit": "5. 電流 / 境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[5-⑩] 定常電流界の接線成分に関する角度関係（式5.11）。",
+    "stem_status": "original",
+    "answer": "$E_1\\sin\\theta_1=E_2\\sin\\theta_2$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 13,
+        "note": "穴埋め/設問 5-⑩"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑩] 定常電流界の接線成分に関する角度関係（式5.11）。"
+  },
+  {
+    "id": "EM2-D048",
+    "unit": "5. 電流 / 境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "穴埋め"
+    ],
+    "stem": "[5-⑪] 電流密度法線を定常電流界で書いた式（式5.12）。",
+    "stem_status": "original",
+    "answer": "$\\sigma_1 E_1\\cos\\theta_1=\\sigma_2 E_2\\cos\\theta_2$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 13,
+        "note": "穴埋め/設問 5-⑪"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑪] 電流密度法線を定常電流界で書いた式（式5.12）。"
+  },
+  {
+    "id": "EM2-D049",
+    "unit": "5. 電流 / 境界条件",
+    "form": "cloze",
+    "tags": [
+      "境界条件",
+      "未記入"
+    ],
+    "stem": "[5-⑫] 定常電流界の接線成分の連続を式で書け（式5.13）。",
+    "stem_status": "original",
+    "answer": "【未確認】空欄（想定: $E_{1t}=E_{2t}$ または $J_{1t}/\\sigma_1=J_{2t}/\\sigma_2$）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 13,
+        "note": "穴埋め/設問 5-⑫"
+      }
+    ],
+    "conflicts": [],
+    "template": "[5-⑫] 定常電流界の接線成分の連続を式で書け（式5.13）。"
+  },
+  {
+    "id": "EM2-D051",
+    "unit": "6. 真空中の静磁界 / 6.2 磁力線の特性",
+    "form": "cloze",
+    "tags": [
+      "磁力線",
+      "穴埋め"
+    ],
+    "stem": "[6-①] 磁力線の特性(3): 単位面積あたりの磁力線と磁界の関係。",
+    "stem_status": "original",
+    "answer": "単位面積あたりの磁力線の数，すなわち磁力線密度，と磁界の強さは等しい",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig6_2_field_lines.png",
+        "page": 15,
+        "caption": {
+          "value": "図6.2 磁力線",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 15,
+        "note": "穴埋め/設問 6-①"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-①] 磁力線の特性(3): 単位面積あたりの磁力線と磁界の関係。"
+  },
+  {
+    "id": "EM2-D052",
+    "unit": "6. 真空中の静磁界 / 6.2 磁力線の特性",
+    "form": "cloze",
+    "tags": [
+      "磁力線",
+      "穴埋め"
+    ],
+    "stem": "[6-②] 磁力線の特性(4): 本数 N と磁荷 m・透磁率の関係（文章）。",
+    "stem_status": "original",
+    "answer": "磁力線の本数 N は磁荷の強さ m を周囲の透磁率 μ₀ で割った値",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 15,
+        "note": "穴埋め/設問 6-②"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-②] 磁力線の特性(4): 本数 N と磁荷 m・透磁率の関係（文章）。"
+  },
+  {
+    "id": "EM2-D053",
+    "unit": "6. 真空中の静磁界 / 6.2 磁力線の特性",
+    "form": "cloze",
+    "tags": [
+      "磁力線",
+      "穴埋め"
+    ],
+    "stem": "[6-③] N と m, μ₀ の式。",
+    "stem_status": "original",
+    "answer": "$N=\\dfrac{m}{\\mu_0}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 15,
+        "note": "穴埋め/設問 6-③"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-③] N と m, μ₀ の式。"
+  },
+  {
+    "id": "EM2-D054",
+    "unit": "6. 真空中の静磁界 / 6.3 磁気の性質と強さ",
+    "form": "cloze",
+    "tags": [
+      "クーロンの法則",
+      "穴埋め"
+    ],
+    "stem": "[6-④] 磁気に関するクーロンの法則（大きさ、式6.1）。",
+    "stem_status": "original",
+    "answer": "$F=\\dfrac{1}{4\\pi\\mu_0}\\dfrac{m_1 m_2}{r^2}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 16,
+        "note": "穴埋め/設問 6-④"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-④] 磁気に関するクーロンの法則（大きさ、式6.1）。"
+  },
+  {
+    "id": "EM2-D055",
+    "unit": "6. 真空中の静磁界 / 6.3 磁気の性質と強さ",
+    "form": "cloze",
+    "tags": [
+      "磁界",
+      "穴埋め"
+    ],
+    "stem": "[6-⑤] F₁ を m₂ と磁界で表す途中式。",
+    "stem_status": "original",
+    "answer": "$F_1=m_2\\dfrac{1}{4\\pi\\mu_0}\\dfrac{m_1}{r^2}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig6_3_coulomb.png",
+        "page": 17,
+        "caption": {
+          "value": "図6.3 磁気に関するクーロンの法則",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 16,
+        "note": "穴埋め/設問 6-⑤"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-⑤] F₁ を m₂ と磁界で表す途中式。"
+  },
+  {
+    "id": "EM2-D056",
+    "unit": "6. 真空中の静磁界 / 6.3 磁気の性質と強さ",
+    "form": "cloze",
+    "tags": [
+      "磁界",
+      "穴埋め"
+    ],
+    "stem": "[6-⑥] 磁荷 m₁ が距離 r に作る磁界 H（式6.3）。",
+    "stem_status": "original",
+    "answer": "$H=\\dfrac{1}{4\\pi\\mu_0}\\dfrac{m_1}{r^2}$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 16,
+        "note": "穴埋め/設問 6-⑥"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-⑥] 磁荷 m₁ が距離 r に作る磁界 H（式6.3）。"
+  },
+  {
+    "id": "EM2-D058",
+    "unit": "6. 真空中の静磁界 / 6.5 磁束密度と磁界",
+    "form": "cloze",
+    "tags": [
+      "磁束密度",
+      "穴埋め"
+    ],
+    "stem": "[6-⑧] 磁束密度 B の式（式6.8）。",
+    "stem_status": "original",
+    "answer": "$B=\\dfrac{\\Phi}{S}=\\mu_0\\dfrac{N}{S}=\\mu_0 H$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 18,
+        "note": "穴埋め/設問 6-⑧"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-⑧] 磁束密度 B の式（式6.8）。"
+  },
+  {
+    "id": "EM2-D059",
+    "unit": "6. 真空中の静磁界 / 6.5 磁束密度と磁界",
+    "form": "cloze",
+    "tags": [
+      "磁束保存",
+      "穴埋め"
+    ],
+    "stem": "[6-⑨] 微小領域の磁束収支（式6.9）。",
+    "stem_status": "original",
+    "answer": "$\\Delta\\phi_2-\\Delta\\phi_1=0$",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 18,
+        "note": "穴埋め/設問 6-⑨"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-⑨] 微小領域の磁束収支（式6.9）。"
+  },
+  {
+    "id": "EM2-D060",
+    "unit": "6. 真空中の静磁界 / 6.5 磁束密度と磁界",
+    "form": "cloze",
+    "tags": [
+      "ガウスの法則",
+      "穴埋め"
+    ],
+    "stem": "[6-⑩] 磁束密度に関するガウスの法則（式6.10）。",
+    "stem_status": "original",
+    "answer": "$\\oint_S\\mathbf{B}\\cdot d\\mathbf{S}=0$（手書きで印字 B を Φ と訂正した痕跡あり）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig6_5_flux_gauss.png",
+        "page": 18,
+        "caption": {
+          "value": "図6.5 磁石周辺の磁束",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/print_dielectric_2026-11.pdf",
+        "page": 18,
+        "note": "穴埋め/設問 6-⑩"
+      }
+    ],
+    "conflicts": [],
+    "template": "[6-⑩] 磁束密度に関するガウスの法則（式6.10）。"
+  }
+]

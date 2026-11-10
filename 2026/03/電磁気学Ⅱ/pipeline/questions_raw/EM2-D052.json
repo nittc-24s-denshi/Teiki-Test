@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D052",
+  "unit": "6. 真空中の静磁界 / 6.2 磁力線の特性",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-②] 磁力線の特性(4): 本数 N と磁荷 m・透磁率の関係（文章）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "磁力線の本数 N は磁荷の強さ m を周囲の透磁率 μ₀ で割った値",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 15,
+      "note": "穴埋め/設問 6-②"
+    }
+  ],
+  "tags": [
+    "磁力線",
+    "穴埋め"
+  ]
+}

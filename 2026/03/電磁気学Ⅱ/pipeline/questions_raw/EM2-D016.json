@@ -1,0 +1,32 @@
+{
+  "id": "EM2-D016",
+  "unit": "4. 誘電体 / 電束とガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑯] 電束密度 D と電界 E の関係を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$D = \\varepsilon E$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 4,
+      "note": "穴埋め/設問 ⑯"
+    }
+  ],
+  "tags": [
+    "電束密度",
+    "穴埋め"
+  ],
+  "explanation": {
+    "value": "手書き解答 $D=\\varepsilon E$ は関係式として正しい。印刷の単位 [V/m] は E の単位であり、D の単位 [C/m²] と不一致。プリント側の単位表記の誤りの可能性が高い。",
+    "status": "inferred",
+    "rationale": "単位の次元照合（D: C/m², E: V/m）",
+    "tools": [
+      "manual-dimensional-check"
+    ]
+  }
+}

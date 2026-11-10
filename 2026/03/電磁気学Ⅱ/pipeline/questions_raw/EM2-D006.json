@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D006",
+  "unit": "4. 誘電体 / 4.2 誘電体の分極",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑥] 原子が電界により双極子を形成することを何と呼ぶか。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "電子分極",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 2,
+      "note": "穴埋め/設問 ⑥"
+    }
+  ],
+  "tags": [
+    "分極",
+    "穴埋め"
+  ]
+}

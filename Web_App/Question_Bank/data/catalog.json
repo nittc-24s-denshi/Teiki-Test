@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "default": "em2_2026_03",
+  "datasets": [
+    {
+      "id": "em2_2026_03",
+      "exam": "2026/03",
+      "subject": "電磁気学Ⅱ",
+      "file": "em2_2026_03.json",
+      "notes": "誘電体〜静磁界プリント"
+    },
+    {
+      "id": "sample_ihatov",
+      "exam": "2026/03",
+      "subject": "サンプル科目（仮）",
+      "file": "sample_ihatov.json",
+      "notes": "パイプライン通しサンプル"
+    }
+  ]
+}

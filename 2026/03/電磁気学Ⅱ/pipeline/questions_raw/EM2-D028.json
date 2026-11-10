@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D028",
+  "unit": "4. 誘電体 / 4.4 誘電体境界条件",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉘] 電界の接線連続から得られる角度関係（式4.14下段）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$E_1\\sin\\theta_1=E_2\\sin\\theta_2$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 7,
+      "note": "穴埋め/設問 ㉘"
+    }
+  ],
+  "tags": [
+    "境界条件",
+    "穴埋め"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "EM2-D010",
+  "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑩] 誘電体表面に ±σ_p が生じるとき、誘電体内の電界 E_p を σ, σ_p, ε_0 で表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$E_p = \\dfrac{\\sigma - \\sigma_p}{\\varepsilon_0}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 3,
+      "note": "穴埋め/設問 ⑩"
+    }
+  ],
+  "tags": [
+    "電界",
+    "分極電荷",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig4_2_apparent_charge.png",
+      "page": 3,
+      "caption": {
+        "value": "図4.2 平行平板導体間の電界（見かけ電荷）",
+        "status": "original"
+      }
+    }
+  ]
+}

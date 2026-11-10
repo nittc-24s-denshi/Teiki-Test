@@ -1,0 +1,48 @@
+{
+  "id": "EM2-D030",
+  "unit": "4. 誘電体 / 4.5 エネルギーと力",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉚] 電束が管状になったものを何と呼ぶか（ファラデー管の直前の用語）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "力管",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 8,
+      "note": "穴埋め/設問 ㉚"
+    }
+  ],
+  "tags": [
+    "ファラデー管",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig4_6_faraday_tube.png",
+      "page": 8,
+      "caption": {
+        "value": "図4.6 力管",
+        "status": "original"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "㉠",
+      "after": "㉚",
+      "reason": "Gemini既知誤り（㉠〜㉣表記）。画像は㉚。"
+    },
+    {
+      "field": "answer.value",
+      "before": "ファラデー管",
+      "after": "力管",
+      "reason": "画像照合。手書きは「力管」。直後に「力管をファラデー管と呼ぶ」と続く。"
+    }
+  ]
+}

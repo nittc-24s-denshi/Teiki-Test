@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D041",
+  "unit": "5. 電流 / 5.1 電流と電流密度",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-⑤] 電荷密度 n・電荷 q・平均速度 v のときの電流密度（式5.4）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$J=nqv$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 11,
+      "note": "穴埋め/設問 5-⑤"
+    }
+  ],
+  "tags": [
+    "電流密度",
+    "穴埋め"
+  ]
+}

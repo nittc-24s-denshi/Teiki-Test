@@ -1,0 +1,32 @@
+{
+  "id": "EM2-D017",
+  "unit": "4. 誘電体 / 電束とガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑰] 電束数 Q=φ [C] について、周囲との関係を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "周囲の影響は受けない",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 4,
+      "note": "穴埋め/設問 ⑰"
+    }
+  ],
+  "tags": [
+    "電束",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "周囲の影響は受けない（Gemini）／周囲の物質は無関係（別読み）",
+      "after": "周囲の影響は受けない",
+      "reason": "強調コントラスト画像で再読。手書きは「周囲の影響は受けない」と判定。"
+    }
+  ]
+}

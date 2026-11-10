@@ -1,0 +1,34 @@
+{
+  "id": "EM2-D019",
+  "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑲] 見かけの電荷を用いた微小面積 ΔS の電気力線の本数 N（式4.8）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$N = \\dfrac{\\Delta S(\\sigma-\\sigma_p)}{\\varepsilon_0} = E_p\\,\\Delta S$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 5,
+      "note": "穴埋め/設問 ⑲"
+    }
+  ],
+  "tags": [
+    "ガウスの法則",
+    "穴埋め"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig4_3_field_flux.png",
+      "page": 5,
+      "caption": {
+        "value": "図4.3 平行平板間の電界（見かけ電荷）",
+        "status": "original"
+      }
+    }
+  ]
+}

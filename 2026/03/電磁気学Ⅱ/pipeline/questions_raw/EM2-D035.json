@@ -1,0 +1,43 @@
+{
+  "id": "EM2-D035",
+  "unit": "4. 誘電体 / 4.5.1 電界エネルギー",
+  "form": "calculation",
+  "stem": {
+    "value": "[例題4.1] 同軸二重円筒（内半径 a, 外半径 b, 誘電率 ε, 線電荷密度 ±λ）の単位長さあたり静電エネルギーを求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$W=\\dfrac{\\lambda^2}{4\\pi\\varepsilon}\\ln\\dfrac{b}{a}\\ [\\mathrm{J/m}]$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 9,
+      "note": "穴埋め/設問 例題4.1"
+    }
+  ],
+  "tags": [
+    "例題",
+    "同軸円筒",
+    "エネルギー"
+  ],
+  "explanation": {
+    "value": "ガウスの法則より D=λ/(2πr)。w=D²/(2ε) を体積要素 2πr dr で a→b 積分。プリント解答中の w_e の単位表記 [C/m²] は誤記で、正しくは [J/m³]。",
+    "status": "inferred",
+    "rationale": "エネルギー密度の次元は J/m³ = N/m²。C/m² は電束密度の次元。",
+    "tools": [
+      "manual-dimensional-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex4_1_coaxial.png",
+      "page": 9,
+      "caption": {
+        "value": "例題4.1 同軸二重円筒",
+        "status": "original"
+      }
+    }
+  ]
+}

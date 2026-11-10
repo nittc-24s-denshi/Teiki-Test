@@ -1,0 +1,33 @@
+{
+  "id": "EM2-D008",
+  "unit": "4. 誘電体 / 4.2 誘電体の分極",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑧] 「導電体は⑦を流し，誘電体は⑧を流さない」の⑧に入る語句。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "ほとんど電流",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 2,
+      "note": "穴埋め/設問 ⑧"
+    }
+  ],
+  "tags": [
+    "誘電体",
+    "導電体",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "電気 / 電流",
+      "after": "ほとんど電流",
+      "reason": "ページ画像照合。Gemini文字起こしの⑧読み違いを訂正。手書きは「ほとんど電流」。"
+    }
+  ]
+}

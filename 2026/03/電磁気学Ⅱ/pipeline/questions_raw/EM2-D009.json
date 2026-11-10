@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D009",
+  "unit": "4. 誘電体 / 4.2 誘電体の分極",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑨] 「導電体は⑨を蓄えることができないが，誘電体は…⑨を蓄えることができる」の⑨。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "電荷",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 2,
+      "note": "穴埋め/設問 ⑨"
+    }
+  ],
+  "tags": [
+    "誘電体",
+    "穴埋め"
+  ]
+}

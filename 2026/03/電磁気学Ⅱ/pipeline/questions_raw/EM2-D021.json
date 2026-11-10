@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D021",
+  "unit": "4. 誘電体 / 4.3 誘電体のガウスの法則",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉑] 電束と真電荷の関係（式4.10）を書け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\Delta S\\,\\sigma = \\Delta S\\,D$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 5,
+      "note": "穴埋め/設問 ㉑"
+    }
+  ],
+  "tags": [
+    "電束",
+    "穴埋め"
+  ]
+}

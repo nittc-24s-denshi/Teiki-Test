@@ -1,6 +1,8 @@
 (() => {
   const state = {
     data: null,
+    catalog: null,
+    datasetId: null,
     filtered: [],
     index: 0,
     answerVisible: false,
@@ -202,20 +204,66 @@
     renderCard();
   }
 
+  function fillDatasetSelect() {
+    const select = $("datasetFilter");
+    if (!select || !state.catalog) return;
+    const cur = state.datasetId || state.catalog.default;
+    select.innerHTML = "";
+    for (const ds of state.catalog.datasets || []) {
+      const opt = document.createElement("option");
+      opt.value = ds.id;
+      opt.textContent = `${ds.exam || ""} ${ds.subject || ds.id}`.trim();
+      select.appendChild(opt);
+    }
+    if ([...select.options].some((o) => o.value === cur)) select.value = cur;
+  }
+
+  async function loadDataset(datasetId) {
+    const ds = (state.catalog?.datasets || []).find((d) => d.id === datasetId)
+      || (state.catalog?.datasets || [])[0];
+    const file = ds?.file || "questions.json";
+    const res = await fetch(`data/${file}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`${file}: ${res.status}`);
+    state.data = await res.json();
+    state.datasetId = ds?.id || datasetId;
+    $("metaLine").textContent = `${state.data.exam || ""} / ${state.data.subject || ""} · ${state.data.questions?.length || 0}問`;
+    fillSelect($("subjectFilter"), state.data.subject ? [state.data.subject] : [], "すべて");
+    fillSelect($("unitFilter"), unique((state.data.questions || []).map((q) => q.unit)), "すべて");
+    applyFilters();
+  }
+
   async function load() {
     try {
-      const res = await fetch("data/questions.json", { cache: "no-store" });
-      if (!res.ok) throw new Error(String(res.status));
-      state.data = await res.json();
-      $("metaLine").textContent = `${state.data.exam || ""} / ${state.data.subject || ""} · ${state.data.questions?.length || 0}問`;
-      fillSelect($("subjectFilter"), state.data.subject ? [state.data.subject] : [], "すべて");
-      fillSelect($("unitFilter"), unique((state.data.questions || []).map((q) => q.unit)), "すべて");
-      applyFilters();
+      try {
+        const catRes = await fetch("data/catalog.json", { cache: "no-store" });
+        if (catRes.ok) state.catalog = await catRes.json();
+      } catch (_) {
+        state.catalog = null;
+      }
+      if (state.catalog?.datasets?.length) {
+        fillDatasetSelect();
+        await loadDataset(state.catalog.default || state.catalog.datasets[0].id);
+      } else {
+        const res = await fetch("data/questions.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(String(res.status));
+        state.data = await res.json();
+        $("metaLine").textContent = `${state.data.exam || ""} / ${state.data.subject || ""} · ${state.data.questions?.length || 0}問`;
+        fillSelect($("subjectFilter"), state.data.subject ? [state.data.subject] : [], "すべて");
+        fillSelect($("unitFilter"), unique((state.data.questions || []).map((q) => q.unit)), "すべて");
+        applyFilters();
+      }
     } catch (err) {
-      $("empty").textContent = `data/questions.json を読めません（ローカルは簡易サーバ推奨）: ${err}`;
+      $("empty").textContent = `データを読めません（ローカルは簡易サーバ推奨）: ${err}`;
     }
   }
 
+  if ($("datasetFilter")) {
+    $("datasetFilter").addEventListener("change", () => {
+      loadDataset($("datasetFilter").value).catch((err) => {
+        $("empty").textContent = `データセット切替失敗: ${err}`;
+      });
+    });
+  }
   $("subjectFilter").addEventListener("change", applyFilters);
   $("unitFilter").addEventListener("change", applyFilters);
   $("formFilter").addEventListener("change", applyFilters);

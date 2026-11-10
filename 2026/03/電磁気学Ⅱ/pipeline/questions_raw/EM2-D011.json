@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D011",
+  "unit": "4. 誘電体 / 4.2.2 誘電体中の電界",
+  "form": "cloze",
+  "stem": {
+    "value": "[⑪] 見かけの電荷密度を σ, σ_p で表せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\pm(\\sigma - \\sigma_p)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 3,
+      "note": "穴埋め/設問 ⑪"
+    }
+  ],
+  "tags": [
+    "見かけの電荷",
+    "穴埋め"
+  ]
+}

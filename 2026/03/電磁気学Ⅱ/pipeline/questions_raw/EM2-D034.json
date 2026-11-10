@@ -1,0 +1,32 @@
+{
+  "id": "EM2-D034",
+  "unit": "4. 誘電体 / 4.5.2 電極に働く力",
+  "form": "cloze",
+  "stem": {
+    "value": "[㉞] 真空の平行平板で電極の単位面積に働く応力 F_0（式4.21）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\dfrac{1}{2}DE$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 10,
+      "note": "穴埋め/設問 ㉞"
+    }
+  ],
+  "tags": [
+    "応力",
+    "穴埋め"
+  ],
+  "corrections": [
+    {
+      "field": "local_number",
+      "before": "㉤",
+      "after": "㉞",
+      "reason": "Gemini既知誤り。連番上㉞（画像の丸数字も34系）。"
+    }
+  ]
+}

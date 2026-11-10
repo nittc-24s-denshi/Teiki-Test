@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D039",
+  "unit": "5. 電流 / 5.1 電流と電流密度",
+  "form": "cloze",
+  "stem": {
+    "value": "[5-③] 電流密度 J の定義（式5.2）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$J=\\dfrac{dI}{dS}$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 11,
+      "note": "穴埋め/設問 5-③"
+    }
+  ],
+  "tags": [
+    "電流密度",
+    "穴埋め"
+  ]
+}

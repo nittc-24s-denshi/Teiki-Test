@@ -1,0 +1,24 @@
+{
+  "id": "EM2-D058",
+  "unit": "6. 真空中の静磁界 / 6.5 磁束密度と磁界",
+  "form": "cloze",
+  "stem": {
+    "value": "[6-⑧] 磁束密度 B の式（式6.8）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$B=\\dfrac{\\Phi}{S}=\\mu_0\\dfrac{N}{S}=\\mu_0 H$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/print_dielectric_2026-11.pdf",
+      "page": 18,
+      "note": "穴埋め/設問 6-⑧"
+    }
+  ],
+  "tags": [
+    "磁束密度",
+    "穴埋め"
+  ]
+}
