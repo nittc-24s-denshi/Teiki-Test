@@ -7,13 +7,14 @@
     "status": "original"
   },
   "answer": {
-    "value": "$v_x=v_y=28/3\\approx9.33$，$c_{xy}=-14/3\\approx-4.67$，$r=-0.5$。データBは負の相関で、|r|はデータA(0.75)より小さい。",
+    "value": "$v_x=v_y\\approx9.33$，$c_{xy}\\approx-4.67$，$r=-0.5$。比較文（データBの相関／データAとの比較）は未記入。",
     "status": "inferred",
-    "rationale": "原本ページ画像の手書き記入を照合・検算。r=-4.67/(√9.33)²=-0.5。比較文は表の数値から推定補完。",
+    "rationale": "数値は手書き照合。比較の2行はページ上空白のため文章は補完しない（未記入を明示）。",
     "tools": [
       "gemini-transcript",
       "manual-page-image-check",
-      "manual-calc-check"
+      "manual-calc-check",
+      "subagent-page-verify"
     ]
   },
   "sources": [
@@ -25,5 +26,19 @@
   "tags": [
     "演習",
     "相関係数"
+  ],
+  "corrections": [
+    {
+      "field": "answer.comparison",
+      "before": "比較文を推定補完して回答に含めた",
+      "after": "比較行は未記入と明記。数値 r=-0.5 のみ inferred",
+      "reason": "p.13 画像照合。比較欄は空。"
+    },
+    {
+      "field": "transcript:p13.underline",
+      "before": "{{手書き: （下線）}} on (1)(2)",
+      "after": "手書き下線なし（透け・透かしのみ）",
+      "reason": "ページ画像照合"
+    }
   ]
 }

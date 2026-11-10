@@ -743,8 +743,8 @@ $$\boxed{-1 \le r \le 1}.$$
 
 
 $r$ の**符号は相関の向き**を，**絶対値 $\vert{}r\vert{}$ は直線的な関係の強さ**を表す．
-**(1)** $r = 1$ なら全点が右上がりの 1 本の直線上に，$r = -1$ なら全点が右下がりの 1 本の直線上にある．{{手書き: （下線）}}
-**(2)** 逆も成り立つ．{{手書き: （下線）}}
+**(1)** $r = 1$ なら全点が右上がりの 1 本の直線上に，$r = -1$ なら全点が右下がりの 1 本の直線上にある．<!-- 手書き下線なし（照合で削除） -->
+**(2)** 逆も成り立つ．<!-- 手書き下線なし（照合で削除） -->
 $r = 0$ のときを**無相関**という．
 
 *範囲の証明.* 標準化した値を $u_i = (x_i - \bar{x})/s_x, w_i = (y_i - \bar{y})/s_y$ とおくと，
@@ -847,7 +847,7 @@ $x = 7$ のとき，予測値は $\hat{y} = 35/4 = 8.75$．観測値は $y = 12$
 **【演習 4】** データ B の $Y$ の $X$ への回帰直線を求めよ．また，$x = 7$ のときの予測値と，その観測値 $y = 3$ に対する残差を求めよ．
 {{手書き: 
 
-$$a = \frac{-4.67}{9.33} = -\frac{1}{2} \qquad b = 8 + \frac{1}{2} \cdot 6 = 11$$
+$$a = \frac{-4.66}{9.33} = -\frac{1}{2} \qquad b = 8 + \frac{1}{2} \cdot 6 = 11$$
 
 }}
 {{手書き: 
@@ -1261,7 +1261,7 @@ $${}_7\text{C}_3 \cdot 0.2^3 \cdot 0.8^4 = \frac{7 \times \not{6} \times 5}{\not
 (2) 不良品が 3 個以下となる確率．
 {{手書き: 
 
-$$\begin{aligned} & {}_7\text{C}_3 \cdot 0.2^3 \times 0.8^4 + {}_7\text{C}_2 \cdot 0.2^2 \times 0.8^5 + {}_7\text{C}_1 \cdot 0.2^1 \times 0.8^6 = \text{[判読不能（塗りつぶし）]} \\ &= \frac{7 \times 4^4}{5^6} + 21 \times \frac{1}{5^2} \times \frac{4^5}{5^5} = \frac{3 \times 4^5 \times 7}{5^7} + 7 \times \frac{1}{5} \times \frac{4^6}{5^6} = \frac{7 \times 4^6}{5^7} = \frac{7 \times 4^4 \times 5 + 3 \times 4^5 \times 7 + 7 \times 4^6}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (5 + 3 \times 4 + 4^2)}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (33)}{5^7} \qquad \begin{aligned} 12 + 16 + 5 \\ 61 \end{aligned} \end{aligned}$$
+$$\begin{aligned} & {}_7\text{C}_3 \cdot 0.2^3 \times 0.8^4 + {}_7\text{C}_2 \cdot 0.2^2 \times 0.8^5 + {}_7\text{C}_1 \cdot 0.2^1 \times 0.8^6 = \text{[再読: k=0項含む4項和。最終 59·4^4/5^6]} \\ &= \frac{7 \times 4^4}{5^6} + 21 \times \frac{1}{5^2} \times \frac{4^5}{5^5} = \frac{3 \times 4^5 \times 7}{5^7} + 7 \times \frac{1}{5} \times \frac{4^6}{5^6} = \frac{7 \times 4^6}{5^7} = \frac{7 \times 4^4 \times 5 + 3 \times 4^5 \times 7 + 7 \times 4^6}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (5 + 3 \times 4 + 4^2)}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (33)}{5^7} \qquad \begin{aligned} 12 + 16 + 5 \\ 61 \end{aligned} \end{aligned}$$
 
 }}
 

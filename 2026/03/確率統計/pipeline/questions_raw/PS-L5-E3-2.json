@@ -7,35 +7,44 @@
     "status": "original"
   },
   "answer": {
-    "value": "途中式に塗りつぶしあり。手書き最終形の整理では $\\dfrac{7\\times 4^{4}\\times 33}{5^{7}}$ と読めるが、k=0項の扱い等で判読・整合に不安あり",
-    "status": "unverified"
+    "value": "$\\dfrac{59\\cdot 4^{4}}{5^{6}}$（= $\\dfrac{4^{4}\\cdot 295}{5^{7}}$）",
+    "status": "inferred",
+    "rationale": "原本 p.20 手書きを再読。k=0〜3の4項和で括弧内35+84+112+64=295。最終 59·4^4/5^6。Geminiの33・判読不能は誤転記。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check",
+      "subagent-page-verify"
+    ]
   },
   "sources": [
     {
       "file": "RAW/print_freq_dist_2026-11.pdf",
       "page": 20,
-      "note": "演習3(2) 判読不能箇所あり"
+      "note": "演習3(2) 手書き再読"
     }
   ],
   "tags": [
     "演習",
-    "二項確率",
-    "判読不能"
+    "二項確率"
   ],
   "explanation": {
-    "value": "Geminiも[判読不能（塗りつぶし）]と記載。ページ画像でも一部塗りつぶし。別途穴埋め・再読が必要。",
+    "value": "P(不良≤3)=Σ_{k=0}^{3} C(7,k)(1/5)^k(4/5)^{7-k} = 4^4·295/5^7 = 59·4^4/5^6。",
     "status": "inferred",
-    "rationale": "塗りつぶし領域のため確定不能",
+    "rationale": "手書き最終形と検算一致",
     "tools": [
-      "manual-page-image-check"
+      "gemini-transcript",
+      "manual-page-image-check",
+      "manual-calc-check",
+      "subagent-page-verify"
     ]
   },
   "corrections": [
     {
-      "field": "answer.status",
-      "before": "手書き途中式を断定",
-      "after": "unverified",
-      "reason": "塗りつぶし・判読不能"
+      "field": "answer",
+      "before": "unverified / Gemini [判読不能]・括弧内33",
+      "after": "59·4^4/5^6 (inferred)",
+      "reason": "ページ画像再照合。最終答えまで読める。subagent検証と一致。"
     }
   ]
 }

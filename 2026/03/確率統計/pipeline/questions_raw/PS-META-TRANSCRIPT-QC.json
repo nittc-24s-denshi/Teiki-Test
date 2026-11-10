@@ -69,6 +69,30 @@
       "before": "70〜80 に手書き79",
       "after": "70〜79（手書きで80を訂正）",
       "reason": "ページ画像照合。階級上限の訂正記入"
+    },
+    {
+      "field": "transcript:p13.underline",
+      "before": "{{手書き: （下線）}}",
+      "after": "下線なし",
+      "reason": "ページ画像照合"
+    },
+    {
+      "field": "transcript:p14.slope_num",
+      "before": "-4.67",
+      "after": "-4.66",
+      "reason": "ページ画像照合"
+    },
+    {
+      "field": "answer:PS-L5-E3-2",
+      "before": "unverified / 判読不能",
+      "after": "59·4^4/5^6 inferred",
+      "reason": "p.20再読。4項和295→59"
+    },
+    {
+      "field": "answer:PS-L3-E3.comparison",
+      "before": "比較文を補完",
+      "after": "比較行未記入を明示",
+      "reason": "p.13空欄"
     }
   ]
 }

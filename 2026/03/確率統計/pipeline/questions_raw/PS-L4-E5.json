@@ -25,5 +25,22 @@
   "tags": [
     "演習",
     "円順列"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex5_circular_tree.png",
+      "page": 18,
+      "caption": {
+        "value": "演習5 円順列の樹形図（手書き）",
+        "status": "inferred",
+        "rationale": "ページ画像から切り出し",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check",
+          "subagent-page-verify"
+        ]
+      }
+    }
   ]
 }

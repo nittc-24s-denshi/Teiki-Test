@@ -568,7 +568,7 @@
     ],
     "stem": "【演習3】データBの相関係数を求め、データA（r=0.75）と向き・強さを比較せよ。",
     "stem_status": "original",
-    "answer": "$v_x=v_y=28/3\\approx9.33$，$c_{xy}=-14/3\\approx-4.67$，$r=-0.5$。データBは負の相関で、|r|はデータA(0.75)より小さい。",
+    "answer": "$v_x=v_y\\approx9.33$，$c_{xy}\\approx-4.67$，$r=-0.5$。比較文（データBの相関／データAとの比較）は未記入。",
     "answer_status": "inferred",
     "explanation": null,
     "explanation_status": "original",
@@ -592,7 +592,7 @@
     ],
     "stem": "【演習4】データBの回帰直線を求め、$x=7$ の予測値と観測値 $y=3$ に対する残差を求めよ。",
     "stem_status": "original",
-    "answer": "$a=-1/2$，$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$",
+    "answer": "$a=-1/2$（手書きは $-4.66/9.33$），$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$",
     "answer_status": "inferred",
     "explanation": null,
     "explanation_status": "original",
@@ -773,7 +773,23 @@
     "answer_status": "inferred",
     "explanation": null,
     "explanation_status": "original",
-    "figures": [],
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_ex5_circular_tree.png",
+        "page": 18,
+        "caption": {
+          "value": "演習5 円順列の樹形図（手書き）",
+          "status": "inferred",
+          "rationale": "ページ画像から切り出し",
+          "tools": [
+            "gemini-transcript",
+            "manual-page-image-check",
+            "manual-calc-check",
+            "subagent-page-verify"
+          ]
+        }
+      }
+    ],
     "sources": [
       {
         "file": "RAW/print_freq_dist_2026-11.pdf",
@@ -885,21 +901,20 @@
     "form": "calculation",
     "tags": [
       "演習",
-      "二項確率",
-      "判読不能"
+      "二項確率"
     ],
     "stem": "【演習3(2)】不良品が3個以下となる確率。",
     "stem_status": "original",
-    "answer": "途中式に塗りつぶしあり。手書き最終形の整理では $\\dfrac{7\\times 4^{4}\\times 33}{5^{7}}$ と読めるが、k=0項の扱い等で判読・整合に不安あり",
-    "answer_status": "unverified",
-    "explanation": "Geminiも[判読不能（塗りつぶし）]と記載。ページ画像でも一部塗りつぶし。別途穴埋め・再読が必要。",
+    "answer": "$\\dfrac{59\\cdot 4^{4}}{5^{6}}$（= $\\dfrac{4^{4}\\cdot 295}{5^{7}}$）",
+    "answer_status": "inferred",
+    "explanation": "P(不良≤3)=Σ_{k=0}^{3} C(7,k)(1/5)^k(4/5)^{7-k} = 4^4·295/5^7 = 59·4^4/5^6。",
     "explanation_status": "inferred",
     "figures": [],
     "sources": [
       {
         "file": "RAW/print_freq_dist_2026-11.pdf",
         "page": 20,
-        "note": "演習3(2) 判読不能箇所あり"
+        "note": "演習3(2) 手書き再読"
       }
     ],
     "conflicts": [],

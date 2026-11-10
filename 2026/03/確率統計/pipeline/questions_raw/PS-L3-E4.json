@@ -7,13 +7,14 @@
     "status": "original"
   },
   "answer": {
-    "value": "$a=-1/2$，$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$",
+    "value": "$a=-1/2$（手書きは $-4.66/9.33$），$b=11$，$\\hat{y}=-\\frac{1}{2}x+11$；予測値 $7.5$；残差 $-4.5$",
     "status": "inferred",
-    "rationale": "原本ページ画像の手書き記入を照合・検算。a=(-14/3)/(28/3)=-1/2，b=8-(-1/2)·6=11。予測7.5、残差3-7.5=-4.5。",
+    "rationale": "p.14再読。傾き分子は手書き-4.66（-4.67の丸め差）。残差は 3-7.5=-4.5 と記入。",
     "tools": [
       "gemini-transcript",
       "manual-page-image-check",
-      "manual-calc-check"
+      "manual-calc-check",
+      "subagent-page-verify"
     ]
   },
   "sources": [
@@ -34,6 +35,20 @@
         "value": "データAの回帰と残差の例図",
         "status": "original"
       }
+    }
+  ],
+  "corrections": [
+    {
+      "field": "transcript:p14.slope_num",
+      "before": "-4.67",
+      "after": "-4.66",
+      "reason": "ページ画像の傾き計算の分子"
+    },
+    {
+      "field": "transcript:p14.minus_3_5",
+      "before": "先頭に -3½ 行",
+      "after": "削除（画像に無し。11-3.5=7.5 の途中）",
+      "reason": "Gemini捏造行の除去"
     }
   ]
 }
