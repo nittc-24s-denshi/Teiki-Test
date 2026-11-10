@@ -1,0 +1,3356 @@
+[
+  {
+    "id": "HIST2-META-TRANSCRIPT-QC",
+    "unit": "メタ（文字起こし訂正）",
+    "form": "other",
+    "tags": [
+      "meta",
+      "corrections"
+    ],
+    "stem": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "stem_status": "original",
+    "answer": "訂正ログ参照（pipeline/corrections_log.json）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "back": "訂正ログ参照（pipeline/corrections_log.json）"
+  },
+  {
+    "id": "HIST2-C1-①",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "いわゆる {{産業革命}} (Industrial Revolution) が始まった。",
+    "stem_status": "original",
+    "answer": "産業革命",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "いわゆる {{産業革命}} (Industrial Revolution) が始まった。",
+    "back": "産業革命"
+  },
+  {
+    "id": "HIST2-C1-②",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "この革命は「{{機械制大工業}}」の登場を，その特徴としている。",
+    "stem_status": "original",
+    "answer": "機械制大工業",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "この革命は「{{機械制大工業}}」の登場を，その特徴としている。",
+    "back": "機械制大工業"
+  },
+  {
+    "id": "HIST2-C1-③",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "フランスで刊行された『{{百科全書}}』（エンサイクロペディー）であった。",
+    "stem_status": "original",
+    "answer": "百科全書",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "フランスで刊行された『{{百科全書}}』（エンサイクロペディー）であった。",
+    "back": "百科全書"
+  },
+  {
+    "id": "HIST2-C1-④",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "啓蒙主義思想家として知られる {{ディドロ}}（Denis Diderot : 1718-84）が編集・執筆した。",
+    "stem_status": "original",
+    "answer": "ディドロ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "啓蒙主義思想家として知られる {{ディドロ}}（Denis Diderot : 1718-84）が編集・執筆した。",
+    "back": "ディドロ"
+  },
+  {
+    "id": "HIST2-C1-⑤",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "彼は例えば，{{マニュファクチュア}} について，まず「多数の労働者が同じ種類の仕事に従事する場所」と説明した。",
+    "stem_status": "original",
+    "answer": "マニュファクチュア",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "彼は例えば，{{マニュファクチュア}} について，まず「多数の労働者が同じ種類の仕事に従事する場所」と説明した。",
+    "back": "マニュファクチュア"
+  },
+  {
+    "id": "HIST2-C1-⑥",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "中世の三大発明：(1)印刷技術，(2){{黒色火薬}}，(3)羅針盤。",
+    "stem_status": "original",
+    "answer": "黒色火薬",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "中世の三大発明：(1)印刷技術，(2){{黒色火薬}}，(3)羅針盤。",
+    "back": "黒色火薬"
+  },
+  {
+    "id": "HIST2-C1-⑦",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "アダム・スミスは『{{国富論}}』（The Wealth of Nations）を執筆した。",
+    "stem_status": "original",
+    "answer": "国富論",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "アダム・スミスは『{{国富論}}』（The Wealth of Nations）を執筆した。",
+    "back": "国富論"
+  },
+  {
+    "id": "HIST2-C1-⑧",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "「マニュファクチュア」時代を主要な研究テーマとして選び，{{富の性質}} を分析した。",
+    "stem_status": "original",
+    "answer": "富の性質",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "「マニュファクチュア」時代を主要な研究テーマとして選び，{{富の性質}} を分析した。",
+    "back": "富の性質"
+  },
+  {
+    "id": "HIST2-C1-⑨",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "これらの改善や熟練などは，{{分業}}（division of labor）という作業形態の結果である。",
+    "stem_status": "original",
+    "answer": "分業",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "これらの改善や熟練などは，{{分業}}（division of labor）という作業形態の結果である。",
+    "back": "分業"
+  },
+  {
+    "id": "HIST2-C1-⑩",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "マニュファクチュアの労働手段の特徴は {{手工業的道具}} である。",
+    "stem_status": "original",
+    "answer": "手工業的道具",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "マニュファクチュアの労働手段の特徴は {{手工業的道具}} である。",
+    "back": "手工業的道具"
+  },
+  {
+    "id": "HIST2-C1-Q1-1",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "『世界史』p191：(イギリスの)共和政期の重要な政策は，□□□□にもとづいて…",
+    "stem_status": "original",
+    "answer": "重商主義",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "『世界史』p191：(イギリスの)共和政期の重要な政策は，□□□□にもとづいて…",
+    "back": "重商主義"
+  },
+  {
+    "id": "HIST2-C1-Q1-2",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "オランダの経済的覇権に対抗するために制定された□□□である。",
+    "stem_status": "original",
+    "answer": "航海法",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "オランダの経済的覇権に対抗するために制定された□□□である。",
+    "back": "航海法"
+  },
+  {
+    "id": "HIST2-C1-Q1-3",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "これが□□□□＝オランダ戦争のきっかけとなった。",
+    "stem_status": "original",
+    "answer": "イギリス",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "これが□□□□＝オランダ戦争のきっかけとなった。",
+    "back": "イギリス"
+  },
+  {
+    "id": "HIST2-C1-Q2-1",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "イギリスは七年戦争に勝利して□□条約で北米大陸からフランス勢力を駆逐した。",
+    "stem_status": "original",
+    "answer": "パリ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "イギリスは七年戦争に勝利して□□条約で北米大陸からフランス勢力を駆逐した。",
+    "back": "パリ"
+  },
+  {
+    "id": "HIST2-C1-Q2-2",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "インド北東部において□□□を獲得し，",
+    "stem_status": "original",
+    "answer": "統治権",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "インド北東部において□□□を獲得し，",
+    "back": "統治権"
+  },
+  {
+    "id": "HIST2-C1-Q2-3",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "世界各地に拡がる帝国を築いた（□□□□帝国）。",
+    "stem_status": "original",
+    "answer": "イギリス",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "世界各地に拡がる帝国を築いた（□□□□帝国）。",
+    "back": "イギリス"
+  },
+  {
+    "id": "HIST2-C1-Q2-4",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "大西洋地域に進出し，□□□□を大規模に展開し，",
+    "stem_status": "original",
+    "answer": "奴隷貿易",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "大西洋地域に進出し，□□□□を大規模に展開し，",
+    "back": "奴隷貿易"
+  },
+  {
+    "id": "HIST2-C1-Q2-5",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "武器や□□□など本国の製品がアフリカに輸出された。",
+    "stem_status": "original",
+    "answer": "雑貨",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "武器や□□□など本国の製品がアフリカに輸出された。",
+    "back": "雑貨"
+  },
+  {
+    "id": "HIST2-C1-Q3-1",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "16世紀には黒死病の打撃からの復興期であり，□□が増加した。",
+    "stem_status": "original",
+    "answer": "人口",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "16世紀には黒死病の打撃からの復興期であり，□□が増加した。",
+    "back": "人口"
+  },
+  {
+    "id": "HIST2-C1-Q3-2",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "17世紀に入ると疫病が流行し，経済は低調になった（17世紀の□□）。",
+    "stem_status": "original",
+    "answer": "危機",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "17世紀に入ると疫病が流行し，経済は低調になった（17世紀の□□）。",
+    "back": "危機"
+  },
+  {
+    "id": "HIST2-C1-Q3-3",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "都市の王侯・貴族やブルジョワを中心に高い□□□□をもつ社会へとかわった。",
+    "stem_status": "original",
+    "answer": "消費水準",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "都市の王侯・貴族やブルジョワを中心に高い□□□□をもつ社会へとかわった。",
+    "back": "消費水準"
+  },
+  {
+    "id": "HIST2-C1-Q3-4",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "イギリスは18世紀に□□□□によって農業生産が拡大し，都市化を促進した。",
+    "stem_status": "original",
+    "answer": "農業革命",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "イギリスは18世紀に□□□□によって農業生産が拡大し，都市化を促進した。",
+    "back": "農業革命"
+  },
+  {
+    "id": "HIST2-C1-Q3-5",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "17世紀に□□□産の綿織物が輸入され，人気商品となった。",
+    "stem_status": "original",
+    "answer": "インド",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "17世紀に□□□産の綿織物が輸入され，人気商品となった。",
+    "back": "インド"
+  },
+  {
+    "id": "HIST2-C1-Q3-6",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "これにより主要工業の□□□業が打撃を受けると，",
+    "stem_status": "original",
+    "answer": "毛織物",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "これにより主要工業の□□□業が打撃を受けると，",
+    "back": "毛織物"
+  },
+  {
+    "id": "HIST2-C1-Q3-7",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "インド産綿織物の輸入が□□されたが，綿織物の人気は衰えず，",
+    "stem_status": "original",
+    "answer": "禁止",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "インド産綿織物の輸入が□□されたが，綿織物の人気は衰えず，",
+    "back": "禁止"
+  },
+  {
+    "id": "HIST2-C1-Q3-8",
+    "unit": "C1 熟練工と「道具」",
+    "form": "cloze",
+    "tags": [
+      "C1",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "原料の□□をインドから輸入して国内で綿織物を生産する動きも始まった。",
+    "stem_status": "original",
+    "answer": "綿花",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "原料の□□をインドから輸入して国内で綿織物を生産する動きも始まった。",
+    "back": "綿花"
+  },
+  {
+    "id": "HIST2-C2-①",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "生産過程において機械が使用されることによって，{{工場制度}}（factory system）が資本主義生産の支配的形態となった過程。",
+    "stem_status": "original",
+    "answer": "工場制度",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "生産過程において機械が使用されることによって，{{工場制度}}（factory system）が資本主義生産の支配的形態となった過程。",
+    "back": "工場制度"
+  },
+  {
+    "id": "HIST2-C2-②",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "こうした生産力の大きな変化は，「{{機械}}」の登場に求めるべきであろう。",
+    "stem_status": "original",
+    "answer": "機械",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "こうした生産力の大きな変化は，「{{機械}}」の登場に求めるべきであろう。",
+    "back": "機械"
+  },
+  {
+    "id": "HIST2-C2-③",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "彼らは {{未熟練工}} とよばれる人々である。",
+    "stem_status": "original",
+    "answer": "未熟練工",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "彼らは {{未熟練工}} とよばれる人々である。",
+    "back": "未熟練工"
+  },
+  {
+    "id": "HIST2-C2-④",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "この中で {{綿工業}} が産業革命の引き金となったとされる。",
+    "stem_status": "original",
+    "answer": "綿工業",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "この中で {{綿工業}} が産業革命の引き金となったとされる。",
+    "back": "綿工業"
+  },
+  {
+    "id": "HIST2-C2-⑤",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "イギリスの伝統的な繊維工業は本来は {{羊毛工業}} であった。",
+    "stem_status": "original",
+    "answer": "羊毛工業",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "イギリスの伝統的な繊維工業は本来は {{羊毛工業}} であった。",
+    "back": "羊毛工業"
+  },
+  {
+    "id": "HIST2-C2-⑥",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "やがて，{{紡車}} (spinning wheel)，紡績機械が発明された。",
+    "stem_status": "original",
+    "answer": "紡車",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "やがて，{{紡車}} (spinning wheel)，紡績機械が発明された。",
+    "back": "紡車"
+  },
+  {
+    "id": "HIST2-C2-⑦",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "マニュファクチュア段階の道具による {{糸紡ぎ}} は，働く人の熟練度合いによって糸の品質が決まる。",
+    "stem_status": "original",
+    "answer": "糸紡ぎ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 7
+      }
+    ],
+    "conflicts": [],
+    "front": "マニュファクチュア段階の道具による {{糸紡ぎ}} は，働く人の熟練度合いによって糸の品質が決まる。",
+    "back": "糸紡ぎ"
+  },
+  {
+    "id": "HIST2-C2-⑧",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "{{機械}} とは，手先の器用さを道具に転化させた特殊な労働手段ということになる。",
+    "stem_status": "original",
+    "answer": "機械",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 7
+      }
+    ],
+    "conflicts": [],
+    "front": "{{機械}} とは，手先の器用さを道具に転化させた特殊な労働手段ということになる。",
+    "back": "機械"
+  },
+  {
+    "id": "HIST2-C2-⑨",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "それは，{{剰余}} 価値を生産するための手段なのである。",
+    "stem_status": "original",
+    "answer": "剰余",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 7
+      }
+    ],
+    "conflicts": [],
+    "front": "それは，{{剰余}} 価値を生産するための手段なのである。",
+    "back": "剰余"
+  },
+  {
+    "id": "HIST2-C2-⑩",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "{{労働手段}} とは，労働者によって彼と労働対象とのあいだに入れられて…役だつ物またはいろいろな物の複合体である。",
+    "stem_status": "original",
+    "answer": "労働手段",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 7
+      }
+    ],
+    "conflicts": [],
+    "front": "{{労働手段}} とは，労働者によって彼と労働対象とのあいだに入れられて…役だつ物またはいろいろな物の複合体である。",
+    "back": "労働手段"
+  },
+  {
+    "id": "HIST2-C2-⑪",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "{{発達した機械}} の3要素：動力機・伝達機・作業機。",
+    "stem_status": "original",
+    "answer": "発達した機械",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "{{発達した機械}} の3要素：動力機・伝達機・作業機。",
+    "back": "発達した機械"
+  },
+  {
+    "id": "HIST2-C2-Q1",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "short_answer",
+    "tags": [
+      "C2",
+      "小問題"
+    ],
+    "stem": "綿工業の代表的な2つの工程の名称を答えよ。",
+    "stem_status": "original",
+    "answer": "紡績工程，織布工程",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "綿工業の代表的な2つの工程の名称を答えよ。",
+    "back": "紡績工程，織布工程"
+  },
+  {
+    "id": "HIST2-C2-Q2",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "short_answer",
+    "tags": [
+      "C2",
+      "小問題"
+    ],
+    "stem": "『資本論』を著した人物の名前と国籍を答えよ。",
+    "stem_status": "original",
+    "answer": "カール・マルクス，ドイツ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "『資本論』を著した人物の名前と国籍を答えよ。",
+    "back": "カール・マルクス，ドイツ"
+  },
+  {
+    "id": "HIST2-C2-Q3",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "short_answer",
+    "tags": [
+      "C2",
+      "小問題"
+    ],
+    "stem": "労働過程の3要素をすべて答えよ。",
+    "stem_status": "original",
+    "answer": "生きた労働，労働手段，労働対象",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "労働過程の3要素をすべて答えよ。",
+    "back": "生きた労働，労働手段，労働対象"
+  },
+  {
+    "id": "HIST2-C2-Q4",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "short_answer",
+    "tags": [
+      "C2",
+      "小問題",
+      "不完全記入"
+    ],
+    "stem": "発達した機械の3要素をすべて答えよ。",
+    "stem_status": "original",
+    "answer": "動力機",
+    "answer_status": "inferred",
+    "explanation": "手書きは『動力機』のみ確認。伝導機・作業機は未記入に見える。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "発達した機械の3要素をすべて答えよ。",
+    "back": "動力機"
+  },
+  {
+    "id": "HIST2-C2-Q5",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "essay",
+    "tags": [
+      "C2",
+      "小問題",
+      "実習",
+      "未記入"
+    ],
+    "stem": "糸紡ぎの実習によってあなたが気がついた点を，2つ以上，指摘しなさい。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "糸紡ぎの実習によってあなたが気がついた点を，2つ以上，指摘しなさい。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C2-Q6-1",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "農業革命を推進したのが，「□□□□」と呼ばれる土地制度改革であり，",
+    "stem_status": "original",
+    "answer": "囲い込み",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "農業革命を推進したのが，「□□□□」と呼ばれる土地制度改革であり，",
+    "back": "囲い込み"
+  },
+  {
+    "id": "HIST2-C2-Q6-2",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "これにより全土で村の共有地が□□□に転換されて，",
+    "stem_status": "original",
+    "answer": "私有地",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "これにより全土で村の共有地が□□□に転換されて，",
+    "back": "私有地"
+  },
+  {
+    "id": "HIST2-C2-Q6-3",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "□□□な農業が可能となった。",
+    "stem_status": "original",
+    "answer": "集約的",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□な農業が可能となった。",
+    "back": "集約的"
+  },
+  {
+    "id": "HIST2-C2-Q7-1",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "『□□□□□（国富論）』を著した，",
+    "stem_status": "original",
+    "answer": "諸国民の富",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "『□□□□□（国富論）』を著した，",
+    "back": "諸国民の富"
+  },
+  {
+    "id": "HIST2-C2-Q7-2",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "イギリスの□□□＝スミスは，",
+    "stem_status": "original",
+    "answer": "アダム",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "イギリスの□□□＝スミスは，",
+    "back": "アダム"
+  },
+  {
+    "id": "HIST2-C2-Q7-3",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "□□と交換が世界規模で発達した商業段階へ移行しつつあると考え，",
+    "stem_status": "original",
+    "answer": "分業",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "□□と交換が世界規模で発達した商業段階へ移行しつつあると考え，",
+    "back": "分業"
+  },
+  {
+    "id": "HIST2-C2-Q7-4",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "□□□□□□を創始した。",
+    "stem_status": "original",
+    "answer": "古典派経済学",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□□□□を創始した。",
+    "back": "古典派経済学"
+  },
+  {
+    "id": "HIST2-C2-Q7-5",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "フランスの□□□□やダランベールらが編纂した，",
+    "stem_status": "original",
+    "answer": "ディドロ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "フランスの□□□□やダランベールらが編纂した，",
+    "back": "ディドロ"
+  },
+  {
+    "id": "HIST2-C2-Q7-6",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "『□□□□』のほか，各国で百科事典が刊行された。",
+    "stem_status": "original",
+    "answer": "百科全書",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "『□□□□』のほか，各国で百科事典が刊行された。",
+    "back": "百科全書"
+  },
+  {
+    "id": "HIST2-C2-Q7-7",
+    "unit": "C2 道具と機械の概念区分",
+    "form": "cloze",
+    "tags": [
+      "C2",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "こうした出版物は，□□の形成をうながした。",
+    "stem_status": "original",
+    "answer": "世論",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 8
+      }
+    ],
+    "conflicts": [],
+    "front": "こうした出版物は，□□の形成をうながした。",
+    "back": "世論"
+  },
+  {
+    "id": "HIST2-C3-①",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "1733年に，{{ジョン・ケイ}}（John Kay）は飛杼（Flying shuttle）を発明した。",
+    "stem_status": "original",
+    "answer": "ジョン・ケイ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 9
+      }
+    ],
+    "conflicts": [],
+    "front": "1733年に，{{ジョン・ケイ}}（John Kay）は飛杼（Flying shuttle）を発明した。",
+    "back": "ジョン・ケイ"
+  },
+  {
+    "id": "HIST2-C3-②",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "ランカシャーの織工であった {{ハーグリーブス}}（James Hargreaves）は，1764年にジェニー紡績機を発明した。",
+    "stem_status": "original",
+    "answer": "ハーグリーブス",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 9
+      }
+    ],
+    "conflicts": [],
+    "front": "ランカシャーの織工であった {{ハーグリーブス}}（James Hargreaves）は，1764年にジェニー紡績機を発明した。",
+    "back": "ハーグリーブス"
+  },
+  {
+    "id": "HIST2-C3-③",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "1769年には，{{アークライト}}（Richard Arkwright）が水力紡績機を発明した。",
+    "stem_status": "original",
+    "answer": "アークライト",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 9
+      }
+    ],
+    "conflicts": [],
+    "front": "1769年には，{{アークライト}}（Richard Arkwright）が水力紡績機を発明した。",
+    "back": "アークライト"
+  },
+  {
+    "id": "HIST2-C3-④",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "彼の紡績機が {{水力紡績機}} と呼ばれる理由は，水力利用にある。",
+    "stem_status": "original",
+    "answer": "水力紡績機",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 10
+      }
+    ],
+    "conflicts": [],
+    "front": "彼の紡績機が {{水力紡績機}} と呼ばれる理由は，水力利用にある。",
+    "back": "水力紡績機"
+  },
+  {
+    "id": "HIST2-C3-⑤",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "1779年に {{クロンプトン}}（Samuel Crompton）が発明した。",
+    "stem_status": "original",
+    "answer": "クロンプトン",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 10
+      }
+    ],
+    "conflicts": [],
+    "front": "1779年に {{クロンプトン}}（Samuel Crompton）が発明した。",
+    "back": "クロンプトン"
+  },
+  {
+    "id": "HIST2-C3-⑥",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "通称は {{ミュール紡績機}}：MULE である。",
+    "stem_status": "original",
+    "answer": "ミュール紡績機",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 10
+      }
+    ],
+    "conflicts": [],
+    "front": "通称は {{ミュール紡績機}}：MULE である。",
+    "back": "ミュール紡績機"
+  },
+  {
+    "id": "HIST2-C3-⑦",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "1771年に，アークライトは機械を利用した工場を，{{クロムフォード}} という場所に建設した。",
+    "stem_status": "original",
+    "answer": "クロムフォード",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 10
+      }
+    ],
+    "conflicts": [],
+    "front": "1771年に，アークライトは機械を利用した工場を，{{クロムフォード}} という場所に建設した。",
+    "back": "クロムフォード"
+  },
+  {
+    "id": "HIST2-C3-⑧",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "この {{技能}} が人間から1つの機構に移されているかどうかで，道具と機械との概念区分をしている。",
+    "stem_status": "original",
+    "answer": "技能",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 11
+      }
+    ],
+    "conflicts": [],
+    "front": "この {{技能}} が人間から1つの機構に移されているかどうかで，道具と機械との概念区分をしている。",
+    "back": "技能"
+  },
+  {
+    "id": "HIST2-C3-⑨",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "機械の中でも最も基本的な部分が {{作業機}}（作業機械，道具機ともいう）である。",
+    "stem_status": "original",
+    "answer": "作業機",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 11
+      }
+    ],
+    "conflicts": [],
+    "front": "機械の中でも最も基本的な部分が {{作業機}}（作業機械，道具機ともいう）である。",
+    "back": "作業機"
+  },
+  {
+    "id": "HIST2-C3-⑩",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "一人の労働者の手工業道具を限られたものにする {{器官的制限}} から解放されている。",
+    "stem_status": "original",
+    "answer": "器官的制限",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 11
+      }
+    ],
+    "conflicts": [],
+    "front": "一人の労働者の手工業道具を限られたものにする {{器官的制限}} から解放されている。",
+    "back": "器官的制限"
+  },
+  {
+    "id": "HIST2-C3-Q1",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "ジェニー紡績機は，粗糸を □ 糸（細く，強くよられた糸）に加工する作業機である。",
+    "stem_status": "original",
+    "answer": "綿",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "ジェニー紡績機は，粗糸を □ 糸（細く，強くよられた糸）に加工する作業機である。",
+    "back": "綿"
+  },
+  {
+    "id": "HIST2-C3-Q2-1",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "水力紡績機の特徴は糸をくりだす2段式 □□□□ と",
+    "stem_status": "original",
+    "answer": "ローラー",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "水力紡績機の特徴は糸をくりだす2段式 □□□□ と",
+    "back": "ローラー"
+  },
+  {
+    "id": "HIST2-C3-Q2-2",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "□□□□□ を用いている点である。",
+    "stem_status": "original",
+    "answer": "フライヤー",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□□□ を用いている点である。",
+    "back": "フライヤー"
+  },
+  {
+    "id": "HIST2-C3-Q3",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "1771年設立のクロムフォード紡績工場の特徴は，□□ を機械の動力にした点である。",
+    "stem_status": "original",
+    "answer": "水力",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "1771年設立のクロムフォード紡績工場の特徴は，□□ を機械の動力にした点である。",
+    "back": "水力"
+  },
+  {
+    "id": "HIST2-C3-Q4",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "クロンプトンが発明した最も有効な紡績機の名前は □□□□ 紡績機である。",
+    "stem_status": "original",
+    "answer": "ミュール",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "クロンプトンが発明した最も有効な紡績機の名前は □□□□ 紡績機である。",
+    "back": "ミュール"
+  },
+  {
+    "id": "HIST2-C3-Q5-1",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "人間が持っている技能が1つの □□ に移されているかどうかで，道具と機械との区別ができる。",
+    "stem_status": "original",
+    "answer": "機構",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "人間が持っている技能が1つの □□ に移されているかどうかで，道具と機械との区別ができる。",
+    "back": "機構"
+  },
+  {
+    "id": "HIST2-C3-Q5-2",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "また機械は，道具を使う人間に備わっている □□□ 制限を解放している。",
+    "stem_status": "original",
+    "answer": "器官的",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "また機械は，道具を使う人間に備わっている □□□ 制限を解放している。",
+    "back": "器官的"
+  },
+  {
+    "id": "HIST2-C3-Q6-1",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "啓蒙思想の推進役となった □□□ は，",
+    "stem_status": "original",
+    "answer": "知識人",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "啓蒙思想の推進役となった □□□ は，",
+    "back": "知識人"
+  },
+  {
+    "id": "HIST2-C3-Q6-2",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "□□□□□（市民）からもうまれた。",
+    "stem_status": "original",
+    "answer": "ブルジョワ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□□□（市民）からもうまれた。",
+    "back": "ブルジョワ"
+  },
+  {
+    "id": "HIST2-C3-Q6-3",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "意志表明の手段として暴動や □□ をおこした。",
+    "stem_status": "original",
+    "answer": "一揆",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "意志表明の手段として暴動や □□ をおこした。",
+    "back": "一揆"
+  },
+  {
+    "id": "HIST2-C3-Q7-1",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "ジョン＝□□，飛び杼，織布機，1733年",
+    "stem_status": "original",
+    "answer": "ケイ",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "ジョン＝□□，飛び杼，織布機，1733年",
+    "back": "ケイ"
+  },
+  {
+    "id": "HIST2-C3-Q7-2",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "ハーグリーヴス，□□ 紡績機（ジェニー紡績機），1764年",
+    "stem_status": "original",
+    "answer": "多軸",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "ハーグリーヴス，□□ 紡績機（ジェニー紡績機），1764年",
+    "back": "多軸"
+  },
+  {
+    "id": "HIST2-C3-Q7-3",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "□□□□□□，水力紡績機，1769年",
+    "stem_status": "original",
+    "answer": "アークライト",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□□□□，水力紡績機，1769年",
+    "back": "アークライト"
+  },
+  {
+    "id": "HIST2-C3-Q7-4",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "クロンプトン，□□□□ 紡績機，1779年",
+    "stem_status": "original",
+    "answer": "ミュール",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "クロンプトン，□□□□ 紡績機，1779年",
+    "back": "ミュール"
+  },
+  {
+    "id": "HIST2-C3-Q7-5",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "□□□□□□，力織機，織布機，1785年",
+    "stem_status": "original",
+    "answer": "カートライト",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□□□□，力織機，織布機，1785年",
+    "back": "カートライト"
+  },
+  {
+    "id": "HIST2-C3-Q8-1",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "新しい機械の導入には多額の □□ を必要としたので，",
+    "stem_status": "original",
+    "answer": "資金",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "新しい機械の導入には多額の □□ を必要としたので，",
+    "back": "資金"
+  },
+  {
+    "id": "HIST2-C3-Q8-2",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "工場主は安価な □□□ を求めた。",
+    "stem_status": "original",
+    "answer": "労働力",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "工場主は安価な □□□ を求めた。",
+    "back": "労働力"
+  },
+  {
+    "id": "HIST2-C3-Q8-3",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "このように □□ をもつ経営者（資本家）が，",
+    "stem_status": "original",
+    "answer": "資本",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "このように □□ をもつ経営者（資本家）が，",
+    "back": "資本"
+  },
+  {
+    "id": "HIST2-C3-Q8-4",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "賃金 □□□ を工場で雇用する経営形態が登場した。",
+    "stem_status": "original",
+    "answer": "労働者",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "賃金 □□□ を工場で雇用する経営形態が登場した。",
+    "back": "労働者"
+  },
+  {
+    "id": "HIST2-C3-Q8-5",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "産業革命はこうした一連の □□□□ と経営・労働形態の変革，",
+    "stem_status": "original",
+    "answer": "技術革新",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "産業革命はこうした一連の □□□□ と経営・労働形態の変革，",
+    "back": "技術革新"
+  },
+  {
+    "id": "HIST2-C3-Q8-6",
+    "unit": "C3 紡績機の発明に始まる産業革命",
+    "form": "cloze",
+    "tags": [
+      "C3",
+      "小問題"
+    ],
+    "stem": "こうした結果，□□□□ と呼ばれる経済体制が確立した。",
+    "stem_status": "original",
+    "answer": "資本主義",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 12
+      }
+    ],
+    "conflicts": [],
+    "front": "こうした結果，□□□□ と呼ばれる経済体制が確立した。",
+    "back": "資本主義"
+  },
+  {
+    "id": "HIST2-C4-①",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "第1の変化を「{{作業機革命}}」と呼ぶなら，第2の変化は「動力機革命」と呼べる。",
+    "stem_status": "original",
+    "answer": "作業機革命",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 13
+      }
+    ],
+    "conflicts": [],
+    "front": "第1の変化を「{{作業機革命}}」と呼ぶなら，第2の変化は「動力機革命」と呼べる。",
+    "back": "作業機革命"
+  },
+  {
+    "id": "HIST2-C4-②",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "外部の既成の {{自然力}} から原動力を受け取ることもある。",
+    "stem_status": "original",
+    "answer": "自然力",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 13
+      }
+    ],
+    "conflicts": [],
+    "front": "外部の既成の {{自然力}} から原動力を受け取ることもある。",
+    "back": "自然力"
+  },
+  {
+    "id": "HIST2-C4-③",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "つまり，最初の作業機の原動力は {{人力}}（manpower）であり，",
+    "stem_status": "original",
+    "answer": "人力",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 13
+      }
+    ],
+    "conflicts": [],
+    "front": "つまり，最初の作業機の原動力は {{人力}}（manpower）であり，",
+    "back": "人力"
+  },
+  {
+    "id": "HIST2-C4-④",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "人間の働きかけが {{回転運動}} や上下運動などの単純な運動に限定されていれば，",
+    "stem_status": "original",
+    "answer": "回転運動",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 14
+      }
+    ],
+    "conflicts": [],
+    "front": "人間の働きかけが {{回転運動}} や上下運動などの単純な運動に限定されていれば，",
+    "back": "回転運動"
+  },
+  {
+    "id": "HIST2-C4-⑤",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "つまり主役は {{作業機}} であり，動力機ではない。",
+    "stem_status": "original",
+    "answer": "作業機",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 14
+      }
+    ],
+    "conflicts": [],
+    "front": "つまり主役は {{作業機}} であり，動力機ではない。",
+    "back": "作業機"
+  },
+  {
+    "id": "HIST2-C4-⑥",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "作業機の {{大型化}} などによって，はじめて自然力を利用する必然性が現れた。",
+    "stem_status": "original",
+    "answer": "大型化",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 14
+      }
+    ],
+    "conflicts": [],
+    "front": "作業機の {{大型化}} などによって，はじめて自然力を利用する必然性が現れた。",
+    "back": "大型化"
+  },
+  {
+    "id": "HIST2-C4-⑦",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "それまで水車の性能は {{水車大工}}（millwright）たちの経験と勘に任されていた。",
+    "stem_status": "original",
+    "answer": "水車大工",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 14
+      }
+    ],
+    "conflicts": [],
+    "front": "それまで水車の性能は {{水車大工}}（millwright）たちの経験と勘に任されていた。",
+    "back": "水車大工"
+  },
+  {
+    "id": "HIST2-C4-⑧",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "スミートンによる {{低胸掛水車}} は，少なくとも40〜50%の効率で運転することができた。",
+    "stem_status": "original",
+    "answer": "低胸掛水車",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 15
+      }
+    ],
+    "conflicts": [],
+    "front": "スミートンによる {{低胸掛水車}} は，少なくとも40〜50%の効率で運転することができた。",
+    "back": "低胸掛水車"
+  },
+  {
+    "id": "HIST2-C4-⑨",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "水車の素材には木材よりも {{鉄}} が利用されるようになった。",
+    "stem_status": "original",
+    "answer": "鉄",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 15
+      }
+    ],
+    "conflicts": [],
+    "front": "水車の素材には木材よりも {{鉄}} が利用されるようになった。",
+    "back": "鉄"
+  },
+  {
+    "id": "HIST2-C4-⑩",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "水車はその動力源を天然の {{水源}} に依存している問題があり，",
+    "stem_status": "original",
+    "answer": "水源",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "水車はその動力源を天然の {{水源}} に依存している問題があり，",
+    "back": "水源"
+  },
+  {
+    "id": "HIST2-C4-Q1",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "essay",
+    "tags": [
+      "C4",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "人力を，生産に必要な動力と考えたとき，その利点と弱点を指摘しなさい。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "人力を，生産に必要な動力と考えたとき，その利点と弱点を指摘しなさい。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C4-Q2",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "essay",
+    "tags": [
+      "C4",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "畜力を，近代工場の動力機と考えたとき，どのような欠点があるかを指摘しなさい。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "畜力を，近代工場の動力機と考えたとき，どのような欠点があるかを指摘しなさい。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C4-Q3-1",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "水車改良に貢献したエンジニアは □□□□ 人のジョン・",
+    "stem_status": "original",
+    "answer": "イギリス",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "水車改良に貢献したエンジニアは □□□□ 人のジョン・",
+    "back": "イギリス"
+  },
+  {
+    "id": "HIST2-C4-Q3-2",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "ジョン・□□□□□ である。",
+    "stem_status": "original",
+    "answer": "スミートン",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "ジョン・□□□□□ である。",
+    "back": "スミートン"
+  },
+  {
+    "id": "HIST2-C4-Q4",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "低胸掛水車は，高い効率で水車を運転ができた（□□ 化）。",
+    "stem_status": "original",
+    "answer": "効率",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "低胸掛水車は，高い効率で水車を運転ができた（□□ 化）。",
+    "back": "効率"
+  },
+  {
+    "id": "HIST2-C4-Q5-1",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "□ を利用することにより，木製水車に比べ大幅に寿命を延長できた",
+    "stem_status": "original",
+    "answer": "鉄",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "□ を利用することにより，木製水車に比べ大幅に寿命を延長できた",
+    "back": "鉄"
+  },
+  {
+    "id": "HIST2-C4-Q5-2",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "（□□□ ）。",
+    "stem_status": "original",
+    "answer": "長寿命",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "（□□□ ）。",
+    "back": "長寿命"
+  },
+  {
+    "id": "HIST2-C4-Q6",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "essay",
+    "tags": [
+      "C4",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "水車が大型化の方向に向かった理由にはどのようなものがあるか，指摘しなさい。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "水車が大型化の方向に向かった理由にはどのようなものがあるか，指摘しなさい。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C4-Q7-1",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "動物による畜力や風車による風力の利用は □□ が難しく，安定した動力を得ることが困難であった。",
+    "stem_status": "original",
+    "answer": "制御",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "動物による畜力や風車による風力の利用は □□ が難しく，安定した動力を得ることが困難であった。",
+    "back": "制御"
+  },
+  {
+    "id": "HIST2-C4-Q7-2",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "一方，□□ は，水流が安定していれば質の高い動力を発生できた。",
+    "stem_status": "original",
+    "answer": "水車",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "一方，□□ は，水流が安定していれば質の高い動力を発生できた。",
+    "back": "水車"
+  },
+  {
+    "id": "HIST2-C4-Q8",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題"
+    ],
+    "stem": "これが水車の □□ と拡大にとって足かせとなった。",
+    "stem_status": "original",
+    "answer": "普及",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "これが水車の □□ と拡大にとって足かせとなった。",
+    "back": "普及"
+  },
+  {
+    "id": "HIST2-C4-Q9-1",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "一連の技術革新のなかでもっとも重要なのが，炭鉱で用いられていた □□□□ の製造業への転用である。",
+    "stem_status": "original",
+    "answer": "蒸気機関",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "一連の技術革新のなかでもっとも重要なのが，炭鉱で用いられていた □□□□ の製造業への転用である。",
+    "back": "蒸気機関"
+  },
+  {
+    "id": "HIST2-C4-Q9-2",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "□□ を動かす労働者の多くは，",
+    "stem_status": "original",
+    "answer": "機械",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "□□ を動かす労働者の多くは，",
+    "back": "機械"
+  },
+  {
+    "id": "HIST2-C4-Q9-3",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "□□□ で雇われた女性や子供であった。",
+    "stem_status": "original",
+    "answer": "低賃金",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□ で雇われた女性や子供であった。",
+    "back": "低賃金"
+  },
+  {
+    "id": "HIST2-C4-Q10-1",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "職を失った職人の一部は □□□□□□ 運動によって抵抗したが，",
+    "stem_status": "original",
+    "answer": "機械打ちこわし",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "職を失った職人の一部は □□□□□□ 運動によって抵抗したが，",
+    "back": "機械打ちこわし"
+  },
+  {
+    "id": "HIST2-C4-Q10-2",
+    "unit": "C4 産業革命における動力機（1）",
+    "form": "cloze",
+    "tags": [
+      "C4",
+      "小問題",
+      "世界史"
+    ],
+    "stem": "□□ された。",
+    "stem_status": "original",
+    "answer": "弾圧",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 16
+      }
+    ],
+    "conflicts": [],
+    "front": "□□ された。",
+    "back": "弾圧"
+  },
+  {
+    "id": "HIST2-C5-①",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "大気圧を利用すること，および名称に fire engine を利用しているなどから {{火力機関}} とよぶ。",
+    "stem_status": "original",
+    "answer": "火力機関",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 17
+      }
+    ],
+    "conflicts": [],
+    "front": "大気圧を利用すること，および名称に fire engine を利用しているなどから {{火力機関}} とよぶ。",
+    "back": "火力機関"
+  },
+  {
+    "id": "HIST2-C5-②",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "もっとも普及した火力機関は，{{トーマス・ニューコメン}} によるニューコメン機関。",
+    "stem_status": "original",
+    "answer": "トーマス・ニューコメン",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 17
+      }
+    ],
+    "conflicts": [],
+    "front": "もっとも普及した火力機関は，{{トーマス・ニューコメン}} によるニューコメン機関。",
+    "back": "トーマス・ニューコメン"
+  },
+  {
+    "id": "HIST2-C5-③",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄"
+    ],
+    "stem": "シリンダー上部が開放されているので，{{大気圧機関}} ともいう。",
+    "stem_status": "original",
+    "answer": "大気圧機関",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 17
+      }
+    ],
+    "conflicts": [],
+    "front": "シリンダー上部が開放されているので，{{大気圧機関}} ともいう。",
+    "back": "大気圧機関"
+  },
+  {
+    "id": "HIST2-C5-④",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄",
+      "未記入"
+    ],
+    "stem": "ウォットの最大の改良点は，1766年に発明した {{}} により画期的な石炭節約装置を実現した。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 18
+      }
+    ],
+    "conflicts": [],
+    "front": "ウォットの最大の改良点は，1766年に発明した {{}} により画期的な石炭節約装置を実現した。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-⑤",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄",
+      "未記入"
+    ],
+    "stem": "この第1号機は，これまでの蒸気機関と同様，その目的は鉱山の {{}} であった。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 18
+      }
+    ],
+    "conflicts": [],
+    "front": "この第1号機は，これまでの蒸気機関と同様，その目的は鉱山の {{}} であった。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-⑥",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄",
+      "未記入"
+    ],
+    "stem": "最大の技術的課題は，上下機関から {{}} への変更することであった。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 18
+      }
+    ],
+    "conflicts": [],
+    "front": "最大の技術的課題は，上下機関から {{}} への変更することであった。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-⑦",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄",
+      "未記入"
+    ],
+    "stem": "往復運動を回転運動に変えるための技術的課題は，はずみ車，太陽と惑星歯車，平行連結器，{{}}，遠心調速機の発明などにより解決した。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 19
+      }
+    ],
+    "conflicts": [],
+    "front": "往復運動を回転運動に変えるための技術的課題は，はずみ車，太陽と惑星歯車，平行連結器，{{}}，遠心調速機の発明などにより解決した。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-⑧",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄",
+      "未記入"
+    ],
+    "stem": "その結果，{{}} に依存する水車に代わり，",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "その結果，{{}} に依存する水車に代わり，",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-⑨",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "cloze",
+      "講義空欄",
+      "未記入"
+    ],
+    "stem": "搬送可能な {{}} をエネルギー源とした，都市型の蒸気動力機関が登場した。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "搬送可能な {{}} をエネルギー源とした，都市型の蒸気動力機関が登場した。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q1",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "シーソー型のニューコメン機関は，シリンダーの構造から □□□ 機関ともいう。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "シーソー型のニューコメン機関は，シリンダーの構造から □□□ 機関ともいう。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q2-1",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "ウォットが分離 □□□□□□ を1766年に発明し，燃費の良い蒸気機関とした。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "ウォットが分離 □□□□□□ を1766年に発明し，燃費の良い蒸気機関とした。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q2-2",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "しかし，このウォット機関は，鉱山の □□□（揚水機）の用途に限定された。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "しかし，このウォット機関は，鉱山の □□□（揚水機）の用途に限定された。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q3-1",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "クランクと同様の役割を果たす □□ 歯車装置を開発した。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "クランクと同様の役割を果たす □□ 歯車装置を開発した。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q3-2",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "単動機関を □□ 機関に改良，",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "単動機関を □□ 機関に改良，",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q3-3",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "シリンダー上部とビームとを結合させるために □□□□□ を取り付けた。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "シリンダー上部とビームとを結合させるために □□□□□ を取り付けた。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q4",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "都市に工場を設置できるという「工場の □□ 条件」で蒸気機関は優れ，都市型工場の動力機として普及した。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "都市に工場を設置できるという「工場の □□ 条件」で蒸気機関は優れ，都市型工場の動力機として普及した。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q5-1",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "蒸気機関の □□□ への転用がおこなわれ，",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "蒸気機関の □□□ への転用がおこなわれ，",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q5-2",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "ここに歴史上はじめて，□□ エネルギーを動力源とする経済活動が本格的に始まった。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "ここに歴史上はじめて，□□ エネルギーを動力源とする経済活動が本格的に始まった。",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q5-3",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "蒸気機関は，19世紀前半には □□ や船舶にも用いられるようになり，",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "蒸気機関は，19世紀前半には □□ や船舶にも用いられるようになり，",
+    "back": ""
+  },
+  {
+    "id": "HIST2-C5-Q5-4",
+    "unit": "C5 産業革命における動力機（2）",
+    "form": "cloze",
+    "tags": [
+      "C5",
+      "小問題",
+      "未記入"
+    ],
+    "stem": "□□□□ をもたらした。",
+    "stem_status": "original",
+    "answer": "",
+    "answer_status": "unverified",
+    "explanation": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/C1_tools_print.pdf",
+        "page": 20
+      }
+    ],
+    "conflicts": [],
+    "front": "□□□□ をもたらした。",
+    "back": ""
+  }
+]
