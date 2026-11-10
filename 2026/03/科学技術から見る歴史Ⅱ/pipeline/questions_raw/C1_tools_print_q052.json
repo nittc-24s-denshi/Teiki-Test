@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-Q7-6",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "『□□□□』のほか，各国で百科事典が刊行された。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "百科全書",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.8 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 8
+    }
+  ],
+  "tags": [
+    "C2",
+    "小問題",
+    "世界史"
+  ]
+}

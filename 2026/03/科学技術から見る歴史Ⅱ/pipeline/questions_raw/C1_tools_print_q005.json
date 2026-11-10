@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C1-④",
+  "unit": "C1 熟練工と「道具」",
+  "form": "cloze",
+  "stem": {
+    "value": "啓蒙主義思想家として知られる {{ディドロ}}（Denis Diderot : 1718-84）が編集・執筆した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "ディドロ",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.1 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "C1",
+    "cloze",
+    "講義空欄"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-①",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "生産過程において機械が使用されることによって，{{工場制度}}（factory system）が資本主義生産の支配的形態となった過程。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "工場制度",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.5 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "C2",
+    "cloze",
+    "講義空欄"
+  ]
+}

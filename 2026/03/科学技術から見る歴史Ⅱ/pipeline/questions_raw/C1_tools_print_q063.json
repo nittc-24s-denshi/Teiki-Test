@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C3-⑩",
+  "unit": "C3 紡績機の発明に始まる産業革命",
+  "form": "cloze",
+  "stem": {
+    "value": "一人の労働者の手工業道具を限られたものにする {{器官的制限}} から解放されている。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "器官的制限",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.11 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "C3",
+    "cloze",
+    "講義空欄"
+  ]
+}

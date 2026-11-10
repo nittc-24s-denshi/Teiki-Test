@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-④",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "この中で {{綿工業}} が産業革命の引き金となったとされる。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "綿工業",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.6 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "C2",
+    "cloze",
+    "講義空欄"
+  ]
+}

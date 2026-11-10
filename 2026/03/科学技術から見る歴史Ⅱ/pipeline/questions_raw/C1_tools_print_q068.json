@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C3-Q4",
+  "unit": "C3 紡績機の発明に始まる産業革命",
+  "form": "cloze",
+  "stem": {
+    "value": "クロンプトンが発明した最も有効な紡績機の名前は □□□□ 紡績機である。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "ミュール",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.12 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 12
+    }
+  ],
+  "tags": [
+    "C3",
+    "小問題"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C4-⑨",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "cloze",
+  "stem": {
+    "value": "水車の素材には木材よりも {{鉄}} が利用されるようになった。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "鉄",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.15 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 15
+    }
+  ],
+  "tags": [
+    "C4",
+    "cloze",
+    "講義空欄"
+  ]
+}

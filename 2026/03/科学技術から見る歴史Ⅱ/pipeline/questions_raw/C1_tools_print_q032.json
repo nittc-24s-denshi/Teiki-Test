@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-⑤",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "イギリスの伝統的な繊維工業は本来は {{羊毛工業}} であった。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "羊毛工業",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.6 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "C2",
+    "cloze",
+    "講義空欄"
+  ]
+}

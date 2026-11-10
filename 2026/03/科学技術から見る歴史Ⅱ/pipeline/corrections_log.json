@@ -1,0 +1,92 @@
+{
+  "source": "RAW/C1_tools_print.pdf",
+  "generated_at": "2026-11-10T23:17:15+09:00",
+  "transcript_corrections": [
+    {
+      "page": 1,
+      "field": "transcript",
+      "before": "[図: ドiderot（ディドロ）の肖像画]",
+      "after": "[図: Diderot（ディドロ）の肖像画]",
+      "reason": "ページ画像照合。英語表記の誤結合を修正"
+    },
+    {
+      "page": 6,
+      "field": "transcript",
+      "before": "spinning machne",
+      "after": "spinning machine",
+      "reason": "ページ画像照合。英語綴り誤読を修正"
+    },
+    {
+      "page": 7,
+      "field": "transcript",
+      "before": "絶対的剩余価値",
+      "after": "絶対的剰余価値",
+      "reason": "ページ画像照合。印刷は『剰余』"
+    },
+    {
+      "page": 7,
+      "field": "transcript",
+      "before": "剩余価値とは分かりやすい",
+      "after": "剰余価値とは分かりやすい",
+      "reason": "ページ画像照合。印刷は『剰余』"
+    },
+    {
+      "page": 7,
+      "field": "transcript",
+      "before": "剩余価値の増大",
+      "after": "剰余価値の増大",
+      "reason": "ページ画像照合。印刷は『剰余』"
+    },
+    {
+      "page": 15,
+      "field": "transcript",
+      "before": "Philosophical Transaction",
+      "after": "Philosophical Transactions",
+      "reason": "ページ画像照合。誌名の複数形を修正"
+    },
+    {
+      "page": 15,
+      "field": "transcript",
+      "before": "主要機関といして産業革命時代に普及",
+      "after": "主要機関として産業革命時代に普及",
+      "reason": "ページ画像照合。『として』の誤読"
+    },
+    {
+      "page": 17,
+      "field": "transcript",
+      "before": "ニューコメン機関と呼ばるシーソー",
+      "after": "ニューコメン機関と呼ばれるシーソー",
+      "reason": "ページ画像照合。『呼ばれる』の脱字"
+    }
+  ],
+  "question_corrections": [],
+  "counts": {
+    "questions": 130,
+    "inferred_answers": 108,
+    "unverified_answers": 21,
+    "transcript_corrections": 8
+  },
+  "unverified_ids": [
+    "HIST2-C2-Q5",
+    "HIST2-C4-Q1",
+    "HIST2-C4-Q2",
+    "HIST2-C4-Q6",
+    "HIST2-C5-④",
+    "HIST2-C5-⑤",
+    "HIST2-C5-⑥",
+    "HIST2-C5-⑦",
+    "HIST2-C5-⑧",
+    "HIST2-C5-⑨",
+    "HIST2-C5-Q1",
+    "HIST2-C5-Q2-1",
+    "HIST2-C5-Q2-2",
+    "HIST2-C5-Q3-1",
+    "HIST2-C5-Q3-2",
+    "HIST2-C5-Q3-3",
+    "HIST2-C5-Q4",
+    "HIST2-C5-Q5-1",
+    "HIST2-C5-Q5-2",
+    "HIST2-C5-Q5-3",
+    "HIST2-C5-Q5-4"
+  ]
+}

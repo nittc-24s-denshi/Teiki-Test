@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C5-⑤",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "この第1号機は，これまでの蒸気機関と同様，その目的は鉱山の {{}} であった。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 18
+    }
+  ],
+  "tags": [
+    "C5",
+    "cloze",
+    "講義空欄",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "status": "original"
+  }
+}

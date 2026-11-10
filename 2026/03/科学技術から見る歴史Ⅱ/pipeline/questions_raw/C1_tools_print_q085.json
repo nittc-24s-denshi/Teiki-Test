@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C4-①",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "cloze",
+  "stem": {
+    "value": "第1の変化を「{{作業機革命}}」と呼ぶなら，第2の変化は「動力機革命」と呼べる。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "作業機革命",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.13 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "C4",
+    "cloze",
+    "講義空欄"
+  ]
+}

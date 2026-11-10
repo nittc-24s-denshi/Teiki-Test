@@ -1,0 +1,24 @@
+{
+  "id": "HIST2-C4-Q2",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "essay",
+  "stem": {
+    "value": "畜力を，近代工場の動力機と考えたとき，どのような欠点があるかを指摘しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "C4",
+    "小問題",
+    "未記入"
+  ]
+}

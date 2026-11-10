@@ -1,0 +1,25 @@
+{
+  "id": "HIST2-C2-Q5",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "essay",
+  "stem": {
+    "value": "糸紡ぎの実習によってあなたが気がついた点を，2つ以上，指摘しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 8
+    }
+  ],
+  "tags": [
+    "C2",
+    "小問題",
+    "実習",
+    "未記入"
+  ]
+}

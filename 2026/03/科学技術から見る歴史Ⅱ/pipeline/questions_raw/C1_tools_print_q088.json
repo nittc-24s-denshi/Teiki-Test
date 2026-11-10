@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C4-④",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "cloze",
+  "stem": {
+    "value": "人間の働きかけが {{回転運動}} や上下運動などの単純な運動に限定されていれば，",
+    "status": "original"
+  },
+  "answer": {
+    "value": "回転運動",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.14 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "C4",
+    "cloze",
+    "講義空欄"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C4-Q7-2",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "cloze",
+  "stem": {
+    "value": "一方，□□ は，水流が安定していれば質の高い動力を発生できた。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "水車",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.16 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "C4",
+    "小問題"
+  ]
+}

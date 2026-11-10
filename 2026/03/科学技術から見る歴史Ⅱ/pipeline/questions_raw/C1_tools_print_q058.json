@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C3-⑤",
+  "unit": "C3 紡績機の発明に始まる産業革命",
+  "form": "cloze",
+  "stem": {
+    "value": "1779年に {{クロンプトン}}（Samuel Crompton）が発明した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "クロンプトン",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.10 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 10
+    }
+  ],
+  "tags": [
+    "C3",
+    "cloze",
+    "講義空欄"
+  ]
+}

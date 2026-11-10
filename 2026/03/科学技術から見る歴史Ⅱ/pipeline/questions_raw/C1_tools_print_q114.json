@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C5-④",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "ウォットの最大の改良点は，1766年に発明した {{}} により画期的な石炭節約装置を実現した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 18
+    }
+  ],
+  "tags": [
+    "C5",
+    "cloze",
+    "講義空欄",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "status": "original"
+  }
+}

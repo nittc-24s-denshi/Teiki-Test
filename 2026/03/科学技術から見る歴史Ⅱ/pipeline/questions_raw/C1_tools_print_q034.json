@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-⑦",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "マニュファクチュア段階の道具による {{糸紡ぎ}} は，働く人の熟練度合いによって糸の品質が決まる。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "糸紡ぎ",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.7 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 7
+    }
+  ],
+  "tags": [
+    "C2",
+    "cloze",
+    "講義空欄"
+  ]
+}

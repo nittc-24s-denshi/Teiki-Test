@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C2-Q3",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "short_answer",
+  "stem": {
+    "value": "労働過程の3要素をすべて答えよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "生きた労働，労働手段，労働対象",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.8 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 8
+    }
+  ],
+  "tags": [
+    "C2",
+    "小問題"
+  ]
+}

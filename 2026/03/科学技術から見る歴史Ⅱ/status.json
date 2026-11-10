@@ -1,0 +1,18 @@
+{
+  "exam": "2026/03",
+  "subject": "科学技術から見る歴史Ⅱ",
+  "updated": "2026-11-10T23:30:00+09:00",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": true,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "notes": "授業プリント『C1．熟練工と「道具」』〜C5（20ページ）を取り込み。手書き解答は inferred、p.18–20 の未記入空欄は unverified。公式範囲表は未入手のため範囲表は更新していない。仮ノートは実データ要約で置換。"
+}

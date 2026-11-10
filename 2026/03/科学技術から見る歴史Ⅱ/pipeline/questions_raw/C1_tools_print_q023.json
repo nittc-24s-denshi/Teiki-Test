@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C1-Q3-4",
+  "unit": "C1 熟練工と「道具」",
+  "form": "cloze",
+  "stem": {
+    "value": "イギリスは18世紀に□□□□によって農業生産が拡大し，都市化を促進した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "農業革命",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.4 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "C1",
+    "小問題",
+    "世界史"
+  ]
+}

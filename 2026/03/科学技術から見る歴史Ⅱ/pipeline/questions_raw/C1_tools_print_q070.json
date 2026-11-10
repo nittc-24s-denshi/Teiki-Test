@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C3-Q5-2",
+  "unit": "C3 紡績機の発明に始まる産業革命",
+  "form": "cloze",
+  "stem": {
+    "value": "また機械は，道具を使う人間に備わっている □□□ 制限を解放している。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "器官的",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.12 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 12
+    }
+  ],
+  "tags": [
+    "C3",
+    "小問題"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "HIST2-META-TRANSCRIPT-QC",
+  "unit": "メタ（文字起こし訂正）",
+  "form": "other",
+  "stem": {
+    "value": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "訂正ログ参照（pipeline/corrections_log.json）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "meta",
+    "corrections"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:p1",
+      "before": "[図: ドiderot（ディドロ）の肖像画]",
+      "after": "[図: Diderot（ディドロ）の肖像画]",
+      "reason": "ページ画像照合。英語表記の誤結合を修正"
+    },
+    {
+      "field": "transcript:p6",
+      "before": "spinning machne",
+      "after": "spinning machine",
+      "reason": "ページ画像照合。英語綴り誤読を修正"
+    },
+    {
+      "field": "transcript:p7",
+      "before": "絶対的剩余価値",
+      "after": "絶対的剰余価値",
+      "reason": "ページ画像照合。印刷は『剰余』"
+    },
+    {
+      "field": "transcript:p7",
+      "before": "剩余価値とは分かりやすい",
+      "after": "剰余価値とは分かりやすい",
+      "reason": "ページ画像照合。印刷は『剰余』"
+    },
+    {
+      "field": "transcript:p7",
+      "before": "剩余価値の増大",
+      "after": "剰余価値の増大",
+      "reason": "ページ画像照合。印刷は『剰余』"
+    },
+    {
+      "field": "transcript:p15",
+      "before": "Philosophical Transaction",
+      "after": "Philosophical Transactions",
+      "reason": "ページ画像照合。誌名の複数形を修正"
+    },
+    {
+      "field": "transcript:p15",
+      "before": "主要機関といして産業革命時代に普及",
+      "after": "主要機関として産業革命時代に普及",
+      "reason": "ページ画像照合。『として』の誤読"
+    },
+    {
+      "field": "transcript:p17",
+      "before": "ニューコメン機関と呼ばるシーソー",
+      "after": "ニューコメン機関と呼ばれるシーソー",
+      "reason": "ページ画像照合。『呼ばれる』の脱字"
+    }
+  ]
+}

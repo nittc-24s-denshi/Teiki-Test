@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C4-②",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "cloze",
+  "stem": {
+    "value": "外部の既成の {{自然力}} から原動力を受け取ることもある。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "自然力",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.13 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "C4",
+    "cloze",
+    "講義空欄"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C5-Q2-1",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "ウォットが分離 □□□□□□ を1766年に発明し，燃費の良い蒸気機関とした。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 20
+    }
+  ],
+  "tags": [
+    "C5",
+    "小問題",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "status": "original"
+  }
+}

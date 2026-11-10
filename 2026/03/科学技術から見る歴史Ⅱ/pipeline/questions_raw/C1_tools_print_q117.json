@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C5-⑦",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "往復運動を回転運動に変えるための技術的課題は，はずみ車，太陽と惑星歯車，平行連結器，{{}}，遠心調速機の発明などにより解決した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 19
+    }
+  ],
+  "tags": [
+    "C5",
+    "cloze",
+    "講義空欄",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "status": "original"
+  }
+}

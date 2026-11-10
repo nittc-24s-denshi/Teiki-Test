@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-⑩",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "{{労働手段}} とは，労働者によって彼と労働対象とのあいだに入れられて…役だつ物またはいろいろな物の複合体である。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "労働手段",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.7 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 7
+    }
+  ],
+  "tags": [
+    "C2",
+    "cloze",
+    "講義空欄"
+  ]
+}

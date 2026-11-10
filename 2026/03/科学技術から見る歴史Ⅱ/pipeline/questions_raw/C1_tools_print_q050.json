@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-Q7-4",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "□□□□□□を創始した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "古典派経済学",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.8 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 8
+    }
+  ],
+  "tags": [
+    "C2",
+    "小問題",
+    "世界史"
+  ]
+}

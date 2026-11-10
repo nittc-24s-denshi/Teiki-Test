@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C2-Q1",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "short_answer",
+  "stem": {
+    "value": "綿工業の代表的な2つの工程の名称を答えよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "紡績工程，織布工程",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.8 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 8
+    }
+  ],
+  "tags": [
+    "C2",
+    "小問題"
+  ]
+}

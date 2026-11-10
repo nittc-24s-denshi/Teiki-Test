@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C1-①",
+  "unit": "C1 熟練工と「道具」",
+  "form": "cloze",
+  "stem": {
+    "value": "いわゆる {{産業革命}} (Industrial Revolution) が始まった。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "産業革命",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.1 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "C1",
+    "cloze",
+    "講義空欄"
+  ]
+}

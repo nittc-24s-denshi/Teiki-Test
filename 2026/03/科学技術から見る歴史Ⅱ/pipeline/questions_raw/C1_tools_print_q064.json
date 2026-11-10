@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C3-Q1",
+  "unit": "C3 紡績機の発明に始まる産業革命",
+  "form": "cloze",
+  "stem": {
+    "value": "ジェニー紡績機は，粗糸を □ 糸（細く，強くよられた糸）に加工する作業機である。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "綿",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.12 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 12
+    }
+  ],
+  "tags": [
+    "C3",
+    "小問題"
+  ]
+}

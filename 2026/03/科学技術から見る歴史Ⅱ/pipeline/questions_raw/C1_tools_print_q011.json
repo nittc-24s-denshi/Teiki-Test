@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C1-⑩",
+  "unit": "C1 熟練工と「道具」",
+  "form": "cloze",
+  "stem": {
+    "value": "マニュファクチュアの労働手段の特徴は {{手工業的道具}} である。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手工業的道具",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.3 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "C1",
+    "cloze",
+    "講義空欄"
+  ]
+}

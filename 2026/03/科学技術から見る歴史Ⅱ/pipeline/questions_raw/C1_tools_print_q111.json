@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C5-①",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "大気圧を利用すること，および名称に fire engine を利用しているなどから {{火力機関}} とよぶ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "火力機関",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.17 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 17
+    }
+  ],
+  "tags": [
+    "C5",
+    "cloze",
+    "講義空欄"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C1-Q3-6",
+  "unit": "C1 熟練工と「道具」",
+  "form": "cloze",
+  "stem": {
+    "value": "これにより主要工業の□□□業が打撃を受けると，",
+    "status": "original"
+  },
+  "answer": {
+    "value": "毛織物",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.4 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "C1",
+    "小問題",
+    "世界史"
+  ]
+}

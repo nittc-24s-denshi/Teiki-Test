@@ -1,0 +1,24 @@
+{
+  "id": "HIST2-C4-Q6",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "essay",
+  "stem": {
+    "value": "水車が大型化の方向に向かった理由にはどのようなものがあるか，指摘しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "C4",
+    "小問題",
+    "未記入"
+  ]
+}

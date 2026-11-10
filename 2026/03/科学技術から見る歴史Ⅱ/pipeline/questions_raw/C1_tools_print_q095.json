@@ -1,0 +1,24 @@
+{
+  "id": "HIST2-C4-Q1",
+  "unit": "C4 産業革命における動力機（1）",
+  "form": "essay",
+  "stem": {
+    "value": "人力を，生産に必要な動力と考えたとき，その利点と弱点を指摘しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 16
+    }
+  ],
+  "tags": [
+    "C4",
+    "小問題",
+    "未記入"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HIST2-C5-Q4",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "都市に工場を設置できるという「工場の □□ 条件」で蒸気機関は優れ，都市型工場の動力機として普及した。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 20
+    }
+  ],
+  "tags": [
+    "C5",
+    "小問題",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "原本 p.20 の空欄に手書き記入なし（Gemini文字起こしも空欄）。unverified のまま残す。",
+    "status": "original"
+  }
+}

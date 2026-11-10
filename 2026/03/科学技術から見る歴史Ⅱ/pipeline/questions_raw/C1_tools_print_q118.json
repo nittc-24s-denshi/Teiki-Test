@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C5-⑧",
+  "unit": "C5 産業革命における動力機（2）",
+  "form": "cloze",
+  "stem": {
+    "value": "その結果，{{}} に依存する水車に代わり，",
+    "status": "original"
+  },
+  "answer": {
+    "value": "",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 20
+    }
+  ],
+  "tags": [
+    "C5",
+    "cloze",
+    "講義空欄",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "原本ページ画像でも空欄（手書き記入なし）。穴埋めは後続作業待ち。",
+    "status": "original"
+  }
+}

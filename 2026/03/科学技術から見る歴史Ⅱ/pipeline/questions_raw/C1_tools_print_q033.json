@@ -1,0 +1,29 @@
+{
+  "id": "HIST2-C2-⑥",
+  "unit": "C2 道具と機械の概念区分",
+  "form": "cloze",
+  "stem": {
+    "value": "やがて，{{紡車}} (spinning wheel)，紡績機械が発明された。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "紡車",
+    "status": "inferred",
+    "rationale": "原本ページ画像 p.6 の手書き記入を読み取り。印刷空欄への記入のため inferred。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/C1_tools_print.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "C2",
+    "cloze",
+    "講義空欄"
+  ]
+}
