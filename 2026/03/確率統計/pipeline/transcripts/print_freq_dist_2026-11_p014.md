@@ -59,7 +59,7 @@ $$\hat{y} = -\frac{1}{2} x + 11$$
 }}
 {{手書き: 
 
-$$\begin{aligned} & -3\frac{1}{2} \\ -\frac{1}{2} \cdot 7 + 11 &= 7\frac{1}{2} \end{aligned}$$
+$$-\frac{1}{2}\cdot 7 + 11 = 7\frac{1}{2}$$
 
 }}
 {{手書き: 残差 $-4\frac{1}{2}$}}

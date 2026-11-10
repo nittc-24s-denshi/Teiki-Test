@@ -857,7 +857,7 @@ $$\hat{y} = -\frac{1}{2} x + 11$$
 }}
 {{手書き: 
 
-$$\begin{aligned} & -3\frac{1}{2} \\ -\frac{1}{2} \cdot 7 + 11 &= 7\frac{1}{2} \end{aligned}$$
+$$-\frac{1}{2}\cdot 7 + 11 = 7\frac{1}{2}$$
 
 }}
 {{手書き: 残差 $-4\frac{1}{2}$}}
@@ -1261,7 +1261,7 @@ $${}_7\text{C}_3 \cdot 0.2^3 \cdot 0.8^4 = \frac{7 \times \not{6} \times 5}{\not
 (2) 不良品が 3 個以下となる確率．
 {{手書き: 
 
-$$\begin{aligned} & {}_7\text{C}_3 \cdot 0.2^3 \times 0.8^4 + {}_7\text{C}_2 \cdot 0.2^2 \times 0.8^5 + {}_7\text{C}_1 \cdot 0.2^1 \times 0.8^6 = \text{[再読: k=0項含む4項和。最終 59·4^4/5^6]} \\ &= \frac{7 \times 4^4}{5^6} + 21 \times \frac{1}{5^2} \times \frac{4^5}{5^5} = \frac{3 \times 4^5 \times 7}{5^7} + 7 \times \frac{1}{5} \times \frac{4^6}{5^6} = \frac{7 \times 4^6}{5^7} = \frac{7 \times 4^4 \times 5 + 3 \times 4^5 \times 7 + 7 \times 4^6}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (5 + 3 \times 4 + 4^2)}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (33)}{5^7} \qquad \begin{aligned} 12 + 16 + 5 \\ 61 \end{aligned} \end{aligned}$$
+$$\begin{aligned} & {}_7\text{C}_3 \cdot 0.2^3 \times 0.8^4 + {}_7\text{C}_2 \cdot 0.2^2 \times 0.8^5 + {}_7\text{C}_1 \cdot 0.2^1 \times 0.8^6 = \text{[再読: k=0項含む4項和。最終 59·4^4/5^6]} \\ &= \frac{7 \times 4^4}{5^6} + 21 \times \frac{1}{5^2} \times \frac{4^5}{5^5} = \frac{3 \times 4^5 \times 7}{5^7} + 7 \times \frac{1}{5} \times \frac{4^6}{5^6} = \frac{7 \times 4^6}{5^7} = \frac{7 \times 4^4 \times 5 + 3 \times 4^5 \times 7 + 7 \times 4^6}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{7 \times 4^4 (5 + 3 \times 4 + 4^2)}{5^7} \\ &\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad = \frac{4^{4}\cdot 295}{5^{7}}=\frac{59\cdot 4^{4}}{5^{6}} \qquad \begin{aligned} 12 + 16 + 5 \\ 61 \end{aligned} \end{aligned}$$
 
 }}
 

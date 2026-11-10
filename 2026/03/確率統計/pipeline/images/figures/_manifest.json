@@ -124,14 +124,14 @@
     "path": "pipeline/images/figures/fig_ex5_circular_tree.png",
     "page": 18,
     "box_frac": [
-      0.05,
+      0.02,
+      0.74,
       0.62,
-      0.55,
-      0.92
+      0.98
     ],
     "size": [
-      502,
-      495
+      603,
+      396
     ]
   }
 ]
