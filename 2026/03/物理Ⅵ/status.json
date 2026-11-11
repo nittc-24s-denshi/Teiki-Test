@@ -1,0 +1,17 @@
+{
+  "exam": "2026/03",
+  "subject": "物理Ⅵ",
+  "updated": "2026-11-11T10:38:20+09:00",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": false,
+    "transcribed": false,
+    "questions_split": false,
+    "filled": false,
+    "merged": false,
+    "corrected": false,
+    "structured": false,
+    "validated": false
+  },
+  "notes": "公式範囲受領・教材未取込。課題表その1／その2（JPG）を RAW に保存。範囲は 公式範囲_後期中間（課題表）.md。本人コメントにより試験範囲でもある。問題本文の構造化は未着手。"
+}
