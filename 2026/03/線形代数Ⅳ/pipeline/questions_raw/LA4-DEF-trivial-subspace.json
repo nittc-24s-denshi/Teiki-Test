@@ -1,0 +1,23 @@
+{
+  "id": "LA4-DEF-trivial-subspace",
+  "unit": "線型部分空間",
+  "form": "flashcard",
+  "stem": {
+    "value": "自明な部分空間とは何か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\{\\boldsymbol{0}\\}$ および $V$ 自身。これらを線型空間 $V$ の自明な部分空間という。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "線型部分空間",
+    "定義"
+  ]
+}

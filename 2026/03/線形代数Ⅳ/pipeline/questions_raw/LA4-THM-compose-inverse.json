@@ -1,0 +1,42 @@
+{
+  "id": "LA4-THM-compose-inverse",
+  "unit": "合成写像および逆写像の表現行列",
+  "form": "flashcard",
+  "stem": {
+    "value": "合成写像・逆写像の表現行列の公式を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A_{g\\circ f}=B_g A_f$。特に $f$ が全単射（同型）なら $A_{f^{-1}}=A_f^{-1}$。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_compose_maps.png",
+      "page": 5,
+      "caption": {
+        "value": "合成写像と行列積",
+        "status": "original"
+      }
+    },
+    {
+      "path": "pipeline/images/figures/fig_inverse_maps.png",
+      "page": 5,
+      "caption": {
+        "value": "逆写像と逆行列",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "合成写像",
+    "逆写像",
+    "表現行列"
+  ]
+}

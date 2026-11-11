@@ -1,0 +1,24 @@
+{
+  "id": "LA4-DEF-span",
+  "unit": "基底と次元",
+  "form": "flashcard",
+  "stem": {
+    "value": "張られた（生成された）部分空間 $\\langle \\boldsymbol{x}_1,\\ldots,\\boldsymbol{x}_m\\rangle$ の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\langle \\boldsymbol{x}_1,\\ldots,\\boldsymbol{x}_m\\rangle = K\\boldsymbol{x}_1+\\cdots+K\\boldsymbol{x}_m:=\\{d_1\\boldsymbol{x}_1+\\cdots+d_m\\boldsymbol{x}_m\\mid d_i\\in K\\}$。基底 $\\{\\boldsymbol{a}_1,\\ldots,\\boldsymbol{a}_l\\}$ に対し $V=\\langle\\boldsymbol{a}_1,\\ldots,\\boldsymbol{a}_l\\rangle$ とも書く。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "生成",
+    "部分空間",
+    "定義"
+  ]
+}

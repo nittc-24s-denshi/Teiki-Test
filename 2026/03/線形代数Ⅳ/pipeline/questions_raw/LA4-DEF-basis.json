@@ -1,0 +1,24 @@
+{
+  "id": "LA4-DEF-basis",
+  "unit": "基底と次元",
+  "form": "flashcard",
+  "stem": {
+    "value": "線型空間の基底の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$V\\neq\\{\\boldsymbol{0}\\}$ の $l$ 個のベクトル $\\boldsymbol{a}_1,\\ldots,\\boldsymbol{a}_l$ が(1) 1次独立、(2) 任意の $\\boldsymbol{b}\\in V$ がそれらの1次結合で表せる（生成する）とき、組 $\\{\\boldsymbol{a}_1,\\ldots,\\boldsymbol{a}_l\\}$ を $V$ の基底という。$V=\\{\\boldsymbol{0}\\}$ のときは基底は存在しない。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2,
+      "note": "基底"
+    }
+  ],
+  "tags": [
+    "基底",
+    "定義"
+  ]
+}

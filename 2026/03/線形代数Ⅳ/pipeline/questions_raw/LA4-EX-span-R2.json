@@ -1,0 +1,32 @@
+{
+  "id": "LA4-EX-span-R2",
+  "unit": "基底と次元",
+  "form": "calculation",
+  "stem": {
+    "value": "$\\mathbb{R}^2=\\langle\\boldsymbol{e}_1,\\boldsymbol{e}_2\\rangle=\\left\\langle\\begin{pmatrix}1\\\\0\\end{pmatrix},\\begin{pmatrix}1\\\\1\\end{pmatrix}\\right\\rangle=\\left\\langle\\begin{pmatrix}1\\\\0\\end{pmatrix},\\begin{pmatrix}2\\\\1\\end{pmatrix},\\begin{pmatrix}3\\\\3\\end{pmatrix}\\right\\rangle$ を、一般の $\\boldsymbol{x}=\\begin{pmatrix}x\\\\y\\end{pmatrix}$ の表示で確かめよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\boldsymbol{x}=x\\boldsymbol{e}_1+y\\boldsymbol{e}_2$$=(x-y)\\begin{pmatrix}1\\\\0\\end{pmatrix}+y\\begin{pmatrix}1\\\\1\\end{pmatrix}$$=(x+y)\\begin{pmatrix}1\\\\0\\end{pmatrix}+(-2y)\\begin{pmatrix}2\\\\1\\end{pmatrix}+y\\begin{pmatrix}3\\\\3\\end{pmatrix}$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "生成",
+    "例",
+    "検算済"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "（Gemini草稿の係数表示）",
+      "after": "(x+y)(1,0)^T + (-2y)(2,1)^T + y(3,3)^T",
+      "reason": "ページ画像照合・係数検算。$(x+y,-2y+3y)=(x,y)$ となり正しい。"
+    }
+  ]
+}

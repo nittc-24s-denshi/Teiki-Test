@@ -1,0 +1,24 @@
+{
+  "id": "LA4-THM-dim-theorem",
+  "unit": "次元定理",
+  "form": "flashcard",
+  "stem": {
+    "value": "次元定理を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "有限次元 $V$ から $W$ への線型写像 $f$ について $\\dim V=\\dim(\\operatorname{Im} f)+\\dim(\\operatorname{Ker} f)$。特に $\\operatorname{rank} A_f=r$ なら $\\dim(\\operatorname{Ker} f)=n-r$（基本解が $n-r$ 個）。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 4,
+      "note": "次元定理"
+    }
+  ],
+  "tags": [
+    "次元定理",
+    "定理"
+  ]
+}

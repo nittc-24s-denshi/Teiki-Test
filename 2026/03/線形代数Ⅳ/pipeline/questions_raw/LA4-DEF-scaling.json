@@ -1,0 +1,34 @@
+{
+  "id": "LA4-DEF-scaling",
+  "unit": "いろいろな線型写像",
+  "form": "flashcard",
+  "stem": {
+    "value": "拡大行列を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$x$ 方向に $a$ 倍、$y$ 方向に $b$ 倍: $A_e=\\begin{pmatrix}a&0\\\\0&b\\end{pmatrix}$。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_scaling.png",
+      "page": 5,
+      "caption": {
+        "value": "拡大の図",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 5,
+      "note": "拡大行列"
+    }
+  ],
+  "tags": [
+    "拡大",
+    "表現行列"
+  ]
+}

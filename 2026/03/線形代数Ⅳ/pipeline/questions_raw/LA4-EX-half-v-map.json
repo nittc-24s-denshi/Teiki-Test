@@ -1,0 +1,34 @@
+{
+  "id": "LA4-EX-half-v-map",
+  "unit": "像と核",
+  "form": "short_answer",
+  "stem": {
+    "value": "$f(v)=\\frac{1}{2}v$（$V=W=\\mathbb{R}$）の性質と逆写像を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "線型写像（変換）であり全単射。逆写像は $v=f^{-1}(w)=2w$。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex_half_v.png",
+      "page": 3,
+      "caption": {
+        "value": "w=(1/2)v のグラフ",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "例",
+    "全単射",
+    "逆写像"
+  ]
+}

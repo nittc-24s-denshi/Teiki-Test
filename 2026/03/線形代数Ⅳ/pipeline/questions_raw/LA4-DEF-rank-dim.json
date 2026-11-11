@@ -1,0 +1,25 @@
+{
+  "id": "LA4-DEF-rank-dim",
+  "unit": "行列の階数と次元",
+  "form": "flashcard",
+  "stem": {
+    "value": "$\\operatorname{rank} A$ と生成部分空間の次元の関係を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A=(\\boldsymbol{x}_1\\cdots\\boldsymbol{x}_l)\\in M_{nl}$ のとき $\\operatorname{rank} A=\\dim\\langle\\boldsymbol{x}_1,\\ldots,\\boldsymbol{x}_l\\rangle$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2,
+      "note": "行列の階数と次元"
+    }
+  ],
+  "tags": [
+    "階数",
+    "次元",
+    "定義"
+  ]
+}

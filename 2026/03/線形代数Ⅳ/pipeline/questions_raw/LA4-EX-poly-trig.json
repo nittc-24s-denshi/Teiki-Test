@@ -1,0 +1,25 @@
+{
+  "id": "LA4-EX-poly-trig",
+  "unit": "線型空間",
+  "form": "short_answer",
+  "stem": {
+    "value": "多項式の集合と、定数関数＋三角関数の集合が線型空間になることを式で示せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$V=\\{d_0+d_1 x+\\cdots+d_n x^n\\mid d_i\\in K\\}$（$n$ 次以下の多項式）は線型空間。また $V=\\left\\{c_0+\\sum_{n=1}^{N}(a_n\\cos nx+b_n\\sin nx)\\mid c_0,a_n,b_n\\in K\\right\\}$ も線型空間。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "線型空間",
+    "例",
+    "多項式",
+    "三角関数"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "LA4-DEF-surj-inj-bij",
+  "unit": "像と核",
+  "form": "flashcard",
+  "stem": {
+    "value": "全射・単射・全単射（双射）と逆写像を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "全射: $\\operatorname{Im} f=W$。単射: $f(v_1)=f(v_2)\\Rightarrow v_1=v_2$。全射かつ単射のとき全単射。このとき逆写像 $f^{-1}:W\\to V$ がただ一つ存在し、それも全単射。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_bijection.png",
+      "page": 3,
+      "caption": {
+        "value": "全単射と逆写像",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "全射",
+    "単射",
+    "全単射",
+    "定義"
+  ]
+}

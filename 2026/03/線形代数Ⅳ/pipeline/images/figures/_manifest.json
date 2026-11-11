@@ -1,0 +1,19 @@
+{
+  "source": "note_linear_space_2026-11.pdf",
+  "figures": [
+    "fig_bijection.png",
+    "fig_compose_maps.png",
+    "fig_ex_half_v.png",
+    "fig_ex_v2.png",
+    "fig_im_f.png",
+    "fig_inverse_maps.png",
+    "fig_ker_f.png",
+    "fig_map_sets.png",
+    "fig_reflect_axes.png",
+    "fig_reflect_line.png",
+    "fig_rep_matrix_comm.png",
+    "fig_rotation.png",
+    "fig_scaling.png"
+  ],
+  "note": "Hand-drawn diagrams cropped from page spreads; linked by question id in structured JSON."
+}

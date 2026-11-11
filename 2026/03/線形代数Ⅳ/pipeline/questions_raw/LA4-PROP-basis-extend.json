@@ -1,0 +1,24 @@
+{
+  "id": "LA4-PROP-basis-extend",
+  "unit": "基底と次元",
+  "form": "short_answer",
+  "stem": {
+    "value": "有限次元空間で、部分空間の基底を全体の基底へ延長できることを述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\dim V=n<\\infty$，$\\dim W=l\\le n$ のとき、$W$ の基底に $(n-l)$ 個のベクトルを付け加えて $V$ の基底にできる。付け加えたベクトルが張る部分空間を $W_2$ とおけば $V=W\\oplus W_2$。（有限次元のときに限る。）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "基底",
+    "延長",
+    "直和"
+  ]
+}

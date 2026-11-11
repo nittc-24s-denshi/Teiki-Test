@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-11-11T00:40:24Z",
+  "count": 8,
+  "items": [
+    {
+      "id": "LA4-META-TRANSCRIPT-QC",
+      "field": "transcript:p5-edge",
+      "before": "（別紙切れ込み「【状」「【問」）",
+      "after": "（取込対象外・除外）",
+      "reason": "ページ画像照合。p.5左上の別紙断片は本ノート本文ではないため取り込みしない。"
+    },
+    {
+      "id": "LA4-META-TRANSCRIPT-QC",
+      "field": "transcript:p3-ex-domain",
+      "before": "W = [0, \\infty]（Gemini草稿どおり）",
+      "after": "W = [0, \\infty]（原文維持）",
+      "reason": "ページ画像でも閉じ区間記法に見える。数学的には f(v)=v^2 の像は [0,∞) が通常だが、原文を優先し解答側で注記。"
+    },
+    {
+      "id": "LA4-EX-span-R2",
+      "field": "answer.value",
+      "before": "（Gemini草稿の係数表示）",
+      "after": "(x+y)(1,0)^T + (-2y)(2,1)^T + y(3,3)^T",
+      "reason": "ページ画像照合・係数検算。$(x+y,-2y+3y)=(x,y)$ となり正しい。"
+    },
+    {
+      "id": "LA4-EX-rank-matrix",
+      "field": "answer.value",
+      "before": "x3 = -x1 + 2 x2（草稿）",
+      "after": "x3 = -x1 + 2 x2（確定）",
+      "reason": "検算: -x1+2x2=(7,8,9)^T。行基本変形の結果とも一致。"
+    },
+    {
+      "id": "LA4-EX-dim-formula",
+      "field": "answer.value",
+      "before": "交わり基底 (4,-3,-1)",
+      "after": "(4,-3,-1)（確定）",
+      "reason": "x+y+z=0 と 2x+3y-z=0 より z=-x-y、代入で x+3y+(-x-y) 等を解くと方向ベクトル (4,-3,-1)。検算: 4-3-1=0、8-9-(-1)=0。"
+    },
+    {
+      "id": "LA4-EX-v2-map",
+      "field": "stem.value",
+      "before": "W=[0,∞]（草稿）",
+      "after": "W=[0,∞]（原文維持）+ 数学的注記",
+      "reason": "ページ画像照合。閉じ括弧の記法は原文どおり。像の標準記法との差は answer に注記。"
+    },
+    {
+      "id": "LA4-EX-dim-theorem",
+      "field": "answer.value",
+      "before": "制約 2X-Y+Z=0 / Ker 方向 (1,2,3)",
+      "after": "同左（検算確定）",
+      "reason": "拡大行列の行基本変形で第3行が 0=2X-Y+Z。斉次系から y=2x,z=3x。A_f(1,2,3)^T=0 を検算。"
+    },
+    {
+      "id": "LA4-EX-compose-inverse",
+      "field": "answer.value",
+      "before": "行列積・逆行列（草稿）",
+      "after": "同値を検算で確定",
+      "reason": "3*1+1*3=6 等。det(Af)=1*4-2*3=-2。逆行列公式どおり。"
+    }
+  ]
+}

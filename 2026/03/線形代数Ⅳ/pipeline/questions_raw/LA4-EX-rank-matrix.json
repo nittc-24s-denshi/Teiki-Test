@@ -1,0 +1,32 @@
+{
+  "id": "LA4-EX-rank-matrix",
+  "unit": "行列の階数と次元",
+  "form": "calculation",
+  "stem": {
+    "value": "$\\boldsymbol{x}_1=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$，$\\boldsymbol{x}_2=\\begin{pmatrix}4\\\\5\\\\6\\end{pmatrix}$，$\\boldsymbol{x}_3=\\begin{pmatrix}7\\\\8\\\\9\\end{pmatrix}$ に対し $\\operatorname{rank} A$ と $\\dim\\langle\\boldsymbol{x}_1,\\boldsymbol{x}_2,\\boldsymbol{x}_3\\rangle$ を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A=\\begin{pmatrix}1&4&7\\\\2&5&8\\\\3&6&9\\end{pmatrix}$ を行基本変形すると $\\begin{pmatrix}1&4&7\\\\0&-3&-6\\\\0&0&0\\end{pmatrix}$ より $\\operatorname{rank} A=2$。また $\\boldsymbol{x}_3=-\\boldsymbol{x}_1+2\\boldsymbol{x}_2$ なので次元も $2$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "階数",
+    "例",
+    "検算済"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "x3 = -x1 + 2 x2（草稿）",
+      "after": "x3 = -x1 + 2 x2（確定）",
+      "reason": "検算: -x1+2x2=(7,8,9)^T。行基本変形の結果とも一致。"
+    }
+  ]
+}

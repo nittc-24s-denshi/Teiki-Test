@@ -1,0 +1,24 @@
+{
+  "id": "LA4-DEF-subspace",
+  "unit": "線型部分空間",
+  "form": "flashcard",
+  "stem": {
+    "value": "線型部分空間の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$K$ 上の線型空間 $V$ の部分集合 $W$ が、$\\forall \\boldsymbol{x},\\boldsymbol{y}\\in W,\\ \\forall d,e\\in K$ に対し $(\\ast)\\ d\\boldsymbol{x}+e\\boldsymbol{y}\\in W$ を満たすとき、$W$ を $V$ の（線型）部分空間という。（線型部分空間）＝（部分集合）かつ（線型空間）。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1,
+      "note": "線型部分空間"
+    }
+  ],
+  "tags": [
+    "線型部分空間",
+    "定義"
+  ]
+}

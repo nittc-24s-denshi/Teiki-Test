@@ -1,0 +1,34 @@
+{
+  "id": "LA4-DEF-mapping",
+  "unit": "線型写像",
+  "form": "flashcard",
+  "stem": {
+    "value": "写像・定義域・変換の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "集合 $V$ の各元に $W$ の元を一意に対応させる対応を写像 $f:V\\to W$ という。$V$ を定義域という。特に $f:V\\to V$ を変換という。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_map_sets.png",
+      "page": 3,
+      "caption": {
+        "value": "写像の対応図",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3,
+      "note": "写像"
+    }
+  ],
+  "tags": [
+    "写像",
+    "定義"
+  ]
+}

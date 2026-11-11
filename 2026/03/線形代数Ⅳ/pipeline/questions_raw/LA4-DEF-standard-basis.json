@@ -1,0 +1,23 @@
+{
+  "id": "LA4-DEF-standard-basis",
+  "unit": "基底と次元",
+  "form": "flashcard",
+  "stem": {
+    "value": "$K^n$ の標準基底（単位ベクトル）とは何か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\boldsymbol{e}_1=\\begin{pmatrix}1\\\\0\\\\\\vdots\\\\0\\end{pmatrix},\\ldots,\\boldsymbol{e}_n=\\begin{pmatrix}0\\\\\\vdots\\\\0\\\\1\\end{pmatrix}$。これらは $K^n$ の基底であり、標準基底（単位ベクトル、基本ベクトル）という。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "標準基底",
+    "定義"
+  ]
+}

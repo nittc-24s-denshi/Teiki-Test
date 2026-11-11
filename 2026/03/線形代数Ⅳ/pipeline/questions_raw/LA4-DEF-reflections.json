@@ -1,0 +1,42 @@
+{
+  "id": "LA4-DEF-reflections",
+  "unit": "いろいろな線型写像",
+  "form": "flashcard",
+  "stem": {
+    "value": "$\\mathbb{R}^2$ の折り返し（対称移動）行列を列挙せよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A_x=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$（$x$ 軸）、$A_y=\\begin{pmatrix}-1&0\\\\0&1\\end{pmatrix}$（$y$ 軸）、$A_0=\\begin{pmatrix}-1&0\\\\0&-1\\end{pmatrix}=A_x A_y=A_y A_x$（原点）、$L=\\begin{pmatrix}\\frac{1-a^2}{1+a^2}&\\frac{2a}{1+a^2}\\\\\\frac{2a}{1+a^2}&\\frac{a^2-1}{1+a^2}\\end{pmatrix}$（直線 $y=ax$）。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_reflect_axes.png",
+      "page": 5,
+      "caption": {
+        "value": "軸・原点に関する折り返し",
+        "status": "original"
+      }
+    },
+    {
+      "path": "pipeline/images/figures/fig_reflect_line.png",
+      "page": 5,
+      "caption": {
+        "value": "直線 y=ax に関する折り返し",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 5,
+      "note": "折り返し行列"
+    }
+  ],
+  "tags": [
+    "折り返し",
+    "表現行列"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "LA4-DEF-linear-map",
+  "unit": "線型写像",
+  "form": "flashcard",
+  "stem": {
+    "value": "線型写像（1次写像）の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$f:V\\to W$ が $\\forall\\boldsymbol{x},\\boldsymbol{y}\\in V,\\ \\forall d,e\\in K$ に対し $f(d\\boldsymbol{x}+e\\boldsymbol{y})=df(\\boldsymbol{x})+ef(\\boldsymbol{y})$ を満たすとき線型写像という。任意の $A_{mn}:K^n\\to K^m$ は線型写像。正方行列による写像は線型変換。また $f(\\boldsymbol{0}_V)=\\boldsymbol{0}_W$。微分・定積分・不定積分（$C=0$）も線型写像。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3,
+      "note": "線型写像"
+    }
+  ],
+  "tags": [
+    "線型写像",
+    "定義"
+  ]
+}

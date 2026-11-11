@@ -1,0 +1,24 @@
+{
+  "id": "LA4-DEF-rank-of-map",
+  "unit": "線型写像としての行列",
+  "form": "flashcard",
+  "stem": {
+    "value": "線型写像の階数・退化次数を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\operatorname{rank} f:=\\dim(\\operatorname{Im} f)$。$\\dim(\\operatorname{Ker} f)$ を退化次数という。表現行列 $A_f=(\\boldsymbol{a}_1\\cdots\\boldsymbol{a}_n)$ なら $\\operatorname{Im} f=\\langle\\boldsymbol{a}_1,\\ldots,\\boldsymbol{a}_n\\rangle$ で $\\operatorname{rank} f=\\operatorname{rank} A_f$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "階数",
+    "退化次数",
+    "定義"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "LA4-DEF-im-ker",
+  "unit": "像と核",
+  "form": "flashcard",
+  "stem": {
+    "value": "像 $\\operatorname{Im} f$ と核 $\\operatorname{Ker} f$ の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\operatorname{Im} f:=f(V)=\\{w\\mid w=f(v),v\\in V\\}\\subseteq W$（$\\operatorname{Im} f=W$ なら全射）。$\\operatorname{Ker} f:=f^{-1}(\\boldsymbol{0}_W)=\\{v\\mid f(v)=\\boldsymbol{0}_W\\}\\subseteq V$。一般に $f^{-1}(w)=\\{v\\mid f(v)=w\\}$ を逆像という。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_im_f.png",
+      "page": 3,
+      "caption": {
+        "value": "像 Im f の模式図",
+        "status": "original"
+      }
+    },
+    {
+      "path": "pipeline/images/figures/fig_ker_f.png",
+      "page": 3,
+      "caption": {
+        "value": "核 Ker f の模式図",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3,
+      "note": "像と核"
+    }
+  ],
+  "tags": [
+    "像",
+    "核",
+    "定義"
+  ]
+}

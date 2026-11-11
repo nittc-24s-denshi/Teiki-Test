@@ -1,0 +1,33 @@
+{
+  "id": "LA4-DEF-rep-matrix",
+  "unit": "線型写像としての行列",
+  "form": "flashcard",
+  "stem": {
+    "value": "表現行列（行列表示）の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "基底 $\\{\\boldsymbol{a}_i\\}$，$\\{\\boldsymbol{b}_j\\}$ のもと $(f(\\boldsymbol{a}_1)\\cdots f(\\boldsymbol{a}_n))=(\\boldsymbol{b}_1\\cdots\\boldsymbol{b}_m)A$ を満たす行列 $A$ を表現行列 $A_f$ といい、対応する写像を $f_A$ という。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_rep_matrix_comm.png",
+      "page": 4,
+      "caption": {
+        "value": "表現行列の可換図式",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "表現行列",
+    "定義"
+  ]
+}

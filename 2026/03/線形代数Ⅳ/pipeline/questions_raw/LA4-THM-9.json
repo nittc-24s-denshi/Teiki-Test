@@ -1,0 +1,28 @@
+{
+  "id": "LA4-THM-9",
+  "unit": "線型写像としての行列",
+  "form": "flashcard",
+  "stem": {
+    "value": "定理9を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\mathcal{L}_K(V^n,W^m)\\simeq M_{mn}$。すなわち線型写像 $f_A$ は行列 $A_f$ に置き換えられる。",
+    "status": "original"
+  },
+  "explanation": {
+    "value": "定理8・9より、線型代数学は $K^n$ 上の $m\\times n$ 型行列についての学問ともいえる。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 4,
+      "note": "定理9"
+    }
+  ],
+  "tags": [
+    "定理9",
+    "表現行列"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "LA4-THM-8",
+  "unit": "像と核",
+  "form": "flashcard",
+  "stem": {
+    "value": "定理8を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$K$ 上の線型空間 $V^n$（$\\dim V=n<\\infty$）は $K^n$ と同型である。（基底による座標対応 $ (d_1,\\ldots,d_n)^T \\mapsto d_1\\boldsymbol{a}_1+\\cdots+d_n\\boldsymbol{a}_n $ が同型写像。）",
+    "status": "original"
+  },
+  "explanation": {
+    "value": "この対応で得られる $n$ 次元数ベクトルを、基底に関する座標（ベクトル）という。線型空間の現れ方の例: ①生成空間 ②関数空間 $\\mathcal{F}(V,K)$ ③④ $\\operatorname{Im} f$ と $\\operatorname{Ker} f$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3,
+      "note": "定理8"
+    }
+  ],
+  "tags": [
+    "定理8",
+    "同型"
+  ]
+}

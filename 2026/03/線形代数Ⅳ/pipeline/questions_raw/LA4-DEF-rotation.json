@@ -1,0 +1,35 @@
+{
+  "id": "LA4-DEF-rotation",
+  "unit": "いろいろな線型写像",
+  "form": "flashcard",
+  "stem": {
+    "value": "回転行列と、直線折り返しの回転表現を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "原点中心・反時計回り $\\theta$ 回転: $R_\\theta=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}$。直線 $y=(\\tan\\theta)x$ に関する折り返しは $L=\\begin{pmatrix}\\cos 2\\theta&\\sin 2\\theta\\\\\\sin 2\\theta&-\\cos 2\\theta\\end{pmatrix}=R_\\theta A_x R_{-\\theta}$。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_rotation.png",
+      "page": 5,
+      "caption": {
+        "value": "回転の図",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 5,
+      "note": "回転行列"
+    }
+  ],
+  "tags": [
+    "回転",
+    "折り返し",
+    "表現行列"
+  ]
+}

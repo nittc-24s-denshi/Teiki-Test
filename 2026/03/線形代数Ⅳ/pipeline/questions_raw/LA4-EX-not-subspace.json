@@ -1,0 +1,23 @@
+{
+  "id": "LA4-EX-not-subspace",
+  "unit": "線型部分空間",
+  "form": "short_answer",
+  "stem": {
+    "value": "$W=\\{(x,y)\\mid y\\ge 0\\}\\subset\\mathbb{R}^2$ は部分空間か。理由も述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "部分空間ではない。（例として閉包条件 $(\\ast)$ を満たさない。半平面はスカラー倍・和で外へ出る。）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "線型部分空間",
+    "反例"
+  ]
+}

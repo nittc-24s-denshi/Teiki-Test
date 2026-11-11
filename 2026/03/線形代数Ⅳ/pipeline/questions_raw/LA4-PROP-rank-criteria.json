@@ -1,0 +1,25 @@
+{
+  "id": "LA4-PROP-rank-criteria",
+  "unit": "線型写像としての行列",
+  "form": "flashcard",
+  "stem": {
+    "value": "表現行列の階数による全射・単射・全単射の判定を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "(i) 全射 $\\iff\\operatorname{rank} A_f=m\\ (\\le n)$。(ii) 単射 $\\iff\\operatorname{rank} A_f=n\\ (\\le m)$ $\\iff A_f\\boldsymbol{x}=\\boldsymbol{0}$ の解は $\\boldsymbol{0}$ のみ。(iii) 全単射 $\\iff\\operatorname{rank} A_f=m=n\\iff\\det A_f\\neq 0$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 4,
+      "note": "線型写像の階数"
+    }
+  ],
+  "tags": [
+    "階数",
+    "全射",
+    "単射"
+  ]
+}

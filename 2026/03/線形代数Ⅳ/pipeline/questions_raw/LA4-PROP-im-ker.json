@@ -1,0 +1,25 @@
+{
+  "id": "LA4-PROP-im-ker",
+  "unit": "像と核",
+  "form": "flashcard",
+  "stem": {
+    "value": "線型写像の像と核の基本性質を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "(i) $\\operatorname{Im} f$ は $W$ の部分空間（全射 $\\iff\\operatorname{Im} f=W$）。(ii) $\\operatorname{Ker} f$ は $V$ の部分空間（単射 $\\iff\\operatorname{Ker} f=\\{\\boldsymbol{0}_V\\}$）。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3,
+      "note": "線型写像の像と核の性質"
+    }
+  ],
+  "tags": [
+    "像",
+    "核",
+    "性質"
+  ]
+}

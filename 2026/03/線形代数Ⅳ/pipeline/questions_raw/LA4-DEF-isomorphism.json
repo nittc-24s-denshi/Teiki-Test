@@ -1,0 +1,24 @@
+{
+  "id": "LA4-DEF-isomorphism",
+  "unit": "像と核",
+  "form": "flashcard",
+  "stem": {
+    "value": "同型写像・同型・置換の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "全単射な線型写像を同型写像といい、このとき $V\\simeq W$（同型）。全単射な変換を置換という。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "同型",
+    "置換",
+    "定義"
+  ]
+}

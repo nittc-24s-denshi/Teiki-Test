@@ -1,0 +1,38 @@
+{
+  "id": "LA4-META-TRANSCRIPT-QC",
+  "unit": "メタ（文字起こし照合）",
+  "form": "other",
+  "stem": {
+    "value": "手書きノート文字起こしをページ画像と照合した記録。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "訂正ログ参照（pipeline/corrections_log.json）。p.5左上の別紙切れ込み「【状」「【問」は本文外のため非取込。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1,
+      "note": "全5ページ照合"
+    }
+  ],
+  "tags": [
+    "meta",
+    "corrections"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:p5-edge",
+      "before": "（別紙切れ込み「【状」「【問」）",
+      "after": "（取込対象外・除外）",
+      "reason": "ページ画像照合。p.5左上の別紙断片は本ノート本文ではないため取り込みしない。"
+    },
+    {
+      "field": "transcript:p3-ex-domain",
+      "before": "W = [0, \\infty]（Gemini草稿どおり）",
+      "after": "W = [0, \\infty]（原文維持）",
+      "reason": "ページ画像でも閉じ区間記法に見える。数学的には f(v)=v^2 の像は [0,∞) が通常だが、原文を優先し解答側で注記。"
+    }
+  ]
+}

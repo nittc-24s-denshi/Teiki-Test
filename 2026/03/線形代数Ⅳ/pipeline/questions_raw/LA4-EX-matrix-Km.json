@@ -1,0 +1,24 @@
+{
+  "id": "LA4-EX-matrix-Km",
+  "unit": "線型空間",
+  "form": "short_answer",
+  "stem": {
+    "value": "$m\\times n$ 型行列の集合と $K^m$ について、線型空間としての要点を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$M_{mn}$（$m\\times n$ 型行列全体）は線型空間。特に $M_{m1}$ を $K$-$m$ 次元数ベクトル空間といい $K^m$ で表す。$K^m$ の元を $K$-$m$ 次元数ベクトル（列ベクトル）といい、幾何ベクトルとも呼ぶことがある。（例）$\\boldsymbol{a}=\\begin{pmatrix}1\\\\2\\end{pmatrix}\\in\\mathbb{R}^2$，$\\boldsymbol{b}=\\begin{pmatrix}1+i\\\\2-i\\\\3i\\end{pmatrix}\\in\\mathbb{C}^3$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "線型空間",
+    "例",
+    "数ベクトル空間"
+  ]
+}

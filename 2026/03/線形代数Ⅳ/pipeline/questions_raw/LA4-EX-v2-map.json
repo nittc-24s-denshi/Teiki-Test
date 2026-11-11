@@ -1,0 +1,42 @@
+{
+  "id": "LA4-EX-v2-map",
+  "unit": "像と核",
+  "form": "short_answer",
+  "stem": {
+    "value": "$V=\\mathbb{R}$，$W=[0,\\infty]$，$w=f(v)=v^2$ の性質を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "線型写像でない／全射である／単射でない。（ノート原文の終域表記は $W=[0,\\infty]$。数学的には像は通常 $[0,\\infty)$ と書く。）",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_ex_v2.png",
+      "page": 3,
+      "caption": {
+        "value": "w=v^2 のグラフ",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "例",
+    "全射",
+    "単射"
+  ],
+  "corrections": [
+    {
+      "field": "stem.value",
+      "before": "W=[0,∞]（草稿）",
+      "after": "W=[0,∞]（原文維持）+ 数学的注記",
+      "reason": "ページ画像照合。閉じ括弧の記法は原文どおり。像の標準記法との差は answer に注記。"
+    }
+  ]
+}

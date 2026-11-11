@@ -1,0 +1,28 @@
+{
+  "id": "LA4-DEF-dimension",
+  "unit": "基底と次元",
+  "form": "flashcard",
+  "stem": {
+    "value": "次元 $\\dim V$ の定義を述べよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "基底の取り方は一通りではないが個数は一定。その個数を $\\dim V$ という。$V=\\{\\boldsymbol{0}\\}$ のときは $\\dim V=0$。$\\dim V=n$ のとき $V^n$ と表すこともある。",
+    "status": "original"
+  },
+  "explanation": {
+    "value": "（例）$\\dim\\mathbb{R}^2=2$；$\\dim M_{mn}=mn$（行列単位 $E_{ij}$）；$V=\\langle 1,x,\\ldots,x^n\\rangle$ なら $\\dim V=n+1$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 2,
+      "note": "基底と次元"
+    }
+  ],
+  "tags": [
+    "次元",
+    "定義"
+  ]
+}

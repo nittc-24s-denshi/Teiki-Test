@@ -1,0 +1,25 @@
+{
+  "exam": "2026/03",
+  "subject": "線形代数Ⅳ",
+  "updated": "2026-11-11T00:40:31Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": false,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 39,
+    "corrections": 8,
+    "unverified": 0,
+    "inferred_answers": 0
+  },
+  "unverified_ids": [],
+  "notes": "進捗: 手書きノート取込・schema検証済・Question Bank catalog に la4_2026_03 を登録。穴埋め補完は未実施（filled=false）。公式範囲表は未入手。"
+}

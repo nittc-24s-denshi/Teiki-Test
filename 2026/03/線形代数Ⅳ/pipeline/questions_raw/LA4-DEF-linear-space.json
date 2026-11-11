@@ -1,0 +1,29 @@
+{
+  "id": "LA4-DEF-linear-space",
+  "unit": "線型空間",
+  "form": "flashcard",
+  "stem": {
+    "value": "線型空間（ベクトル空間）の定義を述べよ（閉包条件と公理）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "集合 $V$ と数の集合 $K$ について、$\\forall \\boldsymbol{x},\\boldsymbol{y},\\boldsymbol{z}\\in V,\\ \\forall d,e\\in K$ に対し $(\\ast)\\ d\\boldsymbol{x}+e\\boldsymbol{y}\\in V$ であり、かつ(1) 加法の結合律 (2) 零元の一意存在 (3) 逆元の一意存在 (4) 加法の交換律 (5) スカラー倍の結合律 (6) $1\\boldsymbol{x}=\\boldsymbol{x}1=\\boldsymbol{x}$（単位元） (7) スカラー倍の分配律、を満たすとき $V$ を $K$ 上の線型空間という。（ノート原文の (6) は $1\\boldsymbol{x}=\\boldsymbol{x}1=\\boldsymbol{x}$ と記されている。）",
+    "status": "original"
+  },
+  "explanation": {
+    "value": "$K=\\mathbb{R}$ のとき実線型空間、$K=\\mathbb{C}$ のとき複素線型空間ともいう。$V$ の元をベクトル、$K$ の元をスカラーという。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1,
+      "note": "定義枠"
+    }
+  ],
+  "tags": [
+    "線型空間",
+    "定義",
+    "公理"
+  ]
+}

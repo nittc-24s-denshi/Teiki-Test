@@ -1,0 +1,32 @@
+{
+  "id": "LA4-EX-dim-theorem",
+  "unit": "次元定理",
+  "form": "calculation",
+  "stem": {
+    "value": "$f:\\mathbb{R}^3\\to\\mathbb{R}^3$，$f\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}x+y-z\\\\4x+y-2z\\\\2x-y\\end{pmatrix}$ について $\\operatorname{Im} f$，$\\operatorname{Ker} f$，全射/単射性を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A_f=\\begin{pmatrix}1&1&-1\\\\4&1&-2\\\\2&-1&0\\end{pmatrix}$，$\\operatorname{rank} A_f=2$。$\\operatorname{Im} f=\\{(X,Y,Z)^T\\mid 2X-Y+Z=0\\}$（2次元平面）。$\\dim(\\operatorname{Ker} f)=3-2=1$，$\\operatorname{Ker} f=\\left\\langle\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}\\right\\rangle$（$\\frac{x}{1}=\\frac{y}{2}=\\frac{z}{3}$）。$\\dim V=3\\neq 2=\\operatorname{rank} A_f\\neq 3=\\dim W$ より全射でも単射でも全単射でもない。別解: $\\operatorname{Im} f=\\left\\langle\\begin{pmatrix}1\\\\4\\\\2\\end{pmatrix},\\begin{pmatrix}1\\\\1\\\\-1\\end{pmatrix}\\right\\rangle$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "次元定理",
+    "例",
+    "検算済"
+  ],
+  "corrections": [
+    {
+      "field": "answer.value",
+      "before": "制約 2X-Y+Z=0 / Ker 方向 (1,2,3)",
+      "after": "同左（検算確定）",
+      "reason": "拡大行列の行基本変形で第3行が 0=2X-Y+Z。斉次系から y=2x,z=3x。A_f(1,2,3)^T=0 を検算。"
+    }
+  ]
+}

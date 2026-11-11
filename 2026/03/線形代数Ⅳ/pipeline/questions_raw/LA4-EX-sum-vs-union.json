@@ -1,0 +1,24 @@
+{
+  "id": "LA4-EX-sum-vs-union",
+  "unit": "線型部分空間",
+  "form": "calculation",
+  "stem": {
+    "value": "$W_1=\\left\\{\\begin{pmatrix}a\\\\0\\end{pmatrix}\\mid a\\in\\mathbb{R}\\right\\}$，$W_2=\\left\\{\\begin{pmatrix}0\\\\b\\end{pmatrix}\\mid b\\in\\mathbb{R}\\right\\}$ において、$\\boldsymbol{w}_1+\\boldsymbol{w}_2$ と $W_1\\cup W_2$ の関係を示せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$\\boldsymbol{w}_1=\\begin{pmatrix}1\\\\0\\end{pmatrix}\\in W_1$，$\\boldsymbol{w}_2=\\begin{pmatrix}0\\\\1\\end{pmatrix}\\in W_2$ をとると $W_1+W_2\\ni \\boldsymbol{w}_1+\\boldsymbol{w}_2=\\begin{pmatrix}1\\\\1\\end{pmatrix}\\notin W_1\\cup W_2$。",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/note_linear_space_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "和",
+    "合併",
+    "例"
+  ]
+}
