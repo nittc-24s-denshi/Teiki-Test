@@ -1,0 +1,670 @@
+[
+ {
+  "url": "https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9",
+     "workbookId": "051757f7-b899-4e48-82e2-6cc45c6f1fb8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "サンプルが大きいほど、より精度の高い結果が得られますが、数えるのにはより長い時間がかかります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "a",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "larger",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "sample",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "gives",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "more",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "accurate",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "results",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "but",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "takes",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "longer",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "fed2f6d0-a6a7-4be7-812c-d3eff780f4f9-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "count",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742722,
+     "createdAt": "2026-10-13T23:39:02.723Z",
+     "updatedAt": "2026-10-13T23:39:02.723Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "76140995-8bcd-465f-8fb7-95785c2c7565",
+     "workbookId": "051757f7-b899-4e48-82e2-6cc45c6f1fb8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "数量を推定しようと計画する時には、時間と精度のバランスをとる必要があります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "you",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "need",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "balance",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "time",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "accuracy",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "when",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "planning",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "estimate",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "a",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "76140995-8bcd-465f-8fb7-95785c2c7565-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "quantity",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742723,
+     "createdAt": "2026-10-13T23:39:02.723Z",
+     "updatedAt": "2026-10-13T23:39:02.723Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd",
+     "workbookId": "051757f7-b899-4e48-82e2-6cc45c6f1fb8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "科学者は、個体群（生物の数）を推定するためにサンプルを使用します。\n(___) (___) (___) (___) (___) (___) ((___) (___) (___) (___)).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "scientists",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "use",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "samples",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "estimate",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "populations",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "number",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "of",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a91d12cf-face-4bfc-a0f9-62c2c514a4fd-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "organisms",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742724,
+     "createdAt": "2026-10-13T23:39:02.723Z",
+     "updatedAt": "2026-10-13T23:39:02.723Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae",
+     "workbookId": "051757f7-b899-4e48-82e2-6cc45c6f1fb8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "サンプルは、コドラートと呼ばれる正方形の枠を用いて採取することができます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "samples",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "can",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "be",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "taken",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "using",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "a",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "square",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "frame",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "called",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "a",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "a8ae4342-bb8f-4fc6-8261-08704713b1ae-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "quadrat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742725,
+     "createdAt": "2026-10-13T23:39:02.723Z",
+     "updatedAt": "2026-10-13T23:39:02.723Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 25,
+   "totalCount": 4
+  }
+ }
+]

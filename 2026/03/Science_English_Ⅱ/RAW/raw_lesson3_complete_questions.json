@@ -1,0 +1,692 @@
+[
+ {
+  "url": "https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "2a958a96-424b-40cd-b1fb-c0cc8256220c",
+     "workbookId": "49bb561c-0b39-4778-97a1-72caff5fbbf8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "光合成にはエネルギーが必要であり、それは太陽からの光によって伝達される。\n(___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "photosynthesis",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "needs",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "energy",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "which",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "is",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "transferred",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "by",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "light",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "from",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "2a958a96-424b-40cd-b1fb-c0cc8256220c-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "Sun",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742658,
+     "createdAt": "2026-10-13T23:39:02.660Z",
+     "updatedAt": "2026-10-13T23:39:02.660Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150",
+     "workbookId": "49bb561c-0b39-4778-97a1-72caff5fbbf8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "葉緑体はそのエネルギーを捕捉してブドウ糖分子へ移動させ、ブドウ糖分子がそれを蓄える。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "chloroplasts",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "trap",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "energy",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "transfer",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "it",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "glucose",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "molecules",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "which",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "store",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "d04e43d7-33db-43f1-a7bb-6959a5fa8150-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "it",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742659,
+     "createdAt": "2026-10-13T23:39:02.660Z",
+     "updatedAt": "2026-10-13T23:39:02.660Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b",
+     "workbookId": "49bb561c-0b39-4778-97a1-72caff5fbbf8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "植物は、土壌から無機塩と呼ばれる微量の栄養素を必要とする。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "plants",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "need",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "small",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "amounts",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "of",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "nutrients",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "called",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "mineral",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "salts",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "from",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7326557c-e80d-4072-b5a8-42c9e1f9a20b-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "soil",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742660,
+     "createdAt": "2026-10-13T23:39:02.660Z",
+     "updatedAt": "2026-10-13T23:39:02.660Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1",
+     "workbookId": "49bb561c-0b39-4778-97a1-72caff5fbbf8",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "最も重要なのは、窒素、リンおよびカリウムという元素を含む化合物である。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "most",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "important",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "are",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "compounds",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "containing",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "elements",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "nitrogen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "phosphorus",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "potassium",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742661,
+     "createdAt": "2026-10-13T23:39:02.660Z",
+     "updatedAt": "2026-10-13T23:39:02.660Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 25,
+   "totalCount": 4
+  }
+ }
+]

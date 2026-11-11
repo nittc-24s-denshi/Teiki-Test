@@ -1,0 +1,1316 @@
+[
+ {
+  "url": "https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "73b06588-9b04-4487-baf7-9a05e3162882",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "イートウェルプレートは、人々がバランスの取れた食生活を送るのに役立ちます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "eatwell",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "plate",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "helps",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "people",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "eat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "a",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "balanced",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "diet",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213007,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "1427027a-444a-49ff-9b2e-33520ec99406",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "それは、さまざまな食品群からどのくらいの量を食べるべきかを示しています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "it",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "shows",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "how",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "much",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "you",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "should",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "eat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "from",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "different",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "food",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "groups",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213008,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "1日につき5皿分の果物と野菜を摂取することが推奨されています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "it",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "is",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "recommended",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "that",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "you",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "eat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "five",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "portions",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "of",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "fruits",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "vegetables",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "per",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-13",
+       "decoratedValidAnswers": [
+        {
+         "text": "day",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213009,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7187c20c-b1f4-4a79-9538-7f7221c0964c",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "それらは食物繊維や多くのビタミンとミネラルを豊富に含んでいます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "they",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "are",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "rich",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "in",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "fiber",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "many",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "vitamins",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "minerals",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213010,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 25,
+   "totalCount": 4
+  }
+ },
+ {
+  "url": "https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "73b06588-9b04-4487-baf7-9a05e3162882",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "イートウェルプレートは、人々がバランスの取れた食生活を送るのに役立ちます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "eatwell",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "plate",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "helps",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "people",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "eat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "a",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "balanced",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "73b06588-9b04-4487-baf7-9a05e3162882-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "diet",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213007,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "1427027a-444a-49ff-9b2e-33520ec99406",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "それは、さまざまな食品群からどのくらいの量を食べるべきかを示しています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "it",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "shows",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "how",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "much",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "you",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "should",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "eat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "from",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "different",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "food",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "1427027a-444a-49ff-9b2e-33520ec99406-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "groups",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213008,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "1日につき5皿分の果物と野菜を摂取することが推奨されています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "it",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "is",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "recommended",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "that",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "you",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "eat",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "five",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "portions",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "of",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "fruits",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "vegetables",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "per",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "89c4c368-af8d-4b67-a0aa-7f6075573fd8-13",
+       "decoratedValidAnswers": [
+        {
+         "text": "day",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213009,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7187c20c-b1f4-4a79-9538-7f7221c0964c",
+     "workbookId": "76c02df2-8cdd-420d-82a4-96108672d1ca",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "それらは食物繊維や多くのビタミンとミネラルを豊富に含んでいます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "they",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "are",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "rich",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "in",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "fiber",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "many",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "vitamins",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "7187c20c-b1f4-4a79-9538-7f7221c0964c-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "minerals",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791933213010,
+     "createdAt": "2026-10-13T23:13:33.008Z",
+     "updatedAt": "2026-10-13T23:13:33.008Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 25,
+   "totalCount": 4
+  }
+ }
+]

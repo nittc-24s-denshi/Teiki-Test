@@ -22,7 +22,14 @@
     "merged": true,
     "corrected": true,
     "structured": true,
-    "validated": true
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 0,
+    "corrections": 0,
+    "inferred": 0,
+    "unverified": 0
   },
   "notes": "公式範囲は未入手。構造化データは仮サンプルのみ。"
 }
@@ -33,4 +40,6 @@
 - 個人名を書かない
 - シラバス推定を「範囲確定」と書かない
 - フラグはブール。未着手は `false`
-- アプリ用データまで作ったら `notes` か将来の `pipeline.app_data` で触れてよい
+- PDF 以外（例: 暗記メーカー `/questions` JSON）では `pages_split` / `transcribed` を `false` にしてよい
+- アプリ用データ（`app_data/` と Question Bank 登録）まで作ったら `pipeline.app_data: true`
+- `counts` は任意。問数・corrections / inferred / unverified を残すと後続確認が楽

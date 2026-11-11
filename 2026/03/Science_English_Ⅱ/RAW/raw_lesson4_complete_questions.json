@@ -1,0 +1,758 @@
+[
+ {
+  "url": "https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4",
+     "workbookId": "3bb10a65-78b9-4fcb-a845-b4070572564b",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "哺乳類は酸素を取り入れるために肺を使用するため、空気を呼吸しなければならない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "mammals",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "use",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "lungs",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "get",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "oxygen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "so",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "must",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "breathe",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "6aba74eb-8a68-418d-a49e-8fbf90aef2c4-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "air",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742572,
+     "createdAt": "2026-10-13T23:39:02.573Z",
+     "updatedAt": "2026-10-13T23:39:02.573Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "97f08124-884d-4595-9d05-27073661ec70",
+     "workbookId": "3bb10a65-78b9-4fcb-a845-b4070572564b",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "一部の動物は、多くの場合エラを用いて水中の酸素を吸収できるため、決して空気を呼吸することはない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "some",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "animals",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "never",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "breathe",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "air",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "because",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "they",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "can",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "extract",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "oxygen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "from",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "water",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "often",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-13",
+       "decoratedValidAnswers": [
+        {
+         "text": "using",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "97f08124-884d-4595-9d05-27073661ec70-14",
+       "decoratedValidAnswers": [
+        {
+         "text": "gills",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742573,
+     "createdAt": "2026-10-13T23:39:02.573Z",
+     "updatedAt": "2026-10-13T23:39:02.573Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852",
+     "workbookId": "3bb10a65-78b9-4fcb-a845-b4070572564b",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "植物細胞は、すべての細胞で起こる好気呼吸によって、エネルギーを再び放出する。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "plant",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "cells",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "release",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "the",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "energy",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "again",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "using",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "aerobic",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "respiration",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "which",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "happens",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "in",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "all",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "17d76e03-ea79-4a8c-b3ee-16cec1fc1852-13",
+       "decoratedValidAnswers": [
+        {
+         "text": "cells",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742574,
+     "createdAt": "2026-10-13T23:39:02.573Z",
+     "updatedAt": "2026-10-13T23:39:02.573Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "cbecfc42-7985-4f77-857a-37190ca7f531",
+     "workbookId": "3bb10a65-78b9-4fcb-a845-b4070572564b",
+     "type": "complete",
+     "problem": {
+      "decoratedText": {
+       "text": "気体の出入りを可能にするために、陸上植物は葉に小さな穴を持っています。\n(___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "to",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-1",
+       "decoratedValidAnswers": [
+        {
+         "text": "allow",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-2",
+       "decoratedValidAnswers": [
+        {
+         "text": "gases",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-3",
+       "decoratedValidAnswers": [
+        {
+         "text": "in",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-4",
+       "decoratedValidAnswers": [
+        {
+         "text": "and",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-5",
+       "decoratedValidAnswers": [
+        {
+         "text": "out",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-6",
+       "decoratedValidAnswers": [
+        {
+         "text": "land",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-7",
+       "decoratedValidAnswers": [
+        {
+         "text": "plants",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-8",
+       "decoratedValidAnswers": [
+        {
+         "text": "have",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-9",
+       "decoratedValidAnswers": [
+        {
+         "text": "tiny",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-10",
+       "decoratedValidAnswers": [
+        {
+         "text": "holes",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-11",
+       "decoratedValidAnswers": [
+        {
+         "text": "in",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-12",
+       "decoratedValidAnswers": [
+        {
+         "text": "their",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      },
+      {
+       "answerId": "cbecfc42-7985-4f77-857a-37190ca7f531-13",
+       "decoratedValidAnswers": [
+        {
+         "text": "leaves",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": true,
+     "order": 1791934742575,
+     "createdAt": "2026-10-13T23:39:02.573Z",
+     "updatedAt": "2026-10-13T23:39:02.573Z",
+     "isFavorite": false,
+     "memoryLevel": "unanswered",
+     "latestAnswerResult": null,
+     "correctRate": 0,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 25,
+   "totalCount": 4
+  }
+ }
+]

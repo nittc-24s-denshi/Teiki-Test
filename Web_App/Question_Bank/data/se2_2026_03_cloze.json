@@ -1,0 +1,498 @@
+[
+  {
+    "id": "SE2-L1-C01",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "イートウェルプレートは、人々がバランスの取れた食生活を送るのに役立ちます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "the | eatwell | plate | helps | people | to | eat | a | balanced | diet",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=73b06588-9b04-4487-baf7-9a05e3162882; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=73b06588-9b04-4487-baf7-9a05e3162882"
+      }
+    ],
+    "conflicts": [],
+    "template": "イートウェルプレートは、人々がバランスの取れた食生活を送るのに役立ちます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L1-C02",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "それは、さまざまな食品群からどのくらいの量を食べるべきかを示しています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "it | shows | how | much | you | should | eat | from | different | food | groups",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=1427027a-444a-49ff-9b2e-33520ec99406; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=1427027a-444a-49ff-9b2e-33520ec99406"
+      }
+    ],
+    "conflicts": [],
+    "template": "それは、さまざまな食品群からどのくらいの量を食べるべきかを示しています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L1-C03",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "1日につき5皿分の果物と野菜を摂取することが推奨されています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "it | is | recommended | that | you | eat | five | portions | of | fruits | and | vegetables | per | day",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=89c4c368-af8d-4b67-a0aa-7f6075573fd8; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=89c4c368-af8d-4b67-a0aa-7f6075573fd8"
+      }
+    ],
+    "conflicts": [],
+    "template": "1日につき5皿分の果物と野菜を摂取することが推奨されています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L1-C04",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "それらは食物繊維や多くのビタミンとミネラルを豊富に含んでいます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "they | are | rich | in | fiber | and | many | vitamins | and | minerals",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=7187c20c-b1f4-4a79-9538-7f7221c0964c; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7187c20c-b1f4-4a79-9538-7f7221c0964c"
+      }
+    ],
+    "conflicts": [],
+    "template": "それらは食物繊維や多くのビタミンとミネラルを豊富に含んでいます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L2-C01",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "サンプルが大きいほど、より精度の高い結果が得られますが、数えるのにはより長い時間がかかります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "a | larger | sample | gives | more | accurate | results | but | takes | longer | to | count",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=fed2f6d0-a6a7-4be7-812c-d3eff780f4f9; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=fed2f6d0-a6a7-4be7-812c-d3eff780f4f9"
+      }
+    ],
+    "conflicts": [],
+    "template": "サンプルが大きいほど、より精度の高い結果が得られますが、数えるのにはより長い時間がかかります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L2-C02",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "数量を推定しようと計画する時には、時間と精度のバランスをとる必要があります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "you | need | to | balance | time | and | accuracy | when | planning | to | estimate | a | quantity",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=76140995-8bcd-465f-8fb7-95785c2c7565; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=76140995-8bcd-465f-8fb7-95785c2c7565"
+      }
+    ],
+    "conflicts": [],
+    "template": "数量を推定しようと計画する時には、時間と精度のバランスをとる必要があります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L2-C03",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "科学者は、個体群（生物の数）を推定するためにサンプルを使用します。\n(___) (___) (___) (___) (___) (___) ((___) (___) (___) (___)).",
+    "stem_status": "original",
+    "answer": "scientists | use | samples | to | estimate | populations | the | number | of | organisms",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=a91d12cf-face-4bfc-a0f9-62c2c514a4fd; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a91d12cf-face-4bfc-a0f9-62c2c514a4fd"
+      }
+    ],
+    "conflicts": [],
+    "template": "科学者は、個体群（生物の数）を推定するためにサンプルを使用します。\n(___) (___) (___) (___) (___) (___) ((___) (___) (___) (___))."
+  },
+  {
+    "id": "SE2-L2-C04",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "サンプルは、コドラートと呼ばれる正方形の枠を用いて採取することができます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "samples | can | be | taken | using | a | square | frame | called | a | quadrat",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=a8ae4342-bb8f-4fc6-8261-08704713b1ae; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a8ae4342-bb8f-4fc6-8261-08704713b1ae"
+      }
+    ],
+    "conflicts": [],
+    "template": "サンプルは、コドラートと呼ばれる正方形の枠を用いて採取することができます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L3-C01",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "光合成にはエネルギーが必要であり、それは太陽からの光によって伝達される。\n(___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "photosynthesis | needs | energy | which | is | transferred | by | light | from | the | Sun",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=2a958a96-424b-40cd-b1fb-c0cc8256220c; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2a958a96-424b-40cd-b1fb-c0cc8256220c"
+      }
+    ],
+    "conflicts": [],
+    "template": "光合成にはエネルギーが必要であり、それは太陽からの光によって伝達される。\n(___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L3-C02",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "葉緑体はそのエネルギーを捕捉してブドウ糖分子へ移動させ、ブドウ糖分子がそれを蓄える。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "chloroplasts | trap | the | energy | and | transfer | it | to | glucose | molecules | which | store | it",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=d04e43d7-33db-43f1-a7bb-6959a5fa8150; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=d04e43d7-33db-43f1-a7bb-6959a5fa8150"
+      }
+    ],
+    "conflicts": [],
+    "template": "葉緑体はそのエネルギーを捕捉してブドウ糖分子へ移動させ、ブドウ糖分子がそれを蓄える。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L3-C03",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "植物は、土壌から無機塩と呼ばれる微量の栄養素を必要とする。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "plants | need | small | amounts | of | nutrients | called | mineral | salts | from | the | soil",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=7326557c-e80d-4072-b5a8-42c9e1f9a20b; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7326557c-e80d-4072-b5a8-42c9e1f9a20b"
+      }
+    ],
+    "conflicts": [],
+    "template": "植物は、土壌から無機塩と呼ばれる微量の栄養素を必要とする。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L3-C04",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "最も重要なのは、窒素、リンおよびカリウムという元素を含む化合物である。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "the | most | important | are | compounds | containing | the | elements | nitrogen | phosphorus | and | potassium",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1"
+      }
+    ],
+    "conflicts": [],
+    "template": "最も重要なのは、窒素、リンおよびカリウムという元素を含む化合物である。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L4-C01",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "哺乳類は酸素を取り入れるために肺を使用するため、空気を呼吸しなければならない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "mammals | use | lungs | to | get | oxygen | and | so | must | breathe | air",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=6aba74eb-8a68-418d-a49e-8fbf90aef2c4; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6aba74eb-8a68-418d-a49e-8fbf90aef2c4"
+      }
+    ],
+    "conflicts": [],
+    "template": "哺乳類は酸素を取り入れるために肺を使用するため、空気を呼吸しなければならない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L4-C02",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "一部の動物は、多くの場合エラを用いて水中の酸素を吸収できるため、決して空気を呼吸することはない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "some | animals | never | breathe | air | because | they | can | extract | oxygen | from | water | often | using | gills",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=97f08124-884d-4595-9d05-27073661ec70; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=97f08124-884d-4595-9d05-27073661ec70"
+      }
+    ],
+    "conflicts": [],
+    "template": "一部の動物は、多くの場合エラを用いて水中の酸素を吸収できるため、決して空気を呼吸することはない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L4-C03",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "植物細胞は、すべての細胞で起こる好気呼吸によって、エネルギーを再び放出する。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "plant | cells | release | the | energy | again | using | aerobic | respiration | which | happens | in | all | cells",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=17d76e03-ea79-4a8c-b3ee-16cec1fc1852; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=17d76e03-ea79-4a8c-b3ee-16cec1fc1852"
+      }
+    ],
+    "conflicts": [],
+    "template": "植物細胞は、すべての細胞で起こる好気呼吸によって、エネルギーを再び放出する。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___)."
+  },
+  {
+    "id": "SE2-L4-C04",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "気体の出入りを可能にするために、陸上植物は葉に小さな穴を持っています。\n(___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "to | allow | gases | in | and | out | land | plants | have | tiny | holes | in | their | leaves",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=cbecfc42-7985-4f77-857a-37190ca7f531; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=cbecfc42-7985-4f77-857a-37190ca7f531"
+      }
+    ],
+    "conflicts": [],
+    "template": "気体の出入りを可能にするために、陸上植物は葉に小さな穴を持っています。\n(___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___)."
+  }
+]

@@ -1,0 +1,2962 @@
+[
+ {
+  "url": "https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "618ae296-0948-46a3-8bff-e258e2619e82",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "水素",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "618ae296-0948-46a3-8bff-e258e2619e82-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "hydrogen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742795,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "fb87a16d-061a-449a-9de1-daa5e6686f56",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "エラ",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "fb87a16d-061a-449a-9de1-daa5e6686f56-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "gill",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742796,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "ed5c3e8a-4908-4aef-a878-54004e51971a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "人工の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "ed5c3e8a-4908-4aef-a878-54004e51971a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "artificial",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742797,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "a44efca4-8e65-429b-9a1a-2b5e8c70663d",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "蒸気",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "a44efca4-8e65-429b-9a1a-2b5e8c70663d-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "vapor",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742798,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7e4411c9-5077-4709-8791-6e2fbf2d3b10",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "水準、水平、水位",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7e4411c9-5077-4709-8791-6e2fbf2d3b10-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "level",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742799,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "74846bb4-40ff-40e6-b2d4-ef664cf22329",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "酸、酸の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "74846bb4-40ff-40e6-b2d4-ef664cf22329-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "acid",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742800,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "c795c04d-2e2c-4645-b9bf-2f553e00be02",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "解放、放す、離す、放出する、放出",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "c795c04d-2e2c-4645-b9bf-2f553e00be02-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "release",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742801,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "5267e016-9bb8-4b9f-8831-e17c6c1d260a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "捕食者",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "5267e016-9bb8-4b9f-8831-e17c6c1d260a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "predator",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742802,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "3e531f8f-64ea-4c95-b70a-3b895d9159bb",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "酸素",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "3e531f8f-64ea-4c95-b70a-3b895d9159bb-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "oxygen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742803,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "55141652-5148-4fbd-8b43-387427511ef9",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "…につき、…ごとに、毎…で",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "55141652-5148-4fbd-8b43-387427511ef9-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "per",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742804,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "2be8b484-d7c1-4272-a5ce-534ebdd3394c",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "検出する、探知する",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "2be8b484-d7c1-4272-a5ce-534ebdd3394c-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "detect",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742805,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "e9bea550-beb5-4a2d-b0f0-a85671936139",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "与える、供給する、配給、供給、電源",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "e9bea550-beb5-4a2d-b0f0-a85671936139-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "supply",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742806,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7e700017-6ac2-4a64-95a5-7b357dfbaef0",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "制限する、制限",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7e700017-6ac2-4a64-95a5-7b357dfbaef0-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "limit",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742807,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "aaa52f78-6262-471f-b9af-30ad505caff4",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "輸送、輸送する、移送、搬送",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "aaa52f78-6262-471f-b9af-30ad505caff4-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "transport",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742808,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "5eecdbc0-f1a4-4d62-a458-e40fd990ba90",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "酵母",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "5eecdbc0-f1a4-4d62-a458-e40fd990ba90-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "yeast",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742809,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "ab42a869-5f25-4971-a5ef-acd458862d2d",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "はしか（麻疹）",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "ab42a869-5f25-4971-a5ef-acd458862d2d-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "measles",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742810,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "afdcf8fd-6cac-4e96-ad90-cfa5d4aa4fbb",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "真菌類、菌類",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "afdcf8fd-6cac-4e96-ad90-cfa5d4aa4fbb-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "fungus",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742811,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "16a048a5-5b1e-4539-a7df-3322e3ded56d",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "発酵させる",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "16a048a5-5b1e-4539-a7df-3322e3ded56d-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "ferment",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742812,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "2e091cdd-bf7f-4a43-bf9c-df1ac095a317",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "資源",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "2e091cdd-bf7f-4a43-bf9c-df1ac095a317-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "resource",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742813,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "f2b33260-9824-44a9-ba46-4ce49dbb838e",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "要因、係数、因子",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "f2b33260-9824-44a9-ba46-4ce49dbb838e-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "factor",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742814,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "04c5ccf3-a94b-4454-866c-4a9edb0b4c6a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "液体、液体状の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "04c5ccf3-a94b-4454-866c-4a9edb0b4c6a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "liquid",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742815,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "cd1e9131-e1a5-4b69-86f9-4f6e1b9eaf7a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "急勾配の、険しい、急激な",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "cd1e9131-e1a5-4b69-86f9-4f6e1b9eaf7a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "steep",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742816,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "1cf944c3-263e-4fa3-b9df-ec75600e1df0",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "理論",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "1cf944c3-263e-4fa3-b9df-ec75600e1df0-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "theory",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742817,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "62eafd09-418b-4150-a07b-53b951b7fe9b",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "顕微鏡",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "62eafd09-418b-4150-a07b-53b951b7fe9b-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "microscope",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742818,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "58172ec4-26c7-4c4d-9aa8-d376770d713b",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "結果、（結果として）生じる",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "58172ec4-26c7-4c4d-9aa8-d376770d713b-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "result",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742819,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 25,
+   "totalCount": 35
+  }
+ },
+ {
+  "url": "https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc",
+  "body": {
+   "questions": [
+    {
+     "questionId": "618ae296-0948-46a3-8bff-e258e2619e82",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "水素",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "618ae296-0948-46a3-8bff-e258e2619e82-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "hydrogen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742795,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "fb87a16d-061a-449a-9de1-daa5e6686f56",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "エラ",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "fb87a16d-061a-449a-9de1-daa5e6686f56-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "gill",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742796,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "ed5c3e8a-4908-4aef-a878-54004e51971a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "人工の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "ed5c3e8a-4908-4aef-a878-54004e51971a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "artificial",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742797,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "a44efca4-8e65-429b-9a1a-2b5e8c70663d",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "蒸気",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "a44efca4-8e65-429b-9a1a-2b5e8c70663d-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "vapor",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742798,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7e4411c9-5077-4709-8791-6e2fbf2d3b10",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "水準、水平、水位",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7e4411c9-5077-4709-8791-6e2fbf2d3b10-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "level",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742799,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "74846bb4-40ff-40e6-b2d4-ef664cf22329",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "酸、酸の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "74846bb4-40ff-40e6-b2d4-ef664cf22329-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "acid",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742800,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "c795c04d-2e2c-4645-b9bf-2f553e00be02",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "解放、放す、離す、放出する、放出",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "c795c04d-2e2c-4645-b9bf-2f553e00be02-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "release",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742801,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "5267e016-9bb8-4b9f-8831-e17c6c1d260a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "捕食者",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "5267e016-9bb8-4b9f-8831-e17c6c1d260a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "predator",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742802,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "3e531f8f-64ea-4c95-b70a-3b895d9159bb",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "酸素",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "3e531f8f-64ea-4c95-b70a-3b895d9159bb-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "oxygen",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742803,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "55141652-5148-4fbd-8b43-387427511ef9",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "…につき、…ごとに、毎…で",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "55141652-5148-4fbd-8b43-387427511ef9-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "per",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742804,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "2be8b484-d7c1-4272-a5ce-534ebdd3394c",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "検出する、探知する",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "2be8b484-d7c1-4272-a5ce-534ebdd3394c-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "detect",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742805,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "e9bea550-beb5-4a2d-b0f0-a85671936139",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "与える、供給する、配給、供給、電源",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "e9bea550-beb5-4a2d-b0f0-a85671936139-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "supply",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742806,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "7e700017-6ac2-4a64-95a5-7b357dfbaef0",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "制限する、制限",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "7e700017-6ac2-4a64-95a5-7b357dfbaef0-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "limit",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742807,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "aaa52f78-6262-471f-b9af-30ad505caff4",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "輸送、輸送する、移送、搬送",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "aaa52f78-6262-471f-b9af-30ad505caff4-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "transport",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742808,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "5eecdbc0-f1a4-4d62-a458-e40fd990ba90",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "酵母",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "5eecdbc0-f1a4-4d62-a458-e40fd990ba90-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "yeast",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742809,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "ab42a869-5f25-4971-a5ef-acd458862d2d",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "はしか（麻疹）",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "ab42a869-5f25-4971-a5ef-acd458862d2d-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "measles",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742810,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "afdcf8fd-6cac-4e96-ad90-cfa5d4aa4fbb",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "真菌類、菌類",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "afdcf8fd-6cac-4e96-ad90-cfa5d4aa4fbb-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "fungus",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742811,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "16a048a5-5b1e-4539-a7df-3322e3ded56d",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "発酵させる",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "16a048a5-5b1e-4539-a7df-3322e3ded56d-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "ferment",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742812,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "2e091cdd-bf7f-4a43-bf9c-df1ac095a317",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "資源",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "2e091cdd-bf7f-4a43-bf9c-df1ac095a317-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "resource",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742813,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "f2b33260-9824-44a9-ba46-4ce49dbb838e",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "要因、係数、因子",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "f2b33260-9824-44a9-ba46-4ce49dbb838e-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "factor",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742814,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "04c5ccf3-a94b-4454-866c-4a9edb0b4c6a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "液体、液体状の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "04c5ccf3-a94b-4454-866c-4a9edb0b4c6a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "liquid",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742815,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "cd1e9131-e1a5-4b69-86f9-4f6e1b9eaf7a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "急勾配の、険しい、急激な",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "cd1e9131-e1a5-4b69-86f9-4f6e1b9eaf7a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "steep",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742816,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "1cf944c3-263e-4fa3-b9df-ec75600e1df0",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "理論",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "1cf944c3-263e-4fa3-b9df-ec75600e1df0-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "theory",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742817,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "62eafd09-418b-4150-a07b-53b951b7fe9b",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "顕微鏡",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "62eafd09-418b-4150-a07b-53b951b7fe9b-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "microscope",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742818,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "58172ec4-26c7-4c4d-9aa8-d376770d713b",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "結果、（結果として）生じる",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "58172ec4-26c7-4c4d-9aa8-d376770d713b-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "result",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742819,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "b94c7f0a-e24a-40ea-97c8-1ecfab439c19",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "核分裂、分裂",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "b94c7f0a-e24a-40ea-97c8-1ecfab439c19-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "fission",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742820,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "32f1c59c-7bd3-4fcd-b752-b08101f1767b",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "まったく同じ、同一の",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "32f1c59c-7bd3-4fcd-b752-b08101f1767b-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "identical",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742821,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "069fadd3-1348-434b-9447-0fe44156217e",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "染色体",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "069fadd3-1348-434b-9447-0fe44156217e-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "chromosome",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742822,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "b581605e-59b7-490f-94d4-6728125fa42a",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "記述、説明",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "b581605e-59b7-490f-94d4-6728125fa42a-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "description",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742823,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "6e0bd1b7-97d3-4335-b0ae-15ef0fd9a984",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "命令、指示、指令",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "6e0bd1b7-97d3-4335-b0ae-15ef0fd9a984-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "instruction",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742824,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "1a15dd92-9313-419b-a7c6-54a023808d90",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "排水管、排水する",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "1a15dd92-9313-419b-a7c6-54a023808d90-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "drain",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742825,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "6f75b5aa-c0d8-48f0-9707-3f8ce73431d7",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "垂直な",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "6f75b5aa-c0d8-48f0-9707-3f8ce73431d7-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "vertical",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742826,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "992a53a3-2041-47c1-85ea-9dc4546185eb",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "種、種類",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "992a53a3-2041-47c1-85ea-9dc4546185eb-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "species",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742827,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "fae413da-7f5e-4575-86e1-4d39518842b6",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "細菌",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "fae413da-7f5e-4575-86e1-4d39518842b6-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "bacteria",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742828,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "soSo",
+     "latestAnswerResult": true,
+     "correctRate": 0.5,
+     "score": 1,
+     "tags": []
+    },
+    {
+     "questionId": "b1c0fd61-f432-4263-b9ce-a54bc10772a0",
+     "workbookId": "ce0351eb-bc7d-453f-a53e-bf160a925ea6",
+     "type": "write",
+     "problem": {
+      "decoratedText": {
+       "text": "温度",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "tableLayout": null,
+     "answers": [
+      {
+       "answerId": "b1c0fd61-f432-4263-b9ce-a54bc10772a0-0",
+       "decoratedValidAnswers": [
+        {
+         "text": "temperature",
+         "isDecorated": false
+        }
+       ],
+       "imageUrls": [],
+       "movieUrls": []
+      }
+     ],
+     "wrongChoices": [],
+     "explanation": {
+      "decoratedText": {
+       "text": "",
+       "isDecorated": false
+      },
+      "imageUrls": [],
+      "movieUrls": [],
+      "audioUrls": []
+     },
+     "isAutoGenerateWrongChoices": false,
+     "isCheckAnswerOrder": false,
+     "order": 1791934742829,
+     "createdAt": "2026-10-13T23:39:02.798Z",
+     "updatedAt": "2026-10-13T23:39:02.798Z",
+     "isFavorite": false,
+     "memoryLevel": "good",
+     "latestAnswerResult": true,
+     "correctRate": 1,
+     "score": 1,
+     "tags": []
+    }
+   ],
+   "page": 1,
+   "pageSize": 100,
+   "totalCount": 35
+  }
+ }
+]

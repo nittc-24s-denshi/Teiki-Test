@@ -1,0 +1,37 @@
+{
+  "exam": "2026/03",
+  "subject": "Science_English_Ⅱ",
+  "updated": "2026-11-11T02:38:42Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": false,
+    "transcribed": false,
+    "questions_split": true,
+    "filled": true,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 156,
+    "文_complete": 16,
+    "語彙_write": 140,
+    "corrections": 0,
+    "inferred": 0,
+    "unverified": 0,
+    "filled_inferred": 0,
+    "by_unit": {
+      "Lesson 1 文_complete": 4,
+      "Lesson 1 語彙_write": 35,
+      "Lesson 2 文_complete": 4,
+      "Lesson 2 語彙_write": 35,
+      "Lesson 3 文_complete": 4,
+      "Lesson 3 語彙_write": 35,
+      "Lesson 4 文_complete": 4,
+      "Lesson 4 語彙_write": 35
+    }
+  },
+  "notes": "進捗: 整備済（構造化・検証・app_data）。暗記メーカー Short Test Lesson 1〜4（156問）を取り込み。PDF分割・文字起こしは対象外（API JSON）。答えはすべて original。corrections/inferred/unverified/filled補完なし。公式範囲表は未入手。教員発行の公式範囲表ではない。Question Bank catalog に se2_2026_03 を登録。"
+}

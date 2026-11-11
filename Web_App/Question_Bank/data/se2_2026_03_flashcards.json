@@ -1,0 +1,5134 @@
+[
+  {
+    "id": "SE2-L1-C01",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "イートウェルプレートは、人々がバランスの取れた食生活を送るのに役立ちます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "the | eatwell | plate | helps | people | to | eat | a | balanced | diet",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=73b06588-9b04-4487-baf7-9a05e3162882; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=73b06588-9b04-4487-baf7-9a05e3162882"
+      }
+    ],
+    "conflicts": [],
+    "front": "イートウェルプレートは、人々がバランスの取れた食生活を送るのに役立ちます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "the | eatwell | plate | helps | people | to | eat | a | balanced | diet"
+  },
+  {
+    "id": "SE2-L1-C02",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "それは、さまざまな食品群からどのくらいの量を食べるべきかを示しています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "it | shows | how | much | you | should | eat | from | different | food | groups",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=1427027a-444a-49ff-9b2e-33520ec99406; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=1427027a-444a-49ff-9b2e-33520ec99406"
+      }
+    ],
+    "conflicts": [],
+    "front": "それは、さまざまな食品群からどのくらいの量を食べるべきかを示しています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "it | shows | how | much | you | should | eat | from | different | food | groups"
+  },
+  {
+    "id": "SE2-L1-C03",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "1日につき5皿分の果物と野菜を摂取することが推奨されています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "it | is | recommended | that | you | eat | five | portions | of | fruits | and | vegetables | per | day",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=89c4c368-af8d-4b67-a0aa-7f6075573fd8; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=89c4c368-af8d-4b67-a0aa-7f6075573fd8"
+      }
+    ],
+    "conflicts": [],
+    "front": "1日につき5皿分の果物と野菜を摂取することが推奨されています。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "it | is | recommended | that | you | eat | five | portions | of | fruits | and | vegetables | per | day"
+  },
+  {
+    "id": "SE2-L1-C04",
+    "unit": "Lesson 1 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson1",
+      "文_complete",
+      "cloze",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "それらは食物繊維や多くのビタミンとミネラルを豊富に含んでいます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "they | are | rich | in | fiber | and | many | vitamins | and | minerals",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=76c02df2-8cdd-420d-82a4-96108672d1ca; questionId=7187c20c-b1f4-4a79-9538-7f7221c0964c; source_url=https://api.ankimaker.com/workbooks/76c02df2-8cdd-420d-82a4-96108672d1ca/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7187c20c-b1f4-4a79-9538-7f7221c0964c"
+      }
+    ],
+    "conflicts": [],
+    "front": "それらは食物繊維や多くのビタミンとミネラルを豊富に含んでいます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "they | are | rich | in | fiber | and | many | vitamins | and | minerals"
+  },
+  {
+    "id": "SE2-L1-V01",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "納得させる、説得する",
+    "stem_status": "original",
+    "answer": "convince",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=0a3d868a-3b74-4451-97ff-abab264cf1fd; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=0a3d868a-3b74-4451-97ff-abab264cf1fd"
+      }
+    ],
+    "conflicts": [],
+    "front": "納得させる、説得する",
+    "back": "convince"
+  },
+  {
+    "id": "SE2-L1-V02",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "製品、生産物、積",
+    "stem_status": "original",
+    "answer": "product",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=f8aa8b3e-929c-4f9a-a5f5-58407439f8fd; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=f8aa8b3e-929c-4f9a-a5f5-58407439f8fd"
+      }
+    ],
+    "conflicts": [],
+    "front": "製品、生産物、積",
+    "back": "product"
+  },
+  {
+    "id": "SE2-L1-V03",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "証拠",
+    "stem_status": "original",
+    "answer": "evidence",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=4fc8482d-1c68-4ed8-b8d5-86d0be99948b; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4fc8482d-1c68-4ed8-b8d5-86d0be99948b"
+      }
+    ],
+    "conflicts": [],
+    "front": "証拠",
+    "back": "evidence"
+  },
+  {
+    "id": "SE2-L1-V04",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "注文する、順序、次数",
+    "stem_status": "original",
+    "answer": "order",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=2665df2e-e5e5-49f0-8e4a-e0c45bccafeb; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2665df2e-e5e5-49f0-8e4a-e0c45bccafeb"
+      }
+    ],
+    "conflicts": [],
+    "front": "注文する、順序、次数",
+    "back": "order"
+  },
+  {
+    "id": "SE2-L1-V05",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "炭水化物",
+    "stem_status": "original",
+    "answer": "carbohydrate",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=2598b5f2-3201-462c-bd40-720d06c0d32f; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2598b5f2-3201-462c-bd40-720d06c0d32f"
+      }
+    ],
+    "conflicts": [],
+    "front": "炭水化物",
+    "back": "carbohydrate"
+  },
+  {
+    "id": "SE2-L1-V06",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "タンパク質",
+    "stem_status": "original",
+    "answer": "protein",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=04547cf4-387a-4958-833c-7355d0bf1624; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=04547cf4-387a-4958-833c-7355d0bf1624"
+      }
+    ],
+    "conflicts": [],
+    "front": "タンパク質",
+    "back": "protein"
+  },
+  {
+    "id": "SE2-L1-V07",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "繊維、食物繊維",
+    "stem_status": "original",
+    "answer": "fiber",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=59345a2c-8abf-45c8-b159-04cb1389a672; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=59345a2c-8abf-45c8-b159-04cb1389a672"
+      }
+    ],
+    "conflicts": [],
+    "front": "繊維、食物繊維",
+    "back": "fiber"
+  },
+  {
+    "id": "SE2-L1-V08",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "栄養、栄養物",
+    "stem_status": "original",
+    "answer": "nutrition",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=0fb04f00-d494-4ea6-b3ab-88c270ef6bfb; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=0fb04f00-d494-4ea6-b3ab-88c270ef6bfb"
+      }
+    ],
+    "conflicts": [],
+    "front": "栄養、栄養物",
+    "back": "nutrition"
+  },
+  {
+    "id": "SE2-L1-V09",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "典型的な",
+    "stem_status": "original",
+    "answer": "typical",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=f14122d4-e2ee-4cd1-8bc9-009d8c958cd0; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=f14122d4-e2ee-4cd1-8bc9-009d8c958cd0"
+      }
+    ],
+    "conflicts": [],
+    "front": "典型的な",
+    "back": "typical"
+  },
+  {
+    "id": "SE2-L1-V10",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "ヨウ素、ヨード",
+    "stem_status": "original",
+    "answer": "iodine",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=4138db18-3dfd-4440-ab39-85e2cec17228; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4138db18-3dfd-4440-ab39-85e2cec17228"
+      }
+    ],
+    "conflicts": [],
+    "front": "ヨウ素、ヨード",
+    "back": "iodine"
+  },
+  {
+    "id": "SE2-L1-V11",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "利益、増加、得る、利得",
+    "stem_status": "original",
+    "answer": "gain",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=4dcb9234-7a5e-4be5-ab14-5f365324f9e6; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4dcb9234-7a5e-4be5-ab14-5f365324f9e6"
+      }
+    ],
+    "conflicts": [],
+    "front": "利益、増加、得る、利得",
+    "back": "gain"
+  },
+  {
+    "id": "SE2-L1-V12",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "源、原因",
+    "stem_status": "original",
+    "answer": "source",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=672fa7dd-a6aa-47f6-bd41-dd4960ccfa65; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=672fa7dd-a6aa-47f6-bd41-dd4960ccfa65"
+      }
+    ],
+    "conflicts": [],
+    "front": "源、原因",
+    "back": "source"
+  },
+  {
+    "id": "SE2-L1-V13",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "断熱する、絶縁する",
+    "stem_status": "original",
+    "answer": "insulate",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=4720fa81-7a7c-423a-9f19-81a27fab97f2; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4720fa81-7a7c-423a-9f19-81a27fab97f2"
+      }
+    ],
+    "conflicts": [],
+    "front": "断熱する、絶縁する",
+    "back": "insulate"
+  },
+  {
+    "id": "SE2-L1-V14",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "移動、移す、伝達、伝熱",
+    "stem_status": "original",
+    "answer": "transfer",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=9cb8139e-c9a9-483c-8d36-535cbe300d8a; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=9cb8139e-c9a9-483c-8d36-535cbe300d8a"
+      }
+    ],
+    "conflicts": [],
+    "front": "移動、移す、伝達、伝熱",
+    "back": "transfer"
+  },
+  {
+    "id": "SE2-L1-V15",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "過程、工程、処理する",
+    "stem_status": "original",
+    "answer": "process",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=2cfee508-0aa0-41a2-a2b7-39217adba13d; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2cfee508-0aa0-41a2-a2b7-39217adba13d"
+      }
+    ],
+    "conflicts": [],
+    "front": "過程、工程、処理する",
+    "back": "process"
+  },
+  {
+    "id": "SE2-L1-V16",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "呼吸（作用）",
+    "stem_status": "original",
+    "answer": "respiration",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=6b613bcf-6122-4f10-8697-da9013d21476; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6b613bcf-6122-4f10-8697-da9013d21476"
+      }
+    ],
+    "conflicts": [],
+    "front": "呼吸（作用）",
+    "back": "respiration"
+  },
+  {
+    "id": "SE2-L1-V17",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "鉱物、鉱物の",
+    "stem_status": "original",
+    "answer": "mineral",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=7731b9d7-5684-47fa-936b-d0c54fe9f947; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7731b9d7-5684-47fa-936b-d0c54fe9f947"
+      }
+    ],
+    "conflicts": [],
+    "front": "鉱物、鉱物の",
+    "back": "mineral"
+  },
+  {
+    "id": "SE2-L1-V18",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "支持する、支柱、維持する",
+    "stem_status": "original",
+    "answer": "support",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=3d51085c-937f-484e-9202-2d8b7ae8a353; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=3d51085c-937f-484e-9202-2d8b7ae8a353"
+      }
+    ],
+    "conflicts": [],
+    "front": "支持する、支柱、維持する",
+    "back": "support"
+  },
+  {
+    "id": "SE2-L1-V19",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "責任がある、原因となる",
+    "stem_status": "original",
+    "answer": "responsible",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=9f695687-5108-44ea-b8b5-fd778a1125fe; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=9f695687-5108-44ea-b8b5-fd778a1125fe"
+      }
+    ],
+    "conflicts": [],
+    "front": "責任がある、原因となる",
+    "back": "responsible"
+  },
+  {
+    "id": "SE2-L1-V20",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "非常に悪い、ひどい、厳しい",
+    "stem_status": "original",
+    "answer": "severe",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=ad561369-9f66-4778-936a-d27f83976e5c; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=ad561369-9f66-4778-936a-d27f83976e5c"
+      }
+    ],
+    "conflicts": [],
+    "front": "非常に悪い、ひどい、厳しい",
+    "back": "severe"
+  },
+  {
+    "id": "SE2-L1-V21",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "防ぐ、予防する",
+    "stem_status": "original",
+    "answer": "prevent",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=694c15e4-9003-4d36-bc2d-38533e876431; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=694c15e4-9003-4d36-bc2d-38533e876431"
+      }
+    ],
+    "conflicts": [],
+    "front": "防ぐ、予防する",
+    "back": "prevent"
+  },
+  {
+    "id": "SE2-L1-V22",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "依存症",
+    "stem_status": "original",
+    "answer": "addiction",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=2e61c992-2397-4e91-9ba4-6b4f9608112a; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2e61c992-2397-4e91-9ba4-6b4f9608112a"
+      }
+    ],
+    "conflicts": [],
+    "front": "依存症",
+    "back": "addiction"
+  },
+  {
+    "id": "SE2-L1-V23",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "要求、需要",
+    "stem_status": "original",
+    "answer": "demand",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=c2ed0581-0001-4b5f-ac80-704cfe2f9f72; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=c2ed0581-0001-4b5f-ac80-704cfe2f9f72"
+      }
+    ],
+    "conflicts": [],
+    "front": "要求、需要",
+    "back": "demand"
+  },
+  {
+    "id": "SE2-L1-V24",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "症状、徴候、症候",
+    "stem_status": "original",
+    "answer": "symptom",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=3e51e992-3e47-4aab-bf6f-00a2e36aa7ea; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=3e51e992-3e47-4aab-bf6f-00a2e36aa7ea"
+      }
+    ],
+    "conflicts": [],
+    "front": "症状、徴候、症候",
+    "back": "symptom"
+  },
+  {
+    "id": "SE2-L1-V25",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "胃、胃部、腹",
+    "stem_status": "original",
+    "answer": "stomach",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=1dbc9f9f-2ccc-4139-804f-bc7c0eaa2f3f; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=1dbc9f9f-2ccc-4139-804f-bc7c0eaa2f3f"
+      }
+    ],
+    "conflicts": [],
+    "front": "胃、胃部、腹",
+    "back": "stomach"
+  },
+  {
+    "id": "SE2-L1-V26",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "極の、極性",
+    "stem_status": "original",
+    "answer": "polar",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=01917d4c-3b23-44a8-bf21-80d66b8f5981; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=01917d4c-3b23-44a8-bf21-80d66b8f5981"
+      }
+    ],
+    "conflicts": [],
+    "front": "極の、極性",
+    "back": "polar"
+  },
+  {
+    "id": "SE2-L1-V27",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "食糧不足、飢饉",
+    "stem_status": "original",
+    "answer": "famine",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=bddcd84a-b417-4245-b8eb-500d84eded80; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=bddcd84a-b417-4245-b8eb-500d84eded80"
+      }
+    ],
+    "conflicts": [],
+    "front": "食糧不足、飢饉",
+    "back": "famine"
+  },
+  {
+    "id": "SE2-L1-V28",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "粘土",
+    "stem_status": "original",
+    "answer": "clay",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=0f3ad0b6-77a6-4b44-bd3a-9ad7cef159fb; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=0f3ad0b6-77a6-4b44-bd3a-9ad7cef159fb"
+      }
+    ],
+    "conflicts": [],
+    "front": "粘土",
+    "back": "clay"
+  },
+  {
+    "id": "SE2-L1-V29",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "状態、状況、条件",
+    "stem_status": "original",
+    "answer": "condition",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=6a3260ea-b3b6-4ed5-ab1f-24a93d0d7ecd; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6a3260ea-b3b6-4ed5-ab1f-24a93d0d7ecd"
+      }
+    ],
+    "conflicts": [],
+    "front": "状態、状況、条件",
+    "back": "condition"
+  },
+  {
+    "id": "SE2-L1-V30",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "分子",
+    "stem_status": "original",
+    "answer": "molecule",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=57ec6a88-ed53-4ae6-9894-f54ec20e5477; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=57ec6a88-ed53-4ae6-9894-f54ec20e5477"
+      }
+    ],
+    "conflicts": [],
+    "front": "分子",
+    "back": "molecule"
+  },
+  {
+    "id": "SE2-L1-V31",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "唾液、つば",
+    "stem_status": "original",
+    "answer": "saliva",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=b92320d2-5512-4934-95d6-06727e3faf94; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b92320d2-5512-4934-95d6-06727e3faf94"
+      }
+    ],
+    "conflicts": [],
+    "front": "唾液、つば",
+    "back": "saliva"
+  },
+  {
+    "id": "SE2-L1-V32",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "免疫の",
+    "stem_status": "original",
+    "answer": "immune",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=3166aa9e-9aa5-4184-80e9-60a64fc9fca6; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=3166aa9e-9aa5-4184-80e9-60a64fc9fca6"
+      }
+    ],
+    "conflicts": [],
+    "front": "免疫の",
+    "back": "immune"
+  },
+  {
+    "id": "SE2-L1-V33",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "粉にひく、砕く、研磨する",
+    "stem_status": "original",
+    "answer": "grind",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=62019d21-6454-44f8-9f96-c0285817654c; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=62019d21-6454-44f8-9f96-c0285817654c"
+      }
+    ],
+    "conflicts": [],
+    "front": "粉にひく、砕く、研磨する",
+    "back": "grind"
+  },
+  {
+    "id": "SE2-L1-V34",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "腸",
+    "stem_status": "original",
+    "answer": "intestine",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=97bb880e-ee36-452f-9f41-eef11daeb427; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=97bb880e-ee36-452f-9f41-eef11daeb427"
+      }
+    ],
+    "conflicts": [],
+    "front": "腸",
+    "back": "intestine"
+  },
+  {
+    "id": "SE2-L1-V35",
+    "unit": "Lesson 1 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson1",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest1",
+      "ankimaker"
+    ],
+    "stem": "酵素",
+    "stem_status": "original",
+    "answer": "enzyme",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson1_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=a6b682a9-3b7b-4eee-903b-96aee5de7b59; questionId=9ccf0f57-2c55-4aab-ace6-ec2f5b57aaf4; source_url=https://api.ankimaker.com/workbooks/a6b682a9-3b7b-4eee-903b-96aee5de7b59/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test1"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=9ccf0f57-2c55-4aab-ace6-ec2f5b57aaf4"
+      }
+    ],
+    "conflicts": [],
+    "front": "酵素",
+    "back": "enzyme"
+  },
+  {
+    "id": "SE2-L2-C01",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "サンプルが大きいほど、より精度の高い結果が得られますが、数えるのにはより長い時間がかかります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "a | larger | sample | gives | more | accurate | results | but | takes | longer | to | count",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=fed2f6d0-a6a7-4be7-812c-d3eff780f4f9; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=fed2f6d0-a6a7-4be7-812c-d3eff780f4f9"
+      }
+    ],
+    "conflicts": [],
+    "front": "サンプルが大きいほど、より精度の高い結果が得られますが、数えるのにはより長い時間がかかります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "a | larger | sample | gives | more | accurate | results | but | takes | longer | to | count"
+  },
+  {
+    "id": "SE2-L2-C02",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "数量を推定しようと計画する時には、時間と精度のバランスをとる必要があります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "you | need | to | balance | time | and | accuracy | when | planning | to | estimate | a | quantity",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=76140995-8bcd-465f-8fb7-95785c2c7565; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=76140995-8bcd-465f-8fb7-95785c2c7565"
+      }
+    ],
+    "conflicts": [],
+    "front": "数量を推定しようと計画する時には、時間と精度のバランスをとる必要があります。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "you | need | to | balance | time | and | accuracy | when | planning | to | estimate | a | quantity"
+  },
+  {
+    "id": "SE2-L2-C03",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "科学者は、個体群（生物の数）を推定するためにサンプルを使用します。\n(___) (___) (___) (___) (___) (___) ((___) (___) (___) (___)).",
+    "stem_status": "original",
+    "answer": "scientists | use | samples | to | estimate | populations | the | number | of | organisms",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=a91d12cf-face-4bfc-a0f9-62c2c514a4fd; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a91d12cf-face-4bfc-a0f9-62c2c514a4fd"
+      }
+    ],
+    "conflicts": [],
+    "front": "科学者は、個体群（生物の数）を推定するためにサンプルを使用します。\n(___) (___) (___) (___) (___) (___) ((___) (___) (___) (___)).",
+    "back": "scientists | use | samples | to | estimate | populations | the | number | of | organisms"
+  },
+  {
+    "id": "SE2-L2-C04",
+    "unit": "Lesson 2 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson2",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "サンプルは、コドラートと呼ばれる正方形の枠を用いて採取することができます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "samples | can | be | taken | using | a | square | frame | called | a | quadrat",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=051757f7-b899-4e48-82e2-6cc45c6f1fb8; questionId=a8ae4342-bb8f-4fc6-8261-08704713b1ae; source_url=https://api.ankimaker.com/workbooks/051757f7-b899-4e48-82e2-6cc45c6f1fb8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a8ae4342-bb8f-4fc6-8261-08704713b1ae"
+      }
+    ],
+    "conflicts": [],
+    "front": "サンプルは、コドラートと呼ばれる正方形の枠を用いて採取することができます。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "samples | can | be | taken | using | a | square | frame | called | a | quadrat"
+  },
+  {
+    "id": "SE2-L3-C01",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "光合成にはエネルギーが必要であり、それは太陽からの光によって伝達される。\n(___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "photosynthesis | needs | energy | which | is | transferred | by | light | from | the | Sun",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=2a958a96-424b-40cd-b1fb-c0cc8256220c; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2a958a96-424b-40cd-b1fb-c0cc8256220c"
+      }
+    ],
+    "conflicts": [],
+    "front": "光合成にはエネルギーが必要であり、それは太陽からの光によって伝達される。\n(___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "photosynthesis | needs | energy | which | is | transferred | by | light | from | the | Sun"
+  },
+  {
+    "id": "SE2-L3-C02",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "葉緑体はそのエネルギーを捕捉してブドウ糖分子へ移動させ、ブドウ糖分子がそれを蓄える。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "chloroplasts | trap | the | energy | and | transfer | it | to | glucose | molecules | which | store | it",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=d04e43d7-33db-43f1-a7bb-6959a5fa8150; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=d04e43d7-33db-43f1-a7bb-6959a5fa8150"
+      }
+    ],
+    "conflicts": [],
+    "front": "葉緑体はそのエネルギーを捕捉してブドウ糖分子へ移動させ、ブドウ糖分子がそれを蓄える。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "back": "chloroplasts | trap | the | energy | and | transfer | it | to | glucose | molecules | which | store | it"
+  },
+  {
+    "id": "SE2-L3-C03",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "植物は、土壌から無機塩と呼ばれる微量の栄養素を必要とする。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "plants | need | small | amounts | of | nutrients | called | mineral | salts | from | the | soil",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=7326557c-e80d-4072-b5a8-42c9e1f9a20b; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7326557c-e80d-4072-b5a8-42c9e1f9a20b"
+      }
+    ],
+    "conflicts": [],
+    "front": "植物は、土壌から無機塩と呼ばれる微量の栄養素を必要とする。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "plants | need | small | amounts | of | nutrients | called | mineral | salts | from | the | soil"
+  },
+  {
+    "id": "SE2-L3-C04",
+    "unit": "Lesson 3 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson3",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "最も重要なのは、窒素、リンおよびカリウムという元素を含む化合物である。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "the | most | important | are | compounds | containing | the | elements | nitrogen | phosphorus | and | potassium",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=49bb561c-0b39-4778-97a1-72caff5fbbf8; questionId=4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1; source_url=https://api.ankimaker.com/workbooks/49bb561c-0b39-4778-97a1-72caff5fbbf8/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4aacfc37-59e9-41b4-89f8-4ae3e9a6f1d1"
+      }
+    ],
+    "conflicts": [],
+    "front": "最も重要なのは、窒素、リンおよびカリウムという元素を含む化合物である。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "back": "the | most | important | are | compounds | containing | the | elements | nitrogen | phosphorus | and | potassium"
+  },
+  {
+    "id": "SE2-L4-C01",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "哺乳類は酸素を取り入れるために肺を使用するため、空気を呼吸しなければならない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "mammals | use | lungs | to | get | oxygen | and | so | must | breathe | air",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=6aba74eb-8a68-418d-a49e-8fbf90aef2c4; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6aba74eb-8a68-418d-a49e-8fbf90aef2c4"
+      }
+    ],
+    "conflicts": [],
+    "front": "哺乳類は酸素を取り入れるために肺を使用するため、空気を呼吸しなければならない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "mammals | use | lungs | to | get | oxygen | and | so | must | breathe | air"
+  },
+  {
+    "id": "SE2-L4-C02",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "一部の動物は、多くの場合エラを用いて水中の酸素を吸収できるため、決して空気を呼吸することはない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "some | animals | never | breathe | air | because | they | can | extract | oxygen | from | water | often | using | gills",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=97f08124-884d-4595-9d05-27073661ec70; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=97f08124-884d-4595-9d05-27073661ec70"
+      }
+    ],
+    "conflicts": [],
+    "front": "一部の動物は、多くの場合エラを用いて水中の酸素を吸収できるため、決して空気を呼吸することはない。\n(___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___).",
+    "back": "some | animals | never | breathe | air | because | they | can | extract | oxygen | from | water | often | using | gills"
+  },
+  {
+    "id": "SE2-L4-C03",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "植物細胞は、すべての細胞で起こる好気呼吸によって、エネルギーを再び放出する。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "plant | cells | release | the | energy | again | using | aerobic | respiration | which | happens | in | all | cells",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=17d76e03-ea79-4a8c-b3ee-16cec1fc1852; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=17d76e03-ea79-4a8c-b3ee-16cec1fc1852"
+      }
+    ],
+    "conflicts": [],
+    "front": "植物細胞は、すべての細胞で起こる好気呼吸によって、エネルギーを再び放出する。\n(___) (___) (___) (___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___).",
+    "back": "plant | cells | release | the | energy | again | using | aerobic | respiration | which | happens | in | all | cells"
+  },
+  {
+    "id": "SE2-L4-C04",
+    "unit": "Lesson 4 文_complete",
+    "form": "cloze",
+    "tags": [
+      "Lesson4",
+      "文_complete",
+      "cloze",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "気体の出入りを可能にするために、陸上植物は葉に小さな穴を持っています。\n(___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+    "stem_status": "original",
+    "answer": "to | allow | gases | in | and | out | land | plants | have | tiny | holes | in | their | leaves",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_complete_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=3bb10a65-78b9-4fcb-a845-b4070572564b; questionId=cbecfc42-7985-4f77-857a-37190ca7f531; source_url=https://api.ankimaker.com/workbooks/3bb10a65-78b9-4fcb-a845-b4070572564b/questions?page=1&pageSize=25&sortBy=manual&sortOrder=asc; set=文_complete; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=cbecfc42-7985-4f77-857a-37190ca7f531"
+      }
+    ],
+    "conflicts": [],
+    "front": "気体の出入りを可能にするために、陸上植物は葉に小さな穴を持っています。\n(___) (___) (___) (___) (___) (___), (___) (___) (___) (___) (___) (___) (___) (___).",
+    "back": "to | allow | gases | in | and | out | land | plants | have | tiny | holes | in | their | leaves"
+  },
+  {
+    "id": "SE2-L2-V01",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "面積、地域",
+    "stem_status": "original",
+    "answer": "area",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=6545205b-ca34-40d2-a8a5-1ca0b8a0a7b9; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6545205b-ca34-40d2-a8a5-1ca0b8a0a7b9"
+      }
+    ],
+    "conflicts": [],
+    "front": "面積、地域",
+    "back": "area"
+  },
+  {
+    "id": "SE2-L2-V02",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "公式、式、分子式",
+    "stem_status": "original",
+    "answer": "formula",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=2b3a3bd4-3370-411f-b4bc-06a632fa08c1; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2b3a3bd4-3370-411f-b4bc-06a632fa08c1"
+      }
+    ],
+    "conflicts": [],
+    "front": "公式、式、分子式",
+    "back": "formula"
+  },
+  {
+    "id": "SE2-L2-V03",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "増加、増加する",
+    "stem_status": "original",
+    "answer": "increase",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=30ee6238-fa44-49f8-83cd-fa2fc7d5273d; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=30ee6238-fa44-49f8-83cd-fa2fc7d5273d"
+      }
+    ],
+    "conflicts": [],
+    "front": "増加、増加する",
+    "back": "increase"
+  },
+  {
+    "id": "SE2-L2-V04",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "見積もり、評価する、推定する",
+    "stem_status": "original",
+    "answer": "estimate",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=c4740128-5f76-4972-90fc-92a5b35c0a55; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=c4740128-5f76-4972-90fc-92a5b35c0a55"
+      }
+    ],
+    "conflicts": [],
+    "front": "見積もり、評価する、推定する",
+    "back": "estimate"
+  },
+  {
+    "id": "SE2-L2-V05",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "実験",
+    "stem_status": "original",
+    "answer": "experiment",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=12006706-5a6e-43fa-a30b-cebab3e707aa; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=12006706-5a6e-43fa-a30b-cebab3e707aa"
+      }
+    ],
+    "conflicts": [],
+    "front": "実験",
+    "back": "experiment"
+  },
+  {
+    "id": "SE2-L2-V06",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "適合させる、適応する、調整する",
+    "stem_status": "original",
+    "answer": "adapt",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=9bc0520e-a030-42b9-92a1-d0ba68a065f9; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=9bc0520e-a030-42b9-92a1-d0ba68a065f9"
+      }
+    ],
+    "conflicts": [],
+    "front": "適合させる、適応する、調整する",
+    "back": "adapt"
+  },
+  {
+    "id": "SE2-L2-V07",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "静脈、血管、鉱脈、葉脈",
+    "stem_status": "original",
+    "answer": "vein",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=7a602341-a6a7-4b17-9d5d-3b64fa6fea07; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7a602341-a6a7-4b17-9d5d-3b64fa6fea07"
+      }
+    ],
+    "conflicts": [],
+    "front": "静脈、血管、鉱脈、葉脈",
+    "back": "vein"
+  },
+  {
+    "id": "SE2-L2-V08",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "原子核、細胞核、核",
+    "stem_status": "original",
+    "answer": "nucleus",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=4a2b98da-6131-41e7-ae40-1d99a92b2aa9; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4a2b98da-6131-41e7-ae40-1d99a92b2aa9"
+      }
+    ],
+    "conflicts": [],
+    "front": "原子核、細胞核、核",
+    "back": "nucleus"
+  },
+  {
+    "id": "SE2-L2-V09",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "におい、香り、芳香",
+    "stem_status": "original",
+    "answer": "scent",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=21c4e4e8-87b6-4faf-b66a-e992e2250de6; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=21c4e4e8-87b6-4faf-b66a-e992e2250de6"
+      }
+    ],
+    "conflicts": [],
+    "front": "におい、香り、芳香",
+    "back": "scent"
+  },
+  {
+    "id": "SE2-L2-V10",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "吸引する、引き付ける、引き合う",
+    "stem_status": "original",
+    "answer": "attract",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=f696298c-7189-40a0-a278-50d372dccd65; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=f696298c-7189-40a0-a278-50d372dccd65"
+      }
+    ],
+    "conflicts": [],
+    "front": "吸引する、引き付ける、引き合う",
+    "back": "attract"
+  },
+  {
+    "id": "SE2-L2-V11",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "化合物",
+    "stem_status": "original",
+    "answer": "compound",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=2f244d4b-82f2-4e63-84c1-5c8603b801ba; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2f244d4b-82f2-4e63-84c1-5c8603b801ba"
+      }
+    ],
+    "conflicts": [],
+    "front": "化合物",
+    "back": "compound"
+  },
+  {
+    "id": "SE2-L2-V12",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "王国、界",
+    "stem_status": "original",
+    "answer": "kingdom",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=5c09b079-b11e-4bbe-ae7d-0caf6b5194e9; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=5c09b079-b11e-4bbe-ae7d-0caf6b5194e9"
+      }
+    ],
+    "conflicts": [],
+    "front": "王国、界",
+    "back": "kingdom"
+  },
+  {
+    "id": "SE2-L2-V13",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "分類",
+    "stem_status": "original",
+    "answer": "classification",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=b9085b15-5b9b-4ebf-b55c-d1556ef02916; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b9085b15-5b9b-4ebf-b55c-d1556ef02916"
+      }
+    ],
+    "conflicts": [],
+    "front": "分類",
+    "back": "classification"
+  },
+  {
+    "id": "SE2-L2-V14",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "円錐、円錐形",
+    "stem_status": "original",
+    "answer": "cone",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=ca54617b-44d8-4601-81ef-0561f28b1cc0; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=ca54617b-44d8-4601-81ef-0561f28b1cc0"
+      }
+    ],
+    "conflicts": [],
+    "front": "円錐、円錐形",
+    "back": "cone"
+  },
+  {
+    "id": "SE2-L2-V15",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "干ばつ、渇水",
+    "stem_status": "original",
+    "answer": "drought",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=55df7695-6219-470b-9c41-198db83207ac; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=55df7695-6219-470b-9c41-198db83207ac"
+      }
+    ],
+    "conflicts": [],
+    "front": "干ばつ、渇水",
+    "back": "drought"
+  },
+  {
+    "id": "SE2-L2-V16",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "土壌、土地",
+    "stem_status": "original",
+    "answer": "soil",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=43b9f4b5-e4a0-45fc-b675-ab5b2b2155bd; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=43b9f4b5-e4a0-45fc-b675-ab5b2b2155bd"
+      }
+    ],
+    "conflicts": [],
+    "front": "土壌、土地",
+    "back": "soil"
+  },
+  {
+    "id": "SE2-L2-V17",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "正確な、精度が高い",
+    "stem_status": "original",
+    "answer": "accurate",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=21bd69d2-ac58-4f4b-a252-d618e5cdc0c8; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=21bd69d2-ac58-4f4b-a252-d618e5cdc0c8"
+      }
+    ],
+    "conflicts": [],
+    "front": "正確な、精度が高い",
+    "back": "accurate"
+  },
+  {
+    "id": "SE2-L2-V18",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "近似する、近似の",
+    "stem_status": "original",
+    "answer": "approximate",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=3c79e42d-ec26-4002-b501-ccb23b7978c9; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=3c79e42d-ec26-4002-b501-ccb23b7978c9"
+      }
+    ],
+    "conflicts": [],
+    "front": "近似する、近似の",
+    "back": "approximate"
+  },
+  {
+    "id": "SE2-L2-V19",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "量、数量",
+    "stem_status": "original",
+    "answer": "quantity",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=243506d7-c970-4e7d-8dd5-6abd4921019f; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=243506d7-c970-4e7d-8dd5-6abd4921019f"
+      }
+    ],
+    "conflicts": [],
+    "front": "量、数量",
+    "back": "quantity"
+  },
+  {
+    "id": "SE2-L2-V20",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "有利な点、利益",
+    "stem_status": "original",
+    "answer": "advantage",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=4b7484c8-be3b-4468-bd0e-3ef9f96b7958; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4b7484c8-be3b-4468-bd0e-3ef9f96b7958"
+      }
+    ],
+    "conflicts": [],
+    "front": "有利な点、利益",
+    "back": "advantage"
+  },
+  {
+    "id": "SE2-L2-V21",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "変異、変動、変化",
+    "stem_status": "original",
+    "answer": "variation",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=187db55e-043f-405f-95d1-6fa382802b10; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=187db55e-043f-405f-95d1-6fa382802b10"
+      }
+    ],
+    "conflicts": [],
+    "front": "変異、変動、変化",
+    "back": "variation"
+  },
+  {
+    "id": "SE2-L2-V22",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "芽、発芽する、芽を出す",
+    "stem_status": "original",
+    "answer": "sprout",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=ca98c996-76af-4f55-a498-545bddbd4dea; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=ca98c996-76af-4f55-a498-545bddbd4dea"
+      }
+    ],
+    "conflicts": [],
+    "front": "芽、発芽する、芽を出す",
+    "back": "sprout"
+  },
+  {
+    "id": "SE2-L2-V23",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "茎",
+    "stem_status": "original",
+    "answer": "stem",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=7f178556-12ce-4e31-8c42-0c719091d4eb; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7f178556-12ce-4e31-8c42-0c719091d4eb"
+      }
+    ],
+    "conflicts": [],
+    "front": "茎",
+    "back": "stem"
+  },
+  {
+    "id": "SE2-L2-V24",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "ふくれる、はれる、膨張する",
+    "stem_status": "original",
+    "answer": "swell",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=ae7e5dd3-c5e6-42ce-b7e3-547d30263374; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=ae7e5dd3-c5e6-42ce-b7e3-547d30263374"
+      }
+    ],
+    "conflicts": [],
+    "front": "ふくれる、はれる、膨張する",
+    "back": "swell"
+  },
+  {
+    "id": "SE2-L2-V25",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "湿った、水分を含んだ",
+    "stem_status": "original",
+    "answer": "moist",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=38a3c177-874a-4d98-b0e2-38042c7dc5c2; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=38a3c177-874a-4d98-b0e2-38042c7dc5c2"
+      }
+    ],
+    "conflicts": [],
+    "front": "湿った、水分を含んだ",
+    "back": "moist"
+  },
+  {
+    "id": "SE2-L2-V26",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "穀物、粒、粒子、結晶粒",
+    "stem_status": "original",
+    "answer": "grain",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=e7efbe2f-e78e-4f62-8534-dd4562a1fcb2; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=e7efbe2f-e78e-4f62-8534-dd4562a1fcb2"
+      }
+    ],
+    "conflicts": [],
+    "front": "穀物、粒、粒子、結晶粒",
+    "back": "grain"
+  },
+  {
+    "id": "SE2-L2-V27",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "構造、建造物、組織",
+    "stem_status": "original",
+    "answer": "structure",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=a32f9aef-b0f4-4d51-81f7-7406fa3025eb; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a32f9aef-b0f4-4d51-81f7-7406fa3025eb"
+      }
+    ],
+    "conflicts": [],
+    "front": "構造、建造物、組織",
+    "back": "structure"
+  },
+  {
+    "id": "SE2-L2-V28",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "花蜜",
+    "stem_status": "original",
+    "answer": "nectar",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=b2eff735-86ac-4912-a5f1-72cac5c16d76; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b2eff735-86ac-4912-a5f1-72cac5c16d76"
+      }
+    ],
+    "conflicts": [],
+    "front": "花蜜",
+    "back": "nectar"
+  },
+  {
+    "id": "SE2-L2-V29",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "生き残る",
+    "stem_status": "original",
+    "answer": "survive",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=747c8ca2-3c91-40c9-8f95-210cfb76f067; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=747c8ca2-3c91-40c9-8f95-210cfb76f067"
+      }
+    ],
+    "conflicts": [],
+    "front": "生き残る",
+    "back": "survive"
+  },
+  {
+    "id": "SE2-L2-V30",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "蜂の巣",
+    "stem_status": "original",
+    "answer": "hive",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=b2743de1-5a4e-4908-86fb-fa2b4907a860; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b2743de1-5a4e-4908-86fb-fa2b4907a860"
+      }
+    ],
+    "conflicts": [],
+    "front": "蜂の巣",
+    "back": "hive"
+  },
+  {
+    "id": "SE2-L2-V31",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "構成、形成",
+    "stem_status": "original",
+    "answer": "formation",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=e35ccfea-42af-487d-afa9-948a3213bcc5; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=e35ccfea-42af-487d-afa9-948a3213bcc5"
+      }
+    ],
+    "conflicts": [],
+    "front": "構成、形成",
+    "back": "formation"
+  },
+  {
+    "id": "SE2-L2-V32",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "溶液、解法",
+    "stem_status": "original",
+    "answer": "solution",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=77a13b30-e64e-43f1-a865-16b8120f0864; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=77a13b30-e64e-43f1-a865-16b8120f0864"
+      }
+    ],
+    "conflicts": [],
+    "front": "溶液、解法",
+    "back": "solution"
+  },
+  {
+    "id": "SE2-L2-V33",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "細胞、電池",
+    "stem_status": "original",
+    "answer": "cell",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=64de6f5d-6fa4-4bcf-965e-bf605a93ad5a; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=64de6f5d-6fa4-4bcf-965e-bf605a93ad5a"
+      }
+    ],
+    "conflicts": [],
+    "front": "細胞、電池",
+    "back": "cell"
+  },
+  {
+    "id": "SE2-L2-V34",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "分割する、割る、分裂する",
+    "stem_status": "original",
+    "answer": "divide",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=017e7750-952f-4df0-b066-78297e1cf96f; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=017e7750-952f-4df0-b066-78297e1cf96f"
+      }
+    ],
+    "conflicts": [],
+    "front": "分割する、割る、分裂する",
+    "back": "divide"
+  },
+  {
+    "id": "SE2-L2-V35",
+    "unit": "Lesson 2 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson2",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "保護する、防ぐ",
+    "stem_status": "original",
+    "answer": "protect",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson2_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=69b37487-51ca-4e13-88f4-ca8050800762; questionId=a7df135d-8fec-4bec-ad6d-f1e6a9702962; source_url=https://api.ankimaker.com/workbooks/69b37487-51ca-4e13-88f4-ca8050800762/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a7df135d-8fec-4bec-ad6d-f1e6a9702962"
+      }
+    ],
+    "conflicts": [],
+    "front": "保護する、防ぐ",
+    "back": "protect"
+  },
+  {
+    "id": "SE2-L3-V01",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "参照する、調べる",
+    "stem_status": "original",
+    "answer": "refer",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=4fcbc90a-abd5-44c1-af8d-4a360f098ee7; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=4fcbc90a-abd5-44c1-af8d-4a360f098ee7"
+      }
+    ],
+    "conflicts": [],
+    "front": "参照する、調べる",
+    "back": "refer"
+  },
+  {
+    "id": "SE2-L3-V02",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "質、品質",
+    "stem_status": "original",
+    "answer": "quality",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=09b3647a-608c-4be5-9920-214bcce882bb; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=09b3647a-608c-4be5-9920-214bcce882bb"
+      }
+    ],
+    "conflicts": [],
+    "front": "質、品質",
+    "back": "quality"
+  },
+  {
+    "id": "SE2-L3-V03",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "実例、場合、事例",
+    "stem_status": "original",
+    "answer": "instance",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=94bb628b-e70c-4977-92e0-dff23cf3a917; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=94bb628b-e70c-4977-92e0-dff23cf3a917"
+      }
+    ],
+    "conflicts": [],
+    "front": "実例、場合、事例",
+    "back": "instance"
+  },
+  {
+    "id": "SE2-L3-V04",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "哺乳類",
+    "stem_status": "original",
+    "answer": "mammal",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=e5d277f7-4614-42ff-9540-c8d22f3684d1; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=e5d277f7-4614-42ff-9540-c8d22f3684d1"
+      }
+    ],
+    "conflicts": [],
+    "front": "哺乳類",
+    "back": "mammal"
+  },
+  {
+    "id": "SE2-L3-V05",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "起こる、生じる",
+    "stem_status": "original",
+    "answer": "occur",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=83b15779-6d5f-44e4-b54b-4530562e404e; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=83b15779-6d5f-44e4-b54b-4530562e404e"
+      }
+    ],
+    "conflicts": [],
+    "front": "起こる、生じる",
+    "back": "occur"
+  },
+  {
+    "id": "SE2-L3-V06",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "二酸化物",
+    "stem_status": "original",
+    "answer": "dioxide",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=27bb07b9-3eb2-4ef6-9b88-6ea155994835; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=27bb07b9-3eb2-4ef6-9b88-6ea155994835"
+      }
+    ],
+    "conflicts": [],
+    "front": "二酸化物",
+    "back": "dioxide"
+  },
+  {
+    "id": "SE2-L3-V07",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "光合成",
+    "stem_status": "original",
+    "answer": "photosynthesis",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=e1dfa527-4626-4dfb-a5d5-e0f039462a1b; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=e1dfa527-4626-4dfb-a5d5-e0f039462a1b"
+      }
+    ],
+    "conflicts": [],
+    "front": "光合成",
+    "back": "photosynthesis"
+  },
+  {
+    "id": "SE2-L3-V08",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "拡大、倍率",
+    "stem_status": "original",
+    "answer": "magnification",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=a3b93a8b-0bd5-457a-b9e9-02e06b52c714; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a3b93a8b-0bd5-457a-b9e9-02e06b52c714"
+      }
+    ],
+    "conflicts": [],
+    "front": "拡大、倍率",
+    "back": "magnification"
+  },
+  {
+    "id": "SE2-L3-V09",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "割合、率、速度",
+    "stem_status": "original",
+    "answer": "rate",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=0c5f2f40-b052-4466-bc35-a404100dc860; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=0c5f2f40-b052-4466-bc35-a404100dc860"
+      }
+    ],
+    "conflicts": [],
+    "front": "割合、率、速度",
+    "back": "rate"
+  },
+  {
+    "id": "SE2-L3-V10",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "必要とする、要求する",
+    "stem_status": "original",
+    "answer": "require",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=00c0a75e-0808-4283-b1ed-63a9a8bbbfdf; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=00c0a75e-0808-4283-b1ed-63a9a8bbbfdf"
+      }
+    ],
+    "conflicts": [],
+    "front": "必要とする、要求する",
+    "back": "require"
+  },
+  {
+    "id": "SE2-L3-V11",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "波、波動",
+    "stem_status": "original",
+    "answer": "wave",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=6b6fe41a-4676-44b0-9fbe-2678a8397d2e; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6b6fe41a-4676-44b0-9fbe-2678a8397d2e"
+      }
+    ],
+    "conflicts": [],
+    "front": "波、波動",
+    "back": "wave"
+  },
+  {
+    "id": "SE2-L3-V12",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "創造する、生成する",
+    "stem_status": "original",
+    "answer": "create",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=caa40626-0c49-4a77-b9b4-22ea0ca0ace6; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=caa40626-0c49-4a77-b9b4-22ea0ca0ace6"
+      }
+    ],
+    "conflicts": [],
+    "front": "創造する、生成する",
+    "back": "create"
+  },
+  {
+    "id": "SE2-L3-V13",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "酸素を必要とする、酸素性の",
+    "stem_status": "original",
+    "answer": "aerobic",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=43356fed-b552-46ec-a427-d57a7f4f9620; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=43356fed-b552-46ec-a427-d57a7f4f9620"
+      }
+    ],
+    "conflicts": [],
+    "front": "酸素を必要とする、酸素性の",
+    "back": "aerobic"
+  },
+  {
+    "id": "SE2-L3-V14",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "取り付ける、付着する",
+    "stem_status": "original",
+    "answer": "attach",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=1cb7ff57-47ef-4ed4-93c9-14c246c590e5; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=1cb7ff57-47ef-4ed4-93c9-14c246c590e5"
+      }
+    ],
+    "conflicts": [],
+    "front": "取り付ける、付着する",
+    "back": "attach"
+  },
+  {
+    "id": "SE2-L3-V15",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "連続、一連、直列",
+    "stem_status": "original",
+    "answer": "series",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=5a614cef-046a-4d0e-ae48-68d09ceee711; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=5a614cef-046a-4d0e-ae48-68d09ceee711"
+      }
+    ],
+    "conflicts": [],
+    "front": "連続、一連、直列",
+    "back": "series"
+  },
+  {
+    "id": "SE2-L3-V16",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "供給する",
+    "stem_status": "original",
+    "answer": "provide",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=5038f760-df58-45cd-ba7e-b93918f6c477; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=5038f760-df58-45cd-ba7e-b93918f6c477"
+      }
+    ],
+    "conflicts": [],
+    "front": "供給する",
+    "back": "provide"
+  },
+  {
+    "id": "SE2-L3-V17",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "交換する、置換",
+    "stem_status": "original",
+    "answer": "exchange",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=d2153da9-eb34-440a-a6d4-6b7dae5b3912; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=d2153da9-eb34-440a-a6d4-6b7dae5b3912"
+      }
+    ],
+    "conflicts": [],
+    "front": "交換する、置換",
+    "back": "exchange"
+  },
+  {
+    "id": "SE2-L3-V18",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "反転する、逆行する",
+    "stem_status": "original",
+    "answer": "reverse",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=9169fd06-4fba-455e-8260-da82bc00adff; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=9169fd06-4fba-455e-8260-da82bc00adff"
+      }
+    ],
+    "conflicts": [],
+    "front": "反転する、逆行する",
+    "back": "reverse"
+  },
+  {
+    "id": "SE2-L3-V19",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "粘液",
+    "stem_status": "original",
+    "answer": "mucus",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=5203475b-5d95-48ce-9b10-fbee74084f89; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=5203475b-5d95-48ce-9b10-fbee74084f89"
+      }
+    ],
+    "conflicts": [],
+    "front": "粘液",
+    "back": "mucus"
+  },
+  {
+    "id": "SE2-L3-V20",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "表す、象徴する、代表する",
+    "stem_status": "original",
+    "answer": "represent",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=414bc828-0ae7-47ad-8059-cb6c9ecae433; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=414bc828-0ae7-47ad-8059-cb6c9ecae433"
+      }
+    ],
+    "conflicts": [],
+    "front": "表す、象徴する、代表する",
+    "back": "represent"
+  },
+  {
+    "id": "SE2-L3-V21",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "吸入する、吸気する",
+    "stem_status": "original",
+    "answer": "inhale",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=25e14e6b-6eef-418a-b4a0-026710a7e93f; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=25e14e6b-6eef-418a-b4a0-026710a7e93f"
+      }
+    ],
+    "conflicts": [],
+    "front": "吸入する、吸気する",
+    "back": "inhale"
+  },
+  {
+    "id": "SE2-L3-V22",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "体積、容積、量、音量",
+    "stem_status": "original",
+    "answer": "volume",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=aeda3e54-2657-41ad-99d2-61d5f082eec1; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=aeda3e54-2657-41ad-99d2-61d5f082eec1"
+      }
+    ],
+    "conflicts": [],
+    "front": "体積、容積、量、音量",
+    "back": "volume"
+  },
+  {
+    "id": "SE2-L3-V23",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "吐き出す、呼気する",
+    "stem_status": "original",
+    "answer": "exhale",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=32aaf787-ff24-4dae-8250-042452a48c0e; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=32aaf787-ff24-4dae-8250-042452a48c0e"
+      }
+    ],
+    "conflicts": [],
+    "front": "吐き出す、呼気する",
+    "back": "exhale"
+  },
+  {
+    "id": "SE2-L3-V24",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "繰り返す",
+    "stem_status": "original",
+    "answer": "repeat",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=7a91ea75-78d1-4a6e-aff8-9d9fb0441455; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7a91ea75-78d1-4a6e-aff8-9d9fb0441455"
+      }
+    ],
+    "conflicts": [],
+    "front": "繰り返す",
+    "back": "repeat"
+  },
+  {
+    "id": "SE2-L3-V25",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "尺度、ものさし、等級",
+    "stem_status": "original",
+    "answer": "scale",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=95304064-1022-4f05-8034-03762a2772c5; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=95304064-1022-4f05-8034-03762a2772c5"
+      }
+    ],
+    "conflicts": [],
+    "front": "尺度、ものさし、等級",
+    "back": "scale"
+  },
+  {
+    "id": "SE2-L3-V26",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "散乱させる、まき散らす、ばらまく",
+    "stem_status": "original",
+    "answer": "scatter",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=99ec82a2-73a3-4484-aacd-136215d66e28; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=99ec82a2-73a3-4484-aacd-136215d66e28"
+      }
+    ],
+    "conflicts": [],
+    "front": "散乱させる、まき散らす、ばらまく",
+    "back": "scatter"
+  },
+  {
+    "id": "SE2-L3-V27",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "溶ける、溶かす、溶解する",
+    "stem_status": "original",
+    "answer": "dissolve",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=fd5f39a6-f25b-4bc5-ad65-107ce9349e75; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=fd5f39a6-f25b-4bc5-ad65-107ce9349e75"
+      }
+    ],
+    "conflicts": [],
+    "front": "溶ける、溶かす、溶解する",
+    "back": "dissolve"
+  },
+  {
+    "id": "SE2-L3-V28",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "廃棄物",
+    "stem_status": "original",
+    "answer": "waste",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=34ad77c9-ce09-4a73-b29c-66cdd968069c; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=34ad77c9-ce09-4a73-b29c-66cdd968069c"
+      }
+    ],
+    "conflicts": [],
+    "front": "廃棄物",
+    "back": "waste"
+  },
+  {
+    "id": "SE2-L3-V29",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "感染",
+    "stem_status": "original",
+    "answer": "infection",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=df851d0a-86eb-4ae9-aa8d-b42abeab339f; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=df851d0a-86eb-4ae9-aa8d-b42abeab339f"
+      }
+    ],
+    "conflicts": [],
+    "front": "感染",
+    "back": "infection"
+  },
+  {
+    "id": "SE2-L3-V30",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "避ける",
+    "stem_status": "original",
+    "answer": "avoid",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=a30554c7-e4b6-4eb5-ac33-7a6b81609721; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a30554c7-e4b6-4eb5-ac33-7a6b81609721"
+      }
+    ],
+    "conflicts": [],
+    "front": "避ける",
+    "back": "avoid"
+  },
+  {
+    "id": "SE2-L3-V31",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "喘息（ぜんそく）",
+    "stem_status": "original",
+    "answer": "asthma",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=380eaf83-b4d8-492a-918e-c45097da77b7; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=380eaf83-b4d8-492a-918e-c45097da77b7"
+      }
+    ],
+    "conflicts": [],
+    "front": "喘息（ぜんそく）",
+    "back": "asthma"
+  },
+  {
+    "id": "SE2-L3-V32",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "徐々に、しだいに",
+    "stem_status": "original",
+    "answer": "gradually",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=cae40b97-eb52-462f-b1fd-fa6d9e06545a; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=cae40b97-eb52-462f-b1fd-fa6d9e06545a"
+      }
+    ],
+    "conflicts": [],
+    "front": "徐々に、しだいに",
+    "back": "gradually"
+  },
+  {
+    "id": "SE2-L3-V33",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "含む、含有する",
+    "stem_status": "original",
+    "answer": "include",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=e1cf3c65-d61e-4520-8e23-59c3f960cc1b; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=e1cf3c65-d61e-4520-8e23-59c3f960cc1b"
+      }
+    ],
+    "conflicts": [],
+    "front": "含む、含有する",
+    "back": "include"
+  },
+  {
+    "id": "SE2-L3-V34",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "圧力",
+    "stem_status": "original",
+    "answer": "pressure",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=0d1f5485-8b18-45b7-aad7-d2b033c53ef2; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=0d1f5485-8b18-45b7-aad7-d2b033c53ef2"
+      }
+    ],
+    "conflicts": [],
+    "front": "圧力",
+    "back": "pressure"
+  },
+  {
+    "id": "SE2-L3-V35",
+    "unit": "Lesson 3 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson3",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "大陸",
+    "stem_status": "original",
+    "answer": "continent",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson3_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=0b0f59d2-320c-4d59-a330-76c25a2278f1; questionId=37705017-8b28-4d69-a0bb-a4b9f327193d; source_url=https://api.ankimaker.com/workbooks/0b0f59d2-320c-4d59-a330-76c25a2278f1/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=37705017-8b28-4d69-a0bb-a4b9f327193d"
+      }
+    ],
+    "conflicts": [],
+    "front": "大陸",
+    "back": "continent"
+  },
+  {
+    "id": "SE2-L4-V01",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "水素",
+    "stem_status": "original",
+    "answer": "hydrogen",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=618ae296-0948-46a3-8bff-e258e2619e82; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=618ae296-0948-46a3-8bff-e258e2619e82"
+      }
+    ],
+    "conflicts": [],
+    "front": "水素",
+    "back": "hydrogen"
+  },
+  {
+    "id": "SE2-L4-V02",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "エラ",
+    "stem_status": "original",
+    "answer": "gill",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=fb87a16d-061a-449a-9de1-daa5e6686f56; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=fb87a16d-061a-449a-9de1-daa5e6686f56"
+      }
+    ],
+    "conflicts": [],
+    "front": "エラ",
+    "back": "gill"
+  },
+  {
+    "id": "SE2-L4-V03",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "人工の",
+    "stem_status": "original",
+    "answer": "artificial",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=ed5c3e8a-4908-4aef-a878-54004e51971a; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=ed5c3e8a-4908-4aef-a878-54004e51971a"
+      }
+    ],
+    "conflicts": [],
+    "front": "人工の",
+    "back": "artificial"
+  },
+  {
+    "id": "SE2-L4-V04",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "蒸気",
+    "stem_status": "original",
+    "answer": "vapor",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=a44efca4-8e65-429b-9a1a-2b5e8c70663d; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=a44efca4-8e65-429b-9a1a-2b5e8c70663d"
+      }
+    ],
+    "conflicts": [],
+    "front": "蒸気",
+    "back": "vapor"
+  },
+  {
+    "id": "SE2-L4-V05",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "水準、水平、水位",
+    "stem_status": "original",
+    "answer": "level",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=7e4411c9-5077-4709-8791-6e2fbf2d3b10; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7e4411c9-5077-4709-8791-6e2fbf2d3b10"
+      }
+    ],
+    "conflicts": [],
+    "front": "水準、水平、水位",
+    "back": "level"
+  },
+  {
+    "id": "SE2-L4-V06",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "酸、酸の",
+    "stem_status": "original",
+    "answer": "acid",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=74846bb4-40ff-40e6-b2d4-ef664cf22329; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=74846bb4-40ff-40e6-b2d4-ef664cf22329"
+      }
+    ],
+    "conflicts": [],
+    "front": "酸、酸の",
+    "back": "acid"
+  },
+  {
+    "id": "SE2-L4-V07",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "解放、放す、離す、放出する、放出",
+    "stem_status": "original",
+    "answer": "release",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=c795c04d-2e2c-4645-b9bf-2f553e00be02; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=c795c04d-2e2c-4645-b9bf-2f553e00be02"
+      }
+    ],
+    "conflicts": [],
+    "front": "解放、放す、離す、放出する、放出",
+    "back": "release"
+  },
+  {
+    "id": "SE2-L4-V08",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "捕食者",
+    "stem_status": "original",
+    "answer": "predator",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=5267e016-9bb8-4b9f-8831-e17c6c1d260a; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=5267e016-9bb8-4b9f-8831-e17c6c1d260a"
+      }
+    ],
+    "conflicts": [],
+    "front": "捕食者",
+    "back": "predator"
+  },
+  {
+    "id": "SE2-L4-V09",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "酸素",
+    "stem_status": "original",
+    "answer": "oxygen",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=3e531f8f-64ea-4c95-b70a-3b895d9159bb; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=3e531f8f-64ea-4c95-b70a-3b895d9159bb"
+      }
+    ],
+    "conflicts": [],
+    "front": "酸素",
+    "back": "oxygen"
+  },
+  {
+    "id": "SE2-L4-V10",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "…につき、…ごとに、毎…で",
+    "stem_status": "original",
+    "answer": "per",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=55141652-5148-4fbd-8b43-387427511ef9; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=55141652-5148-4fbd-8b43-387427511ef9"
+      }
+    ],
+    "conflicts": [],
+    "front": "…につき、…ごとに、毎…で",
+    "back": "per"
+  },
+  {
+    "id": "SE2-L4-V11",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "検出する、探知する",
+    "stem_status": "original",
+    "answer": "detect",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=2be8b484-d7c1-4272-a5ce-534ebdd3394c; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2be8b484-d7c1-4272-a5ce-534ebdd3394c"
+      }
+    ],
+    "conflicts": [],
+    "front": "検出する、探知する",
+    "back": "detect"
+  },
+  {
+    "id": "SE2-L4-V12",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "与える、供給する、配給、供給、電源",
+    "stem_status": "original",
+    "answer": "supply",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=e9bea550-beb5-4a2d-b0f0-a85671936139; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=e9bea550-beb5-4a2d-b0f0-a85671936139"
+      }
+    ],
+    "conflicts": [],
+    "front": "与える、供給する、配給、供給、電源",
+    "back": "supply"
+  },
+  {
+    "id": "SE2-L4-V13",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "制限する、制限",
+    "stem_status": "original",
+    "answer": "limit",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=7e700017-6ac2-4a64-95a5-7b357dfbaef0; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=7e700017-6ac2-4a64-95a5-7b357dfbaef0"
+      }
+    ],
+    "conflicts": [],
+    "front": "制限する、制限",
+    "back": "limit"
+  },
+  {
+    "id": "SE2-L4-V14",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "輸送、輸送する、移送、搬送",
+    "stem_status": "original",
+    "answer": "transport",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=aaa52f78-6262-471f-b9af-30ad505caff4; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=aaa52f78-6262-471f-b9af-30ad505caff4"
+      }
+    ],
+    "conflicts": [],
+    "front": "輸送、輸送する、移送、搬送",
+    "back": "transport"
+  },
+  {
+    "id": "SE2-L4-V15",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "酵母",
+    "stem_status": "original",
+    "answer": "yeast",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=5eecdbc0-f1a4-4d62-a458-e40fd990ba90; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=5eecdbc0-f1a4-4d62-a458-e40fd990ba90"
+      }
+    ],
+    "conflicts": [],
+    "front": "酵母",
+    "back": "yeast"
+  },
+  {
+    "id": "SE2-L4-V16",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "はしか（麻疹）",
+    "stem_status": "original",
+    "answer": "measles",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=ab42a869-5f25-4971-a5ef-acd458862d2d; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=ab42a869-5f25-4971-a5ef-acd458862d2d"
+      }
+    ],
+    "conflicts": [],
+    "front": "はしか（麻疹）",
+    "back": "measles"
+  },
+  {
+    "id": "SE2-L4-V17",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "真菌類、菌類",
+    "stem_status": "original",
+    "answer": "fungus",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=afdcf8fd-6cac-4e96-ad90-cfa5d4aa4fbb; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=afdcf8fd-6cac-4e96-ad90-cfa5d4aa4fbb"
+      }
+    ],
+    "conflicts": [],
+    "front": "真菌類、菌類",
+    "back": "fungus"
+  },
+  {
+    "id": "SE2-L4-V18",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "発酵させる",
+    "stem_status": "original",
+    "answer": "ferment",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=16a048a5-5b1e-4539-a7df-3322e3ded56d; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=16a048a5-5b1e-4539-a7df-3322e3ded56d"
+      }
+    ],
+    "conflicts": [],
+    "front": "発酵させる",
+    "back": "ferment"
+  },
+  {
+    "id": "SE2-L4-V19",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "資源",
+    "stem_status": "original",
+    "answer": "resource",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=2e091cdd-bf7f-4a43-bf9c-df1ac095a317; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=2e091cdd-bf7f-4a43-bf9c-df1ac095a317"
+      }
+    ],
+    "conflicts": [],
+    "front": "資源",
+    "back": "resource"
+  },
+  {
+    "id": "SE2-L4-V20",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "要因、係数、因子",
+    "stem_status": "original",
+    "answer": "factor",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=f2b33260-9824-44a9-ba46-4ce49dbb838e; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=f2b33260-9824-44a9-ba46-4ce49dbb838e"
+      }
+    ],
+    "conflicts": [],
+    "front": "要因、係数、因子",
+    "back": "factor"
+  },
+  {
+    "id": "SE2-L4-V21",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "液体、液体状の",
+    "stem_status": "original",
+    "answer": "liquid",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=04c5ccf3-a94b-4454-866c-4a9edb0b4c6a; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=04c5ccf3-a94b-4454-866c-4a9edb0b4c6a"
+      }
+    ],
+    "conflicts": [],
+    "front": "液体、液体状の",
+    "back": "liquid"
+  },
+  {
+    "id": "SE2-L4-V22",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "急勾配の、険しい、急激な",
+    "stem_status": "original",
+    "answer": "steep",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=cd1e9131-e1a5-4b69-86f9-4f6e1b9eaf7a; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=cd1e9131-e1a5-4b69-86f9-4f6e1b9eaf7a"
+      }
+    ],
+    "conflicts": [],
+    "front": "急勾配の、険しい、急激な",
+    "back": "steep"
+  },
+  {
+    "id": "SE2-L4-V23",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "理論",
+    "stem_status": "original",
+    "answer": "theory",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=1cf944c3-263e-4fa3-b9df-ec75600e1df0; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=1cf944c3-263e-4fa3-b9df-ec75600e1df0"
+      }
+    ],
+    "conflicts": [],
+    "front": "理論",
+    "back": "theory"
+  },
+  {
+    "id": "SE2-L4-V24",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "顕微鏡",
+    "stem_status": "original",
+    "answer": "microscope",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=62eafd09-418b-4150-a07b-53b951b7fe9b; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=62eafd09-418b-4150-a07b-53b951b7fe9b"
+      }
+    ],
+    "conflicts": [],
+    "front": "顕微鏡",
+    "back": "microscope"
+  },
+  {
+    "id": "SE2-L4-V25",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "結果、（結果として）生じる",
+    "stem_status": "original",
+    "answer": "result",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=58172ec4-26c7-4c4d-9aa8-d376770d713b; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=58172ec4-26c7-4c4d-9aa8-d376770d713b"
+      }
+    ],
+    "conflicts": [],
+    "front": "結果、（結果として）生じる",
+    "back": "result"
+  },
+  {
+    "id": "SE2-L4-V26",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "核分裂、分裂",
+    "stem_status": "original",
+    "answer": "fission",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=b94c7f0a-e24a-40ea-97c8-1ecfab439c19; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b94c7f0a-e24a-40ea-97c8-1ecfab439c19"
+      }
+    ],
+    "conflicts": [],
+    "front": "核分裂、分裂",
+    "back": "fission"
+  },
+  {
+    "id": "SE2-L4-V27",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "まったく同じ、同一の",
+    "stem_status": "original",
+    "answer": "identical",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=32f1c59c-7bd3-4fcd-b752-b08101f1767b; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=32f1c59c-7bd3-4fcd-b752-b08101f1767b"
+      }
+    ],
+    "conflicts": [],
+    "front": "まったく同じ、同一の",
+    "back": "identical"
+  },
+  {
+    "id": "SE2-L4-V28",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "染色体",
+    "stem_status": "original",
+    "answer": "chromosome",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=069fadd3-1348-434b-9447-0fe44156217e; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=069fadd3-1348-434b-9447-0fe44156217e"
+      }
+    ],
+    "conflicts": [],
+    "front": "染色体",
+    "back": "chromosome"
+  },
+  {
+    "id": "SE2-L4-V29",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "記述、説明",
+    "stem_status": "original",
+    "answer": "description",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=b581605e-59b7-490f-94d4-6728125fa42a; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b581605e-59b7-490f-94d4-6728125fa42a"
+      }
+    ],
+    "conflicts": [],
+    "front": "記述、説明",
+    "back": "description"
+  },
+  {
+    "id": "SE2-L4-V30",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "命令、指示、指令",
+    "stem_status": "original",
+    "answer": "instruction",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=6e0bd1b7-97d3-4335-b0ae-15ef0fd9a984; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6e0bd1b7-97d3-4335-b0ae-15ef0fd9a984"
+      }
+    ],
+    "conflicts": [],
+    "front": "命令、指示、指令",
+    "back": "instruction"
+  },
+  {
+    "id": "SE2-L4-V31",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "排水管、排水する",
+    "stem_status": "original",
+    "answer": "drain",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=1a15dd92-9313-419b-a7c6-54a023808d90; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=1a15dd92-9313-419b-a7c6-54a023808d90"
+      }
+    ],
+    "conflicts": [],
+    "front": "排水管、排水する",
+    "back": "drain"
+  },
+  {
+    "id": "SE2-L4-V32",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "垂直な",
+    "stem_status": "original",
+    "answer": "vertical",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=6f75b5aa-c0d8-48f0-9707-3f8ce73431d7; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=6f75b5aa-c0d8-48f0-9707-3f8ce73431d7"
+      }
+    ],
+    "conflicts": [],
+    "front": "垂直な",
+    "back": "vertical"
+  },
+  {
+    "id": "SE2-L4-V33",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "種、種類",
+    "stem_status": "original",
+    "answer": "species",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=992a53a3-2041-47c1-85ea-9dc4546185eb; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=992a53a3-2041-47c1-85ea-9dc4546185eb"
+      }
+    ],
+    "conflicts": [],
+    "front": "種、種類",
+    "back": "species"
+  },
+  {
+    "id": "SE2-L4-V34",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "細菌",
+    "stem_status": "original",
+    "answer": "bacteria",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=fae413da-7f5e-4575-86e1-4d39518842b6; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=fae413da-7f5e-4575-86e1-4d39518842b6"
+      }
+    ],
+    "conflicts": [],
+    "front": "細菌",
+    "back": "bacteria"
+  },
+  {
+    "id": "SE2-L4-V35",
+    "unit": "Lesson 4 語彙_write",
+    "form": "flashcard",
+    "tags": [
+      "Lesson4",
+      "語彙_write",
+      "vocab",
+      "flashcard",
+      "ShortTest4",
+      "ankimaker"
+    ],
+    "stem": "温度",
+    "stem_status": "original",
+    "answer": "temperature",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/raw_lesson4_vocab_questions.json",
+        "note": "ankimaker group=高専生を守る党; workbook_id=ce0351eb-bc7d-453f-a53e-bf160a925ea6; questionId=b1c0fd61-f432-4263-b9ce-a54bc10772a0; source_url=https://api.ankimaker.com/workbooks/ce0351eb-bc7d-453f-a53e-bf160a925ea6/questions?page=1&pageSize=100&sortBy=manual&sortOrder=asc; set=語彙_write; origin=Short Test4"
+      },
+      {
+        "file": "RAW/science_english_lessons1-4.json",
+        "note": "整理済み156問の1件; questionId=b1c0fd61-f432-4263-b9ce-a54bc10772a0"
+      }
+    ],
+    "conflicts": [],
+    "front": "温度",
+    "back": "temperature"
+  }
+]
