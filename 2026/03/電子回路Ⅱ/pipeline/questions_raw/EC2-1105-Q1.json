@@ -1,0 +1,52 @@
+{
+  "id": "EC2-1105-Q1",
+  "unit": "差動増幅（11/5 講義分）",
+  "form": "essay",
+  "stem": {
+    "value": "Summarize the following text in Japanese.（差動増幅の導出。特別な場合 $R_1=R_3$, $R_2=R_4$ のとき $v_o=(R_2/R_1)(v_2-v_1)$。印刷式(5)の第2項添字は採点で 2→1 に訂正。）",
+    "status": "original"
+  },
+  "answer": {
+    "value": "理解しなさい。演算増幅回路は以下の図に示されている。気をつけろ。ゼロ電流が演算増幅端子に入力されている。節点aとbにキルヒホッフの電流則を適用しろ。（以降の要約本文は用紙上に見当たらず、冒頭の命令文調の訳のみ。）",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 要約が冒頭のみで未完了の可能性。残部は unverified 扱いを別IDで記録。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "explanation": {
+    "value": "印刷式(5)はもともと $(v_2-v_2)$ で、赤ペンにより第2項添字を 1 へ訂正（採点）。手書き要約は冒頭数行のみ確認。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1105_q1_differential.png",
+      "page": 6,
+      "caption": {
+        "value": "差動増幅回路",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 6,
+      "note": "問1 要約"
+    }
+  ],
+  "tags": [
+    "差動増幅",
+    "要約",
+    "英語"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:eq5",
+      "before": "{{手書き: 添字1}}",
+      "after": "{{採点: 添字1}}",
+      "reason": "赤ペン訂正を再分類"
+    }
+  ]
+}

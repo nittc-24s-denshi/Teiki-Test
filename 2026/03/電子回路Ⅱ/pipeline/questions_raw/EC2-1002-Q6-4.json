@@ -1,0 +1,40 @@
+{
+  "id": "EC2-1002-Q6-4",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "(a) の位相を $0\\,\\mathrm{rad}$ とすると、(b) の位相は何 $\\mathrm{rad}$ か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$+\\dfrac{\\pi}{6}\\,\\mathrm{rad}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 黒インク手書き＋赤丸。赤ペン新規記入ではない。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_q6_waveforms.png",
+      "page": 1,
+      "caption": {
+        "value": "波形 a・b",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問6(4)"
+    }
+  ],
+  "tags": [
+    "波形",
+    "位相"
+  ]
+}

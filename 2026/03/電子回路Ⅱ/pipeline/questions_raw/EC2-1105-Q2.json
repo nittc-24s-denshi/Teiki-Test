@@ -1,0 +1,35 @@
+{
+  "id": "EC2-1105-Q2",
+  "unit": "差動増幅（11/5 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "Find $v_o$ given that $v_1=1\\,\\mathrm{V}$ and $v_2=2\\,\\mathrm{V}$。（回路: 反転側 $2\\,\\mathrm{k}/30\\,\\mathrm{k}$、非反転側 $2\\,\\mathrm{k}/20\\,\\mathrm{k}$。抵抗比が不一致のため単純な $(R_2/R_1)(v_2-v_1)$ は使えない。）",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入）",
+    "status": "unverified"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1105_q2_differential.png",
+      "page": 6,
+      "caption": {
+        "value": "差動増幅数値回路（問2）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 6,
+      "note": "問2（未記入）"
+    }
+  ],
+  "tags": [
+    "差動増幅",
+    "計算",
+    "未記入"
+  ]
+}

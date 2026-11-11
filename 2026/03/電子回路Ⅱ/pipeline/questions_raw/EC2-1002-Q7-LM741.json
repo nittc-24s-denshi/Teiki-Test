@@ -1,0 +1,43 @@
+{
+  "id": "EC2-1002-Q7-LM741",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "short_answer",
+  "stem": {
+    "value": "オペアンプ LM741 のピン配置を調査せよ（8ピン DIP）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "1:OFFSET NULL, 2:INVERTING INPUT, 3:NON-INVERTING INPUT, 4:V-, 5:OFFSET NULL, 6:OUTPUT, 7:V+, 8:NC",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点: ○（大赤丸）。確認印あり（日付のみ記録）。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_q7_lm741_pins.png",
+      "page": 2,
+      "caption": {
+        "value": "LM741 ピン配置（手書き）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 2,
+      "note": "問7 LM741"
+    }
+  ],
+  "tags": [
+    "ピン配置",
+    "LM741"
+  ]
+}

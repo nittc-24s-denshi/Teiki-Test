@@ -1,0 +1,44 @@
+{
+  "id": "EC2-1023-Q3",
+  "unit": "非反転増幅（10/23 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "Calculate the voltage gain $A_v$ of a noninverting amplifier for $R_f=200\\,\\mathrm{k}\\Omega$, $R_1=10\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$A_v=200/10+1=21$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点: 確認印（日付のみ）。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1023_q3_noninverting.png",
+      "page": 5,
+      "caption": {
+        "value": "非反転増幅（問3）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 5,
+      "note": "問3"
+    }
+  ],
+  "tags": [
+    "非反転増幅",
+    "計算"
+  ]
+}

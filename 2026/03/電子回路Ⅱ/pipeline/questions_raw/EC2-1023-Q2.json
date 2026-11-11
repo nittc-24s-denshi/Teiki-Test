@@ -1,0 +1,40 @@
+{
+  "id": "EC2-1023-Q2",
+  "unit": "非反転増幅（10/23 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "Calculate the output voltage $v_o$ of a noninverting amplifier for $v_i=2\\,\\mathrm{V}$, $R_f=500\\,\\mathrm{k}\\Omega$, $R_1=100\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$v_o=\\dfrac{2\\,\\mathrm{V}}{100\\,\\mathrm{k}\\Omega}\\cdot 500\\,\\mathrm{k}\\Omega+2\\,\\mathrm{V}=12\\,\\mathrm{V}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1023_q2_noninverting.png",
+      "page": 5,
+      "caption": {
+        "value": "非反転増幅（問2）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 5,
+      "note": "問2"
+    }
+  ],
+  "tags": [
+    "非反転増幅",
+    "計算"
+  ]
+}

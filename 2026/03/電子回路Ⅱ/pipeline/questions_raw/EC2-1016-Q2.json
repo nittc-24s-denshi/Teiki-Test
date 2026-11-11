@@ -1,0 +1,41 @@
+{
+  "id": "EC2-1016-Q2",
+  "unit": "反転増幅（10/16 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "What input voltage $v_i$ results in an output of $2\\,\\mathrm{V}$ in the circuit, assuming an open-loop gain $A_O=\\infty$? （$R_1=20\\,\\mathrm{k}\\Omega$, $R_2=1\\,\\mathrm{M}\\Omega$）",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$v_i=-40\\,\\mathrm{mV}$（過程: $A_v=-50$）",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 図上に手書き 1000k（=1MΩ）あり。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1016_q2_inverting.png",
+      "page": 3,
+      "caption": {
+        "value": "反転増幅回路（問2）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 3,
+      "note": "問2"
+    }
+  ],
+  "tags": [
+    "反転増幅",
+    "計算",
+    "英語設問"
+  ]
+}

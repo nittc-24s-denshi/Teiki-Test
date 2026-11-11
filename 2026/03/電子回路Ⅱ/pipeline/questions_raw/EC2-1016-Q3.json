@@ -1,0 +1,44 @@
+{
+  "id": "EC2-1016-Q3",
+  "unit": "反転増幅（10/16 講義分）",
+  "form": "essay",
+  "stem": {
+    "value": "Summarize the following text in Japanese.（反転増幅の KCL 導出英文: $v_o=-(R_f/R_1)v_i$, $A_v=-R_f/R_1$）",
+    "status": "original"
+  },
+  "answer": {
+    "value": "この回路において、非反転入力は接地されている。$v_i$ は $R_1$ を介して反転入力に接続されている。また、帰還抵抗 $R_f$ は反転入力と出力の間を接続している。私たちの目標は、入力電圧 $v_i$ と出力電圧 $v_o$ の間の関係を得ることである。KCLを節点1に適用する。$i_1$ は $i_f$ と等しい。よって、$v_i$ から $v_1$ を引いたものを $R_1$ で割ったものは、$v_1$ から $v_o$ を引いたものを $R_f$ で割ったものと等しい。しかし、理想的な演算増幅器において $v_1$ と $v_2$ は等しくその値は 0 であることから、非反転端子は接地されている。ゆえに、$v_i/R_1=-v_o/R_f$ となり、$v_o=-(R_f/R_1)v_i$、$A_v=v_o/v_i=-R_f/R_1$。",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点: 確認印（日付のみ）。要約中の挿入は手書き。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1016_q3_inverting_kcl.png",
+      "page": 4,
+      "caption": {
+        "value": "反転増幅 KCL 図（手書き注記）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 4,
+      "note": "問3 要約"
+    }
+  ],
+  "tags": [
+    "反転増幅",
+    "要約",
+    "英語"
+  ]
+}

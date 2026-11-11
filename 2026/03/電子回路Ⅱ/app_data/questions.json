@@ -1,0 +1,1027 @@
+{
+  "schema_version": "1.0.0",
+  "exam": "2026/03",
+  "subject": "電子回路Ⅱ",
+  "generated_at": "2026-11-11T00:47:04Z",
+  "notes": "採点済み課題（マスク版6頁: 10/2・10/16・10/23・11/5 講義分）。手書き解答は inferred（ページ画像照合）。採点・赤ペン訂正は explanation/corrections に分離。未記入は unverified。穴埋め本番は未実施（filled=false）。公式範囲表は未入手。氏名・学籍番号は含めない。",
+  "questions": [
+    {
+      "id": "EC2-META-TRANSCRIPT-QC",
+      "unit": "メタ（文字起こし訂正）",
+      "form": "other",
+      "stem": {
+        "value": "文字起こしをマスク済みページ画像と照合して訂正した記録。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "メタ"
+        }
+      ],
+      "tags": [
+        "meta",
+        "corrections"
+      ],
+      "corrections": [
+        {
+          "field": "transcript:p1.q6.2.freq",
+          "before": "318 Hz（Gemini原文のまま）",
+          "after": "318 Hz（手書き・採点○）。検算注記: 横軸 0〜2π ms を1周期と読めば f≈159 Hz、π ms を1周期と読めば ≈318 Hz",
+          "reason": "ページ画像照合で手書きは318 Hz・赤丸。周期解釈はグラフを要再確認"
+        },
+        {
+          "field": "transcript:p1.q2.decimal",
+          "before": "{{手書き: 20√2 V}} {{採点: =28.28 V}} 等を混在表記",
+          "after": "手書きは 20√2 V / 10√2 V。小数は赤ペン採点側",
+          "reason": "ページ画像照合。赤は採点、黒は解答"
+        },
+        {
+          "field": "transcript:p1.q6.1.rms_decimal",
+          "before": "{{手書き: 2/√2 mV}} {{採点: =1.41 mV}}",
+          "after": "手書きは 2/√2 mV。≒1.41 mV は赤ペン採点",
+          "reason": "ページ画像照合"
+        },
+        {
+          "field": "transcript:p2.chip_name",
+          "before": "TL84CN",
+          "after": "TL084CN",
+          "reason": "ページ画像照合。印刷見出しは TL084CN"
+        },
+        {
+          "field": "transcript:p6.eq5.subscript",
+          "before": "{{手書き: 1}}（v2 添字訂正）",
+          "after": "{{採点: 1}}（赤ペンで第2項添字を 2→1 に訂正）",
+          "reason": "ページ画像照合。赤は採点訂正、黒の下書きではない"
+        },
+        {
+          "field": "transcript:p3.lecture_date",
+          "before": "10/16 を手書き扱い",
+          "after": "見出しの 10/16 は手書き記入、講義分は印刷",
+          "reason": "ページ画像照合"
+        },
+        {
+          "field": "transcript:stamp_names",
+          "before": "確認印に氏名らしき字",
+          "after": "確認印（日付のみ記録）。印から氏名を復元しない",
+          "reason": "個人情報方針。採点側の印として日付のみ残す"
+        },
+        {
+          "field": "calc:p1.q6.2",
+          "before": "手書き 318 Hz（採点○）",
+          "after": "検算メモ: T=2π×10^{-3} s なら f=1000/(2π)≈159.15 Hz",
+          "reason": "学生解答は書き換えず併記。周期読み取り要確認"
+        }
+      ]
+    },
+    {
+      "id": "EC2-1002-Q1-1",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "true_false",
+      "stem": {
+        "value": "オペアンプの特徴: (1) 電圧利得が大きい。正しいものには○、誤っているものには×。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "○",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: ○（赤丸）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問1(1)"
+        }
+      ],
+      "tags": [
+        "オペアンプ",
+        "特徴",
+        "○×"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q1-2",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "true_false",
+      "stem": {
+        "value": "オペアンプの特徴: (2) 入力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "×",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: ○（赤丸）。理想オペアンプの入力インピーダンスは大きい。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問1(2)"
+        }
+      ],
+      "tags": [
+        "オペアンプ",
+        "特徴",
+        "○×"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q1-3",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "true_false",
+      "stem": {
+        "value": "オペアンプの特徴: (3) 差動増幅する。正しいものには○、誤っているものには×。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "○",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: ○（赤丸）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問1(3)"
+        }
+      ],
+      "tags": [
+        "オペアンプ",
+        "特徴",
+        "○×"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q1-4",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "true_false",
+      "stem": {
+        "value": "オペアンプの特徴: (4) 出力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "○",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: ○（赤丸）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問1(4)"
+        }
+      ],
+      "tags": [
+        "オペアンプ",
+        "特徴",
+        "○×"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q2-1",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{pp}$ を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$20\\sqrt{2}\\,\\mathrm{V}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点追記: $=28.28\\,\\mathrm{V}$（赤ペン）。関係: $V_{pp}=2\\sqrt{2}\\,V_{rms}$。",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 赤ペン小数は採点側。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問2(1)"
+        }
+      ],
+      "tags": [
+        "実効値",
+        "Vpp",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q2-2",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{op}$ を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$10\\sqrt{2}\\,\\mathrm{V}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点追記: $=14.14\\,\\mathrm{V}$（赤ペン）。$V_{op}=\\sqrt{2}\\,V_{rms}$。",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 赤ペン小数は採点側。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問2(2)"
+        }
+      ],
+      "tags": [
+        "実効値",
+        "Vop",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q3",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "$2\\,\\mathrm{mV}$ 入力で $9\\,\\mathrm{mV}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$13.1\\,\\mathrm{dB}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。$20\\log_{10}(9/2)\\approx13.06$。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問3"
+        }
+      ],
+      "tags": [
+        "ゲイン",
+        "dB",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q4",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "$19\\,\\mathrm{V}$ 入力で $2\\,\\mathrm{V}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$-19.6\\,\\mathrm{dB}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。$20\\log_{10}(2/19)\\approx-19.55$。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問4"
+        }
+      ],
+      "tags": [
+        "ゲイン",
+        "dB",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q5",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "ゲイン $30\\,\\mathrm{dB}$ のとき、$1\\,\\mathrm{mV}$ 入力で何 $\\mathrm{mV}$ 出力か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$31.6\\,\\mathrm{mV}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。$10^{30/20}\\approx31.62$。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問5"
+        }
+      ],
+      "tags": [
+        "ゲイン",
+        "dB",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q6-1",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "図の波形 (a) の振幅 $V_{op}$ と実効値 $V_{rms}$ を答えよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$V_{op}=2\\,\\mathrm{mV}$,\\ $V_{rms}=\\dfrac{2}{\\sqrt{2}}\\,\\mathrm{mV}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点追記: $V_{rms}\\fallingdotseq 1.41\\,\\mathrm{mV}$（赤ペン）。",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 小数は採点側。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_q6_waveforms.png",
+          "page": 1,
+          "caption": {
+            "value": "波形 a（実線）と b（破線）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問6(1)"
+        }
+      ],
+      "tags": [
+        "波形",
+        "Vop",
+        "Vrms"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q6-2",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "図の波形 (a)(b) の周波数 $f$ を答えよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$318\\,\\mathrm{Hz}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。検算: 横軸0〜2π msを1周期とすれば≈159 Hz。手書きは書き換えない。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "corrections": [
+        {
+          "field": "answer",
+          "before": "検算候補 ≈159 Hz（T=2π ms）",
+          "after": "手書き 318 Hz を保持（採点○）",
+          "reason": "周期の読み取りが曖昧なため原文優先。要再確認"
+        }
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_q6_waveforms.png",
+          "page": 1,
+          "caption": {
+            "value": "波形 a・b",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問6(2)"
+        }
+      ],
+      "tags": [
+        "波形",
+        "周波数"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q6-3",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "(a) を入力、(b) を出力としたときのゲインは何 $\\mathrm{dB}$ か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$G=20\\log\\dfrac{5}{2}\\fallingdotseq 7.96\\,\\mathrm{dB}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○（7.96 を赤丸）。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_q6_waveforms.png",
+          "page": 1,
+          "caption": {
+            "value": "波形 a・b",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問6(3)"
+        }
+      ],
+      "tags": [
+        "波形",
+        "ゲイン",
+        "dB"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q6-4",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "(a) の位相を $0\\,\\mathrm{rad}$ とすると、(b) の位相は何 $\\mathrm{rad}$ か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$+\\dfrac{\\pi}{6}\\,\\mathrm{rad}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 黒インク手書き＋赤丸。赤ペン新規記入ではない。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_q6_waveforms.png",
+          "page": 1,
+          "caption": {
+            "value": "波形 a・b",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問6(4)"
+        }
+      ],
+      "tags": [
+        "波形",
+        "位相"
+      ]
+    },
+    {
+      "id": "EC2-1002-Q7-TL084",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "short_answer",
+      "stem": {
+        "value": "オペアンプ TL084CN のピン配置を調査せよ（14ピン DIP）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "1:1OUT, 2:1IN-, 3:1IN+, 4:VCC+, 5:2IN+, 6:2IN-, 7:2OUT, 8:3OUT, 9:3IN-, 10:3IN+, 11:VCC-, 12:4IN+, 13:4IN-, 14:4OUT",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: ○（大赤丸）。確認印あり（日付のみ記録）。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_q7_tl084cn_pins.png",
+          "page": 2,
+          "caption": {
+            "value": "TL084CN ピン配置（手書き）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 2,
+          "note": "問7 TL084CN"
+        }
+      ],
+      "tags": [
+        "ピン配置",
+        "TL084CN"
+      ],
+      "corrections": [
+        {
+          "field": "stem",
+          "before": "TL84CN",
+          "after": "TL084CN",
+          "reason": "印刷見出し照合"
+        }
+      ]
+    },
+    {
+      "id": "EC2-1002-Q7-LM741",
+      "unit": "オペアンプ基礎（10/2 講義分）",
+      "form": "short_answer",
+      "stem": {
+        "value": "オペアンプ LM741 のピン配置を調査せよ（8ピン DIP）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "1:OFFSET NULL, 2:INVERTING INPUT, 3:NON-INVERTING INPUT, 4:V-, 5:OFFSET NULL, 6:OUTPUT, 7:V+, 8:NC",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: ○（大赤丸）。確認印あり（日付のみ記録）。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_q7_lm741_pins.png",
+          "page": 2,
+          "caption": {
+            "value": "LM741 ピン配置（手書き）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 2,
+          "note": "問7 LM741"
+        }
+      ],
+      "tags": [
+        "ピン配置",
+        "LM741"
+      ]
+    },
+    {
+      "id": "EC2-1016-Q1",
+      "unit": "反転増幅（10/16 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "What is the output voltage $v_o$ in the circuit, assuming an infinite open-loop gain $A_O$? （反転増幅: $v_i=1.5\\,\\mathrm{V}$, $R_1=20\\,\\mathrm{k}\\Omega$, $R_2=250\\,\\mathrm{k}\\Omega$）",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$v_o=-18.75\\,\\mathrm{V}$（過程: $A_v=-250/20=-12.5$）",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1016_q1_inverting.png",
+          "page": 3,
+          "caption": {
+            "value": "反転増幅回路（問1）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 3,
+          "note": "問1"
+        }
+      ],
+      "tags": [
+        "反転増幅",
+        "計算",
+        "英語設問"
+      ]
+    },
+    {
+      "id": "EC2-1016-Q2",
+      "unit": "反転増幅（10/16 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "What input voltage $v_i$ results in an output of $2\\,\\mathrm{V}$ in the circuit, assuming an open-loop gain $A_O=\\infty$? （$R_1=20\\,\\mathrm{k}\\Omega$, $R_2=1\\,\\mathrm{M}\\Omega$）",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$v_i=-40\\,\\mathrm{mV}$（過程: $A_v=-50$）",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 図上に手書き 1000k（=1MΩ）あり。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1016_q2_inverting.png",
+          "page": 3,
+          "caption": {
+            "value": "反転増幅回路（問2）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 3,
+          "note": "問2"
+        }
+      ],
+      "tags": [
+        "反転増幅",
+        "計算",
+        "英語設問"
+      ]
+    },
+    {
+      "id": "EC2-1016-Q3",
+      "unit": "反転増幅（10/16 講義分）",
+      "form": "essay",
+      "stem": {
+        "value": "Summarize the following text in Japanese.（反転増幅の KCL 導出英文: $v_o=-(R_f/R_1)v_i$, $A_v=-R_f/R_1$）",
+        "status": "original"
+      },
+      "answer": {
+        "value": "この回路において、非反転入力は接地されている。$v_i$ は $R_1$ を介して反転入力に接続されている。また、帰還抵抗 $R_f$ は反転入力と出力の間を接続している。私たちの目標は、入力電圧 $v_i$ と出力電圧 $v_o$ の間の関係を得ることである。KCLを節点1に適用する。$i_1$ は $i_f$ と等しい。よって、$v_i$ から $v_1$ を引いたものを $R_1$ で割ったものは、$v_1$ から $v_o$ を引いたものを $R_f$ で割ったものと等しい。しかし、理想的な演算増幅器において $v_1$ と $v_2$ は等しくその値は 0 であることから、非反転端子は接地されている。ゆえに、$v_i/R_1=-v_o/R_f$ となり、$v_o=-(R_f/R_1)v_i$、$A_v=v_o/v_i=-R_f/R_1$。",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: 確認印（日付のみ）。要約中の挿入は手書き。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1016_q3_inverting_kcl.png",
+          "page": 4,
+          "caption": {
+            "value": "反転増幅 KCL 図（手書き注記）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 4,
+          "note": "問3 要約"
+        }
+      ],
+      "tags": [
+        "反転増幅",
+        "要約",
+        "英語"
+      ]
+    },
+    {
+      "id": "EC2-1023-Q1",
+      "unit": "非反転増幅（10/23 講義分）",
+      "form": "essay",
+      "stem": {
+        "value": "Summarize the following text in Japanese.（非反転増幅の導出: $v_o=(1+R_f/R_1)v_i$, $A_v=1+R_f/R_1$）",
+        "status": "original"
+      },
+      "answer": {
+        "value": "この回路において、入力電圧 $v_i$ は非反転入力端子に直接入力されている。そして抵抗 $R_1$ は接地点と反転入力の間をつなげる。私たちは出力電圧 $v_o$ と電圧増幅率 $A_v$ に興味がある。キルヒホッフの電流則を反転入力に当てはめると、$i_1=i_2$ すなわち $(0-v_1)/R_1=(v_1-v_o)/R_f$。しかし $v_1=v_2=v_i$。よって $(-v_i)/R_1=(v_i-v_o)/R_f$ となり、$v_o=(1+R_f/R_1)v_i$。電圧利得は $A_v=v_o/v_i=1+R_f/R_1$ であり、これは負ではない。",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1023_q1_noninverting.png",
+          "page": 5,
+          "caption": {
+            "value": "非反転増幅回路",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 5,
+          "note": "問1 要約"
+        }
+      ],
+      "tags": [
+        "非反転増幅",
+        "要約",
+        "英語"
+      ]
+    },
+    {
+      "id": "EC2-1023-Q2",
+      "unit": "非反転増幅（10/23 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "Calculate the output voltage $v_o$ of a noninverting amplifier for $v_i=2\\,\\mathrm{V}$, $R_f=500\\,\\mathrm{k}\\Omega$, $R_1=100\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$v_o=\\dfrac{2\\,\\mathrm{V}}{100\\,\\mathrm{k}\\Omega}\\cdot 500\\,\\mathrm{k}\\Omega+2\\,\\mathrm{V}=12\\,\\mathrm{V}$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1023_q2_noninverting.png",
+          "page": 5,
+          "caption": {
+            "value": "非反転増幅（問2）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 5,
+          "note": "問2"
+        }
+      ],
+      "tags": [
+        "非反転増幅",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1023-Q3",
+      "unit": "非反転増幅（10/23 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "Calculate the voltage gain $A_v$ of a noninverting amplifier for $R_f=200\\,\\mathrm{k}\\Omega$, $R_1=10\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$A_v=200/10+1=21$",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "explanation": {
+        "value": "採点: 確認印（日付のみ）。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1023_q3_noninverting.png",
+          "page": 5,
+          "caption": {
+            "value": "非反転増幅（問3）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 5,
+          "note": "問3"
+        }
+      ],
+      "tags": [
+        "非反転増幅",
+        "計算"
+      ]
+    },
+    {
+      "id": "EC2-1105-Q1",
+      "unit": "差動増幅（11/5 講義分）",
+      "form": "essay",
+      "stem": {
+        "value": "Summarize the following text in Japanese.（差動増幅の導出。特別な場合 $R_1=R_3$, $R_2=R_4$ のとき $v_o=(R_2/R_1)(v_2-v_1)$。印刷式(5)の第2項添字は採点で 2→1 に訂正。）",
+        "status": "original"
+      },
+      "answer": {
+        "value": "理解しなさい。演算増幅回路は以下の図に示されている。気をつけろ。ゼロ電流が演算増幅端子に入力されている。節点aとbにキルヒホッフの電流則を適用しろ。（以降の要約本文は用紙上に見当たらず、冒頭の命令文調の訳のみ。）",
+        "status": "inferred",
+        "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 要約が冒頭のみで未完了の可能性。残部は unverified 扱いを別IDで記録。",
+        "tools": [
+          "gemini-4-argon-transcript",
+          "manual-page-image-check"
+        ]
+      },
+      "explanation": {
+        "value": "印刷式(5)はもともと $(v_2-v_2)$ で、赤ペンにより第2項添字を 1 へ訂正（採点）。手書き要約は冒頭数行のみ確認。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1105_q1_differential.png",
+          "page": 6,
+          "caption": {
+            "value": "差動増幅回路",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 6,
+          "note": "問1 要約"
+        }
+      ],
+      "tags": [
+        "差動増幅",
+        "要約",
+        "英語"
+      ],
+      "corrections": [
+        {
+          "field": "transcript:eq5",
+          "before": "{{手書き: 添字1}}",
+          "after": "{{採点: 添字1}}",
+          "reason": "赤ペン訂正を再分類"
+        }
+      ]
+    },
+    {
+      "id": "EC2-1105-Q1-REST",
+      "unit": "差動増幅（11/5 講義分）",
+      "form": "essay",
+      "stem": {
+        "value": "差動増幅英文要約の続き（式(1)〜(5)の日本語化の残部）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入または判読不能。冒頭以外の要約なし）",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 6,
+          "note": "問1 要約残部"
+        }
+      ],
+      "tags": [
+        "差動増幅",
+        "要約",
+        "未記入"
+      ]
+    },
+    {
+      "id": "EC2-1105-Q2",
+      "unit": "差動増幅（11/5 講義分）",
+      "form": "calculation",
+      "stem": {
+        "value": "Find $v_o$ given that $v_1=1\\,\\mathrm{V}$ and $v_2=2\\,\\mathrm{V}$。（回路: 反転側 $2\\,\\mathrm{k}/30\\,\\mathrm{k}$、非反転側 $2\\,\\mathrm{k}/20\\,\\mathrm{k}$。抵抗比が不一致のため単純な $(R_2/R_1)(v_2-v_1)$ は使えない。）",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入）",
+        "status": "unverified"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/figures/fig_1105_q2_differential.png",
+          "page": 6,
+          "caption": {
+            "value": "差動増幅数値回路（問2）",
+            "status": "original"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+          "page": 6,
+          "note": "問2（未記入）"
+        }
+      ],
+      "tags": [
+        "差動増幅",
+        "計算",
+        "未記入"
+      ]
+    }
+  ]
+}

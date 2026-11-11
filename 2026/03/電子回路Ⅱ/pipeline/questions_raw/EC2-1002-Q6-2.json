@@ -1,0 +1,48 @@
+{
+  "id": "EC2-1002-Q6-2",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "図の波形 (a)(b) の周波数 $f$ を答えよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$318\\,\\mathrm{Hz}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。検算: 横軸0〜2π msを1周期とすれば≈159 Hz。手書きは書き換えない。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "corrections": [
+    {
+      "field": "answer",
+      "before": "検算候補 ≈159 Hz（T=2π ms）",
+      "after": "手書き 318 Hz を保持（採点○）",
+      "reason": "周期の読み取りが曖昧なため原文優先。要再確認"
+    }
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_q6_waveforms.png",
+      "page": 1,
+      "caption": {
+        "value": "波形 a・b",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問6(2)"
+    }
+  ],
+  "tags": [
+    "波形",
+    "周波数"
+  ]
+}

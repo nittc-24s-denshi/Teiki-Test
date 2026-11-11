@@ -1,0 +1,178 @@
+[
+  {
+    "name": "fig_q6_waveforms",
+    "path": "pipeline/images/figures/fig_q6_waveforms.png",
+    "page": 1,
+    "caption": "問6 波形 a（実線・振幅2mV）と b（破線・振幅5mV）",
+    "box": [
+      561,
+      815,
+      1047,
+      1411
+    ],
+    "size": [
+      486,
+      596
+    ]
+  },
+  {
+    "name": "fig_q7_tl084cn_pins",
+    "path": "pipeline/images/figures/fig_q7_tl084cn_pins.png",
+    "page": 2,
+    "caption": "問7 TL084CN 14ピン配置（手書き）",
+    "box": [
+      97,
+      177,
+      1118,
+      815
+    ],
+    "size": [
+      1021,
+      638
+    ]
+  },
+  {
+    "name": "fig_q7_lm741_pins",
+    "path": "pipeline/images/figures/fig_q7_lm741_pins.png",
+    "page": 2,
+    "caption": "問7 LM741 8ピン配置（手書き）",
+    "box": [
+      97,
+      921,
+      1118,
+      1506
+    ],
+    "size": [
+      1021,
+      585
+    ]
+  },
+  {
+    "name": "fig_1016_q1_inverting",
+    "path": "pipeline/images/figures/fig_1016_q1_inverting.png",
+    "page": 3,
+    "caption": "10/16 問1 反転増幅回路（vi=1.5V, R1=20kΩ, R2=250kΩ）",
+    "box": [
+      537,
+      235,
+      1228,
+      672
+    ],
+    "size": [
+      691,
+      437
+    ]
+  },
+  {
+    "name": "fig_1016_q2_inverting",
+    "path": "pipeline/images/figures/fig_1016_q2_inverting.png",
+    "page": 3,
+    "caption": "10/16 問2 反転増幅回路（R1=20kΩ, R2=1MΩ, vo=2V）",
+    "box": [
+      537,
+      873,
+      1228,
+      1377
+    ],
+    "size": [
+      691,
+      504
+    ]
+  },
+  {
+    "name": "fig_1016_q3_inverting_kcl",
+    "path": "pipeline/images/figures/fig_1016_q3_inverting_kcl.png",
+    "page": 4,
+    "caption": "10/16 問3 反転増幅のKCL説明図（手書き注記付き）",
+    "box": [
+      539,
+      166,
+      1090,
+      600
+    ],
+    "size": [
+      551,
+      434
+    ]
+  },
+  {
+    "name": "fig_1023_q1_noninverting",
+    "path": "pipeline/images/figures/fig_1023_q1_noninverting.png",
+    "page": 5,
+    "caption": "10/23 問1 非反転増幅回路",
+    "box": [
+      566,
+      169,
+      1098,
+      507
+    ],
+    "size": [
+      532,
+      338
+    ]
+  },
+  {
+    "name": "fig_1023_q2_noninverting",
+    "path": "pipeline/images/figures/fig_1023_q2_noninverting.png",
+    "page": 5,
+    "caption": "10/23 問2 非反転増幅（vi=2V, Rf=500kΩ, R1=100kΩ）",
+    "box": [
+      566,
+      846,
+      1098,
+      1116
+    ],
+    "size": [
+      532,
+      270
+    ]
+  },
+  {
+    "name": "fig_1023_q3_noninverting",
+    "path": "pipeline/images/figures/fig_1023_q3_noninverting.png",
+    "page": 5,
+    "caption": "10/23 問3 非反転増幅（Rf=200kΩ, R1=10kΩ）",
+    "box": [
+      566,
+      1218,
+      1098,
+      1522
+    ],
+    "size": [
+      532,
+      304
+    ]
+  },
+  {
+    "name": "fig_1105_q1_differential",
+    "path": "pipeline/images/figures/fig_1105_q1_differential.png",
+    "page": 6,
+    "caption": "11/5 問1 差動増幅回路",
+    "box": [
+      510,
+      227,
+      1032,
+      584
+    ],
+    "size": [
+      522,
+      357
+    ]
+  },
+  {
+    "name": "fig_1105_q2_differential",
+    "path": "pipeline/images/figures/fig_1105_q2_differential.png",
+    "page": 6,
+    "caption": "11/5 問2 差動増幅（2k/30k/2k/20k, v1=1V, v2=2V）",
+    "box": [
+      404,
+      1201,
+      1032,
+      1559
+    ],
+    "size": [
+      628,
+      358
+    ]
+  }
+]

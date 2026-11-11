@@ -1,0 +1,41 @@
+{
+  "id": "EC2-1002-Q6-3",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "(a) を入力、(b) を出力としたときのゲインは何 $\\mathrm{dB}$ か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$G=20\\log\\dfrac{5}{2}\\fallingdotseq 7.96\\,\\mathrm{dB}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○（7.96 を赤丸）。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_q6_waveforms.png",
+      "page": 1,
+      "caption": {
+        "value": "波形 a・b",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問6(3)"
+    }
+  ],
+  "tags": [
+    "波形",
+    "ゲイン",
+    "dB"
+  ]
+}

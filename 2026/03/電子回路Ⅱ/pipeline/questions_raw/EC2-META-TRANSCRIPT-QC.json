@@ -1,0 +1,74 @@
+{
+  "id": "EC2-META-TRANSCRIPT-QC",
+  "unit": "メタ（文字起こし訂正）",
+  "form": "other",
+  "stem": {
+    "value": "文字起こしをマスク済みページ画像と照合して訂正した記録。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "メタ"
+    }
+  ],
+  "tags": [
+    "meta",
+    "corrections"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:p1.q6.2.freq",
+      "before": "318 Hz（Gemini原文のまま）",
+      "after": "318 Hz（手書き・採点○）。検算注記: 横軸 0〜2π ms を1周期と読めば f≈159 Hz、π ms を1周期と読めば ≈318 Hz",
+      "reason": "ページ画像照合で手書きは318 Hz・赤丸。周期解釈はグラフを要再確認"
+    },
+    {
+      "field": "transcript:p1.q2.decimal",
+      "before": "{{手書き: 20√2 V}} {{採点: =28.28 V}} 等を混在表記",
+      "after": "手書きは 20√2 V / 10√2 V。小数は赤ペン採点側",
+      "reason": "ページ画像照合。赤は採点、黒は解答"
+    },
+    {
+      "field": "transcript:p1.q6.1.rms_decimal",
+      "before": "{{手書き: 2/√2 mV}} {{採点: =1.41 mV}}",
+      "after": "手書きは 2/√2 mV。≒1.41 mV は赤ペン採点",
+      "reason": "ページ画像照合"
+    },
+    {
+      "field": "transcript:p2.chip_name",
+      "before": "TL84CN",
+      "after": "TL084CN",
+      "reason": "ページ画像照合。印刷見出しは TL084CN"
+    },
+    {
+      "field": "transcript:p6.eq5.subscript",
+      "before": "{{手書き: 1}}（v2 添字訂正）",
+      "after": "{{採点: 1}}（赤ペンで第2項添字を 2→1 に訂正）",
+      "reason": "ページ画像照合。赤は採点訂正、黒の下書きではない"
+    },
+    {
+      "field": "transcript:p3.lecture_date",
+      "before": "10/16 を手書き扱い",
+      "after": "見出しの 10/16 は手書き記入、講義分は印刷",
+      "reason": "ページ画像照合"
+    },
+    {
+      "field": "transcript:stamp_names",
+      "before": "確認印に氏名らしき字",
+      "after": "確認印（日付のみ記録）。印から氏名を復元しない",
+      "reason": "個人情報方針。採点側の印として日付のみ残す"
+    },
+    {
+      "field": "calc:p1.q6.2",
+      "before": "手書き 318 Hz（採点○）",
+      "after": "検算メモ: T=2π×10^{-3} s なら f=1000/(2π)≈159.15 Hz",
+      "reason": "学生解答は書き換えず併記。周期読み取り要確認"
+    }
+  ]
+}

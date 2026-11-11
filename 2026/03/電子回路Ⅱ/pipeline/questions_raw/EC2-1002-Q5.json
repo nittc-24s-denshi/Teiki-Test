@@ -1,0 +1,31 @@
+{
+  "id": "EC2-1002-Q5",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "ゲイン $30\\,\\mathrm{dB}$ のとき、$1\\,\\mathrm{mV}$ 入力で何 $\\mathrm{mV}$ 出力か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$31.6\\,\\mathrm{mV}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。$10^{30/20}\\approx31.62$。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問5"
+    }
+  ],
+  "tags": [
+    "ゲイン",
+    "dB",
+    "計算"
+  ]
+}

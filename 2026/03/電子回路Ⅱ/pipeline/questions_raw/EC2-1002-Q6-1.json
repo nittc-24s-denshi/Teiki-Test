@@ -1,0 +1,50 @@
+{
+  "id": "EC2-1002-Q6-1",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "図の波形 (a) の振幅 $V_{op}$ と実効値 $V_{rms}$ を答えよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$V_{op}=2\\,\\mathrm{mV}$,\\ $V_{rms}=\\dfrac{2}{\\sqrt{2}}\\,\\mathrm{mV}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点追記: $V_{rms}\\fallingdotseq 1.41\\,\\mathrm{mV}$（赤ペン）。",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 小数は採点側。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_q6_waveforms.png",
+      "page": 1,
+      "caption": {
+        "value": "波形 a（実線）と b（破線）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問6(1)"
+    }
+  ],
+  "tags": [
+    "波形",
+    "Vop",
+    "Vrms"
+  ]
+}

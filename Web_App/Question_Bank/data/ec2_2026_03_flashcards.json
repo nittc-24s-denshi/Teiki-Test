@@ -1,0 +1,796 @@
+[
+  {
+    "id": "EC2-META-TRANSCRIPT-QC",
+    "unit": "メタ（文字起こし訂正）",
+    "form": "other",
+    "tags": [
+      "meta",
+      "corrections"
+    ],
+    "stem": "文字起こしをマスク済みページ画像と照合して訂正した記録。",
+    "stem_status": "original",
+    "answer": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "メタ"
+      }
+    ],
+    "conflicts": [],
+    "front": "文字起こしをマスク済みページ画像と照合して訂正した記録。",
+    "back": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）"
+  },
+  {
+    "id": "EC2-1002-Q1-1",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "true_false",
+    "tags": [
+      "オペアンプ",
+      "特徴",
+      "○×"
+    ],
+    "stem": "オペアンプの特徴: (1) 電圧利得が大きい。正しいものには○、誤っているものには×。",
+    "stem_status": "original",
+    "answer": "○",
+    "answer_status": "inferred",
+    "explanation": "採点: ○（赤丸）",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問1(1)"
+      }
+    ],
+    "conflicts": [],
+    "front": "オペアンプの特徴: (1) 電圧利得が大きい。正しいものには○、誤っているものには×。",
+    "back": "○"
+  },
+  {
+    "id": "EC2-1002-Q1-2",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "true_false",
+    "tags": [
+      "オペアンプ",
+      "特徴",
+      "○×"
+    ],
+    "stem": "オペアンプの特徴: (2) 入力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+    "stem_status": "original",
+    "answer": "×",
+    "answer_status": "inferred",
+    "explanation": "採点: ○（赤丸）。理想オペアンプの入力インピーダンスは大きい。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問1(2)"
+      }
+    ],
+    "conflicts": [],
+    "front": "オペアンプの特徴: (2) 入力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+    "back": "×"
+  },
+  {
+    "id": "EC2-1002-Q1-3",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "true_false",
+    "tags": [
+      "オペアンプ",
+      "特徴",
+      "○×"
+    ],
+    "stem": "オペアンプの特徴: (3) 差動増幅する。正しいものには○、誤っているものには×。",
+    "stem_status": "original",
+    "answer": "○",
+    "answer_status": "inferred",
+    "explanation": "採点: ○（赤丸）",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問1(3)"
+      }
+    ],
+    "conflicts": [],
+    "front": "オペアンプの特徴: (3) 差動増幅する。正しいものには○、誤っているものには×。",
+    "back": "○"
+  },
+  {
+    "id": "EC2-1002-Q1-4",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "true_false",
+    "tags": [
+      "オペアンプ",
+      "特徴",
+      "○×"
+    ],
+    "stem": "オペアンプの特徴: (4) 出力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+    "stem_status": "original",
+    "answer": "○",
+    "answer_status": "inferred",
+    "explanation": "採点: ○（赤丸）",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問1(4)"
+      }
+    ],
+    "conflicts": [],
+    "front": "オペアンプの特徴: (4) 出力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+    "back": "○"
+  },
+  {
+    "id": "EC2-1002-Q2-1",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "実効値",
+      "Vpp",
+      "計算"
+    ],
+    "stem": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{pp}$ を求めよ。",
+    "stem_status": "original",
+    "answer": "$20\\sqrt{2}\\,\\mathrm{V}$",
+    "answer_status": "inferred",
+    "explanation": "採点追記: $=28.28\\,\\mathrm{V}$（赤ペン）。関係: $V_{pp}=2\\sqrt{2}\\,V_{rms}$。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問2(1)"
+      }
+    ],
+    "conflicts": [],
+    "front": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{pp}$ を求めよ。",
+    "back": "$20\\sqrt{2}\\,\\mathrm{V}$"
+  },
+  {
+    "id": "EC2-1002-Q2-2",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "実効値",
+      "Vop",
+      "計算"
+    ],
+    "stem": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{op}$ を求めよ。",
+    "stem_status": "original",
+    "answer": "$10\\sqrt{2}\\,\\mathrm{V}$",
+    "answer_status": "inferred",
+    "explanation": "採点追記: $=14.14\\,\\mathrm{V}$（赤ペン）。$V_{op}=\\sqrt{2}\\,V_{rms}$。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問2(2)"
+      }
+    ],
+    "conflicts": [],
+    "front": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{op}$ を求めよ。",
+    "back": "$10\\sqrt{2}\\,\\mathrm{V}$"
+  },
+  {
+    "id": "EC2-1002-Q3",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "ゲイン",
+      "dB",
+      "計算"
+    ],
+    "stem": "$2\\,\\mathrm{mV}$ 入力で $9\\,\\mathrm{mV}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+    "stem_status": "original",
+    "answer": "$13.1\\,\\mathrm{dB}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問3"
+      }
+    ],
+    "conflicts": [],
+    "front": "$2\\,\\mathrm{mV}$ 入力で $9\\,\\mathrm{mV}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+    "back": "$13.1\\,\\mathrm{dB}$"
+  },
+  {
+    "id": "EC2-1002-Q4",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "ゲイン",
+      "dB",
+      "計算"
+    ],
+    "stem": "$19\\,\\mathrm{V}$ 入力で $2\\,\\mathrm{V}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+    "stem_status": "original",
+    "answer": "$-19.6\\,\\mathrm{dB}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問4"
+      }
+    ],
+    "conflicts": [],
+    "front": "$19\\,\\mathrm{V}$ 入力で $2\\,\\mathrm{V}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+    "back": "$-19.6\\,\\mathrm{dB}$"
+  },
+  {
+    "id": "EC2-1002-Q5",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "ゲイン",
+      "dB",
+      "計算"
+    ],
+    "stem": "ゲイン $30\\,\\mathrm{dB}$ のとき、$1\\,\\mathrm{mV}$ 入力で何 $\\mathrm{mV}$ 出力か。",
+    "stem_status": "original",
+    "answer": "$31.6\\,\\mathrm{mV}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問5"
+      }
+    ],
+    "conflicts": [],
+    "front": "ゲイン $30\\,\\mathrm{dB}$ のとき、$1\\,\\mathrm{mV}$ 入力で何 $\\mathrm{mV}$ 出力か。",
+    "back": "$31.6\\,\\mathrm{mV}$"
+  },
+  {
+    "id": "EC2-1002-Q6-1",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "波形",
+      "Vop",
+      "Vrms"
+    ],
+    "stem": "図の波形 (a) の振幅 $V_{op}$ と実効値 $V_{rms}$ を答えよ。",
+    "stem_status": "original",
+    "answer": "$V_{op}=2\\,\\mathrm{mV}$,\\ $V_{rms}=\\dfrac{2}{\\sqrt{2}}\\,\\mathrm{mV}$",
+    "answer_status": "inferred",
+    "explanation": "採点追記: $V_{rms}\\fallingdotseq 1.41\\,\\mathrm{mV}$（赤ペン）。",
+    "explanation_status": "inferred",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_q6_waveforms.png",
+        "page": 1,
+        "caption": {
+          "value": "波形 a（実線）と b（破線）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問6(1)"
+      }
+    ],
+    "conflicts": [],
+    "front": "図の波形 (a) の振幅 $V_{op}$ と実効値 $V_{rms}$ を答えよ。",
+    "back": "$V_{op}=2\\,\\mathrm{mV}$,\\ $V_{rms}=\\dfrac{2}{\\sqrt{2}}\\,\\mathrm{mV}$"
+  },
+  {
+    "id": "EC2-1002-Q6-2",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "波形",
+      "周波数"
+    ],
+    "stem": "図の波形 (a)(b) の周波数 $f$ を答えよ。",
+    "stem_status": "original",
+    "answer": "$318\\,\\mathrm{Hz}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_q6_waveforms.png",
+        "page": 1,
+        "caption": {
+          "value": "波形 a・b",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問6(2)"
+      }
+    ],
+    "conflicts": [],
+    "front": "図の波形 (a)(b) の周波数 $f$ を答えよ。",
+    "back": "$318\\,\\mathrm{Hz}$"
+  },
+  {
+    "id": "EC2-1002-Q6-3",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "波形",
+      "ゲイン",
+      "dB"
+    ],
+    "stem": "(a) を入力、(b) を出力としたときのゲインは何 $\\mathrm{dB}$ か。",
+    "stem_status": "original",
+    "answer": "$G=20\\log\\dfrac{5}{2}\\fallingdotseq 7.96\\,\\mathrm{dB}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_q6_waveforms.png",
+        "page": 1,
+        "caption": {
+          "value": "波形 a・b",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問6(3)"
+      }
+    ],
+    "conflicts": [],
+    "front": "(a) を入力、(b) を出力としたときのゲインは何 $\\mathrm{dB}$ か。",
+    "back": "$G=20\\log\\dfrac{5}{2}\\fallingdotseq 7.96\\,\\mathrm{dB}$"
+  },
+  {
+    "id": "EC2-1002-Q6-4",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "calculation",
+    "tags": [
+      "波形",
+      "位相"
+    ],
+    "stem": "(a) の位相を $0\\,\\mathrm{rad}$ とすると、(b) の位相は何 $\\mathrm{rad}$ か。",
+    "stem_status": "original",
+    "answer": "$+\\dfrac{\\pi}{6}\\,\\mathrm{rad}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_q6_waveforms.png",
+        "page": 1,
+        "caption": {
+          "value": "波形 a・b",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 1,
+        "note": "問6(4)"
+      }
+    ],
+    "conflicts": [],
+    "front": "(a) の位相を $0\\,\\mathrm{rad}$ とすると、(b) の位相は何 $\\mathrm{rad}$ か。",
+    "back": "$+\\dfrac{\\pi}{6}\\,\\mathrm{rad}$"
+  },
+  {
+    "id": "EC2-1002-Q7-TL084",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "short_answer",
+    "tags": [
+      "ピン配置",
+      "TL084CN"
+    ],
+    "stem": "オペアンプ TL084CN のピン配置を調査せよ（14ピン DIP）。",
+    "stem_status": "original",
+    "answer": "1:1OUT, 2:1IN-, 3:1IN+, 4:VCC+, 5:2IN+, 6:2IN-, 7:2OUT, 8:3OUT, 9:3IN-, 10:3IN+, 11:VCC-, 12:4IN+, 13:4IN-, 14:4OUT",
+    "answer_status": "inferred",
+    "explanation": "採点: ○（大赤丸）。確認印あり（日付のみ記録）。",
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_q7_tl084cn_pins.png",
+        "page": 2,
+        "caption": {
+          "value": "TL084CN ピン配置（手書き）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 2,
+        "note": "問7 TL084CN"
+      }
+    ],
+    "conflicts": [],
+    "front": "オペアンプ TL084CN のピン配置を調査せよ（14ピン DIP）。",
+    "back": "1:1OUT, 2:1IN-, 3:1IN+, 4:VCC+, 5:2IN+, 6:2IN-, 7:2OUT, 8:3OUT, 9:3IN-, 10:3IN+, 11:VCC-, 12:4IN+, 13:4IN-, 14:4OUT"
+  },
+  {
+    "id": "EC2-1002-Q7-LM741",
+    "unit": "オペアンプ基礎（10/2 講義分）",
+    "form": "short_answer",
+    "tags": [
+      "ピン配置",
+      "LM741"
+    ],
+    "stem": "オペアンプ LM741 のピン配置を調査せよ（8ピン DIP）。",
+    "stem_status": "original",
+    "answer": "1:OFFSET NULL, 2:INVERTING INPUT, 3:NON-INVERTING INPUT, 4:V-, 5:OFFSET NULL, 6:OUTPUT, 7:V+, 8:NC",
+    "answer_status": "inferred",
+    "explanation": "採点: ○（大赤丸）。確認印あり（日付のみ記録）。",
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_q7_lm741_pins.png",
+        "page": 2,
+        "caption": {
+          "value": "LM741 ピン配置（手書き）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 2,
+        "note": "問7 LM741"
+      }
+    ],
+    "conflicts": [],
+    "front": "オペアンプ LM741 のピン配置を調査せよ（8ピン DIP）。",
+    "back": "1:OFFSET NULL, 2:INVERTING INPUT, 3:NON-INVERTING INPUT, 4:V-, 5:OFFSET NULL, 6:OUTPUT, 7:V+, 8:NC"
+  },
+  {
+    "id": "EC2-1016-Q1",
+    "unit": "反転増幅（10/16 講義分）",
+    "form": "calculation",
+    "tags": [
+      "反転増幅",
+      "計算",
+      "英語設問"
+    ],
+    "stem": "What is the output voltage $v_o$ in the circuit, assuming an infinite open-loop gain $A_O$? （反転増幅: $v_i=1.5\\,\\mathrm{V}$, $R_1=20\\,\\mathrm{k}\\Omega$, $R_2=250\\,\\mathrm{k}\\Omega$）",
+    "stem_status": "original",
+    "answer": "$v_o=-18.75\\,\\mathrm{V}$（過程: $A_v=-250/20=-12.5$）",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1016_q1_inverting.png",
+        "page": 3,
+        "caption": {
+          "value": "反転増幅回路（問1）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 3,
+        "note": "問1"
+      }
+    ],
+    "conflicts": [],
+    "front": "What is the output voltage $v_o$ in the circuit, assuming an infinite open-loop gain $A_O$? （反転増幅: $v_i=1.5\\,\\mathrm{V}$, $R_1=20\\,\\mathrm{k}\\Omega$, $R_2=250\\,\\mathrm{k}\\Omega$）",
+    "back": "$v_o=-18.75\\,\\mathrm{V}$（過程: $A_v=-250/20=-12.5$）"
+  },
+  {
+    "id": "EC2-1016-Q2",
+    "unit": "反転増幅（10/16 講義分）",
+    "form": "calculation",
+    "tags": [
+      "反転増幅",
+      "計算",
+      "英語設問"
+    ],
+    "stem": "What input voltage $v_i$ results in an output of $2\\,\\mathrm{V}$ in the circuit, assuming an open-loop gain $A_O=\\infty$? （$R_1=20\\,\\mathrm{k}\\Omega$, $R_2=1\\,\\mathrm{M}\\Omega$）",
+    "stem_status": "original",
+    "answer": "$v_i=-40\\,\\mathrm{mV}$（過程: $A_v=-50$）",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1016_q2_inverting.png",
+        "page": 3,
+        "caption": {
+          "value": "反転増幅回路（問2）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 3,
+        "note": "問2"
+      }
+    ],
+    "conflicts": [],
+    "front": "What input voltage $v_i$ results in an output of $2\\,\\mathrm{V}$ in the circuit, assuming an open-loop gain $A_O=\\infty$? （$R_1=20\\,\\mathrm{k}\\Omega$, $R_2=1\\,\\mathrm{M}\\Omega$）",
+    "back": "$v_i=-40\\,\\mathrm{mV}$（過程: $A_v=-50$）"
+  },
+  {
+    "id": "EC2-1016-Q3",
+    "unit": "反転増幅（10/16 講義分）",
+    "form": "essay",
+    "tags": [
+      "反転増幅",
+      "要約",
+      "英語"
+    ],
+    "stem": "Summarize the following text in Japanese.（反転増幅の KCL 導出英文: $v_o=-(R_f/R_1)v_i$, $A_v=-R_f/R_1$）",
+    "stem_status": "original",
+    "answer": "この回路において、非反転入力は接地されている。$v_i$ は $R_1$ を介して反転入力に接続されている。また、帰還抵抗 $R_f$ は反転入力と出力の間を接続している。私たちの目標は、入力電圧 $v_i$ と出力電圧 $v_o$ の間の関係を得ることである。KCLを節点1に適用する。$i_1$ は $i_f$ と等しい。よって、$v_i$ から $v_1$ を引いたものを $R_1$ で割ったものは、$v_1$ から $v_o$ を引いたものを $R_f$ で割ったものと等しい。しかし、理想的な演算増幅器において $v_1$ と $v_2$ は等しくその値は 0 であることから、非反転端子は接地されている。ゆえに、$v_i/R_1=-v_o/R_f$ となり、$v_o=-(R_f/R_1)v_i$、$A_v=v_o/v_i=-R_f/R_1$。",
+    "answer_status": "inferred",
+    "explanation": "採点: 確認印（日付のみ）。要約中の挿入は手書き。",
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1016_q3_inverting_kcl.png",
+        "page": 4,
+        "caption": {
+          "value": "反転増幅 KCL 図（手書き注記）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 4,
+        "note": "問3 要約"
+      }
+    ],
+    "conflicts": [],
+    "front": "Summarize the following text in Japanese.（反転増幅の KCL 導出英文: $v_o=-(R_f/R_1)v_i$, $A_v=-R_f/R_1$）",
+    "back": "この回路において、非反転入力は接地されている。$v_i$ は $R_1$ を介して反転入力に接続されている。また、帰還抵抗 $R_f$ は反転入力と出力の間を接続している。私たちの目標は、入力電圧 $v_i$ と出力電圧 $v_o$ の間の関係を得ることである。KCLを節点1に適用する。$i_1$ は $i_f$ と等しい。よって、$v_i$ から $v_1$ を引いたものを $R_1$ で割ったものは、$v_1$ から $v_o$ を引いたものを $R_f$ で割ったものと等しい。しかし、理想的な演算増幅器において $v_1$ と $v_2$ は等しくその値は 0 であることから、非反転端子は接地されている。ゆえに、$v_i/R_1=-v_o/R_f$ となり、$v_o=-(R_f/R_1)v_i$、$A_v=v_o/v_i=-R_f/R_1$。"
+  },
+  {
+    "id": "EC2-1023-Q1",
+    "unit": "非反転増幅（10/23 講義分）",
+    "form": "essay",
+    "tags": [
+      "非反転増幅",
+      "要約",
+      "英語"
+    ],
+    "stem": "Summarize the following text in Japanese.（非反転増幅の導出: $v_o=(1+R_f/R_1)v_i$, $A_v=1+R_f/R_1$）",
+    "stem_status": "original",
+    "answer": "この回路において、入力電圧 $v_i$ は非反転入力端子に直接入力されている。そして抵抗 $R_1$ は接地点と反転入力の間をつなげる。私たちは出力電圧 $v_o$ と電圧増幅率 $A_v$ に興味がある。キルヒホッフの電流則を反転入力に当てはめると、$i_1=i_2$ すなわち $(0-v_1)/R_1=(v_1-v_o)/R_f$。しかし $v_1=v_2=v_i$。よって $(-v_i)/R_1=(v_i-v_o)/R_f$ となり、$v_o=(1+R_f/R_1)v_i$。電圧利得は $A_v=v_o/v_i=1+R_f/R_1$ であり、これは負ではない。",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1023_q1_noninverting.png",
+        "page": 5,
+        "caption": {
+          "value": "非反転増幅回路",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 5,
+        "note": "問1 要約"
+      }
+    ],
+    "conflicts": [],
+    "front": "Summarize the following text in Japanese.（非反転増幅の導出: $v_o=(1+R_f/R_1)v_i$, $A_v=1+R_f/R_1$）",
+    "back": "この回路において、入力電圧 $v_i$ は非反転入力端子に直接入力されている。そして抵抗 $R_1$ は接地点と反転入力の間をつなげる。私たちは出力電圧 $v_o$ と電圧増幅率 $A_v$ に興味がある。キルヒホッフの電流則を反転入力に当てはめると、$i_1=i_2$ すなわち $(0-v_1)/R_1=(v_1-v_o)/R_f$。しかし $v_1=v_2=v_i$。よって $(-v_i)/R_1=(v_i-v_o)/R_f$ となり、$v_o=(1+R_f/R_1)v_i$。電圧利得は $A_v=v_o/v_i=1+R_f/R_1$ であり、これは負ではない。"
+  },
+  {
+    "id": "EC2-1023-Q2",
+    "unit": "非反転増幅（10/23 講義分）",
+    "form": "calculation",
+    "tags": [
+      "非反転増幅",
+      "計算"
+    ],
+    "stem": "Calculate the output voltage $v_o$ of a noninverting amplifier for $v_i=2\\,\\mathrm{V}$, $R_f=500\\,\\mathrm{k}\\Omega$, $R_1=100\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+    "stem_status": "original",
+    "answer": "$v_o=\\dfrac{2\\,\\mathrm{V}}{100\\,\\mathrm{k}\\Omega}\\cdot 500\\,\\mathrm{k}\\Omega+2\\,\\mathrm{V}=12\\,\\mathrm{V}$",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1023_q2_noninverting.png",
+        "page": 5,
+        "caption": {
+          "value": "非反転増幅（問2）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 5,
+        "note": "問2"
+      }
+    ],
+    "conflicts": [],
+    "front": "Calculate the output voltage $v_o$ of a noninverting amplifier for $v_i=2\\,\\mathrm{V}$, $R_f=500\\,\\mathrm{k}\\Omega$, $R_1=100\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+    "back": "$v_o=\\dfrac{2\\,\\mathrm{V}}{100\\,\\mathrm{k}\\Omega}\\cdot 500\\,\\mathrm{k}\\Omega+2\\,\\mathrm{V}=12\\,\\mathrm{V}$"
+  },
+  {
+    "id": "EC2-1023-Q3",
+    "unit": "非反転増幅（10/23 講義分）",
+    "form": "calculation",
+    "tags": [
+      "非反転増幅",
+      "計算"
+    ],
+    "stem": "Calculate the voltage gain $A_v$ of a noninverting amplifier for $R_f=200\\,\\mathrm{k}\\Omega$, $R_1=10\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+    "stem_status": "original",
+    "answer": "$A_v=200/10+1=21$",
+    "answer_status": "inferred",
+    "explanation": "採点: 確認印（日付のみ）。",
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1023_q3_noninverting.png",
+        "page": 5,
+        "caption": {
+          "value": "非反転増幅（問3）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 5,
+        "note": "問3"
+      }
+    ],
+    "conflicts": [],
+    "front": "Calculate the voltage gain $A_v$ of a noninverting amplifier for $R_f=200\\,\\mathrm{k}\\Omega$, $R_1=10\\,\\mathrm{k}\\Omega$, $A_O=\\infty$.",
+    "back": "$A_v=200/10+1=21$"
+  },
+  {
+    "id": "EC2-1105-Q1",
+    "unit": "差動増幅（11/5 講義分）",
+    "form": "essay",
+    "tags": [
+      "差動増幅",
+      "要約",
+      "英語"
+    ],
+    "stem": "Summarize the following text in Japanese.（差動増幅の導出。特別な場合 $R_1=R_3$, $R_2=R_4$ のとき $v_o=(R_2/R_1)(v_2-v_1)$。印刷式(5)の第2項添字は採点で 2→1 に訂正。）",
+    "stem_status": "original",
+    "answer": "理解しなさい。演算増幅回路は以下の図に示されている。気をつけろ。ゼロ電流が演算増幅端子に入力されている。節点aとbにキルヒホッフの電流則を適用しろ。（以降の要約本文は用紙上に見当たらず、冒頭の命令文調の訳のみ。）",
+    "answer_status": "inferred",
+    "explanation": "印刷式(5)はもともと $(v_2-v_2)$ で、赤ペンにより第2項添字を 1 へ訂正（採点）。手書き要約は冒頭数行のみ確認。",
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1105_q1_differential.png",
+        "page": 6,
+        "caption": {
+          "value": "差動増幅回路",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 6,
+        "note": "問1 要約"
+      }
+    ],
+    "conflicts": [],
+    "front": "Summarize the following text in Japanese.（差動増幅の導出。特別な場合 $R_1=R_3$, $R_2=R_4$ のとき $v_o=(R_2/R_1)(v_2-v_1)$。印刷式(5)の第2項添字は採点で 2→1 に訂正。）",
+    "back": "理解しなさい。演算増幅回路は以下の図に示されている。気をつけろ。ゼロ電流が演算増幅端子に入力されている。節点aとbにキルヒホッフの電流則を適用しろ。（以降の要約本文は用紙上に見当たらず、冒頭の命令文調の訳のみ。）"
+  },
+  {
+    "id": "EC2-1105-Q1-REST",
+    "unit": "差動増幅（11/5 講義分）",
+    "form": "essay",
+    "tags": [
+      "差動増幅",
+      "要約",
+      "未記入"
+    ],
+    "stem": "差動増幅英文要約の続き（式(1)〜(5)の日本語化の残部）。",
+    "stem_status": "original",
+    "answer": "（未記入または判読不能。冒頭以外の要約なし）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 6,
+        "note": "問1 要約残部"
+      }
+    ],
+    "conflicts": [],
+    "front": "差動増幅英文要約の続き（式(1)〜(5)の日本語化の残部）。",
+    "back": "（未記入または判読不能。冒頭以外の要約なし）"
+  },
+  {
+    "id": "EC2-1105-Q2",
+    "unit": "差動増幅（11/5 講義分）",
+    "form": "calculation",
+    "tags": [
+      "差動増幅",
+      "計算",
+      "未記入"
+    ],
+    "stem": "Find $v_o$ given that $v_1=1\\,\\mathrm{V}$ and $v_2=2\\,\\mathrm{V}$。（回路: 反転側 $2\\,\\mathrm{k}/30\\,\\mathrm{k}$、非反転側 $2\\,\\mathrm{k}/20\\,\\mathrm{k}$。抵抗比が不一致のため単純な $(R_2/R_1)(v_2-v_1)$ は使えない。）",
+    "stem_status": "original",
+    "answer": "（未記入）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/figures/fig_1105_q2_differential.png",
+        "page": 6,
+        "caption": {
+          "value": "差動増幅数値回路（問2）",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+        "page": 6,
+        "note": "問2（未記入）"
+      }
+    ],
+    "conflicts": [],
+    "front": "Find $v_o$ given that $v_1=1\\,\\mathrm{V}$ and $v_2=2\\,\\mathrm{V}$。（回路: 反転側 $2\\,\\mathrm{k}/30\\,\\mathrm{k}$、非反転側 $2\\,\\mathrm{k}/20\\,\\mathrm{k}$。抵抗比が不一致のため単純な $(R_2/R_1)(v_2-v_1)$ は使えない。）",
+    "back": "（未記入）"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "source_id": "assignment_opamp_2026-11_masked",
+  "input": "2026/03/電子回路Ⅱ/RAW/assignment_opamp_2026-11_masked.pdf",
+  "page_count": 6,
+  "embedded_images": 6,
+  "pages": [
+    "pages/assignment_opamp_2026-11_masked_p001.pdf",
+    "pages/assignment_opamp_2026-11_masked_p002.pdf",
+    "pages/assignment_opamp_2026-11_masked_p003.pdf",
+    "pages/assignment_opamp_2026-11_masked_p004.pdf",
+    "pages/assignment_opamp_2026-11_masked_p005.pdf",
+    "pages/assignment_opamp_2026-11_masked_p006.pdf"
+  ],
+  "images": [
+    "images/pages/assignment_opamp_2026-11_masked_p001.png",
+    "images/embedded/assignment_opamp_2026-11_masked_p001_img01.jpeg",
+    "images/pages/assignment_opamp_2026-11_masked_p002.png",
+    "images/embedded/assignment_opamp_2026-11_masked_p002_img01.jpeg",
+    "images/pages/assignment_opamp_2026-11_masked_p003.png",
+    "images/embedded/assignment_opamp_2026-11_masked_p003_img01.jpeg",
+    "images/pages/assignment_opamp_2026-11_masked_p004.png",
+    "images/embedded/assignment_opamp_2026-11_masked_p004_img01.jpeg",
+    "images/pages/assignment_opamp_2026-11_masked_p005.png",
+    "images/embedded/assignment_opamp_2026-11_masked_p005_img01.jpeg",
+    "images/pages/assignment_opamp_2026-11_masked_p006.png",
+    "images/embedded/assignment_opamp_2026-11_masked_p006_img01.jpeg"
+  ],
+  "transcripts": [
+    "transcripts/assignment_opamp_2026-11_masked_p001.md",
+    "transcripts/assignment_opamp_2026-11_masked_p002.md",
+    "transcripts/assignment_opamp_2026-11_masked_p003.md",
+    "transcripts/assignment_opamp_2026-11_masked_p004.md",
+    "transcripts/assignment_opamp_2026-11_masked_p005.md",
+    "transcripts/assignment_opamp_2026-11_masked_p006.md"
+  ]
+}

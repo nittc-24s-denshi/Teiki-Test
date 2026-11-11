@@ -1,0 +1,31 @@
+{
+  "id": "EC2-1002-Q4",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "$19\\,\\mathrm{V}$ 入力で $2\\,\\mathrm{V}$ 出力のアンプのゲインは何 $\\mathrm{dB}$ か。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$-19.6\\,\\mathrm{dB}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 採点○。$20\\log_{10}(2/19)\\approx-19.55$。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問4"
+    }
+  ],
+  "tags": [
+    "ゲイン",
+    "dB",
+    "計算"
+  ]
+}

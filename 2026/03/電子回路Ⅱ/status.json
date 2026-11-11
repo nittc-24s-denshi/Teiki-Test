@@ -1,0 +1,28 @@
+{
+  "exam": "2026/03",
+  "subject": "電子回路Ⅱ",
+  "updated": "2026-11-11T00:47:04Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": false,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 25,
+    "corrections": 11,
+    "unverified": 2,
+    "inferred_answers": 22
+  },
+  "unverified_ids": [
+    "EC2-1105-Q1-REST",
+    "EC2-1105-Q2"
+  ],
+  "notes": "進捗: 整備中。schema検証済み。マスク済み課題PDFのみRAW。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に ec2_2026_03 を登録。"
+}

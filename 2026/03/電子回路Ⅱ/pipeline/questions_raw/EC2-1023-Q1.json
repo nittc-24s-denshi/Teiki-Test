@@ -1,0 +1,40 @@
+{
+  "id": "EC2-1023-Q1",
+  "unit": "非反転増幅（10/23 講義分）",
+  "form": "essay",
+  "stem": {
+    "value": "Summarize the following text in Japanese.（非反転増幅の導出: $v_o=(1+R_f/R_1)v_i$, $A_v=1+R_f/R_1$）",
+    "status": "original"
+  },
+  "answer": {
+    "value": "この回路において、入力電圧 $v_i$ は非反転入力端子に直接入力されている。そして抵抗 $R_1$ は接地点と反転入力の間をつなげる。私たちは出力電圧 $v_o$ と電圧増幅率 $A_v$ に興味がある。キルヒホッフの電流則を反転入力に当てはめると、$i_1=i_2$ すなわち $(0-v_1)/R_1=(v_1-v_o)/R_f$。しかし $v_1=v_2=v_i$。よって $(-v_i)/R_1=(v_i-v_o)/R_f$ となり、$v_o=(1+R_f/R_1)v_i$。電圧利得は $A_v=v_o/v_i=1+R_f/R_1$ であり、これは負ではない。",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_1023_q1_noninverting.png",
+      "page": 5,
+      "caption": {
+        "value": "非反転増幅回路",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 5,
+      "note": "問1 要約"
+    }
+  ],
+  "tags": [
+    "非反転増幅",
+    "要約",
+    "英語"
+  ]
+}

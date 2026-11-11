@@ -1,0 +1,34 @@
+{
+  "id": "EC2-1002-Q1-4",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "true_false",
+  "stem": {
+    "value": "オペアンプの特徴: (4) 出力インピーダンスが小さい。正しいものには○、誤っているものには×。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "○",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点: ○（赤丸）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問1(4)"
+    }
+  ],
+  "tags": [
+    "オペアンプ",
+    "特徴",
+    "○×"
+  ]
+}

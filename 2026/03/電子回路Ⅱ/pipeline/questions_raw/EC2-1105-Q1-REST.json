@@ -1,0 +1,25 @@
+{
+  "id": "EC2-1105-Q1-REST",
+  "unit": "差動増幅（11/5 講義分）",
+  "form": "essay",
+  "stem": {
+    "value": "差動増幅英文要約の続き（式(1)〜(5)の日本語化の残部）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（未記入または判読不能。冒頭以外の要約なし）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 6,
+      "note": "問1 要約残部"
+    }
+  ],
+  "tags": [
+    "差動増幅",
+    "要約",
+    "未記入"
+  ]
+}

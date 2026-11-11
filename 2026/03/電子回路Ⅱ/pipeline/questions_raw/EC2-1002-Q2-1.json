@@ -1,0 +1,40 @@
+{
+  "id": "EC2-1002-Q2-1",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "calculation",
+  "stem": {
+    "value": "正弦波電圧の実効値 $V_{rms}=10\\,\\mathrm{V}$ のとき、$V_{pp}$ を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "$20\\sqrt{2}\\,\\mathrm{V}$",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check",
+      "manual-calc-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点追記: $=28.28\\,\\mathrm{V}$（赤ペン）。関係: $V_{pp}=2\\sqrt{2}\\,V_{rms}$。",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。 赤ペン小数は採点側。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問2(1)"
+    }
+  ],
+  "tags": [
+    "実効値",
+    "Vpp",
+    "計算"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "EC2-1002-Q7-TL084",
+  "unit": "オペアンプ基礎（10/2 講義分）",
+  "form": "short_answer",
+  "stem": {
+    "value": "オペアンプ TL084CN のピン配置を調査せよ（14ピン DIP）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "1:1OUT, 2:1IN-, 3:1IN+, 4:VCC+, 5:2IN+, 6:2IN-, 7:2OUT, 8:3OUT, 9:3IN-, 10:3IN+, 11:VCC-, 12:4IN+, 13:4IN-, 14:4OUT",
+    "status": "inferred",
+    "rationale": "マスク済みページ画像の手書き解答を照合して読み取り。",
+    "tools": [
+      "gemini-4-argon-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "explanation": {
+    "value": "採点: ○（大赤丸）。確認印あり（日付のみ記録）。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/figures/fig_q7_tl084cn_pins.png",
+      "page": 2,
+      "caption": {
+        "value": "TL084CN ピン配置（手書き）",
+        "status": "original"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "RAW/assignment_opamp_2026-11_masked.pdf",
+      "page": 2,
+      "note": "問7 TL084CN"
+    }
+  ],
+  "tags": [
+    "ピン配置",
+    "TL084CN"
+  ],
+  "corrections": [
+    {
+      "field": "stem",
+      "before": "TL84CN",
+      "after": "TL084CN",
+      "reason": "印刷見出し照合"
+    }
+  ]
+}
