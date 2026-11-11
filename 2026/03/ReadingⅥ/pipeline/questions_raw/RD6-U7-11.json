@@ -1,0 +1,32 @@
+{
+  "id": "RD6-U7-11",
+  "unit": "Unit 7 International Date Line",
+  "form": "essay",
+  "stem": {
+    "value": "Post-reading tasks の A, B を解答し、B については答えの根拠も本文内容及び行数を示してください。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[判読困難] ページ下部に n₁ n₂ / t₁ t₂ および (1, 2, … 5, −1, −2, … −5) 様の手書き記号あり。文脈不明のため Post-reading 解答としては未確認。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "Post-reading"
+  ],
+  "corrections": [
+    {
+      "field": "answer",
+      "before": "Gemini草稿の n_1 n_2 / t_1 t_2 を確定解答風に記載",
+      "after": "判読困難・文脈不明として unverified",
+      "reason": "ページ画像再照合。記号様手書きは残すが正答未確認"
+    }
+  ]
+}

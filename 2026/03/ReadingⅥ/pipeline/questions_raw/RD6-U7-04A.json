@@ -1,0 +1,24 @@
+{
+  "id": "RD6-U7-04A",
+  "unit": "Unit 7 International Date Line",
+  "form": "short_answer",
+  "stem": {
+    "value": "上記引用の “this” は具体的に何を示すのか日本語で答えてください。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "指示語"
+  ]
+}

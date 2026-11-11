@@ -1,0 +1,25 @@
+{
+  "id": "RD6-U8B-02C",
+  "unit": "Unit 8 What Is Friendship?（後半課題）",
+  "form": "cloze",
+  "stem": {
+    "value": "犬との友情: i. 人間が犬を (① {{?}} ) / ii. 犬が (② {{?}} ) に (③ {{?}} ) / iii. 犬は (④ {{?}} ) と (⑤ {{?}} ) を理解し、飼い主を (⑥ {{?}} ) する。飼い主はいつも犬の (⑦ {{?}} ) であるように感じ、(⑧ {{?}} ) とは感じない。（注: ① it is treated well を意訳 / ③ be devoted to～を辞書で）",
+    "status": "original"
+  },
+  "answer": {
+    "value": "①〜⑧すべて未記入",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "Unit8",
+    "後半",
+    "課題",
+    "穴埋め"
+  ]
+}

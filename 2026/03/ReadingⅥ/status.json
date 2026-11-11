@@ -1,0 +1,60 @@
+{
+  "exam": "2026/03",
+  "subject": "ReadingⅥ",
+  "updated": "2026-11-11T00:42:09Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": false,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 35,
+    "questions_excluding_meta": 34,
+    "corrections": 6,
+    "unverified": 27,
+    "inferred_answers": 7,
+    "by_unit": {
+      "Unit 6 How to Prepare a Presentation": 10,
+      "Unit 7 International Date Line": 15,
+      "Unit 8 What Is Friendship?（前半課題）": 4,
+      "Unit 8 What Is Friendship?（後半課題）": 5
+    }
+  },
+  "unverified_ids": [
+    "RD6-U6-01A",
+    "RD6-U6-01B",
+    "RD6-U6-02",
+    "RD6-U6-04",
+    "RD6-U6-05",
+    "RD6-U7-01",
+    "RD6-U7-02",
+    "RD6-U7-04A",
+    "RD6-U7-04B",
+    "RD6-U7-05",
+    "RD6-U7-06i",
+    "RD6-U7-06ii",
+    "RD6-U7-06iii",
+    "RD6-U7-07",
+    "RD6-U7-08",
+    "RD6-U7-09",
+    "RD6-U7-10",
+    "RD6-U7-11",
+    "RD6-U8A-01",
+    "RD6-U8A-02",
+    "RD6-U8A-03",
+    "RD6-U8A-04",
+    "RD6-U8B-01",
+    "RD6-U8B-02A",
+    "RD6-U8B-02B",
+    "RD6-U8B-02C",
+    "RD6-U8B-03"
+  ],
+  "notes": "進捗: 整備中。Unit 6〜8 課題プリント6ページを取り込み。schema検証済み。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に rd6_2026_03 を登録。"
+}

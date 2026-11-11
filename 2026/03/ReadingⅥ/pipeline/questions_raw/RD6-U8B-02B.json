@@ -1,0 +1,25 @@
+{
+  "id": "RD6-U8B-02B",
+  "unit": "Unit 8 What Is Friendship?（後半課題）",
+  "form": "cloze",
+  "stem": {
+    "value": "人間同士の友情では、( {{?}} ) を通じてコミュニケーションを行うが、人間同士以外の友情では、( {{?}} ) や ( {{?}} ) を通じてコミュニケーションを行う。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "Unit8",
+    "後半",
+    "課題",
+    "穴埋め"
+  ]
+}

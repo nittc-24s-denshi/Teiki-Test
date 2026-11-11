@@ -1,0 +1,24 @@
+{
+  "id": "RD6-U7-08",
+  "unit": "Unit 7 International Date Line",
+  "form": "short_answer",
+  "stem": {
+    "value": "本文を読み、現代のサモアにとって重要な貿易相手の国を英語で 3 つ挙げなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "読解"
+  ]
+}

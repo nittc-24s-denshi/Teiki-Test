@@ -1,0 +1,29 @@
+{
+  "id": "RD6-U7-04-trans",
+  "unit": "Unit 7 International Date Line",
+  "form": "short_answer",
+  "stem": {
+    "value": "Ll. 5-6 “this was not the first time Samoa made such a switch.” を日本語訳しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "{{手書き: サモアがこのような変更を行うのはこれが初めてではありません。}}",
+    "status": "inferred",
+    "rationale": "原本ページ画像の学生手書きを読み取り。正誤は未検証（確定解答ではない）。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "和訳"
+  ]
+}

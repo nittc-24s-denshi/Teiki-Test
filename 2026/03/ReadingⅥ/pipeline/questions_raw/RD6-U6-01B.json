@@ -1,0 +1,24 @@
+{
+  "id": "RD6-U6-01B",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "cloze",
+  "stem": {
+    "value": "such as a report on a book ( {{?}} ) you have read。当てはまる関係代名詞と格を答えなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "関係代名詞・格とも未記入",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "関係代名詞"
+  ]
+}

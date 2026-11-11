@@ -1,0 +1,25 @@
+{
+  "id": "RD6-U8A-02",
+  "unit": "Unit 8 What Is Friendship?（前半課題）",
+  "form": "cloze",
+  "stem": {
+    "value": "本文 7 行目 but they do with friends の do の指す内容が分かるよう、本文中のことばで完成させなさい: but they {{?}} with friends.",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "Unit8",
+    "前半",
+    "課題",
+    "代動詞"
+  ]
+}

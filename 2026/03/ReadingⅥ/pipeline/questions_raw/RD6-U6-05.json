@@ -1,0 +1,24 @@
+{
+  "id": "RD6-U6-05",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "cloze",
+  "stem": {
+    "value": "第2パラグラフ要約: あなたは自分の発表の ( {{?}} ) を練る段階で、( {{?}} ) を最初に準備し、書く。あなたの発表のすべては ( {{?}} ) へとつながるようになるべきだ。あなたがその本を好きな理由について説明する発表の場合、( {{?}} ) もしくは ( {{?}} ) があなたの触れるべきこととなる。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "要約"
+  ]
+}

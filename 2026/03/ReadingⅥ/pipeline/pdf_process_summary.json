@@ -1,0 +1,36 @@
+{
+  "source_id": "worksheets_unit6-8_2026-11",
+  "input": "2026/03/ReadingⅥ/RAW/worksheets_unit6-8_2026-11.pdf",
+  "page_count": 6,
+  "embedded_images": 6,
+  "pages": [
+    "pages/worksheets_unit6-8_2026-11_p001.pdf",
+    "pages/worksheets_unit6-8_2026-11_p002.pdf",
+    "pages/worksheets_unit6-8_2026-11_p003.pdf",
+    "pages/worksheets_unit6-8_2026-11_p004.pdf",
+    "pages/worksheets_unit6-8_2026-11_p005.pdf",
+    "pages/worksheets_unit6-8_2026-11_p006.pdf"
+  ],
+  "images": [
+    "images/pages/worksheets_unit6-8_2026-11_p001.png",
+    "images/embedded/worksheets_unit6-8_2026-11_p001_img01.jpeg",
+    "images/pages/worksheets_unit6-8_2026-11_p002.png",
+    "images/embedded/worksheets_unit6-8_2026-11_p002_img01.jpeg",
+    "images/pages/worksheets_unit6-8_2026-11_p003.png",
+    "images/embedded/worksheets_unit6-8_2026-11_p003_img01.jpeg",
+    "images/pages/worksheets_unit6-8_2026-11_p004.png",
+    "images/embedded/worksheets_unit6-8_2026-11_p004_img01.jpeg",
+    "images/pages/worksheets_unit6-8_2026-11_p005.png",
+    "images/embedded/worksheets_unit6-8_2026-11_p005_img01.jpeg",
+    "images/pages/worksheets_unit6-8_2026-11_p006.png",
+    "images/embedded/worksheets_unit6-8_2026-11_p006_img01.jpeg"
+  ],
+  "transcripts": [
+    "transcripts/worksheets_unit6-8_2026-11_p001.md",
+    "transcripts/worksheets_unit6-8_2026-11_p002.md",
+    "transcripts/worksheets_unit6-8_2026-11_p003.md",
+    "transcripts/worksheets_unit6-8_2026-11_p004.md",
+    "transcripts/worksheets_unit6-8_2026-11_p005.md",
+    "transcripts/worksheets_unit6-8_2026-11_p006.md"
+  ]
+}

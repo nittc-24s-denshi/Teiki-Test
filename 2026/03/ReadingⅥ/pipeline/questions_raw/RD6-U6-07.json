@@ -1,0 +1,41 @@
+{
+  "id": "RD6-U6-07",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "cloze",
+  "stem": {
+    "value": "Dual Scope で関係副詞 why を調べ、ページ数と説明を完成させなさい。関係副詞の why は ( {{～する理由}} ) という意味の節を作り、( {{the reason}} ) を先行詞とする。例文（1）Nobody _____ / 例文（2）Tell me _____。例文（1）は ( {{the reason}} ) を先行詞とした the reason why～。例文（2）のように先行詞の ( {{the reason}} ) が省略された形もよく用いられる。",
+    "status": "original"
+  },
+  "answer": {
+    "value": {
+      "dual_scope_page": "[未記入]",
+      "blanks_filled_by_hand": [
+        "～する理由",
+        "the reason",
+        "the reason",
+        "the reason"
+      ],
+      "example_sentences": "[未記入]",
+      "note": "かっこ内の手書きは学生原文。ページ数・例文は未記入。"
+    },
+    "status": "inferred",
+    "rationale": "ページ画像の手書き空欄を読み取り。Dual Scope ページと例文は未記入のため一部 unverified 扱いの情報を含む。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "関係副詞",
+    "Dual Scope",
+    "why"
+  ]
+}

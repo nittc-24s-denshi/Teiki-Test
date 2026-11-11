@@ -1,0 +1,25 @@
+{
+  "id": "RD6-U7-10",
+  "unit": "Unit 7 International Date Line",
+  "form": "short_answer",
+  "stem": {
+    "value": "本文によれば、サモア政府は失われた金曜日について、何を規定しましたか。該当箇所を英語で抜き出し、和訳しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "読解",
+    "抜粋"
+  ]
+}

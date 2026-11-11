@@ -1,0 +1,968 @@
+[
+  {
+    "id": "RD6-META-TRANSCRIPT-QC",
+    "unit": "メタ（文字起こし訂正）",
+    "form": "other",
+    "tags": [
+      "meta",
+      "corrections"
+    ],
+    "stem": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "stem_status": "original",
+    "answer": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1,
+        "note": "メタ"
+      }
+    ],
+    "conflicts": [],
+    "front": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "back": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）"
+  },
+  {
+    "id": "RD6-U6-01A",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "short_answer",
+    "tags": [
+      "Unit6",
+      "課題",
+      "読解"
+    ],
+    "stem": "Ll. 1-2 “First, you need to choose a topic, such as a report on a book you have read.” について: この1文において、発表の準備をするのに最初にすべきことは何だと著者は言っていますか。日本語で答えなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "Ll. 1-2 “First, you need to choose a topic, such as a report on a book you have read.” について: この1文において、発表の準備をするのに最初にすべきことは何だと著者は言っていますか。日本語で答えなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U6-01B",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係代名詞"
+    ],
+    "stem": "such as a report on a book ( {{?}} ) you have read。当てはまる関係代名詞と格を答えなさい。",
+    "stem_status": "original",
+    "answer": "関係代名詞・格とも未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "such as a report on a book ( {{?}} ) you have read。当てはまる関係代名詞と格を答えなさい。",
+    "back": "関係代名詞・格とも未記入"
+  },
+  {
+    "id": "RD6-U6-02",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係代名詞",
+      "Dual Scope",
+      "what"
+    ],
+    "stem": "Dual Scope で関係代名詞 what を調べ、ページ数と説明を完成させなさい。関係代名詞 what は ( {{?}} ) という意味を表し、( {{?}} ) なしで使う。what の導く節は、( {{?}} ) で、文全体の ( {{?}} ) や ( {{?}} ) や ( {{?}} ) になる。",
+    "stem_status": "original",
+    "answer": "Dual Scope ページおよび説明空欄は未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "Dual Scope で関係代名詞 what を調べ、ページ数と説明を完成させなさい。関係代名詞 what は ( {{?}} ) という意味を表し、( {{?}} ) なしで使う。what の導く節は、( {{?}} ) で、文全体の ( {{?}} ) や ( {{?}} ) や ( {{?}} ) になる。",
+    "back": "Dual Scope ページおよび説明空欄は未記入"
+  },
+  {
+    "id": "RD6-U6-03A",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "short_answer",
+    "tags": [
+      "Unit6",
+      "課題",
+      "different than",
+      "辞書"
+    ],
+    "stem": "Ll. 4-5 “An audience of experts will expect a different presentation than a general audience would.” について: 比較級がないのに than が出てくる。辞書で different を引き、辞書名と than の使われ方を記しなさい。",
+    "stem_status": "original",
+    "answer": "{{手書き: New Oxford American dictionary / different from が一般的。than は主に北米で使用されているが、イギリス英語における使用も増加している。～from よりも簡潔になる場合がある。}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "Ll. 4-5 “An audience of experts will expect a different presentation than a general audience would.” について: 比較級がないのに than が出てくる。辞書で different を引き、辞書名と than の使われ方を記しなさい。",
+    "back": "{{手書き: New Oxford American dictionary / different from が一般的。than は主に北米で使用されているが、イギリス英語における使用も増加している。～from よりも簡潔になる場合がある。}}"
+  },
+  {
+    "id": "RD6-U6-03B",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "short_answer",
+    "tags": [
+      "Unit6",
+      "課題",
+      "省略"
+    ],
+    "stem": "a general audience would の後ろに省略されている語を書きなさい。",
+    "stem_status": "original",
+    "answer": "{{手書き: expect a presentation}}",
+    "answer_status": "inferred",
+    "explanation": "手書き直前に expert を書いて抹消した痕跡あり（ページ画像）。",
+    "explanation_status": "inferred",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "front": "a general audience would の後ろに省略されている語を書きなさい。",
+    "back": "{{手書き: expect a presentation}}"
+  },
+  {
+    "id": "RD6-U6-04",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係副詞",
+      "Dual Scope",
+      "how"
+    ],
+    "stem": "Dual Scope で関係副詞 how を調べ、ページ数と説明を完成させなさい。関係副詞の how は、( {{?}} ) という意味を表す ( {{?}} ) を作る。もともとの先行詞は (t {{?}} ) だが、(h {{?}} ) と (t {{?}} ) は ( {{?}} ) には使わない。how は関係詞を用いて別表現もでき、ただし ( {{?}} ) は省略されることが多い。",
+    "stem_status": "original",
+    "answer": "Dual Scope ページおよび説明空欄は未記入（p.1〜2にまたがる）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1,
+        "note": "設問は p.1 から始まり p.2 へ続く"
+      },
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2,
+        "note": "設問は p.1 から始まり p.2 へ続く"
+      }
+    ],
+    "conflicts": [],
+    "front": "Dual Scope で関係副詞 how を調べ、ページ数と説明を完成させなさい。関係副詞の how は、( {{?}} ) という意味を表す ( {{?}} ) を作る。もともとの先行詞は (t {{?}} ) だが、(h {{?}} ) と (t {{?}} ) は ( {{?}} ) には使わない。how は関係詞を用いて別表現もでき、ただし ( {{?}} ) は省略されることが多い。",
+    "back": "Dual Scope ページおよび説明空欄は未記入（p.1〜2にまたがる）"
+  },
+  {
+    "id": "RD6-U6-05",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "要約"
+    ],
+    "stem": "第2パラグラフ要約: あなたは自分の発表の ( {{?}} ) を練る段階で、( {{?}} ) を最初に準備し、書く。あなたの発表のすべては ( {{?}} ) へとつながるようになるべきだ。あなたがその本を好きな理由について説明する発表の場合、( {{?}} ) もしくは ( {{?}} ) があなたの触れるべきこととなる。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "第2パラグラフ要約: あなたは自分の発表の ( {{?}} ) を練る段階で、( {{?}} ) を最初に準備し、書く。あなたの発表のすべては ( {{?}} ) へとつながるようになるべきだ。あなたがその本を好きな理由について説明する発表の場合、( {{?}} ) もしくは ( {{?}} ) があなたの触れるべきこととなる。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U6-06A",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "short_answer",
+    "tags": [
+      "Unit6",
+      "課題",
+      "表現"
+    ],
+    "stem": "it is time to ～ とは日本語にするとどういう意味ですか。",
+    "stem_status": "original",
+    "answer": "{{手書き: ～するときです。}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "it is time to ～ とは日本語にするとどういう意味ですか。",
+    "back": "{{手書き: ～するときです。}}"
+  },
+  {
+    "id": "RD6-U6-06B",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "short_answer",
+    "tags": [
+      "Unit6",
+      "課題",
+      "和訳"
+    ],
+    "stem": "Ll. 18-9 “it is time to write your introduction” と Ll. 26-7 “it is time to explain each of the reasons why you liked the book” をそれぞれ日本語にしなさい。",
+    "stem_status": "original",
+    "answer": "{{手書き: 18-19行目: 序論を書くときです。 / 26-27行目: あなたがその本を好きだった理由を、1つ1つ説明するときです。}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "Ll. 18-9 “it is time to write your introduction” と Ll. 26-7 “it is time to explain each of the reasons why you liked the book” をそれぞれ日本語にしなさい。",
+    "back": "{{手書き: 18-19行目: 序論を書くときです。 / 26-27行目: あなたがその本を好きだった理由を、1つ1つ説明するときです。}}"
+  },
+  {
+    "id": "RD6-U6-07",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係副詞",
+      "Dual Scope",
+      "why"
+    ],
+    "stem": "Dual Scope で関係副詞 why を調べ、ページ数と説明を完成させなさい。関係副詞の why は ( {{～する理由}} ) という意味の節を作り、( {{the reason}} ) を先行詞とする。例文（1）Nobody _____ / 例文（2）Tell me _____。例文（1）は ( {{the reason}} ) を先行詞とした the reason why～。例文（2）のように先行詞の ( {{the reason}} ) が省略された形もよく用いられる。",
+    "stem_status": "original",
+    "answer": {
+      "dual_scope_page": "[未記入]",
+      "blanks_filled_by_hand": [
+        "～する理由",
+        "the reason",
+        "the reason",
+        "the reason"
+      ],
+      "example_sentences": "[未記入]",
+      "note": "かっこ内の手書きは学生原文。ページ数・例文は未記入。"
+    },
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "front": "Dual Scope で関係副詞 why を調べ、ページ数と説明を完成させなさい。関係副詞の why は ( {{～する理由}} ) という意味の節を作り、( {{the reason}} ) を先行詞とする。例文（1）Nobody _____ / 例文（2）Tell me _____。例文（1）は ( {{the reason}} ) を先行詞とした the reason why～。例文（2）のように先行詞の ( {{the reason}} ) が省略された形もよく用いられる。",
+    "back": {
+      "dual_scope_page": "[未記入]",
+      "blanks_filled_by_hand": [
+        "～する理由",
+        "the reason",
+        "the reason",
+        "the reason"
+      ],
+      "example_sentences": "[未記入]",
+      "note": "かっこ内の手書きは学生原文。ページ数・例文は未記入。"
+    }
+  },
+  {
+    "id": "RD6-U7-01",
+    "unit": "Unit 7 International Date Line",
+    "form": "essay",
+    "tags": [
+      "Unit7",
+      "課題",
+      "ポイント担当",
+      "調査"
+    ],
+    "stem": "【ポイント担当グループのみ】国際日付変更線の位置と変更前後が分かる地図・画像を調べ、クラスのプライベートチャネルに出典付きで投稿せよ。",
+    "stem_status": "original",
+    "answer": "提出物・投稿内容は本スキャンに含まれない",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "【ポイント担当グループのみ】国際日付変更線の位置と変更前後が分かる地図・画像を調べ、クラスのプライベートチャネルに出典付きで投稿せよ。",
+    "back": "提出物・投稿内容は本スキャンに含まれない"
+  },
+  {
+    "id": "RD6-U7-02",
+    "unit": "Unit 7 International Date Line",
+    "form": "essay",
+    "tags": [
+      "Unit7",
+      "課題",
+      "ポイント担当",
+      "調査"
+    ],
+    "stem": "【ポイント担当グループのみ】サモアの位置が分かる地図画像を、出典付きでクラスのプライベートチャネルに投稿せよ。",
+    "stem_status": "original",
+    "answer": "提出物・投稿内容は本スキャンに含まれない",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "【ポイント担当グループのみ】サモアの位置が分かる地図画像を、出典付きでクラスのプライベートチャネルに投稿せよ。",
+    "back": "提出物・投稿内容は本スキャンに含まれない"
+  },
+  {
+    "id": "RD6-U7-03",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "指示内容"
+    ],
+    "stem": "Ll. 1~2 にある Such was the case とは具体的に何を指示していますか。日本語で説明してください。",
+    "stem_status": "original",
+    "answer": "{{手書き: サモアの日付変更線が変わり1日が失われたこと。}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "Ll. 1~2 にある Such was the case とは具体的に何を指示していますか。日本語で説明してください。",
+    "back": "{{手書き: サモアの日付変更線が変わり1日が失われたこと。}}"
+  },
+  {
+    "id": "RD6-U7-04-trans",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "和訳"
+    ],
+    "stem": "Ll. 5-6 “this was not the first time Samoa made such a switch.” を日本語訳しなさい。",
+    "stem_status": "original",
+    "answer": "{{手書き: サモアがこのような変更を行うのはこれが初めてではありません。}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "Ll. 5-6 “this was not the first time Samoa made such a switch.” を日本語訳しなさい。",
+    "back": "{{手書き: サモアがこのような変更を行うのはこれが初めてではありません。}}"
+  },
+  {
+    "id": "RD6-U7-04A",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "指示語"
+    ],
+    "stem": "上記引用の “this” は具体的に何を示すのか日本語で答えてください。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "上記引用の “this” は具体的に何を示すのか日本語で答えてください。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-04B",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "指示語"
+    ],
+    "stem": "上記引用の “such a switch” とは具体的に何を示すのか日本語で答えてください。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "上記引用の “such a switch” とは具体的に何を示すのか日本語で答えてください。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-05",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "語法",
+      "lay"
+    ],
+    "stem": "L7 の lay の活用（原形、過去形、過去分詞）を調べるとともに、ここでの意味を記してください。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "L7 の lay の活用（原形、過去形、過去分詞）を調べるとともに、ここでの意味を記してください。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-06i",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "persuade",
+      "辞書"
+    ],
+    "stem": "第2パラグラフ1文目の節について: V は persuaded。英和辞典でこの節で使われている意味をかたちと共に記しなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "第2パラグラフ1文目の節について: V は persuaded。英和辞典でこの節で使われている意味をかたちと共に記しなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-06ii",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "文型"
+    ],
+    "stem": "同節の S, V, O を明らかにしなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "front": "同節の S, V, O を明らかにしなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-06iii",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "和訳"
+    ],
+    "stem": "同節を和訳しなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3,
+        "note": "設問は p.3 から続き、和訳欄は p.4"
+      },
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 4,
+        "note": "設問は p.3 から続き、和訳欄は p.4"
+      }
+    ],
+    "conflicts": [],
+    "front": "同節を和訳しなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-07",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "読解",
+      "抜粋"
+    ],
+    "stem": "この文章によれば、サモア政府は何のために 2011 年に日付変更線を変更したのでしょうか。英語で抜き出し、和訳しなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "この文章によれば、サモア政府は何のために 2011 年に日付変更線を変更したのでしょうか。英語で抜き出し、和訳しなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-08",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "読解"
+    ],
+    "stem": "本文を読み、現代のサモアにとって重要な貿易相手の国を英語で 3 つ挙げなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "本文を読み、現代のサモアにとって重要な貿易相手の国を英語で 3 つ挙げなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-09",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "Dual Scope",
+      "as well as"
+    ],
+    "stem": "L. 19 の “as well as” という表現について Dual Scope で調べ、ページ数と説明を記してください。",
+    "stem_status": "original",
+    "answer": "Dual Scope ページ・説明とも未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "L. 19 の “as well as” という表現について Dual Scope で調べ、ページ数と説明を記してください。",
+    "back": "Dual Scope ページ・説明とも未記入"
+  },
+  {
+    "id": "RD6-U7-10",
+    "unit": "Unit 7 International Date Line",
+    "form": "short_answer",
+    "tags": [
+      "Unit7",
+      "課題",
+      "読解",
+      "抜粋"
+    ],
+    "stem": "本文によれば、サモア政府は失われた金曜日について、何を規定しましたか。該当箇所を英語で抜き出し、和訳しなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "本文によれば、サモア政府は失われた金曜日について、何を規定しましたか。該当箇所を英語で抜き出し、和訳しなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U7-11",
+    "unit": "Unit 7 International Date Line",
+    "form": "essay",
+    "tags": [
+      "Unit7",
+      "課題",
+      "Post-reading"
+    ],
+    "stem": "Post-reading tasks の A, B を解答し、B については答えの根拠も本文内容及び行数を示してください。",
+    "stem_status": "original",
+    "answer": "[判読困難] ページ下部に n₁ n₂ / t₁ t₂ および (1, 2, … 5, −1, −2, … −5) 様の手書き記号あり。文脈不明のため Post-reading 解答としては未確認。",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "front": "Post-reading tasks の A, B を解答し、B については答えの根拠も本文内容及び行数を示してください。",
+    "back": "[判読困難] ページ下部に n₁ n₂ / t₁ t₂ および (1, 2, … 5, −1, −2, … −5) 様の手書き記号あり。文脈不明のため Post-reading 解答としては未確認。"
+  },
+  {
+    "id": "RD6-U8A-01",
+    "unit": "Unit 8 What Is Friendship?（前半課題）",
+    "form": "short_answer",
+    "tags": [
+      "Unit8",
+      "前半",
+      "課題",
+      "指示語"
+    ],
+    "stem": "本文 3 行目の Without them の them とは具体的に何を指しているか。文中のことばで答えなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "本文 3 行目の Without them の them とは具体的に何を指しているか。文中のことばで答えなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U8A-02",
+    "unit": "Unit 8 What Is Friendship?（前半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "前半",
+      "課題",
+      "代動詞"
+    ],
+    "stem": "本文 7 行目 but they do with friends の do の指す内容が分かるよう、本文中のことばで完成させなさい: but they {{?}} with friends.",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "本文 7 行目 but they do with friends の do の指す内容が分かるよう、本文中のことばで完成させなさい: but they {{?}} with friends.",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U8A-03",
+    "unit": "Unit 8 What Is Friendship?（前半課題）",
+    "form": "short_answer",
+    "tags": [
+      "Unit8",
+      "前半",
+      "課題",
+      "関係代名詞"
+    ],
+    "stem": "本文 9 行目の関係代名詞節 who understands you の先行詞は何か答えなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "本文 9 行目の関係代名詞節 who understands you の先行詞は何か答えなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U8A-04",
+    "unit": "Unit 8 What Is Friendship?（前半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "前半",
+      "課題",
+      "Nor",
+      "Forest"
+    ],
+    "stem": "本文 15 行目の Nor について Forest p.595 を参照し、例文2・意味・「nor＋節」の意味・Nor に続く文で起こる現象 ( {{?}} ) を埋めなさい。",
+    "stem_status": "original",
+    "answer": "例文・意味・説明空欄はすべて未記入。担当欄（学科・出席番号）も空欄のまま。",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "front": "本文 15 行目の Nor について Forest p.595 を参照し、例文2・意味・「nor＋節」の意味・Nor に続く文で起こる現象 ( {{?}} ) を埋めなさい。",
+    "back": "例文・意味・説明空欄はすべて未記入。担当欄（学科・出席番号）も空欄のまま。"
+  },
+  {
+    "id": "RD6-U8B-01",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "short_answer",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "指示語"
+    ],
+    "stem": "本文 18,19 行目の even when they are different from your own の主語 they は具体的に何を指すか。本文中から抜き出しなさい。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "本文 18,19 行目の even when they are different from your own の主語 they は具体的に何を指すか。本文中から抜き出しなさい。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U8B-02A",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "short_answer",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "読解"
+    ],
+    "stem": "人間同士以外にどのような友情がそんざいすると本文は言っているのか（本文横の問い Q4）。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "人間同士以外にどのような友情がそんざいすると本文は言っているのか（本文横の問い Q4）。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U8B-02B",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "穴埋め"
+    ],
+    "stem": "人間同士の友情では、( {{?}} ) を通じてコミュニケーションを行うが、人間同士以外の友情では、( {{?}} ) や ( {{?}} ) を通じてコミュニケーションを行う。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "人間同士の友情では、( {{?}} ) を通じてコミュニケーションを行うが、人間同士以外の友情では、( {{?}} ) や ( {{?}} ) を通じてコミュニケーションを行う。",
+    "back": "[未記入]"
+  },
+  {
+    "id": "RD6-U8B-02C",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "穴埋め"
+    ],
+    "stem": "犬との友情: i. 人間が犬を (① {{?}} ) / ii. 犬が (② {{?}} ) に (③ {{?}} ) / iii. 犬は (④ {{?}} ) と (⑤ {{?}} ) を理解し、飼い主を (⑥ {{?}} ) する。飼い主はいつも犬の (⑦ {{?}} ) であるように感じ、(⑧ {{?}} ) とは感じない。（注: ① it is treated well を意訳 / ③ be devoted to～を辞書で）",
+    "stem_status": "original",
+    "answer": "①〜⑧すべて未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "犬との友情: i. 人間が犬を (① {{?}} ) / ii. 犬が (② {{?}} ) に (③ {{?}} ) / iii. 犬は (④ {{?}} ) と (⑤ {{?}} ) を理解し、飼い主を (⑥ {{?}} ) する。飼い主はいつも犬の (⑦ {{?}} ) であるように感じ、(⑧ {{?}} ) とは感じない。（注: ① it is treated well を意訳 / ③ be devoted to～を辞書で）",
+    "back": "①〜⑧すべて未記入"
+  },
+  {
+    "id": "RD6-U8B-03",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "essay",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "Post-reading"
+    ],
+    "stem": "教科書の Post-reading tasks A, B の解答と、B については根拠を用意してください。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "front": "教科書の Post-reading tasks A, B の解答と、B については根拠を用意してください。",
+    "back": "[未記入]"
+  }
+]

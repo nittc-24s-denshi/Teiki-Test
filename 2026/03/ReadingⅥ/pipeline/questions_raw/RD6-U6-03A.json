@@ -1,0 +1,38 @@
+{
+  "id": "RD6-U6-03A",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "short_answer",
+  "stem": {
+    "value": "Ll. 4-5 “An audience of experts will expect a different presentation than a general audience would.” について: 比較級がないのに than が出てくる。辞書で different を引き、辞書名と than の使われ方を記しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "{{手書き: New Oxford American dictionary / different from が一般的。than は主に北米で使用されているが、イギリス英語における使用も増加している。～from よりも簡潔になる場合がある。}}",
+    "status": "inferred",
+    "rationale": "原本ページ画像の学生手書きを読み取り。正誤は未検証（確定解答ではない）。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "different than",
+    "辞書"
+  ],
+  "corrections": [
+    {
+      "field": "answer",
+      "before": "Gemini草稿の句読点",
+      "after": "ページ画像の句読点に合わせた手書き読取",
+      "reason": "照合により句読点を調整"
+    }
+  ]
+}

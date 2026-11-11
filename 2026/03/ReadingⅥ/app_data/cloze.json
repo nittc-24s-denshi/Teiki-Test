@@ -1,0 +1,306 @@
+[
+  {
+    "id": "RD6-U6-01B",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係代名詞"
+    ],
+    "stem": "such as a report on a book ( {{?}} ) you have read。当てはまる関係代名詞と格を答えなさい。",
+    "stem_status": "original",
+    "answer": "関係代名詞・格とも未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "template": "such as a report on a book ( {{?}} ) you have read。当てはまる関係代名詞と格を答えなさい。"
+  },
+  {
+    "id": "RD6-U6-02",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係代名詞",
+      "Dual Scope",
+      "what"
+    ],
+    "stem": "Dual Scope で関係代名詞 what を調べ、ページ数と説明を完成させなさい。関係代名詞 what は ( {{?}} ) という意味を表し、( {{?}} ) なしで使う。what の導く節は、( {{?}} ) で、文全体の ( {{?}} ) や ( {{?}} ) や ( {{?}} ) になる。",
+    "stem_status": "original",
+    "answer": "Dual Scope ページおよび説明空欄は未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "template": "Dual Scope で関係代名詞 what を調べ、ページ数と説明を完成させなさい。関係代名詞 what は ( {{?}} ) という意味を表し、( {{?}} ) なしで使う。what の導く節は、( {{?}} ) で、文全体の ( {{?}} ) や ( {{?}} ) や ( {{?}} ) になる。"
+  },
+  {
+    "id": "RD6-U6-04",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係副詞",
+      "Dual Scope",
+      "how"
+    ],
+    "stem": "Dual Scope で関係副詞 how を調べ、ページ数と説明を完成させなさい。関係副詞の how は、( {{?}} ) という意味を表す ( {{?}} ) を作る。もともとの先行詞は (t {{?}} ) だが、(h {{?}} ) と (t {{?}} ) は ( {{?}} ) には使わない。how は関係詞を用いて別表現もでき、ただし ( {{?}} ) は省略されることが多い。",
+    "stem_status": "original",
+    "answer": "Dual Scope ページおよび説明空欄は未記入（p.1〜2にまたがる）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 1,
+        "note": "設問は p.1 から始まり p.2 へ続く"
+      },
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2,
+        "note": "設問は p.1 から始まり p.2 へ続く"
+      }
+    ],
+    "conflicts": [],
+    "template": "Dual Scope で関係副詞 how を調べ、ページ数と説明を完成させなさい。関係副詞の how は、( {{?}} ) という意味を表す ( {{?}} ) を作る。もともとの先行詞は (t {{?}} ) だが、(h {{?}} ) と (t {{?}} ) は ( {{?}} ) には使わない。how は関係詞を用いて別表現もでき、ただし ( {{?}} ) は省略されることが多い。"
+  },
+  {
+    "id": "RD6-U6-05",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "要約"
+    ],
+    "stem": "第2パラグラフ要約: あなたは自分の発表の ( {{?}} ) を練る段階で、( {{?}} ) を最初に準備し、書く。あなたの発表のすべては ( {{?}} ) へとつながるようになるべきだ。あなたがその本を好きな理由について説明する発表の場合、( {{?}} ) もしくは ( {{?}} ) があなたの触れるべきこととなる。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "template": "第2パラグラフ要約: あなたは自分の発表の ( {{?}} ) を練る段階で、( {{?}} ) を最初に準備し、書く。あなたの発表のすべては ( {{?}} ) へとつながるようになるべきだ。あなたがその本を好きな理由について説明する発表の場合、( {{?}} ) もしくは ( {{?}} ) があなたの触れるべきこととなる。"
+  },
+  {
+    "id": "RD6-U6-07",
+    "unit": "Unit 6 How to Prepare a Presentation",
+    "form": "cloze",
+    "tags": [
+      "Unit6",
+      "課題",
+      "関係副詞",
+      "Dual Scope",
+      "why"
+    ],
+    "stem": "Dual Scope で関係副詞 why を調べ、ページ数と説明を完成させなさい。関係副詞の why は ( {{～する理由}} ) という意味の節を作り、( {{the reason}} ) を先行詞とする。例文（1）Nobody _____ / 例文（2）Tell me _____。例文（1）は ( {{the reason}} ) を先行詞とした the reason why～。例文（2）のように先行詞の ( {{the reason}} ) が省略された形もよく用いられる。",
+    "stem_status": "original",
+    "answer": {
+      "dual_scope_page": "[未記入]",
+      "blanks_filled_by_hand": [
+        "～する理由",
+        "the reason",
+        "the reason",
+        "the reason"
+      ],
+      "example_sentences": "[未記入]",
+      "note": "かっこ内の手書きは学生原文。ページ数・例文は未記入。"
+    },
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "template": "Dual Scope で関係副詞 why を調べ、ページ数と説明を完成させなさい。関係副詞の why は ( {{～する理由}} ) という意味の節を作り、( {{the reason}} ) を先行詞とする。例文（1）Nobody _____ / 例文（2）Tell me _____。例文（1）は ( {{the reason}} ) を先行詞とした the reason why～。例文（2）のように先行詞の ( {{the reason}} ) が省略された形もよく用いられる。"
+  },
+  {
+    "id": "RD6-U7-01",
+    "unit": "Unit 7 International Date Line",
+    "form": "essay",
+    "tags": [
+      "Unit7",
+      "課題",
+      "ポイント担当",
+      "調査"
+    ],
+    "stem": "【ポイント担当グループのみ】国際日付変更線の位置と変更前後が分かる地図・画像を調べ、クラスのプライベートチャネルに出典付きで投稿せよ。",
+    "stem_status": "original",
+    "answer": "提出物・投稿内容は本スキャンに含まれない",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "template": "【ポイント担当グループのみ】国際日付変更線の位置と変更前後が分かる地図・画像を調べ、クラスのプライベートチャネルに出典付きで投稿せよ。"
+  },
+  {
+    "id": "RD6-U7-02",
+    "unit": "Unit 7 International Date Line",
+    "form": "essay",
+    "tags": [
+      "Unit7",
+      "課題",
+      "ポイント担当",
+      "調査"
+    ],
+    "stem": "【ポイント担当グループのみ】サモアの位置が分かる地図画像を、出典付きでクラスのプライベートチャネルに投稿せよ。",
+    "stem_status": "original",
+    "answer": "提出物・投稿内容は本スキャンに含まれない",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "template": "【ポイント担当グループのみ】サモアの位置が分かる地図画像を、出典付きでクラスのプライベートチャネルに投稿せよ。"
+  },
+  {
+    "id": "RD6-U8A-02",
+    "unit": "Unit 8 What Is Friendship?（前半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "前半",
+      "課題",
+      "代動詞"
+    ],
+    "stem": "本文 7 行目 but they do with friends の do の指す内容が分かるよう、本文中のことばで完成させなさい: but they {{?}} with friends.",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "template": "本文 7 行目 but they do with friends の do の指す内容が分かるよう、本文中のことばで完成させなさい: but they {{?}} with friends."
+  },
+  {
+    "id": "RD6-U8A-04",
+    "unit": "Unit 8 What Is Friendship?（前半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "前半",
+      "課題",
+      "Nor",
+      "Forest"
+    ],
+    "stem": "本文 15 行目の Nor について Forest p.595 を参照し、例文2・意味・「nor＋節」の意味・Nor に続く文で起こる現象 ( {{?}} ) を埋めなさい。",
+    "stem_status": "original",
+    "answer": "例文・意味・説明空欄はすべて未記入。担当欄（学科・出席番号）も空欄のまま。",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "template": "本文 15 行目の Nor について Forest p.595 を参照し、例文2・意味・「nor＋節」の意味・Nor に続く文で起こる現象 ( {{?}} ) を埋めなさい。"
+  },
+  {
+    "id": "RD6-U8B-02B",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "穴埋め"
+    ],
+    "stem": "人間同士の友情では、( {{?}} ) を通じてコミュニケーションを行うが、人間同士以外の友情では、( {{?}} ) や ( {{?}} ) を通じてコミュニケーションを行う。",
+    "stem_status": "original",
+    "answer": "[未記入]",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "人間同士の友情では、( {{?}} ) を通じてコミュニケーションを行うが、人間同士以外の友情では、( {{?}} ) や ( {{?}} ) を通じてコミュニケーションを行う。"
+  },
+  {
+    "id": "RD6-U8B-02C",
+    "unit": "Unit 8 What Is Friendship?（後半課題）",
+    "form": "cloze",
+    "tags": [
+      "Unit8",
+      "後半",
+      "課題",
+      "穴埋め"
+    ],
+    "stem": "犬との友情: i. 人間が犬を (① {{?}} ) / ii. 犬が (② {{?}} ) に (③ {{?}} ) / iii. 犬は (④ {{?}} ) と (⑤ {{?}} ) を理解し、飼い主を (⑥ {{?}} ) する。飼い主はいつも犬の (⑦ {{?}} ) であるように感じ、(⑧ {{?}} ) とは感じない。（注: ① it is treated well を意訳 / ③ be devoted to～を辞書で）",
+    "stem_status": "original",
+    "answer": "①〜⑧すべて未記入",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "犬との友情: i. 人間が犬を (① {{?}} ) / ii. 犬が (② {{?}} ) に (③ {{?}} ) / iii. 犬は (④ {{?}} ) と (⑤ {{?}} ) を理解し、飼い主を (⑥ {{?}} ) する。飼い主はいつも犬の (⑦ {{?}} ) であるように感じ、(⑧ {{?}} ) とは感じない。（注: ① it is treated well を意訳 / ③ be devoted to～を辞書で）"
+  }
+]

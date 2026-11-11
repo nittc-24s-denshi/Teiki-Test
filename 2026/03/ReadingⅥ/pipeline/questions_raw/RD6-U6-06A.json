@@ -1,0 +1,29 @@
+{
+  "id": "RD6-U6-06A",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "short_answer",
+  "stem": {
+    "value": "it is time to ～ とは日本語にするとどういう意味ですか。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "{{手書き: ～するときです。}}",
+    "status": "inferred",
+    "rationale": "原本ページ画像の学生手書きを読み取り。正誤は未検証（確定解答ではない）。",
+    "tools": [
+      "gemini-transcript",
+      "manual-page-image-check"
+    ]
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "表現"
+  ]
+}

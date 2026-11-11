@@ -1,0 +1,34 @@
+{
+  "source": "RAW/worksheets_unit6-8_2026-11.pdf",
+  "generated_at": "2026-11-11T00:42:09Z",
+  "transcript_corrections": [
+    {
+      "page": 1,
+      "field": "q3a.handwriting_punctuation",
+      "before": "が一般的. / 増加している ～from",
+      "after": "が一般的。 / 増加している。～from …場合がある。",
+      "reason": "ページ画像照合"
+    },
+    {
+      "page": 1,
+      "field": "q3b.handwriting_note",
+      "before": "expect a presentation",
+      "after": "expect a presentation（expert 抹消痕跡あり）",
+      "reason": "ページ画像照合"
+    },
+    {
+      "page": 3,
+      "field": "q6.quote_trailing_quote",
+      "before": "easier.\" \"",
+      "after": "easier.”",
+      "reason": "ページ画像照合。余分な引用符を削除"
+    },
+    {
+      "page": 4,
+      "field": "q11.handwriting",
+      "before": "n_1 n_2 / t_1 t_2 / (1, 2, ... 5, -1, -2, ... -5) を解答として記載",
+      "after": "判読困難・文脈不明の記号として注記し unverified",
+      "reason": "ページ画像再照合。Post-reading の確定解答ではない"
+    }
+  ]
+}

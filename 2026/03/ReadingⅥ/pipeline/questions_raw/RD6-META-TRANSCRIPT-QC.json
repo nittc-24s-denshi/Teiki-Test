@@ -1,0 +1,50 @@
+{
+  "id": "RD6-META-TRANSCRIPT-QC",
+  "unit": "メタ（文字起こし訂正）",
+  "form": "other",
+  "stem": {
+    "value": "文字起こしを原本ページ画像と照合して訂正した記録。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 1,
+      "note": "メタ"
+    }
+  ],
+  "tags": [
+    "meta",
+    "corrections"
+  ],
+  "corrections": [
+    {
+      "field": "transcript:p1.q3a.punctuation",
+      "before": "different from が一般的. than は主に北米で使用されているが、イギリス英語における使用も増加している ～from よりも簡潔になる場合がある",
+      "after": "different from が一般的。than は主に北米で使用されているが、イギリス英語における使用も増加している。～from よりも簡潔になる場合がある。",
+      "reason": "ページ画像照合。句読点を手書きに合わせる"
+    },
+    {
+      "field": "transcript:p1.q3b.note",
+      "before": "{{手書き: expect a presentation}}",
+      "after": "{{手書き: expect a presentation}}（直前に expert を書いて抹消した痕跡あり）",
+      "reason": "ページ画像照合。抹消痕跡を注記"
+    },
+    {
+      "field": "transcript:p3.q6.quote",
+      "before": "…to make trading easier.\" \"",
+      "after": "…to make trading easier.”",
+      "reason": "ページ画像照合。余分な引用符を削除"
+    },
+    {
+      "field": "transcript:p4.q11.handwriting",
+      "before": "{{手書き: n_1 n_2 :}} / {{手書き: t_1 t_2 :}} / {{手書き: (1, 2, ... 5, -1, -2, ... -5)}}",
+      "after": "{{手書き: [判読困難] n₁ n₂ / t₁ t₂ および (1, 2, … 5, −1, −2, … −5) 様の記号。文脈不明}}",
+      "reason": "ページ画像再照合。記号様の手書きは残すが Post-reading 解答としては未確認"
+    }
+  ]
+}

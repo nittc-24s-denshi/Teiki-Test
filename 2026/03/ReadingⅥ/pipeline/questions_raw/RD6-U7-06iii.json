@@ -1,0 +1,30 @@
+{
+  "id": "RD6-U7-06iii",
+  "unit": "Unit 7 International Date Line",
+  "form": "short_answer",
+  "stem": {
+    "value": "同節を和訳しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 3,
+      "note": "設問は p.3 から続き、和訳欄は p.4"
+    },
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 4,
+      "note": "設問は p.3 から続き、和訳欄は p.4"
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "和訳"
+  ]
+}

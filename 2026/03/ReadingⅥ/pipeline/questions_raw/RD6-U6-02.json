@@ -1,0 +1,26 @@
+{
+  "id": "RD6-U6-02",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "cloze",
+  "stem": {
+    "value": "Dual Scope で関係代名詞 what を調べ、ページ数と説明を完成させなさい。関係代名詞 what は ( {{?}} ) という意味を表し、( {{?}} ) なしで使う。what の導く節は、( {{?}} ) で、文全体の ( {{?}} ) や ( {{?}} ) や ( {{?}} ) になる。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "Dual Scope ページおよび説明空欄は未記入",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "関係代名詞",
+    "Dual Scope",
+    "what"
+  ]
+}

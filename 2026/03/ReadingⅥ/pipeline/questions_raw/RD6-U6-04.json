@@ -1,0 +1,32 @@
+{
+  "id": "RD6-U6-04",
+  "unit": "Unit 6 How to Prepare a Presentation",
+  "form": "cloze",
+  "stem": {
+    "value": "Dual Scope で関係副詞 how を調べ、ページ数と説明を完成させなさい。関係副詞の how は、( {{?}} ) という意味を表す ( {{?}} ) を作る。もともとの先行詞は (t {{?}} ) だが、(h {{?}} ) と (t {{?}} ) は ( {{?}} ) には使わない。how は関係詞を用いて別表現もでき、ただし ( {{?}} ) は省略されることが多い。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "Dual Scope ページおよび説明空欄は未記入（p.1〜2にまたがる）",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 1,
+      "note": "設問は p.1 から始まり p.2 へ続く"
+    },
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 2,
+      "note": "設問は p.1 から始まり p.2 へ続く"
+    }
+  ],
+  "tags": [
+    "Unit6",
+    "課題",
+    "関係副詞",
+    "Dual Scope",
+    "how"
+  ]
+}

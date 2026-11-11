@@ -1,0 +1,25 @@
+{
+  "id": "RD6-U7-06i",
+  "unit": "Unit 7 International Date Line",
+  "form": "short_answer",
+  "stem": {
+    "value": "第2パラグラフ1文目の節について: V は persuaded。英和辞典でこの節で使われている意味をかたちと共に記しなさい。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "[未記入]",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/worksheets_unit6-8_2026-11.pdf",
+      "page": 3
+    }
+  ],
+  "tags": [
+    "Unit7",
+    "課題",
+    "persuade",
+    "辞書"
+  ]
+}
