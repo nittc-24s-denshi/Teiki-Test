@@ -1,7 +1,7 @@
 {
   "exam": "2026/03",
   "subject": "確率統計",
-  "updated": "2026-11-10T23:46:15Z",
+  "updated": "2026-11-11T01:57:39Z",
   "pipeline": {
     "raw_ingested": true,
     "pages_split": true,
@@ -15,10 +15,10 @@
     "app_data": true
   },
   "counts": {
-    "questions": 53,
-    "corrections": 12,
-    "unverified": 7,
-    "inferred_answers": 30
+    "questions": 80,
+    "corrections": 29,
+    "unverified": 20,
+    "inferred_answers": 37
   },
   "unverified_ids": [
     "PS-L1-E3-table",
@@ -27,7 +27,20 @@
     "PS-L1-E7-table",
     "PS-L1-E7-reps",
     "PS-L5-E4",
-    "PS-L5-E5"
+    "PS-L5-E5",
+    "PS-L6-E7-1",
+    "PS-L6-E7-2",
+    "PS-REF-Q1",
+    "PS-REF-Q2",
+    "PS-REF-Q3",
+    "PS-REF-Q4",
+    "PS-REF-Q5",
+    "PS-REF-Q6",
+    "PS-REF-Q7",
+    "PS-REF-Q8",
+    "PS-REF-Q9",
+    "PS-REF-Q10",
+    "PS-REF-Q11"
   ],
-  "notes": "進捗: 整備中。schema検証済み。照合フォローアップ反映（p.20演習3(2)確定等）。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に ps_2026_03 を登録。"
+  "notes": "進捗: 整備中。第1〜5回に加え第6回打刷と2026年度後期中間試験（参考）を追加取込。参考試験を受領、公式範囲表ではない。schema検証対象。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に ps_2026_03。"
 }

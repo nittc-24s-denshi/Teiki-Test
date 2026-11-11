@@ -971,5 +971,558 @@
     ],
     "conflicts": [],
     "template": "【演習5】(1)雨の日0.4。雨のとき遅刻0.2・晴れのとき0.05。遅刻の確率。(2)予報が雨・晴れとも正答率0.8のとき、雨と予報する確率。"
+  },
+  {
+    "id": "PS-L6-EX1",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "short_answer",
+    "tags": [
+      "例",
+      "独立事象"
+    ],
+    "stem": "【例1】サイコロ3回の「1回目偶数」と「2回目4以上」は独立か。また当たり3/10本くじの非復元2回で「1回目当たり」と「2回目当たり」は独立か。理由も。",
+    "stem_status": "original",
+    "answer": "前者は独立（2回目は1回目に依らない）。後者は独立でない（非復元のため2回目の当たりやすさが1回目に依存）。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "template": "【例1】サイコロ3回の「1回目偶数」と「2回目4以上」は独立か。また当たり3/10本くじの非復元2回で「1回目当たり」と「2回目当たり」は独立か。理由も。"
+  },
+  {
+    "id": "PS-L6-E1-1",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "独立事象"
+    ],
+    "stem": "【演習1(1)】1〜$n$のカードから1枚。$A$:3の倍数、$B$:5の倍数。$n=20$のとき $A$ と $B$ は独立か。",
+    "stem_status": "original",
+    "answer": "{{手書き: $P(A\\cap B)=1/20$}}；{{手書き: $P(A)\\cdot P(B)=(6/20)\\cdot(4/20)=3/50$}}；{{手書き: 独立ではない}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習1(1)】1〜$n$のカードから1枚。$A$:3の倍数、$B$:5の倍数。$n=20$のとき $A$ と $B$ は独立か。"
+  },
+  {
+    "id": "PS-L6-E1-2",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "独立事象"
+    ],
+    "stem": "【演習1(2)】同上で $n=30$ のとき $A$ と $B$ は独立か。",
+    "stem_status": "original",
+    "answer": "{{手書き: $P(A\\cap B)=2/30=1/15$}}；{{手書き: $P(A)\\cdot P(B)=(10/30)\\cdot(6/30)=1/15$}}；{{手書き: 独立}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 1
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習1(2)】同上で $n=30$ のとき $A$ と $B$ は独立か。"
+  },
+  {
+    "id": "PS-L6-E2",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "独立事象",
+      "トランプ"
+    ],
+    "stem": "【演習2】[問3.11] ジョーカー除くトランプ1枚。$A$=偶数、$B$=ハート、$C$=絵札$\\{11,12,13\\}$。独立な事象の組を全て求めよ。",
+    "stem_status": "original",
+    "answer": "{{手書き: $(A,B),\\ (B,C),$}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習2】[問3.11] ジョーカー除くトランプ1枚。$A$=偶数、$B$=ハート、$C$=絵札$\\{11,12,13\\}$。独立な事象の組を全て求めよ。"
+  },
+  {
+    "id": "PS-L6-EX2-bayes",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "flashcard",
+    "tags": [
+      "例",
+      "ベイズの定理"
+    ],
+    "stem": "【例2】袋X（赤4・白3）とY（赤3・白5）を無作為に選び玉を1つ。赤が出たとき袋Xだった確率 $P(X\\mid R)$ の結果（プリントの計算）は？",
+    "stem_status": "original",
+    "answer": "$\\dfrac{32}{53}$（$P(X)=P(\\overline{X})=1/2$，$P(R\\mid X)=4/7$，$P(R\\mid\\overline{X})=3/8$）。",
+    "answer_status": "original",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "template": "【例2】袋X（赤4・白3）とY（赤3・白5）を無作為に選び玉を1つ。赤が出たとき袋Xだった確率 $P(X\\mid R)$ の結果（プリントの計算）は？"
+  },
+  {
+    "id": "PS-L6-E3",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "ベイズの定理"
+    ],
+    "stem": "【演習3】例2と同じ状況で、白玉が出たとき選ばれた袋がYであった確率を求めよ。",
+    "stem_status": "original",
+    "answer": "{{手書き: $X:Y=3/7:5/8$}}；{{手書き: $\\dfrac{5/8}{3/7+5/8}=0.593$}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 2
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習3】例2と同じ状況で、白玉が出たとき選ばれた袋がYであった確率を求めよ。"
+  },
+  {
+    "id": "PS-L6-E4",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "ベイズの定理",
+      "事前確率",
+      "事後確率"
+    ],
+    "stem": "【演習4】晴れ0.6・曇り0.3・雨0.1。遅刻確率は晴れ0.2・曇り0.1・雨0.4。遅刻したとき晴れている確率を求めよ。",
+    "stem_status": "original",
+    "answer": "{{手書き: $\\dfrac{0.6\\times0.2}{0.6\\times0.2+0.3\\times0.1+0.1\\times0.4}\\fallingdotseq0.632$}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習4】晴れ0.6・曇り0.3・雨0.1。遅刻確率は晴れ0.2・曇り0.1・雨0.4。遅刻したとき晴れている確率を求めよ。"
+  },
+  {
+    "id": "PS-L6-E5",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "ベイズの定理"
+    ],
+    "stem": "【演習5】[問3.13] 機械A,B,Cの個数比 $2:3:5$。不良率 3%,2%,4%。不良品1つがA製である確率を求めよ。",
+    "stem_status": "original",
+    "answer": "{{手書き: $\\dfrac{(2/10)\\times3}{(2/10)\\times3+(3/10)\\times2+(5/10)\\times4}=0.188$}}",
+    "answer_status": "inferred",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 3
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習5】[問3.13] 機械A,B,Cの個数比 $2:3:5$。不良率 3%,2%,4%。不良品1つがA製である確率を求めよ。"
+  },
+  {
+    "id": "PS-L6-E6",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "ベイズの定理"
+    ],
+    "stem": "【演習6】[問3.14] 規格外確率0.1。規格内は0.97で合格、規格外でも0.13で合格。合格と判定されたとき規格外である確率（小数第4位四捨五入）。",
+    "stem_status": "original",
+    "answer": "{{手書き: $\\dfrac{.1\\times.13}{.9\\times.97+.1\\times.13}=0.015$}}",
+    "answer_status": "inferred",
+    "explanation": "注: プリント指示は小数第4位四捨五入。手書き解答0.015はそのまま残し、疑義は corrections に記録。",
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習6】[問3.14] 規格外確率0.1。規格内は0.97で合格、規格外でも0.13で合格。合格と判定されたとき規格外である確率（小数第4位四捨五入）。"
+  },
+  {
+    "id": "PS-L6-E7-1",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "モンティ・ホール",
+      "未記入"
+    ],
+    "stem": "【演習7(1)】モンティ・ホール。箱A指定後、司会者が箱Bを空けハズレと知らせた。司会者が指定外の箱を必ず無作為に1つ開ける場合、$P($箱Aが当たり$)$ を求めよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 4,
+        "note": "演習7(1) 未解き"
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習7(1)】モンティ・ホール。箱A指定後、司会者が箱Bを空けハズレと知らせた。司会者が指定外の箱を必ず無作為に1つ開ける場合、$P($箱Aが当たり$)$ を求めよ。"
+  },
+  {
+    "id": "PS-L6-E7-2",
+    "unit": "第6回 独立事象とベイズの定理",
+    "form": "calculation",
+    "tags": [
+      "演習",
+      "モンティ・ホール",
+      "未記入"
+    ],
+    "stem": "【演習7(2)】同上。司会者が指定外のうちハズレの箱を必ず無作為に1つ開ける場合、$P($箱Aが当たり$)$ を求めよ。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認）",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 4,
+        "note": "演習7(2) 未解き"
+      }
+    ],
+    "conflicts": [],
+    "template": "【演習7(2)】同上。司会者が指定外のうちハズレの箱を必ず無作為に1つ開ける場合、$P($箱Aが当たり$)$ を求めよ。"
+  },
+  {
+    "id": "PS-REF-Q1",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "度数分布",
+      "代表値",
+      "分散",
+      "未記入"
+    ],
+    "stem": "【1】通学時間の度数分布（0〜20:1, 20〜40:10, 40〜60:9, 60〜80:8, 80〜100:2、計30）。平均値は $\\fbox{アイ}$ 分、中央値が含まれる階級の階級値は $\\fbox{ウエ}$ 分、分散は $\\fbox{オカキ}$、標準偏差は $\\fbox{クケ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） アイ／ウエ／オカキ／クケ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 5,
+        "note": "公式範囲表ではない参考試験。空欄穴埋め未実施"
+      }
+    ],
+    "conflicts": [],
+    "template": "【1】通学時間の度数分布（0〜20:1, 20〜40:10, 40〜60:9, 60〜80:8, 80〜100:2、計30）。平均値は $\\fbox{アイ}$ 分、中央値が含まれる階級の階級値は $\\fbox{ウエ}$ 分、分散は $\\fbox{オカキ}$、標準偏差は $\\fbox{クケ}$。"
+  },
+  {
+    "id": "PS-REF-Q2",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "共分散",
+      "相関係数",
+      "回帰",
+      "未記入"
+    ],
+    "stem": "【2】8人の小テスト $(x,y)=(1,4),(2,2),(3,1),(4,7),(6,3),(7,9),(8,6),(9,8)$。共分散 $\\fbox{コ}$、相関係数 $\\fbox{サ}/\\fbox{シ}$、回帰直線 $y=(\\fbox{ス}/\\fbox{セ})x+(\\fbox{ソ}/\\fbox{タ})$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） コ／サシ／スセ／ソタ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "template": "【2】8人の小テスト $(x,y)=(1,4),(2,2),(3,1),(4,7),(6,3),(7,9),(8,6),(9,8)$。共分散 $\\fbox{コ}$、相関係数 $\\fbox{サ}/\\fbox{シ}$、回帰直線 $y=(\\fbox{ス}/\\fbox{セ})x+(\\fbox{ソ}/\\fbox{タ})$。"
+  },
+  {
+    "id": "PS-REF-Q3",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "true_false",
+    "tags": [
+      "参考試験",
+      "相関係数",
+      "正誤",
+      "未記入"
+    ],
+    "stem": "【3】共分散・相関係数の正誤（正=1・誤=0）。(I) $x$のみ2倍すると共分散は2倍…$\\fbox{チ}$。(II) $x_i<x_j\\Rightarrow y_i<y_j$ なら $r=1$…$\\fbox{ツ}$。(III) 右上がり直線上に全点があれば $r=1$…$\\fbox{テ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） チ／ツ／テ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "template": "【3】共分散・相関係数の正誤（正=1・誤=0）。(I) $x$のみ2倍すると共分散は2倍…$\\fbox{チ}$。(II) $x_i<x_j\\Rightarrow y_i<y_j$ なら $r=1$…$\\fbox{ツ}$。(III) 右上がり直線上に全点があれば $r=1$…$\\fbox{テ}$。"
+  },
+  {
+    "id": "PS-REF-Q4",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "標準化",
+      "線形変換",
+      "未記入"
+    ],
+    "stem": "【4】$X$の平均6・標準偏差2。$Y=-3X+10$ の平均 $\\fbox{トナ}$・標準偏差 $\\fbox{ニ}$。また $Z=(X-\\fbox{ヌ})/\\fbox{ネ}$ は平均0・標準偏差1。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） トナ／ニ／ヌネ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 5
+      }
+    ],
+    "conflicts": [],
+    "template": "【4】$X$の平均6・標準偏差2。$Y=-3X+10$ の平均 $\\fbox{トナ}$・標準偏差 $\\fbox{ニ}$。また $Z=(X-\\fbox{ヌ})/\\fbox{ネ}$ は平均0・標準偏差1。"
+  },
+  {
+    "id": "PS-REF-Q5",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "確率の性質",
+      "未記入"
+    ],
+    "stem": "【5】$P(A)=0.5,P(B)=0.4,P(A\\cup B)=0.7$ のとき $P(A\\cap B)=0.\\fbox{ノ}$、$P(A\\cap\\overline{B})=0.\\fbox{ハ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） ノ／ハ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【5】$P(A)=0.5,P(B)=0.4,P(A\\cup B)=0.7$ のとき $P(A\\cap B)=0.\\fbox{ノ}$、$P(A\\cap\\overline{B})=0.\\fbox{ハ}$。"
+  },
+  {
+    "id": "PS-REF-Q6",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "反復試行",
+      "未記入"
+    ],
+    "stem": "【6】サイコロを4回振る時、$n$回目の出目が$n$の倍数である確率は $\\fbox{ヒ}/\\fbox{フヘ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） ヒ／フヘ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【6】サイコロを4回振る時、$n$回目の出目が$n$の倍数である確率は $\\fbox{ヒ}/\\fbox{フヘ}$。"
+  },
+  {
+    "id": "PS-REF-Q7",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "反復試行",
+      "未記入"
+    ],
+    "stem": "【7】原点の点P。サイコロで1,2なら$x$方向+1、それ以外なら$y$方向+1。5回後に$(2,3)$にある確率は $\\fbox{ホマ}/\\fbox{ミムメ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） ホマ／ミムメ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【7】原点の点P。サイコロで1,2なら$x$方向+1、それ以外なら$y$方向+1。5回後に$(2,3)$にある確率は $\\fbox{ホマ}/\\fbox{ミムメ}$。"
+  },
+  {
+    "id": "PS-REF-Q8",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "条件付き確率",
+      "未記入"
+    ],
+    "stem": "【8】サイコロ2個。出目の和が8という条件のもと、少なくとも1個が偶数である条件付き確率は $\\fbox{モ}/\\fbox{ヤ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） モ／ヤ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【8】サイコロ2個。出目の和が8という条件のもと、少なくとも1個が偶数である条件付き確率は $\\fbox{モ}/\\fbox{ヤ}$。"
+  },
+  {
+    "id": "PS-REF-Q9",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "乗法定理",
+      "未記入"
+    ],
+    "stem": "【9】当たり3/10本。A→Bの順に非復元で1本ずつ。AがはずれBが当たる確率は $\\fbox{ユ}/\\fbox{ヨラ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） ユ／ヨラ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【9】当たり3/10本。A→Bの順に非復元で1本ずつ。AがはずれBが当たる確率は $\\fbox{ユ}/\\fbox{ヨラ}$。"
+  },
+  {
+    "id": "PS-REF-Q10",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "true_false",
+    "tags": [
+      "参考試験",
+      "独立事象",
+      "未記入"
+    ],
+    "stem": "【10】サイコロ1個。$A$=奇数、$B$=3以下、$C$=3または4。独立なら1・でなければ0。(I)$A$と$B$…$\\fbox{リ}$ (II)$A$と$C$…$\\fbox{ル}$ (III)$B$と$C$…$\\fbox{レ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） リ／ル／レ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【10】サイコロ1個。$A$=奇数、$B$=3以下、$C$=3または4。独立なら1・でなければ0。(I)$A$と$B$…$\\fbox{リ}$ (II)$A$と$C$…$\\fbox{ル}$ (III)$B$と$C$…$\\fbox{レ}$。"
+  },
+  {
+    "id": "PS-REF-Q11",
+    "unit": "2026年度後期中間試験（参考）",
+    "form": "cloze",
+    "tags": [
+      "参考試験",
+      "ベイズの定理",
+      "未記入"
+    ],
+    "stem": "【11】天候: 晴0.5・曇0.3・雨0.2。遅延: 晴0.02・曇0.04・雨0.1。遅延したとき曇りである確率は $\\fbox{ロ}/\\fbox{ワ}$。",
+    "stem_status": "original",
+    "answer": "（未記入・未確認） ロ／ワ",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [],
+    "sources": [
+      {
+        "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+        "page": 6
+      }
+    ],
+    "conflicts": [],
+    "template": "【11】天候: 晴0.5・曇0.3・雨0.2。遅延: 晴0.02・曇0.04・雨0.1。遅延したとき曇りである確率は $\\fbox{ロ}/\\fbox{ワ}$。"
   }
 ]

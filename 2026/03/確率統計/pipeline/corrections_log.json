@@ -1,6 +1,6 @@
 {
-  "source": "gemini_transcript_full.md vs page images (+ subagent verify p8-14, p16-23)",
-  "updated": "2026-11-10T23:46:15Z",
+  "source": "print_freq_dist + print_lec6_midterm_practice; gemini transcripts vs page images",
+  "updated": "2026-11-11T01:57:39Z",
   "corrections": [
     {
       "field": "transcript:p2.example.rel_freq",
@@ -73,12 +73,59 @@
       "before": "比較文を補完",
       "after": "比較行未記入を明示",
       "reason": "p.13空欄"
+    },
+    {
+      "field": "ingest:lec6_ref",
+      "before": "第1〜5回のみ",
+      "after": "第6回＋後期中間（参考）を追加。詳細は PS-META-LEC6-REF-QC",
+      "reason": "追加取込。既存問は削除しない"
+    },
+    {
+      "field": "answer:PS-L6-E6.rounding",
+      "before": "手書き 0.015",
+      "after": "手書き 0.015 を原文のまま保持。指示は小数第4位四捨五入。厳密値≈0.01467→0.0147",
+      "reason": "ページ画像照合・検算。指示と手書き丸めが不一致。本文・解答は書き換えない"
+    },
+    {
+      "field": "answer:PS-L6-E5.rounding",
+      "before": "手書き 0.188",
+      "after": "手書き 0.188 を原文のまま保持。厳密値 6/32=0.1875",
+      "reason": "検算。手書きは小数第3位への丸め"
+    },
+    {
+      "field": "transcript:p7.score_group_ri_wa",
+      "before": "（照合中）リ・ル と レ・ロ・ワ の配点分割の疑い",
+      "after": "リ・ル・レ=6、ロ・ワ=6（Gemini起こしどおり。ページ画像で確認）",
+      "reason": "解答用紙配点の照合。印刷された学科コード M/E/D/J/C は空欄マーク"
     }
   ],
   "counts": {
-    "questions": 53,
-    "corrections": 12,
-    "unverified": 7,
-    "inferred_answers": 30
-  }
+    "questions": 80,
+    "corrections": 29,
+    "unverified": 20,
+    "inferred_answers": 37
+  },
+  "unverified_ids": [
+    "PS-L1-E3-table",
+    "PS-L1-E6-table",
+    "PS-L1-E6-reps",
+    "PS-L1-E7-table",
+    "PS-L1-E7-reps",
+    "PS-L5-E4",
+    "PS-L5-E5",
+    "PS-L6-E7-1",
+    "PS-L6-E7-2",
+    "PS-REF-Q1",
+    "PS-REF-Q2",
+    "PS-REF-Q3",
+    "PS-REF-Q4",
+    "PS-REF-Q5",
+    "PS-REF-Q6",
+    "PS-REF-Q7",
+    "PS-REF-Q8",
+    "PS-REF-Q9",
+    "PS-REF-Q10",
+    "PS-REF-Q11"
+  ],
+  "notes": "参考試験を受領したが公式範囲表ではない。空欄穴埋めは未実施（filled=false）。"
 }

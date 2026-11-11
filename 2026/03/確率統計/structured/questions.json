@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "exam": "2026/03",
   "subject": "確率統計",
-  "generated_at": "2026-11-10T23:46:15Z",
-  "notes": "授業プリント『確率統計 I 第1〜5回』（度数分布〜反復試行・条件付き確率・マルコフ余談）23頁。手書き解答は inferred（原本ページ画像照合・検算）。未記入空欄は unverified。p.20演習3(2)は再読で確定。公式範囲表は未入手のため確定範囲としては扱わない。",
+  "generated_at": "2026-11-11T01:57:39Z",
+  "notes": "授業プリント『確率統計 I 第1〜5回』（度数分布〜反復試行・条件付き確率）に加え、第6回『独立事象とベイズの定理』および『2026年度後期中間試験（参考）』を追加。手書き解答は inferred（原本ページ画像照合）。未記入・参考試験空欄は unverified。空欄穴埋め未実施（filled=false）。参考試験は公式範囲表ではない。公式範囲表は未入手のため確定範囲としては扱わない。",
   "questions": [
     {
       "id": "PS-META-TRANSCRIPT-QC",
@@ -100,6 +100,12 @@
           "before": "比較文を補完",
           "after": "比較行未記入を明示",
           "reason": "p.13空欄"
+        },
+        {
+          "field": "ingest:lec6_ref",
+          "before": "第1〜5回のみ",
+          "after": "第6回＋後期中間（参考）を追加。詳細は PS-META-LEC6-REF-QC",
+          "reason": "追加取込。既存問は削除しない"
         }
       ]
     },
@@ -1729,6 +1735,739 @@
             "value": "天気の状態遷移図",
             "status": "original"
           }
+        }
+      ]
+    },
+    {
+      "id": "PS-L6-DEF-indep",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "flashcard",
+      "stem": {
+        "value": "独立事象の定義を書け。また独立かつ $P(B)\\neq 0$ のとき $P(A\\mid B)$ はどうなるか。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$P(A\\cap B)=P(A)\\cdot P(B)$ のとき独立。このとき $P(A\\mid B)=P(A)$（同様に $P(A\\mid\\overline{B})=P(A)$）。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "定義",
+        "独立事象"
+      ]
+    },
+    {
+      "id": "PS-L6-EX1",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "short_answer",
+      "stem": {
+        "value": "【例1】サイコロ3回の「1回目偶数」と「2回目4以上」は独立か。また当たり3/10本くじの非復元2回で「1回目当たり」と「2回目当たり」は独立か。理由も。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "前者は独立（2回目は1回目に依らない）。後者は独立でない（非復元のため2回目の当たりやすさが1回目に依存）。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "例",
+        "独立事象"
+      ]
+    },
+    {
+      "id": "PS-L6-E1-1",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習1(1)】1〜$n$のカードから1枚。$A$:3の倍数、$B$:5の倍数。$n=20$のとき $A$ と $B$ は独立か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $P(A\\cap B)=1/20$}}；{{手書き: $P(A)\\cdot P(B)=(6/20)\\cdot(4/20)=3/50$}}；{{手書き: 独立ではない}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.1 の手書き記入を照合。 検算: 積事象は15のみ。$6/20\\cdot4/20=3/50\\neq1/20$。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "演習",
+        "独立事象"
+      ]
+    },
+    {
+      "id": "PS-L6-E1-2",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習1(2)】同上で $n=30$ のとき $A$ と $B$ は独立か。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $P(A\\cap B)=2/30=1/15$}}；{{手書き: $P(A)\\cdot P(B)=(10/30)\\cdot(6/30)=1/15$}}；{{手書き: 独立}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.1 の手書き記入を照合。 検算: 15と30の2個。一致するため独立。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "演習",
+        "独立事象"
+      ]
+    },
+    {
+      "id": "PS-L6-E2",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習2】[問3.11] ジョーカー除くトランプ1枚。$A$=偶数、$B$=ハート、$C$=絵札$\\{11,12,13\\}$。独立な事象の組を全て求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $(A,B),\\ (B,C),$}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.2 の手書き記入を照合。 検算: $(A,C)$ は非独立（$P(A\\cap C)=4/52\\neq P(A)P(C)$）。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "演習",
+        "独立事象",
+        "トランプ"
+      ]
+    },
+    {
+      "id": "PS-L6-EX2-bayes",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "flashcard",
+      "stem": {
+        "value": "【例2】袋X（赤4・白3）とY（赤3・白5）を無作為に選び玉を1つ。赤が出たとき袋Xだった確率 $P(X\\mid R)$ の結果（プリントの計算）は？",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$\\dfrac{32}{53}$（$P(X)=P(\\overline{X})=1/2$，$P(R\\mid X)=4/7$，$P(R\\mid\\overline{X})=3/8$）。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "例",
+        "ベイズの定理"
+      ]
+    },
+    {
+      "id": "PS-L6-E3",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習3】例2と同じ状況で、白玉が出たとき選ばれた袋がYであった確率を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $X:Y=3/7:5/8$}}；{{手書き: $\\dfrac{5/8}{3/7+5/8}=0.593$}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.2 の手書き記入を照合。 検算: $35/59\\approx0.593$。袋の選択確率1/2は比で約分される。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "演習",
+        "ベイズの定理"
+      ]
+    },
+    {
+      "id": "PS-L6-DEF-bayes",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "flashcard",
+      "stem": {
+        "value": "ベイズの定理（2事象および排反分割 $A_1\\cup\\cdots\\cup A_n=\\Omega$）の公式を書け。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "$P(A\\mid B)=\\dfrac{P(A)P(B\\mid A)}{P(A)P(B\\mid A)+P(\\overline{A})P(B\\mid\\overline{A})}$。一般に $P(A_i\\mid B)=\\dfrac{P(A_i)P(B\\mid A_i)}{\\sum_k P(A_k)P(B\\mid A_k)}$。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 3
+        }
+      ],
+      "tags": [
+        "定義",
+        "ベイズの定理"
+      ]
+    },
+    {
+      "id": "PS-L6-E4",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習4】晴れ0.6・曇り0.3・雨0.1。遅刻確率は晴れ0.2・曇り0.1・雨0.4。遅刻したとき晴れている確率を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $\\dfrac{0.6\\times0.2}{0.6\\times0.2+0.3\\times0.1+0.1\\times0.4}\\fallingdotseq0.632$}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.3 の手書き記入を照合。 検算: $0.12/0.19\\approx0.6316\\fallingdotseq0.632$。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 3
+        }
+      ],
+      "tags": [
+        "演習",
+        "ベイズの定理",
+        "事前確率",
+        "事後確率"
+      ]
+    },
+    {
+      "id": "PS-L6-DEF-prior",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "flashcard",
+      "stem": {
+        "value": "事前確率と事後確率とは何か（プリントの晴れ・遅刻の文脈）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "元の $P(\\text{晴れ})$ が事前確率。結果（遅刻）のもとでの $P(\\text{晴れ}\\mid\\text{遅刻})$ が事後確率。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 3
+        }
+      ],
+      "tags": [
+        "定義",
+        "事前確率",
+        "事後確率"
+      ]
+    },
+    {
+      "id": "PS-L6-E5",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習5】[問3.13] 機械A,B,Cの個数比 $2:3:5$。不良率 3%,2%,4%。不良品1つがA製である確率を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $\\dfrac{(2/10)\\times3}{(2/10)\\times3+(3/10)\\times2+(5/10)\\times4}=0.188$}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.3 の手書き記入を照合。 検算: $6/32=0.1875$。手書きは0.188。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 3
+        }
+      ],
+      "tags": [
+        "演習",
+        "ベイズの定理"
+      ],
+      "corrections": [
+        {
+          "field": "answer.rounding",
+          "before": "0.188（手書き）",
+          "after": "0.188（手書き保持）。厳密値0.1875",
+          "reason": "検算。丸め差のみ。解答本文は手書き原文のまま"
+        }
+      ]
+    },
+    {
+      "id": "PS-L6-E6",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習6】[問3.14] 規格外確率0.1。規格内は0.97で合格、規格外でも0.13で合格。合格と判定されたとき規格外である確率（小数第4位四捨五入）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "{{手書き: $\\dfrac{.1\\times.13}{.9\\times.97+.1\\times.13}=0.015$}}",
+        "status": "inferred",
+        "rationale": "原本ページ画像 p.4 の手書き記入を照合。 検算: 厳密値≈0.01467。小数第4位四捨五入なら0.0147。手書き0.015は指示と不一致のため原文のまま保持し corrections に記録。",
+        "tools": [
+          "gemini-transcript",
+          "manual-page-image-check",
+          "manual-calc-check"
+        ]
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 4
+        }
+      ],
+      "tags": [
+        "演習",
+        "ベイズの定理"
+      ],
+      "explanation": {
+        "value": "注: プリント指示は小数第4位四捨五入。手書き解答0.015はそのまま残し、疑義は corrections に記録。",
+        "status": "original"
+      },
+      "corrections": [
+        {
+          "field": "answer.rounding",
+          "before": "0.015（手書き）",
+          "after": "0.015（手書き保持）。指示どおりなら≈0.0147",
+          "reason": "小数第4位四捨五入の指示と手書き丸めが不一致。本文は書き換えない"
+        }
+      ]
+    },
+    {
+      "id": "PS-L6-E7-1",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習7(1)】モンティ・ホール。箱A指定後、司会者が箱Bを空けハズレと知らせた。司会者が指定外の箱を必ず無作為に1つ開ける場合、$P($箱Aが当たり$)$ を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認）",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 4,
+          "note": "演習7(1) 未解き"
+        }
+      ],
+      "tags": [
+        "演習",
+        "モンティ・ホール",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-L6-E7-2",
+      "unit": "第6回 独立事象とベイズの定理",
+      "form": "calculation",
+      "stem": {
+        "value": "【演習7(2)】同上。司会者が指定外のうちハズレの箱を必ず無作為に1つ開ける場合、$P($箱Aが当たり$)$ を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認）",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 4,
+          "note": "演習7(2) 未解き"
+        }
+      ],
+      "tags": [
+        "演習",
+        "モンティ・ホール",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q1",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【1】通学時間の度数分布（0〜20:1, 20〜40:10, 40〜60:9, 60〜80:8, 80〜100:2、計30）。平均値は $\\fbox{アイ}$ 分、中央値が含まれる階級の階級値は $\\fbox{ウエ}$ 分、分散は $\\fbox{オカキ}$、標準偏差は $\\fbox{クケ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） アイ／ウエ／オカキ／クケ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 5,
+          "note": "公式範囲表ではない参考試験。空欄穴埋め未実施"
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "度数分布",
+        "代表値",
+        "分散",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q2",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【2】8人の小テスト $(x,y)=(1,4),(2,2),(3,1),(4,7),(6,3),(7,9),(8,6),(9,8)$。共分散 $\\fbox{コ}$、相関係数 $\\fbox{サ}/\\fbox{シ}$、回帰直線 $y=(\\fbox{ス}/\\fbox{セ})x+(\\fbox{ソ}/\\fbox{タ})$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） コ／サシ／スセ／ソタ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "共分散",
+        "相関係数",
+        "回帰",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q3",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "true_false",
+      "stem": {
+        "value": "【3】共分散・相関係数の正誤（正=1・誤=0）。(I) $x$のみ2倍すると共分散は2倍…$\\fbox{チ}$。(II) $x_i<x_j\\Rightarrow y_i<y_j$ なら $r=1$…$\\fbox{ツ}$。(III) 右上がり直線上に全点があれば $r=1$…$\\fbox{テ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） チ／ツ／テ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "相関係数",
+        "正誤",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q4",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【4】$X$の平均6・標準偏差2。$Y=-3X+10$ の平均 $\\fbox{トナ}$・標準偏差 $\\fbox{ニ}$。また $Z=(X-\\fbox{ヌ})/\\fbox{ネ}$ は平均0・標準偏差1。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） トナ／ニ／ヌネ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "標準化",
+        "線形変換",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q5",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【5】$P(A)=0.5,P(B)=0.4,P(A\\cup B)=0.7$ のとき $P(A\\cap B)=0.\\fbox{ノ}$、$P(A\\cap\\overline{B})=0.\\fbox{ハ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） ノ／ハ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "確率の性質",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q6",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【6】サイコロを4回振る時、$n$回目の出目が$n$の倍数である確率は $\\fbox{ヒ}/\\fbox{フヘ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） ヒ／フヘ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "反復試行",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q7",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【7】原点の点P。サイコロで1,2なら$x$方向+1、それ以外なら$y$方向+1。5回後に$(2,3)$にある確率は $\\fbox{ホマ}/\\fbox{ミムメ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） ホマ／ミムメ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "反復試行",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q8",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【8】サイコロ2個。出目の和が8という条件のもと、少なくとも1個が偶数である条件付き確率は $\\fbox{モ}/\\fbox{ヤ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） モ／ヤ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "条件付き確率",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q9",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【9】当たり3/10本。A→Bの順に非復元で1本ずつ。AがはずれBが当たる確率は $\\fbox{ユ}/\\fbox{ヨラ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） ユ／ヨラ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "乗法定理",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q10",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "true_false",
+      "stem": {
+        "value": "【10】サイコロ1個。$A$=奇数、$B$=3以下、$C$=3または4。独立なら1・でなければ0。(I)$A$と$B$…$\\fbox{リ}$ (II)$A$と$C$…$\\fbox{ル}$ (III)$B$と$C$…$\\fbox{レ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） リ／ル／レ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "独立事象",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-Q11",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "cloze",
+      "stem": {
+        "value": "【11】天候: 晴0.5・曇0.3・雨0.2。遅延: 晴0.02・曇0.04・雨0.1。遅延したとき曇りである確率は $\\fbox{ロ}/\\fbox{ワ}$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（未記入・未確認） ロ／ワ",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "ベイズの定理",
+        "未記入"
+      ]
+    },
+    {
+      "id": "PS-REF-ANSWER-SHEET",
+      "unit": "2026年度後期中間試験（参考）",
+      "form": "other",
+      "stem": {
+        "value": "解答用紙（書式のみ）の記入項目と配点ブロックを要約せよ。氏名・組・番・得点・学科M/E/D/J/C・出席番号・解答マークはすべて空欄。M/E/D/J/Cは印刷された学科コード。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "見出し: 確率統計Ⅰ 2026年度後期中間試験（参考）解答用紙。左: ア〜ケ(12), コ〜タ(12), チ〜テ(6), ト〜ネ(10)。右: ノハ(8), ヒフヘ(5), ホ〜メ(5), モヤ(5), ユヨラ(5), リルレ(6), ロワ(6)。全マーク・氏名欄は空欄。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 7,
+          "note": "書式のみ。個人情報欄・解答マークは空欄"
+        }
+      ],
+      "tags": [
+        "参考試験",
+        "解答用紙",
+        "書式"
+      ]
+    },
+    {
+      "id": "PS-META-LEC6-REF-QC",
+      "unit": "メタ（第6回・参考試験 文字起こし訂正）",
+      "form": "other",
+      "stem": {
+        "value": "第6回打刷＋2026年度後期中間試験（参考）の文字起こし照合・訂正記録。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）。参考試験は公式範囲表ではない。",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/print_lec6_midterm_practice_2026-11.pdf",
+          "page": 1,
+          "note": "メタ"
+        }
+      ],
+      "tags": [
+        "meta",
+        "corrections",
+        "参考試験"
+      ],
+      "corrections": [
+        {
+          "field": "answer:PS-L6-E6.rounding",
+          "before": "手書き 0.015",
+          "after": "手書き 0.015 を原文のまま保持。指示は小数第4位四捨五入。厳密値≈0.01467→0.0147",
+          "reason": "ページ画像照合・検算。指示と手書き丸めが不一致。本文・解答は書き換えない"
+        },
+        {
+          "field": "answer:PS-L6-E5.rounding",
+          "before": "手書き 0.188",
+          "after": "手書き 0.188 を原文のまま保持。厳密値 6/32=0.1875",
+          "reason": "検算。手書きは小数第3位への丸め"
+        },
+        {
+          "field": "transcript:p7.score_group_ri_wa",
+          "before": "（照合中）リ・ル と レ・ロ・ワ の配点分割の疑い",
+          "after": "リ・ル・レ=6、ロ・ワ=6（Gemini起こしどおり。ページ画像で確認）",
+          "reason": "解答用紙配点の照合。印刷された学科コード M/E/D/J/C は空欄マーク"
         }
       ]
     }
