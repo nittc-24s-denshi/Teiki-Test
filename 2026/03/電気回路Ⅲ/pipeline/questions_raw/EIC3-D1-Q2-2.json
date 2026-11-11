@@ -1,0 +1,22 @@
+{
+  "id": "EIC3-D1-Q2-2",
+  "unit": "配布資料1（RC・複素数・素子電圧）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2(2) $\\dot{Z}=(1+j\\sqrt{3})\\times\\sqrt{3}\\angle(-\\pi/4)$。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $2\\angle\\pi/3$ から $2\\sqrt{3}\\angle(\\pi/12)=2\\sqrt{3}(\\cos\\pi/12+j\\sin\\pi/12)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "複素数"
+  ]
+}

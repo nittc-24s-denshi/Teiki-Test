@@ -1,0 +1,22 @@
+{
+  "id": "EIC3-D1-Q2-1",
+  "unit": "配布資料1（RC・複素数・素子電圧）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2(1) $\\dot{Z}=(6\\angle\\pi/6)(3\\angle-2\\pi/3)$ を極座標・直交座標で。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $=18\\angle-\\pi/2=18(0-j)=-18j$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "複素数"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "EIC3-P1710",
+  "unit": "問題17.6〜17.10（RLC直列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題17.10: R=30、X=10 の G,B。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: G=3/100[S], B=-1/100[S]。解答: G=30[mS], B=-10[mS]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 8
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 9
+    }
+  ],
+  "tags": [
+    "アドミタンス"
+  ]
+}

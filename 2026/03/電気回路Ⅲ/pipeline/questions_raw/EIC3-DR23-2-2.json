@@ -1,0 +1,30 @@
+{
+  "id": "EIC3-DR23-2-2",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.2(2) E=10、R=10∥C=2mF、ω=100 の P,Pr,Pa。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: P=10[W], Pr=-20[var], Pa=10√5≒22.4[VA]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "電力"
+  ],
+  "explanation": {
+    "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  }
+}

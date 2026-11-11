@@ -1,0 +1,26 @@
+{
+  "id": "EIC3-P195-3",
+  "unit": "問題19.4〜19.7（直並列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題19.5(3): I 最小の C とフェーザ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: C=3[mF]、I2=j3、I=1",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 10
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "並列回路"
+  ]
+}

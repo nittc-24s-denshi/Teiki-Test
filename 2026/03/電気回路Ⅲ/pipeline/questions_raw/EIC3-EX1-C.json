@@ -1,0 +1,27 @@
+{
+  "id": "EIC3-EX1-C",
+  "unit": "演習問題1（正弦波・フェーザ）",
+  "form": "calculation",
+  "stem": {
+    "value": "[3] C=1/π[mF] に $\\dot{V}=50\\angle(\\pi/6)$[V]、ω=100π[rad/s]。$\\dot{I}$・図・瞬時値。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $\\dot{I}=5\\angle(2\\pi/3)$[A]、$i=5\\sqrt{2}\\sin(100\\pi t+2\\pi/3)$[A]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "キャパシタンス",
+    "フェーザ"
+  ],
+  "explanation": {
+    "value": "フェーザ図の座標軸のみ（書き込みなし）。",
+    "status": "original"
+  }
+}

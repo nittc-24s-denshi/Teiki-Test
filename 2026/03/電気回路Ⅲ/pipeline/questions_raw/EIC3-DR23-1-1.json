@@ -1,0 +1,40 @@
+{
+  "id": "EIC3-DR23-1-1",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.1(1) V=100∠-30°、I=2∠30° の P, Pr, Pa。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: P=25W, Pr=43Var, Pa=50VA（$\\dot{P}=50\\angle-60°$）。解答: P=100[W], Pr=-100√3≒-173[var], Pa=200[VA]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "電力"
+  ],
+  "explanation": {
+    "value": "学生計算は VI/2 系の誤りを含む原文。class 欄はマスク済み。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p012.png",
+      "page": 12,
+      "caption": {
+        "value": "ドリル no.23（クラス欄はマスク済み）",
+        "status": "original"
+      }
+    }
+  ]
+}

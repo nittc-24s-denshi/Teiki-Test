@@ -1,0 +1,30 @@
+{
+  "id": "EIC3-DR23-1-4",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.1(4) V=10、P=16、Pr=12 の力率と I。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: Pa=20[VA], I=2[A], cosθ=0.8",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "力率"
+  ],
+  "explanation": {
+    "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  }
+}

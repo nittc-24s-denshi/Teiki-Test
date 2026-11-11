@@ -1,0 +1,23 @@
+{
+  "id": "EIC3-D5-Q1",
+  "unit": "配布資料5（複素電力・力率改善）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題1: R=10Ω と C=10^3/π[μF] 直列、f=50Hz、$\\dot{V}=100\\angle0°$。皮相・力率・有効・無効。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書きは $\\dot{Z}=10+\\cdots=10$ までで途中。穴埋め補完なし。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "複素電力",
+    "未記入"
+  ]
+}

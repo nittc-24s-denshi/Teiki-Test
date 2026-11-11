@@ -1,0 +1,33 @@
+{
+  "id": "EIC3-D3-Q2",
+  "unit": "配布資料3（アドミタンス）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2: 問図5-39（V=100∠0、r2=25 と r1=3+X=4 の並列）の電流 $\\dot{I}$ の極座標。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: 途中計算の後 $16-j16=16\\sqrt{2}\\exp(-j\\pi/4)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "並列回路",
+    "アドミタンス"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p004.png",
+      "page": 4,
+      "caption": {
+        "value": "問図5-39",
+        "status": "original"
+      }
+    }
+  ]
+}

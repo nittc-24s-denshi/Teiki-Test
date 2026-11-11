@@ -1,0 +1,22 @@
+{
+  "id": "EIC3-D4-Q1",
+  "unit": "配布資料4（電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題1: $\\dot{V}=15\\angle-10°$[V], $\\dot{I}=110\\angle-10°$[A] の皮相・力率・有効・無効。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: S=1650[VA], P=1650[W], Q=0[var]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "電力"
+  ]
+}

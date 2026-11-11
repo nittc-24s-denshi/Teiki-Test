@@ -1,0 +1,31 @@
+{
+  "id": "EIC3-DR23-1-5",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.1(5) I=2、P=60、cosθ=0.6、Zは容量性。V と Z。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: V=50[V], Z=25、$\\dot{Z}=15-j20$[Ω]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "力率",
+    "インピーダンス"
+  ],
+  "explanation": {
+    "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  }
+}

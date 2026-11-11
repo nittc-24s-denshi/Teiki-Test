@@ -1,0 +1,42 @@
+{
+  "id": "EIC3-QZ1-Q3-2",
+  "unit": "小テスト No.1",
+  "form": "calculation",
+  "stem": {
+    "value": "問題3(2) R=50Ω, L=20mH, C=5μF 直列に同電流が流れるときの VR,VL,VC（極座標）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き（原文）: $\\dot{V}_R=10\\exp(j\\pi/6)$[V]；$\\dot{V}_L=4.0\\exp(j 7\\pi/6)$[V]；$\\dot{V}_C=40\\exp(-j 5\\pi/6)$[V]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "RLC直列",
+    "小テスト",
+    "学生誤答"
+  ],
+  "explanation": {
+    "value": "採点: VR は丸。VL・VC は斜線（誤り）。検算メモ: ωL=20 → VL=4∠(π/6+π/2)=4∠2π/3；1/(ωC)=200 → VC=40∠(π/6−π/2)=40∠(−π/3)。学生の 7π/6 と −5π/6 は原文として残す。",
+    "status": "original"
+  },
+  "corrections": [
+    {
+      "field": "transcript.VL_phase",
+      "before": "2π/3・採点丸",
+      "after": "PDFは 7π/6・採点斜線",
+      "reason": "マスク版PDF照合"
+    },
+    {
+      "field": "calc.VC_phase",
+      "before": "学生 −5π/6",
+      "after": "正解仮説 −π/3（学生解答は変更しない）",
+      "reason": "検算"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "EIC3-P177-1",
+  "unit": "問題17.6〜17.10（RLC直列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題17.7(1): E=150、ω=100。S1,S2開で I=5 同相、S2のみ閉で I=3。R,L,C を求めよ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: R=30Ω、L=0.4H、C=250μF（400 を取り消し）。解答も R=30、L=0.4H、C=250μF",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 8
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 9
+    }
+  ],
+  "tags": [
+    "RLC直列",
+    "スイッチ"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p008.png",
+      "page": 8,
+      "caption": {
+        "value": "問題17.7 回路",
+        "status": "original"
+      }
+    }
+  ]
+}

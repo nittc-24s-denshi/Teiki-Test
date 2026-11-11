@@ -1,0 +1,33 @@
+{
+  "id": "EIC3-EX1-PHASOR-V",
+  "unit": "演習問題1（正弦波・フェーザ）",
+  "form": "calculation",
+  "stem": {
+    "value": "[2] $\\dot{V}=-20+j10$ [V] のフェーザ表示・フェーザ図・瞬時値（角周波数 ω）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $10\\sqrt{5}\\exp(\\pi - \\tan^{-1}(1/2))$（書き込みのまま）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問図5-2"
+    }
+  ],
+  "tags": [
+    "フェーザ"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p001.png",
+      "page": 1,
+      "caption": {
+        "value": "問図5-2",
+        "status": "original"
+      }
+    }
+  ]
+}

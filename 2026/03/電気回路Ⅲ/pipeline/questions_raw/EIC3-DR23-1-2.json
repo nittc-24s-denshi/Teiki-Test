@@ -1,0 +1,30 @@
+{
+  "id": "EIC3-DR23-1-2",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.1(2) V=2+j4、I=2+j1 の P, Pr, Pa。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: P=1.6W, Pr=1.2Var, Pa=2VA。解答: $\\dot{P}=8+j6$ → P=8[W], Pr=6[var], Pa=10[VA]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "電力"
+  ],
+  "explanation": {
+    "value": "学生は $\\dot{P}$ を 8/5+j6/5 と誤記。原文として残す。",
+    "status": "original"
+  }
+}

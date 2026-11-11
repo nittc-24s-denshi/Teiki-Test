@@ -1,0 +1,22 @@
+{
+  "id": "EIC3-D4-Q2",
+  "unit": "配布資料4（電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2: $v=100\\sin(\\pi t+\\pi/9)$, $i=40\\sin(\\pi t-2\\pi/9)$ の皮相・力率・有効・無効。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: 位相差メモ 3π/9；$S=2000$[VA], $P=1000$[W], $Q=1000\\sqrt{3}$[var]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "電力"
+  ]
+}

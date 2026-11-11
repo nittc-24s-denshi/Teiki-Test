@@ -1,0 +1,23 @@
+{
+  "id": "EIC3-EX1-POLAR-2",
+  "unit": "演習問題1（正弦波・フェーザ）",
+  "form": "calculation",
+  "stem": {
+    "value": "[3](2) $\\dot{Z}=1\\angle(-2\\pi/3)$ を直角座標で表しベクトル図を描け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $-1/2 - j\\sqrt{3}/2$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "複素数",
+    "極座標"
+  ]
+}

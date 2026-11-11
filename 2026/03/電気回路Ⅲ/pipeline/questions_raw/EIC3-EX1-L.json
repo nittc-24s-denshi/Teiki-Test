@@ -1,0 +1,23 @@
+{
+  "id": "EIC3-EX1-L",
+  "unit": "演習問題1（正弦波・フェーザ）",
+  "form": "calculation",
+  "stem": {
+    "value": "[1] L=0.2[H] に $\\dot{V}=100\\angle 0$[V]、f=100/π[Hz]。$\\dot{I}$ のフェーザ・直角座標・図・瞬時値。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $\\dot{I}=\\dot{V}/(j\\omega L)=-j2.5$ A",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "インダクタンス",
+    "フェーザ"
+  ]
+}

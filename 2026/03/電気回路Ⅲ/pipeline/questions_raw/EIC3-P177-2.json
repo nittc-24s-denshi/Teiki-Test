@@ -1,0 +1,26 @@
+{
+  "id": "EIC3-P177-2",
+  "unit": "問題17.6〜17.10（RLC直列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題17.7(2): S1のみ閉じたときの I。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き・解答: 3[A]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 8
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 9
+    }
+  ],
+  "tags": [
+    "RLC直列"
+  ]
+}

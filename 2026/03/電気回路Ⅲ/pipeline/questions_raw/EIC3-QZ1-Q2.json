@@ -1,0 +1,52 @@
+{
+  "id": "EIC3-QZ1-Q2",
+  "unit": "小テスト No.1",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2: 端子ab間の並列 R,L,C（R=10Ω, L=0.1H, C=500μF, ω=100 rad/s）の合成インピーダンスと合成アドミタンス。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き（原文）: $Z=5+j5=5\\sqrt{2}\\exp(j\\pi/4)$、$|Z|=7.07$[S]；$A=Z^{-1}=1/10 - j 199/2000$、$A=0.141$[S^{-1}]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "アドミタンス",
+    "小テスト",
+    "学生誤答"
+  ],
+  "explanation": {
+    "value": "採点: 斜線（誤り）。単位 [S]/[S^{-1}] も誤り。検算メモ（解答の書き換えではない）: Y=1/R+1/(jωL)+jωC=0.1-j0.05、Z=8+j4。分数 1/10 と 199/2000 はPDFで再確認。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p014.png",
+      "page": 14,
+      "caption": {
+        "value": "問題2 並列RLC図",
+        "status": "original"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "field": "answer.student_Z_unit",
+      "before": "7.07 [S]",
+      "after": "原文のまま残し、単位誤りと採点斜線を explanation に分離",
+      "reason": "PDF照合"
+    },
+    {
+      "field": "calc.parallel_RLC",
+      "before": "学生 Z=5+j5",
+      "after": "検算仮説 Z=8+j4（学生解答は変更しない）",
+      "reason": "検算"
+    }
+  ]
+}

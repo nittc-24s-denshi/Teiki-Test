@@ -1,0 +1,50 @@
+{
+  "id": "EIC3-P176",
+  "unit": "問題17.6〜17.10（RLC直列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題17.6: ω=500、E=40∠0、R=10、L=20mH、C=100μF 直列の $\\dot{I},\\dot{V}$（C両端）とフェーザ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: $\\dot{I}=2\\sqrt{2}\\angle45°$[A]、$\\dot{V}=40\\sqrt{2}\\angle-45°$[V]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 8,
+      "note": "問題p.8・解答p.9"
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 9,
+      "note": "問題p.8・解答p.9"
+    }
+  ],
+  "tags": [
+    "RLC直列"
+  ],
+  "explanation": {
+    "value": "p.8 に学生解答なし。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p008.png",
+      "page": 8,
+      "caption": {
+        "value": "問題17.6 回路",
+        "status": "original"
+      }
+    },
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p009.png",
+      "page": 9,
+      "caption": {
+        "value": "17.6 解答フェーザ",
+        "status": "original"
+      }
+    }
+  ]
+}

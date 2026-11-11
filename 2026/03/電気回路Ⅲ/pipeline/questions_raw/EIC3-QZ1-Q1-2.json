@@ -1,0 +1,27 @@
+{
+  "id": "EIC3-QZ1-Q1-2",
+  "unit": "小テスト No.1",
+  "form": "calculation",
+  "stem": {
+    "value": "問題1(2) $z=1/(1\\angle -2\\pi/3)$ を極座標表示に直せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $\\exp(j 2\\pi/3)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "複素数",
+    "小テスト"
+  ],
+  "explanation": {
+    "value": "採点: 丸。赤点数 20（問題1付近）。",
+    "status": "original"
+  }
+}

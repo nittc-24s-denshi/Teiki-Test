@@ -1,0 +1,28 @@
+{
+  "id": "EIC3-QZ1-Q3-3",
+  "unit": "小テスト No.1",
+  "form": "calculation",
+  "stem": {
+    "value": "問題3(3) (2)の各電圧を瞬時値で示せ。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き（原文）: $v_R=10\\sqrt{2}\\sin(1000t+\\pi/6)$；$v_L=4.0\\sqrt{2}\\sin(1000t+7\\pi/6)$；$v_C=40\\sqrt{2}\\sin(1000t-5\\pi/6)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "瞬時値",
+    "小テスト",
+    "学生誤答"
+  ],
+  "explanation": {
+    "value": "採点: 斜線系（(2)の位相誤りを継承）。正解仮説の位相は VL:2π/3、VC:−π/3。",
+    "status": "original"
+  }
+}

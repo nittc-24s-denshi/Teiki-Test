@@ -1,0 +1,36 @@
+{
+  "id": "EIC3-D1-Q3",
+  "unit": "配布資料1（RC・複素数・素子電圧）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題3: $v=10\\sqrt{2}\\sin(\\omega t-\\pi/3)$[V] について極座標・直交、$j\\dot{V}$、$-j\\dot{V}$、フェーザ図。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: (1) $\\dot{V}=10\\exp(-j\\pi/3)=5-j5\\sqrt{3}$（途中式に sin/cos の取り違え書き込みあり） (2) $j\\dot{V}=10\\exp(j\\pi/6)$、$-j\\dot{V}=10\\exp(j5\\pi/6)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 2
+    }
+  ],
+  "tags": [
+    "フェーザ"
+  ],
+  "explanation": {
+    "value": "単位メモ: 特に断りのない限り V。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p002.png",
+      "page": 2,
+      "caption": {
+        "value": "手書きフェーザ図",
+        "status": "original"
+      }
+    }
+  ]
+}

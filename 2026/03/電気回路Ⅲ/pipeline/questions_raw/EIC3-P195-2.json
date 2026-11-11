@@ -1,0 +1,26 @@
+{
+  "id": "EIC3-P195-2",
+  "unit": "問題19.4〜19.7（直並列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題19.5(2): 回路(b) で C を変数とした I2,I。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: $\\dot{I}_2=j1000C$、$\\dot{I}=1+j(1000C-3)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 10
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "並列回路"
+  ]
+}

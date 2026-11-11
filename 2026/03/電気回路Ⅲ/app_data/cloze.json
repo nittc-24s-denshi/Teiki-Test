@@ -1,0 +1,35 @@
+[
+  {
+    "id": "EIC3-D3-TABLE",
+    "unit": "配布資料3（アドミタンス）",
+    "form": "cloze",
+    "tags": [
+      "アドミタンス",
+      "未記入"
+    ],
+    "stem": "回路要素（r, L, C）のアドミタンス・コンダクタンス・サセプタンス表を埋めよ。",
+    "stem_status": "original",
+    "answer": "表は空欄のまま。穴埋め補完なし。",
+    "answer_status": "unverified",
+    "explanation": null,
+    "explanation_status": "original",
+    "figures": [
+      {
+        "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p004.png",
+        "page": 4,
+        "caption": {
+          "value": "アドミタンス定義図・要素図・空欄表",
+          "status": "original"
+        }
+      }
+    ],
+    "sources": [
+      {
+        "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+        "page": 4
+      }
+    ],
+    "conflicts": [],
+    "template": "回路要素（r, L, C）のアドミタンス・コンダクタンス・サセプタンス表を埋めよ。"
+  }
+]

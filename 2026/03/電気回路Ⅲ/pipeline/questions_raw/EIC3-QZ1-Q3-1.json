@@ -1,0 +1,27 @@
+{
+  "id": "EIC3-QZ1-Q3-1",
+  "unit": "小テスト No.1",
+  "form": "calculation",
+  "stem": {
+    "value": "問題3(1) $i=0.2\\sqrt{2}\\sin(1000t+\\pi/6)$[A] のフェーザ（極座標）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $\\dot{I}=0.2\\exp(j\\pi/6)$[A]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 14
+    }
+  ],
+  "tags": [
+    "フェーザ",
+    "小テスト"
+  ],
+  "explanation": {
+    "value": "採点: 丸。赤点数 18（問題3付近）。",
+    "status": "original"
+  }
+}

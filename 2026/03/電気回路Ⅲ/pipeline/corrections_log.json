@@ -1,0 +1,68 @@
+[
+  {
+    "field": "transcript:p14.q3.VL.phase",
+    "before": "手書き VL = 4.0 exp(j 2π/3)、採点: 丸",
+    "after": "手書き VL = 4.0 exp(j 7π/6) [V]、採点: 斜線（誤り）",
+    "reason": "マスク版PDF照合。位相は 7π/6。正解仮説は π/6+π/2=2π/3"
+  },
+  {
+    "field": "transcript:p14.q3.vL.phase",
+    "before": "手書き vL … +2π/3、採点: チェック",
+    "after": "手書き vL = 4.0√2 sin(1000t + 7π/6)、採点: 斜線系（誤り継承）",
+    "reason": "マスク版PDF照合。瞬時値の位相も 7π/6"
+  },
+  {
+    "field": "transcript:p14.q3.VC.phase",
+    "before": "手書き VC = 40 exp(-j 5π/6)、採点: チェック",
+    "after": "手書き VC = 40 exp(-j 5π/6) [V] を確認。採点は斜線（誤り）。正解仮説は π/6−π/2=−π/3",
+    "reason": "マスク版PDF照合。学生誤答は原文のまま残す"
+  },
+  {
+    "field": "transcript:p14.q3.vC.phase",
+    "before": "手書き vC … −5π/6、採点: チェック",
+    "after": "手書き vC = 40√2 sin(1000t − 5π/6) を確認。採点斜線。正解仮説 −π/3",
+    "reason": "マスク版PDF照合"
+  },
+  {
+    "field": "transcript:p14.q2.Z.unit",
+    "before": "Z = 7.07 [S]",
+    "after": "Z = 7.07 [S]（単位誤り・採点斜線）。インピーダンスなら Ω。並列RLCの検算仮説: Y=0.1−j0.05 → Z=8+j4",
+    "reason": "マスク版PDF照合。学生の Z=5+j5=5√2 exp(jπ/4) は原文のまま"
+  },
+  {
+    "field": "transcript:p14.q2.Y.fraction",
+    "before": "A = 1/10 − j 199/2000、A = 0.141 [S^{−1}]",
+    "after": "分数 1/10 と 199/2000 をPDFで確認。|A|≈0.141 および単位 [S^{−1}]（アドミタンスなら S）・採点斜線を確認",
+    "reason": "マスク版PDF照合。1/10 と 199/2000 の読みを再確認済み"
+  },
+  {
+    "field": "transcript:p14.q1.euler",
+    "before": "有無不明",
+    "after": "余白メモ e^{iπ}+1=0 をPDFで確認（手書き）",
+    "reason": "マスク版PDF照合"
+  },
+  {
+    "field": "transcript:p14.scores",
+    "before": "38 / 20 / 18",
+    "after": "赤ペン点数 38・20・18 をPDFで確認。丸・斜線は採点",
+    "reason": "マスク版PDF照合。p.1〜13 に {{採点}} なし"
+  },
+  {
+    "field": "privacy:p12.class",
+    "before": "クラス欄の内容",
+    "after": "マスク済み",
+    "reason": "復元・記録しない"
+  },
+  {
+    "field": "privacy:p14.name_attendance",
+    "before": "氏名・出席番号欄の内容",
+    "after": "マスク済み（下線下まで白マスク）",
+    "reason": "復元・記録しない"
+  },
+  {
+    "field": "calc:p14.q2.parallel_RLC",
+    "before": "学生 Z=5+j5",
+    "after": "検算メモ（解答の書き換えではない）: Y=1/R+1/(jωL)+jωC=0.1−j0.05、Z=1/Y=8+j4",
+    "reason": "学生誤答は原文として維持"
+  }
+]

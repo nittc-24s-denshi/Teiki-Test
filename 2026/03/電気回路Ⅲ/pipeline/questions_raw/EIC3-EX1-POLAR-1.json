@@ -1,0 +1,33 @@
+{
+  "id": "EIC3-EX1-POLAR-1",
+  "unit": "演習問題1（正弦波・フェーザ）",
+  "form": "calculation",
+  "stem": {
+    "value": "[3](1) 極座標 $\\dot{Z}=\\sqrt{8}\\angle 3\\pi/4$ を直角座標で表しベクトル図を描け。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $-2+j2$（取り消し線付き $-2+2j$ あり）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 1
+    }
+  ],
+  "tags": [
+    "複素数",
+    "極座標"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p001.png",
+      "page": 1,
+      "caption": {
+        "value": "ベクトル図（第2象限）",
+        "status": "original"
+      }
+    }
+  ]
+}

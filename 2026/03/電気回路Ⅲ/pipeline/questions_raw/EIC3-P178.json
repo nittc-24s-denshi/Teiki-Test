@@ -1,0 +1,36 @@
+{
+  "id": "EIC3-P178",
+  "unit": "問題17.6〜17.10（RLC直列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題17.8: E=40∠0、R=10√3、XL=15、XC=-5 の Z,I,実効値,位相。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: Z=20Ω、$\\dot{I}=2\\angle-\\pi/6$（別記 $1/20\\angle-30°$）。解答: $\\dot{Z}=20\\angle30°$、$\\dot{I}=2\\angle-30°$、I=2、θ=-30°",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 8
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 9
+    }
+  ],
+  "tags": [
+    "RLC直列"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p008.png",
+      "page": 8,
+      "caption": {
+        "value": "問題17.8 回路・三角形",
+        "status": "original"
+      }
+    }
+  ]
+}

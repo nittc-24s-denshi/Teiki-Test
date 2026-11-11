@@ -1,0 +1,39 @@
+{
+  "id": "EIC3-D1-Q1",
+  "unit": "配布資料1（RC・複素数・素子電圧）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題1: vc=Vc sinωt のとき (1) 電源電圧 v (2) Vc/Vm の式 (3) 表3-1の数値計算とグラフ (4) LPF/HPF の判定。図1は R-C 直列、vc は C 両端。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "（1）〜（4）および問表3-1は未記入・薄い判読不能書き込みのみ。穴埋め補完なし。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 2,
+      "note": "問題1"
+    }
+  ],
+  "tags": [
+    "RC直列",
+    "フィルタ",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "断片手書き: $\\dot{V}_c=\\dot{V}_c/V_c$（意味不明のまま原文）。右下に判読不能の薄い書き込み。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p002.png",
+      "page": 2,
+      "caption": {
+        "value": "図1・問表3-1・グラフ用紙",
+        "status": "original"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "EIC3-DR23-3",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.3: 50[V]、誘導性力率0.8、P=200[W] の I,Z,Pr,Pa。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: Pa=250[VA], Pr=150[var], I=5[A], $\\dot{Z}=8+j6$[Ω]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "電力"
+  ],
+  "explanation": {
+    "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p012.png",
+      "page": 12,
+      "caption": {
+        "value": "23.3 回路",
+        "status": "original"
+      }
+    }
+  ]
+}

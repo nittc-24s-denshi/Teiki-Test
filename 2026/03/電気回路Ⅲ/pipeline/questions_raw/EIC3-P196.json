@@ -1,0 +1,36 @@
+{
+  "id": "EIC3-P196",
+  "unit": "問題19.4〜19.7（直並列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題19.6: ブリッジ位相推移器の出力 V と ω=0,R/L,∞ のとき。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: $\\dot{V}=((R-j\\omega L)/(R+j\\omega L))\\dot{E}$、|V|=E；ω=0で E∠0、ω=R/L で E∠-90°、ω→∞ で E∠-180°",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 10
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "位相推移器"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p010.png",
+      "page": 10,
+      "caption": {
+        "value": "問題19.6 回路",
+        "status": "original"
+      }
+    }
+  ]
+}

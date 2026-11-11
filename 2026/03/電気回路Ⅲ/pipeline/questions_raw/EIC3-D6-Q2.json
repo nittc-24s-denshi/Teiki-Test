@@ -1,0 +1,22 @@
+{
+  "id": "EIC3-D6-Q2",
+  "unit": "配布資料6（最大電力供給）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2: V0=60、Z0=0.3+j0.9、負荷 RL∥C、ω=10^3。最大電力の RL,C と最大電力。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $R_L=0.3$Ω、$X_C=-0.9$Ω、$C=1.11$mF；最大電力メモ $(100\\sout{[判読不能]})^2\\cdot0.3=3000$[W]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 7
+    }
+  ],
+  "tags": [
+    "整合"
+  ]
+}

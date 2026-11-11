@@ -1,0 +1,23 @@
+{
+  "id": "EIC3-D4-Q4",
+  "unit": "配布資料4（電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題4: $\\dot{V}=100+j100\\sqrt{3}$[V], $\\dot{I}=10\\sqrt{3}+j10$[A] の有効・無効・力率。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "未記入。穴埋め補完なし。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "電力",
+    "未記入"
+  ]
+}

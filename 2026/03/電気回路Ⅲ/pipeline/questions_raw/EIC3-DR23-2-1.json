@@ -1,0 +1,40 @@
+{
+  "id": "EIC3-DR23-2-1",
+  "unit": "ドリル no.23（交流電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "23.2(1) ω=100、E=20、R=6、L=80mH 直列の P,Pr,Pa。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: Z=6+j8、I=2、P=24[W], Pr=32[var], Pa=40[VA]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 12
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 13
+    }
+  ],
+  "tags": [
+    "電力"
+  ],
+  "explanation": {
+    "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p012.png",
+      "page": 12,
+      "caption": {
+        "value": "23.2(1) 回路",
+        "status": "original"
+      }
+    }
+  ]
+}

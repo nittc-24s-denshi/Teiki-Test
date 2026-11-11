@@ -1,0 +1,33 @@
+{
+  "id": "EIC3-D6-Q1",
+  "unit": "配布資料6（最大電力供給）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題1: 問図6-6（|V0|=100、r0=10^3 と C=1μF 並列電源、負荷 RL+L 直列、ω=10^3）で最大電力となる RL,L と最大電力。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書きは $Z_0=1\\times10^{-3}+j1\\times10^{-3}$ のみ。穴埋め補完なし。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 7
+    }
+  ],
+  "tags": [
+    "整合",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p007.png",
+      "page": 7,
+      "caption": {
+        "value": "問図6-6",
+        "status": "original"
+      }
+    }
+  ]
+}

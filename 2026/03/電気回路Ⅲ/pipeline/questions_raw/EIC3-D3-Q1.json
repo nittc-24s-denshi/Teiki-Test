@@ -1,0 +1,32 @@
+{
+  "id": "EIC3-D3-Q1",
+  "unit": "配布資料3（アドミタンス）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題1: 問図5-31 の $\\dot{Y}$ と G,B,|Y|,θY。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $\\dot{Y}=(1+j3)^{-1}+1/(-5j)=1/10 - j/10$ [S]；$G=1/10$, $B=-1/10$, $|Y|=\\sqrt{2}/10$, $θ_Y=-45°$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 4
+    }
+  ],
+  "tags": [
+    "アドミタンス"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p004.png",
+      "page": 4,
+      "caption": {
+        "value": "問図5-31",
+        "status": "original"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "EIC3-EX1-PHASE",
+  "unit": "演習問題1（正弦波・フェーザ）",
+  "form": "calculation",
+  "stem": {
+    "value": "[3] 問図3-2で v1,v2 の周波数 f=100[Hz]、時間差 Δt=5/3[ms]。v1 は v2 に対し何 [rad] 進み/遅れか。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $2\\pi \\Delta t/100$ [rad] 進み（書き込みのまま）",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 1,
+      "note": "問図3-2"
+    }
+  ],
+  "tags": [
+    "正弦波",
+    "位相差"
+  ],
+  "explanation": {
+    "value": "ページ画像上の手書き解答を原文として記録。計算式の Δt/T との対応は要確認。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p001.png",
+      "page": 1,
+      "caption": {
+        "value": "問図3-2 および手書き解答（演習問題1）",
+        "status": "original"
+      }
+    }
+  ]
+}

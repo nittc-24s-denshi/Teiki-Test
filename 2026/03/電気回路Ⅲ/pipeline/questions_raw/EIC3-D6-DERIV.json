@@ -1,0 +1,33 @@
+{
+  "id": "EIC3-D6-DERIV",
+  "unit": "配布資料6（最大電力供給）",
+  "form": "calculation",
+  "stem": {
+    "value": "図6-23 の最大電力条件の導出（$X=-X_0$ など）。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: $\\dot{I}=\\dot{V}_0/((R_0+R)+j(X_0+X))$、$P=|\\dot{V}_0|^2 R/((R_0+R)^2+(X_0+X)^2)$；R一定で $X=-X_0$ のとき最大、$P=|\\dot{V}_0|^2 R/(R_0+R)^2$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 7
+    }
+  ],
+  "tags": [
+    "整合",
+    "最大電力"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p007.png",
+      "page": 7,
+      "caption": {
+        "value": "図6-23",
+        "status": "original"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "EIC3-D4-Q3",
+  "unit": "配布資料4（電力）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題3: V=100[V], I=40[A], 電圧が電流より60°進み。皮相・力率・有効・無効。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き: S=4000[VA], P=2000[W], Q=2000√3[var]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 5
+    }
+  ],
+  "tags": [
+    "電力"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "exam": "2026/03",
+  "subject": "電気回路Ⅲ",
+  "updated": "2026-11-11T01:13:47Z",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": true,
+    "transcribed": true,
+    "questions_split": true,
+    "filled": false,
+    "merged": true,
+    "corrected": true,
+    "structured": true,
+    "validated": true,
+    "app_data": true
+  },
+  "counts": {
+    "questions": 53,
+    "body_questions": 52,
+    "corrections": 15,
+    "unverified": 7,
+    "inferred_answers": 0
+  },
+  "unverified_ids": [
+    "EIC3-D1-Q1",
+    "EIC3-D3-TABLE",
+    "EIC3-D4-Q4",
+    "EIC3-D5-Q1",
+    "EIC3-D5-Q2",
+    "EIC3-D5-Q3",
+    "EIC3-D6-Q1"
+  ],
+  "notes": "進捗: 整備中。マスク済み exercises_quiz_2026-11_masked.pdf のみRAW。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank: eic3_2026_03。"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "EIC3-D1-Q4",
+  "unit": "配布資料1（RC・複素数・素子電圧）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題4: $i=10\\sqrt{2}\\sin(100t+\\pi/6)$ が R=5Ω, L=50mH, C=2mF に流れるときの $\\dot{I},\\dot{V}_R,\\dot{V}_L,\\dot{V}_C$ と瞬時値・フェーザ図。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書き(p.3): $\\dot{I}=10\\exp(j\\pi/6)$、$\\dot{V}_R=50\\exp(j\\pi/6)$、$v_R=50\\sqrt{2}\\sin(100t+\\pi/6)$；$\\dot{V}_L$ は πf 経由で $100\\pi\\exp(j2\\pi/3)$ に訂正；$v_L$ 振幅は判読不能；$V_C$ 導出で $1/(4\\pi)\\exp(-j\\pi/3)$、$v_C=(1/(4\\pi))\\sin(100t-\\pi/3)$",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 2,
+      "note": "問題文p.2・解答手書きp.3"
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 3,
+      "note": "問題文p.2・解答手書きp.3"
+    }
+  ],
+  "tags": [
+    "RLC",
+    "素子電圧"
+  ],
+  "explanation": {
+    "value": "ページ下部に別紙写り込みと $16\\sqrt{2}\\exp(-j\\pi/4)$・問図5-39 の断片あり。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p003.png",
+      "page": 3,
+      "caption": {
+        "value": "問題4 手書き解答",
+        "status": "original"
+      }
+    }
+  ]
+}

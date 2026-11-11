@@ -1,0 +1,1755 @@
+{
+  "schema_version": "1.0.0",
+  "exam": "2026/03",
+  "subject": "電気回路Ⅲ",
+  "generated_at": "2026-11-11T01:13:46Z",
+  "notes": "採点済み課題・小テスト（マスク版14頁: 演習問題1、配布資料1/3〜6、問題17.6〜19.7、ドリルno.23、小テストNo.1）。手書き・印刷解答は original。空欄は unverified。穴埋め補完は未実施（filled=false）。公式範囲表は未入手。氏名・出席番号・クラスはマスク済み（復元しない）。",
+  "questions": [
+    {
+      "id": "EIC3-META-TRANSCRIPT-QC",
+      "unit": "メタ（文字起こし訂正）",
+      "form": "other",
+      "stem": {
+        "value": "文字起こしをマスク済みページ画像と照合して訂正した記録。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "訂正ログ参照（pipeline/corrections_log.json および本問 corrections）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1,
+          "note": "メタ"
+        }
+      ],
+      "tags": [
+        "meta",
+        "corrections"
+      ],
+      "corrections": [
+        {
+          "field": "transcript:p14.q3.VL.phase",
+          "before": "手書き VL = 4.0 exp(j 2π/3)、採点: 丸",
+          "after": "手書き VL = 4.0 exp(j 7π/6) [V]、採点: 斜線（誤り）",
+          "reason": "マスク版PDF照合。位相は 7π/6。正解仮説は π/6+π/2=2π/3"
+        },
+        {
+          "field": "transcript:p14.q3.vL.phase",
+          "before": "手書き vL … +2π/3、採点: チェック",
+          "after": "手書き vL = 4.0√2 sin(1000t + 7π/6)、採点: 斜線系（誤り継承）",
+          "reason": "マスク版PDF照合。瞬時値の位相も 7π/6"
+        },
+        {
+          "field": "transcript:p14.q3.VC.phase",
+          "before": "手書き VC = 40 exp(-j 5π/6)、採点: チェック",
+          "after": "手書き VC = 40 exp(-j 5π/6) [V] を確認。採点は斜線（誤り）。正解仮説は π/6−π/2=−π/3",
+          "reason": "マスク版PDF照合。学生誤答は原文のまま残す"
+        },
+        {
+          "field": "transcript:p14.q3.vC.phase",
+          "before": "手書き vC … −5π/6、採点: チェック",
+          "after": "手書き vC = 40√2 sin(1000t − 5π/6) を確認。採点斜線。正解仮説 −π/3",
+          "reason": "マスク版PDF照合"
+        },
+        {
+          "field": "transcript:p14.q2.Z.unit",
+          "before": "Z = 7.07 [S]",
+          "after": "Z = 7.07 [S]（単位誤り・採点斜線）。インピーダンスなら Ω。並列RLCの検算仮説: Y=0.1−j0.05 → Z=8+j4",
+          "reason": "マスク版PDF照合。学生の Z=5+j5=5√2 exp(jπ/4) は原文のまま"
+        },
+        {
+          "field": "transcript:p14.q2.Y.fraction",
+          "before": "A = 1/10 − j 199/2000、A = 0.141 [S^{−1}]",
+          "after": "分数 1/10 と 199/2000 をPDFで確認。|A|≈0.141 および単位 [S^{−1}]（アドミタンスなら S）・採点斜線を確認",
+          "reason": "マスク版PDF照合。1/10 と 199/2000 の読みを再確認済み"
+        },
+        {
+          "field": "transcript:p14.q1.euler",
+          "before": "有無不明",
+          "after": "余白メモ e^{iπ}+1=0 をPDFで確認（手書き）",
+          "reason": "マスク版PDF照合"
+        },
+        {
+          "field": "transcript:p14.scores",
+          "before": "38 / 20 / 18",
+          "after": "赤ペン点数 38・20・18 をPDFで確認。丸・斜線は採点",
+          "reason": "マスク版PDF照合。p.1〜13 に {{採点}} なし"
+        },
+        {
+          "field": "privacy:p12.class",
+          "before": "クラス欄の内容",
+          "after": "マスク済み",
+          "reason": "復元・記録しない"
+        },
+        {
+          "field": "privacy:p14.name_attendance",
+          "before": "氏名・出席番号欄の内容",
+          "after": "マスク済み（下線下まで白マスク）",
+          "reason": "復元・記録しない"
+        },
+        {
+          "field": "calc:p14.q2.parallel_RLC",
+          "before": "学生 Z=5+j5",
+          "after": "検算メモ（解答の書き換えではない）: Y=1/R+1/(jωL)+jωC=0.1−j0.05、Z=1/Y=8+j4",
+          "reason": "学生誤答は原文として維持"
+        }
+      ]
+    },
+    {
+      "id": "EIC3-EX1-PHASE",
+      "unit": "演習問題1（正弦波・フェーザ）",
+      "form": "calculation",
+      "stem": {
+        "value": "[3] 問図3-2で v1,v2 の周波数 f=100[Hz]、時間差 Δt=5/3[ms]。v1 は v2 に対し何 [rad] 進み/遅れか。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $2\\pi \\Delta t/100$ [rad] 進み（書き込みのまま）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問図3-2"
+        }
+      ],
+      "tags": [
+        "正弦波",
+        "位相差"
+      ],
+      "explanation": {
+        "value": "ページ画像上の手書き解答を原文として記録。計算式の Δt/T との対応は要確認。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p001.png",
+          "page": 1,
+          "caption": {
+            "value": "問図3-2 および手書き解答（演習問題1）",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-EX1-POLAR-1",
+      "unit": "演習問題1（正弦波・フェーザ）",
+      "form": "calculation",
+      "stem": {
+        "value": "[3](1) 極座標 $\\dot{Z}=\\sqrt{8}\\angle 3\\pi/4$ を直角座標で表しベクトル図を描け。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $-2+j2$（取り消し線付き $-2+2j$ あり）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "複素数",
+        "極座標"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p001.png",
+          "page": 1,
+          "caption": {
+            "value": "ベクトル図（第2象限）",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-EX1-POLAR-2",
+      "unit": "演習問題1（正弦波・フェーザ）",
+      "form": "calculation",
+      "stem": {
+        "value": "[3](2) $\\dot{Z}=1\\angle(-2\\pi/3)$ を直角座標で表しベクトル図を描け。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $-1/2 - j\\sqrt{3}/2$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "複素数",
+        "極座標"
+      ]
+    },
+    {
+      "id": "EIC3-EX1-PHASOR-V",
+      "unit": "演習問題1（正弦波・フェーザ）",
+      "form": "calculation",
+      "stem": {
+        "value": "[2] $\\dot{V}=-20+j10$ [V] のフェーザ表示・フェーザ図・瞬時値（角周波数 ω）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $10\\sqrt{5}\\exp(\\pi - \\tan^{-1}(1/2))$（書き込みのまま）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1,
+          "note": "問図5-2"
+        }
+      ],
+      "tags": [
+        "フェーザ"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p001.png",
+          "page": 1,
+          "caption": {
+            "value": "問図5-2",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-EX1-L",
+      "unit": "演習問題1（正弦波・フェーザ）",
+      "form": "calculation",
+      "stem": {
+        "value": "[1] L=0.2[H] に $\\dot{V}=100\\angle 0$[V]、f=100/π[Hz]。$\\dot{I}$ のフェーザ・直角座標・図・瞬時値。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $\\dot{I}=\\dot{V}/(j\\omega L)=-j2.5$ A",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "インダクタンス",
+        "フェーザ"
+      ]
+    },
+    {
+      "id": "EIC3-EX1-C",
+      "unit": "演習問題1（正弦波・フェーザ）",
+      "form": "calculation",
+      "stem": {
+        "value": "[3] C=1/π[mF] に $\\dot{V}=50\\angle(\\pi/6)$[V]、ω=100π[rad/s]。$\\dot{I}$・図・瞬時値。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $\\dot{I}=5\\angle(2\\pi/3)$[A]、$i=5\\sqrt{2}\\sin(100\\pi t+2\\pi/3)$[A]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 1
+        }
+      ],
+      "tags": [
+        "キャパシタンス",
+        "フェーザ"
+      ],
+      "explanation": {
+        "value": "フェーザ図の座標軸のみ（書き込みなし）。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-D1-Q1",
+      "unit": "配布資料1（RC・複素数・素子電圧）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1: vc=Vc sinωt のとき (1) 電源電圧 v (2) Vc/Vm の式 (3) 表3-1の数値計算とグラフ (4) LPF/HPF の判定。図1は R-C 直列、vc は C 両端。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "（1）〜（4）および問表3-1は未記入・薄い判読不能書き込みのみ。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 2,
+          "note": "問題1"
+        }
+      ],
+      "tags": [
+        "RC直列",
+        "フィルタ",
+        "未記入"
+      ],
+      "explanation": {
+        "value": "断片手書き: $\\dot{V}_c=\\dot{V}_c/V_c$（意味不明のまま原文）。右下に判読不能の薄い書き込み。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p002.png",
+          "page": 2,
+          "caption": {
+            "value": "図1・問表3-1・グラフ用紙",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D1-Q2-1",
+      "unit": "配布資料1（RC・複素数・素子電圧）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2(1) $\\dot{Z}=(6\\angle\\pi/6)(3\\angle-2\\pi/3)$ を極座標・直交座標で。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $=18\\angle-\\pi/2=18(0-j)=-18j$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "複素数"
+      ]
+    },
+    {
+      "id": "EIC3-D1-Q2-2",
+      "unit": "配布資料1（RC・複素数・素子電圧）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2(2) $\\dot{Z}=(1+j\\sqrt{3})\\times\\sqrt{3}\\angle(-\\pi/4)$。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $2\\angle\\pi/3$ から $2\\sqrt{3}\\angle(\\pi/12)=2\\sqrt{3}(\\cos\\pi/12+j\\sin\\pi/12)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "複素数"
+      ]
+    },
+    {
+      "id": "EIC3-D1-Q3",
+      "unit": "配布資料1（RC・複素数・素子電圧）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題3: $v=10\\sqrt{2}\\sin(\\omega t-\\pi/3)$[V] について極座標・直交、$j\\dot{V}$、$-j\\dot{V}$、フェーザ図。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: (1) $\\dot{V}=10\\exp(-j\\pi/3)=5-j5\\sqrt{3}$（途中式に sin/cos の取り違え書き込みあり） (2) $j\\dot{V}=10\\exp(j\\pi/6)$、$-j\\dot{V}=10\\exp(j5\\pi/6)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 2
+        }
+      ],
+      "tags": [
+        "フェーザ"
+      ],
+      "explanation": {
+        "value": "単位メモ: 特に断りのない限り V。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p002.png",
+          "page": 2,
+          "caption": {
+            "value": "手書きフェーザ図",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D1-Q4",
+      "unit": "配布資料1（RC・複素数・素子電圧）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題4: $i=10\\sqrt{2}\\sin(100t+\\pi/6)$ が R=5Ω, L=50mH, C=2mF に流れるときの $\\dot{I},\\dot{V}_R,\\dot{V}_L,\\dot{V}_C$ と瞬時値・フェーザ図。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き(p.3): $\\dot{I}=10\\exp(j\\pi/6)$、$\\dot{V}_R=50\\exp(j\\pi/6)$、$v_R=50\\sqrt{2}\\sin(100t+\\pi/6)$；$\\dot{V}_L$ は πf 経由で $100\\pi\\exp(j2\\pi/3)$ に訂正；$v_L$ 振幅は判読不能；$V_C$ 導出で $1/(4\\pi)\\exp(-j\\pi/3)$、$v_C=(1/(4\\pi))\\sin(100t-\\pi/3)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 2,
+          "note": "問題文p.2・解答手書きp.3"
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 3,
+          "note": "問題文p.2・解答手書きp.3"
+        }
+      ],
+      "tags": [
+        "RLC",
+        "素子電圧"
+      ],
+      "explanation": {
+        "value": "ページ下部に別紙写り込みと $16\\sqrt{2}\\exp(-j\\pi/4)$・問図5-39 の断片あり。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p003.png",
+          "page": 3,
+          "caption": {
+            "value": "問題4 手書き解答",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D3-TABLE",
+      "unit": "配布資料3（アドミタンス）",
+      "form": "cloze",
+      "stem": {
+        "value": "回路要素（r, L, C）のアドミタンス・コンダクタンス・サセプタンス表を埋めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "表は空欄のまま。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 4
+        }
+      ],
+      "tags": [
+        "アドミタンス",
+        "未記入"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p004.png",
+          "page": 4,
+          "caption": {
+            "value": "アドミタンス定義図・要素図・空欄表",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D3-Q1",
+      "unit": "配布資料3（アドミタンス）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1: 問図5-31 の $\\dot{Y}$ と G,B,|Y|,θY。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $\\dot{Y}=(1+j3)^{-1}+1/(-5j)=1/10 - j/10$ [S]；$G=1/10$, $B=-1/10$, $|Y|=\\sqrt{2}/10$, $θ_Y=-45°$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 4
+        }
+      ],
+      "tags": [
+        "アドミタンス"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p004.png",
+          "page": 4,
+          "caption": {
+            "value": "問図5-31",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D3-Q2",
+      "unit": "配布資料3（アドミタンス）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2: 問図5-39（V=100∠0、r2=25 と r1=3+X=4 の並列）の電流 $\\dot{I}$ の極座標。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: 途中計算の後 $16-j16=16\\sqrt{2}\\exp(-j\\pi/4)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 4
+        }
+      ],
+      "tags": [
+        "並列回路",
+        "アドミタンス"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p004.png",
+          "page": 4,
+          "caption": {
+            "value": "問図5-39",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D4-Q1",
+      "unit": "配布資料4（電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1: $\\dot{V}=15\\angle-10°$[V], $\\dot{I}=110\\angle-10°$[A] の皮相・力率・有効・無効。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: S=1650[VA], P=1650[W], Q=0[var]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "電力"
+      ]
+    },
+    {
+      "id": "EIC3-D4-Q2",
+      "unit": "配布資料4（電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2: $v=100\\sin(\\pi t+\\pi/9)$, $i=40\\sin(\\pi t-2\\pi/9)$ の皮相・力率・有効・無効。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: 位相差メモ 3π/9；$S=2000$[VA], $P=1000$[W], $Q=1000\\sqrt{3}$[var]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "電力"
+      ]
+    },
+    {
+      "id": "EIC3-D4-Q3",
+      "unit": "配布資料4（電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題3: V=100[V], I=40[A], 電圧が電流より60°進み。皮相・力率・有効・無効。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: S=4000[VA], P=2000[W], Q=2000√3[var]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "電力"
+      ]
+    },
+    {
+      "id": "EIC3-D4-Q4",
+      "unit": "配布資料4（電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題4: $\\dot{V}=100+j100\\sqrt{3}$[V], $\\dot{I}=10\\sqrt{3}+j10$[A] の有効・無効・力率。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "未記入。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 5
+        }
+      ],
+      "tags": [
+        "電力",
+        "未記入"
+      ]
+    },
+    {
+      "id": "EIC3-D5-Q1",
+      "unit": "配布資料5（複素電力・力率改善）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1: R=10Ω と C=10^3/π[μF] 直列、f=50Hz、$\\dot{V}=100\\angle0°$。皮相・力率・有効・無効。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書きは $\\dot{Z}=10+\\cdots=10$ までで途中。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "複素電力",
+        "未記入"
+      ]
+    },
+    {
+      "id": "EIC3-D5-Q2",
+      "unit": "配布資料5（複素電力・力率改善）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2: 遅れ力率0.9、有効電力1800[W] の皮相電力と無効電力。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "未記入（力率改善の定義枠のみ印刷）。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "力率",
+        "未記入"
+      ],
+      "explanation": {
+        "value": "印刷: 力率改善…無効電力を減らして力率を1に近づけること。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-D5-Q3",
+      "unit": "配布資料5（複素電力・力率改善）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題3: 問図6-3（R+jωL と C 並列）の力率1となる可変 C の式。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書きは $\\dot{Z}=((R+j\\omega L)^{-1}+(1/(j\\omega C))^{-1})^{-1}=R$ まで。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 6
+        }
+      ],
+      "tags": [
+        "力率",
+        "未記入"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p006.png",
+          "page": 6,
+          "caption": {
+            "value": "問図6-3",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D6-DERIV",
+      "unit": "配布資料6（最大電力供給）",
+      "form": "calculation",
+      "stem": {
+        "value": "図6-23 の最大電力条件の導出（$X=-X_0$ など）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $\\dot{I}=\\dot{V}_0/((R_0+R)+j(X_0+X))$、$P=|\\dot{V}_0|^2 R/((R_0+R)^2+(X_0+X)^2)$；R一定で $X=-X_0$ のとき最大、$P=|\\dot{V}_0|^2 R/(R_0+R)^2$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 7
+        }
+      ],
+      "tags": [
+        "整合",
+        "最大電力"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p007.png",
+          "page": 7,
+          "caption": {
+            "value": "図6-23",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D6-Q1",
+      "unit": "配布資料6（最大電力供給）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1: 問図6-6（|V0|=100、r0=10^3 と C=1μF 並列電源、負荷 RL+L 直列、ω=10^3）で最大電力となる RL,L と最大電力。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書きは $Z_0=1\\times10^{-3}+j1\\times10^{-3}$ のみ。穴埋め補完なし。",
+        "status": "unverified"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 7
+        }
+      ],
+      "tags": [
+        "整合",
+        "未記入"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p007.png",
+          "page": 7,
+          "caption": {
+            "value": "問図6-6",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-D6-Q2",
+      "unit": "配布資料6（最大電力供給）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2: V0=60、Z0=0.3+j0.9、負荷 RL∥C、ω=10^3。最大電力の RL,C と最大電力。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $R_L=0.3$Ω、$X_C=-0.9$Ω、$C=1.11$mF；最大電力メモ $(100\\sout{[判読不能]})^2\\cdot0.3=3000$[W]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 7
+        }
+      ],
+      "tags": [
+        "整合"
+      ]
+    },
+    {
+      "id": "EIC3-P176",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.6: ω=500、E=40∠0、R=10、L=20mH、C=100μF 直列の $\\dot{I},\\dot{V}$（C両端）とフェーザ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: $\\dot{I}=2\\sqrt{2}\\angle45°$[A]、$\\dot{V}=40\\sqrt{2}\\angle-45°$[V]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8,
+          "note": "問題p.8・解答p.9"
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9,
+          "note": "問題p.8・解答p.9"
+        }
+      ],
+      "tags": [
+        "RLC直列"
+      ],
+      "explanation": {
+        "value": "p.8 に学生解答なし。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p008.png",
+          "page": 8,
+          "caption": {
+            "value": "問題17.6 回路",
+            "status": "original"
+          }
+        },
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p009.png",
+          "page": 9,
+          "caption": {
+            "value": "17.6 解答フェーザ",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-P177-1",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.7(1): E=150、ω=100。S1,S2開で I=5 同相、S2のみ閉で I=3。R,L,C を求めよ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: R=30Ω、L=0.4H、C=250μF（400 を取り消し）。解答も R=30、L=0.4H、C=250μF",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9
+        }
+      ],
+      "tags": [
+        "RLC直列",
+        "スイッチ"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p008.png",
+          "page": 8,
+          "caption": {
+            "value": "問題17.7 回路",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-P177-2",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.7(2): S1のみ閉じたときの I。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き・解答: 3[A]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9
+        }
+      ],
+      "tags": [
+        "RLC直列"
+      ]
+    },
+    {
+      "id": "EIC3-P177-3",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.7(3): S1とS2を閉じたときの I。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き・解答: 5[A]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9
+        }
+      ],
+      "tags": [
+        "RLC直列"
+      ]
+    },
+    {
+      "id": "EIC3-P178",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.8: E=40∠0、R=10√3、XL=15、XC=-5 の Z,I,実効値,位相。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: Z=20Ω、$\\dot{I}=2\\angle-\\pi/6$（別記 $1/20\\angle-30°$）。解答: $\\dot{Z}=20\\angle30°$、$\\dot{I}=2\\angle-30°$、I=2、θ=-30°",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9
+        }
+      ],
+      "tags": [
+        "RLC直列"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p008.png",
+          "page": 8,
+          "caption": {
+            "value": "問題17.8 回路・三角形",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-P179",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.9: R=40、X=30、V=100 の電流 I。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: Z=50∠tan^{-1}(3/4)、I=2∠-tan^{-1}(3/4)[A]。解答: I=2[A]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9
+        }
+      ],
+      "tags": [
+        "インピーダンス"
+      ]
+    },
+    {
+      "id": "EIC3-P1710",
+      "unit": "問題17.6〜17.10（RLC直列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題17.10: R=30、X=10 の G,B。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: G=3/100[S], B=-1/100[S]。解答: G=30[mS], B=-10[mS]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 8
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 9
+        }
+      ],
+      "tags": [
+        "アドミタンス"
+      ]
+    },
+    {
+      "id": "EIC3-P194",
+      "unit": "問題19.4〜19.7（直並列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題19.4: ω=100、E=4、I=IL=IC=2[A] のフェーザと R,L,C。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: IC=j2、IL=2∠-30°；C=5[mF]、R=√3[Ω]、L=10[mH]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 10
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 11
+        }
+      ],
+      "tags": [
+        "並列回路"
+      ],
+      "explanation": {
+        "value": "p.10 に学生解答なし。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p010.png",
+          "page": 10,
+          "caption": {
+            "value": "問題19.4 回路",
+            "status": "original"
+          }
+        },
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p011.png",
+          "page": 11,
+          "caption": {
+            "value": "19.4 解答フェーザ",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-P195-1",
+      "unit": "問題19.4〜19.7（直並列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題19.5(1): 回路(a) E=10、R=1、L=30mH、ω=100 の I1。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: $\\dot{I}_1=1-j3$[A]、$I_1=\\sqrt{10}$[A]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 10
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 11
+        }
+      ],
+      "tags": [
+        "直列回路"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p010.png",
+          "page": 10,
+          "caption": {
+            "value": "問題19.5 回路",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-P195-2",
+      "unit": "問題19.4〜19.7（直並列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題19.5(2): 回路(b) で C を変数とした I2,I。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: $\\dot{I}_2=j1000C$、$\\dot{I}=1+j(1000C-3)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 10
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 11
+        }
+      ],
+      "tags": [
+        "並列回路"
+      ]
+    },
+    {
+      "id": "EIC3-P195-3",
+      "unit": "問題19.4〜19.7（直並列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題19.5(3): I 最小の C とフェーザ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: C=3[mF]、I2=j3、I=1",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 10
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 11
+        }
+      ],
+      "tags": [
+        "並列回路"
+      ]
+    },
+    {
+      "id": "EIC3-P196",
+      "unit": "問題19.4〜19.7（直並列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題19.6: ブリッジ位相推移器の出力 V と ω=0,R/L,∞ のとき。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: $\\dot{V}=((R-j\\omega L)/(R+j\\omega L))\\dot{E}$、|V|=E；ω=0で E∠0、ω=R/L で E∠-90°、ω→∞ で E∠-180°",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 10
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 11
+        }
+      ],
+      "tags": [
+        "位相推移器"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p010.png",
+          "page": 10,
+          "caption": {
+            "value": "問題19.6 回路",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-P197",
+      "unit": "問題19.4〜19.7（直並列）",
+      "form": "calculation",
+      "stem": {
+        "value": "問題19.7: L=CR^2 のとき合成アドミタンス・インピーダンス。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: Y=1/R、Z=R（定抵抗回路）",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 10
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 11
+        }
+      ],
+      "tags": [
+        "定抵抗回路"
+      ],
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p010.png",
+          "page": 10,
+          "caption": {
+            "value": "問題19.7 回路",
+            "status": "original"
+          }
+        },
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p011.png",
+          "page": 11,
+          "caption": {
+            "value": "等価説明図",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-DR23-1-1",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.1(1) V=100∠-30°、I=2∠30° の P, Pr, Pa。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: P=25W, Pr=43Var, Pa=50VA（$\\dot{P}=50\\angle-60°$）。解答: P=100[W], Pr=-100√3≒-173[var], Pa=200[VA]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "学生計算は VI/2 系の誤りを含む原文。class 欄はマスク済み。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p012.png",
+          "page": 12,
+          "caption": {
+            "value": "ドリル no.23（クラス欄はマスク済み）",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-DR23-1-2",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.1(2) V=2+j4、I=2+j1 の P, Pr, Pa。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: P=1.6W, Pr=1.2Var, Pa=2VA。解答: $\\dot{P}=8+j6$ → P=8[W], Pr=6[var], Pa=10[VA]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "学生は $\\dot{P}$ を 8/5+j6/5 と誤記。原文として残す。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-DR23-1-3",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.1(3) V=10、Z=3+j1 の P, Pr, Pa。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: Z=√10、I=√10、P=30[W], Pr=10[var], Pa=10√10≒31.6[VA]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-DR23-1-4",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.1(4) V=10、P=16、Pr=12 の力率と I。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: Pa=20[VA], I=2[A], cosθ=0.8",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "力率"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-DR23-1-5",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.1(5) I=2、P=60、cosθ=0.6、Zは容量性。V と Z。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: V=50[V], Z=25、$\\dot{Z}=15-j20$[Ω]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "力率",
+        "インピーダンス"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-DR23-2-1",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.2(1) ω=100、E=20、R=6、L=80mH 直列の P,Pr,Pa。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: Z=6+j8、I=2、P=24[W], Pr=32[var], Pa=40[VA]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p012.png",
+          "page": 12,
+          "caption": {
+            "value": "23.2(1) 回路",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-DR23-2-2",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.2(2) E=10、R=10∥C=2mF、ω=100 の P,Pr,Pa。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: P=10[W], Pr=-20[var], Pa=10√5≒22.4[VA]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-DR23-2-3",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.2(3) E=10、R=1+L=30mH と C=2mF 並列、ω=100。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: P=10[W], Pr=10[var], Pa=10√2≒14.1[VA]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-DR23-3",
+      "unit": "ドリル no.23（交流電力）",
+      "form": "calculation",
+      "stem": {
+        "value": "23.3: 50[V]、誘導性力率0.8、P=200[W] の I,Z,Pr,Pa。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "解答: Pa=250[VA], Pr=150[var], I=5[A], $\\dot{Z}=8+j6$[Ω]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 12
+        },
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 13
+        }
+      ],
+      "tags": [
+        "電力"
+      ],
+      "explanation": {
+        "value": "p.12 は未記入。解答ページの印刷解を原文として採用。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p012.png",
+          "page": 12,
+          "caption": {
+            "value": "23.3 回路",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-QZ1-Q1-1",
+      "unit": "小テスト No.1",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1(1) $z=1/(1+j\\sqrt{3})$ を極座標表示に直せ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $(1-j\\sqrt{3})/4 = 1/2\\exp(-j\\pi/3)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 14
+        }
+      ],
+      "tags": [
+        "複素数",
+        "小テスト"
+      ],
+      "explanation": {
+        "value": "採点: 丸。余白に直角三角形メモと $e^{i\\pi}+1=0$。赤点数 38（全体）。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p014.png",
+          "page": 14,
+          "caption": {
+            "value": "小テスト No.1（氏名・出席番号欄はマスク済み）",
+            "status": "original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EIC3-QZ1-Q1-2",
+      "unit": "小テスト No.1",
+      "form": "calculation",
+      "stem": {
+        "value": "問題1(2) $z=1/(1\\angle -2\\pi/3)$ を極座標表示に直せ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $\\exp(j 2\\pi/3)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 14
+        }
+      ],
+      "tags": [
+        "複素数",
+        "小テスト"
+      ],
+      "explanation": {
+        "value": "採点: 丸。赤点数 20（問題1付近）。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-QZ1-Q2",
+      "unit": "小テスト No.1",
+      "form": "calculation",
+      "stem": {
+        "value": "問題2: 端子ab間の並列 R,L,C（R=10Ω, L=0.1H, C=500μF, ω=100 rad/s）の合成インピーダンスと合成アドミタンス。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き（原文）: $Z=5+j5=5\\sqrt{2}\\exp(j\\pi/4)$、$|Z|=7.07$[S]；$A=Z^{-1}=1/10 - j 199/2000$、$A=0.141$[S^{-1}]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 14
+        }
+      ],
+      "tags": [
+        "アドミタンス",
+        "小テスト",
+        "学生誤答"
+      ],
+      "explanation": {
+        "value": "採点: 斜線（誤り）。単位 [S]/[S^{-1}] も誤り。検算メモ（解答の書き換えではない）: Y=1/R+1/(jωL)+jωC=0.1-j0.05、Z=8+j4。分数 1/10 と 199/2000 はPDFで再確認。",
+        "status": "original"
+      },
+      "figures": [
+        {
+          "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p014.png",
+          "page": 14,
+          "caption": {
+            "value": "問題2 並列RLC図",
+            "status": "original"
+          }
+        }
+      ],
+      "corrections": [
+        {
+          "field": "answer.student_Z_unit",
+          "before": "7.07 [S]",
+          "after": "原文のまま残し、単位誤りと採点斜線を explanation に分離",
+          "reason": "PDF照合"
+        },
+        {
+          "field": "calc.parallel_RLC",
+          "before": "学生 Z=5+j5",
+          "after": "検算仮説 Z=8+j4（学生解答は変更しない）",
+          "reason": "検算"
+        }
+      ]
+    },
+    {
+      "id": "EIC3-QZ1-Q3-1",
+      "unit": "小テスト No.1",
+      "form": "calculation",
+      "stem": {
+        "value": "問題3(1) $i=0.2\\sqrt{2}\\sin(1000t+\\pi/6)$[A] のフェーザ（極座標）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き: $\\dot{I}=0.2\\exp(j\\pi/6)$[A]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 14
+        }
+      ],
+      "tags": [
+        "フェーザ",
+        "小テスト"
+      ],
+      "explanation": {
+        "value": "採点: 丸。赤点数 18（問題3付近）。",
+        "status": "original"
+      }
+    },
+    {
+      "id": "EIC3-QZ1-Q3-2",
+      "unit": "小テスト No.1",
+      "form": "calculation",
+      "stem": {
+        "value": "問題3(2) R=50Ω, L=20mH, C=5μF 直列に同電流が流れるときの VR,VL,VC（極座標）。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き（原文）: $\\dot{V}_R=10\\exp(j\\pi/6)$[V]；$\\dot{V}_L=4.0\\exp(j 7\\pi/6)$[V]；$\\dot{V}_C=40\\exp(-j 5\\pi/6)$[V]",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 14
+        }
+      ],
+      "tags": [
+        "RLC直列",
+        "小テスト",
+        "学生誤答"
+      ],
+      "explanation": {
+        "value": "採点: VR は丸。VL・VC は斜線（誤り）。検算メモ: ωL=20 → VL=4∠(π/6+π/2)=4∠2π/3；1/(ωC)=200 → VC=40∠(π/6−π/2)=40∠(−π/3)。学生の 7π/6 と −5π/6 は原文として残す。",
+        "status": "original"
+      },
+      "corrections": [
+        {
+          "field": "transcript.VL_phase",
+          "before": "2π/3・採点丸",
+          "after": "PDFは 7π/6・採点斜線",
+          "reason": "マスク版PDF照合"
+        },
+        {
+          "field": "calc.VC_phase",
+          "before": "学生 −5π/6",
+          "after": "正解仮説 −π/3（学生解答は変更しない）",
+          "reason": "検算"
+        }
+      ]
+    },
+    {
+      "id": "EIC3-QZ1-Q3-3",
+      "unit": "小テスト No.1",
+      "form": "calculation",
+      "stem": {
+        "value": "問題3(3) (2)の各電圧を瞬時値で示せ。",
+        "status": "original"
+      },
+      "answer": {
+        "value": "手書き（原文）: $v_R=10\\sqrt{2}\\sin(1000t+\\pi/6)$；$v_L=4.0\\sqrt{2}\\sin(1000t+7\\pi/6)$；$v_C=40\\sqrt{2}\\sin(1000t-5\\pi/6)$",
+        "status": "original"
+      },
+      "sources": [
+        {
+          "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+          "page": 14
+        }
+      ],
+      "tags": [
+        "瞬時値",
+        "小テスト",
+        "学生誤答"
+      ],
+      "explanation": {
+        "value": "採点: 斜線系（(2)の位相誤りを継承）。正解仮説の位相は VL:2π/3、VC:−π/3。",
+        "status": "original"
+      }
+    }
+  ]
+}

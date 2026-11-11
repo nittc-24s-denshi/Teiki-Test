@@ -1,0 +1,33 @@
+{
+  "id": "EIC3-D5-Q3",
+  "unit": "配布資料5（複素電力・力率改善）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題3: 問図6-3（R+jωL と C 並列）の力率1となる可変 C の式。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "手書きは $\\dot{Z}=((R+j\\omega L)^{-1}+(1/(j\\omega C))^{-1})^{-1}=R$ まで。穴埋め補完なし。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "力率",
+    "未記入"
+  ],
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p006.png",
+      "page": 6,
+      "caption": {
+        "value": "問図6-3",
+        "status": "original"
+      }
+    }
+  ]
+}

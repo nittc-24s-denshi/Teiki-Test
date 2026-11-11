@@ -1,0 +1,27 @@
+{
+  "id": "EIC3-D5-Q2",
+  "unit": "配布資料5（複素電力・力率改善）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題2: 遅れ力率0.9、有効電力1800[W] の皮相電力と無効電力。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "未記入（力率改善の定義枠のみ印刷）。穴埋め補完なし。",
+    "status": "unverified"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 6
+    }
+  ],
+  "tags": [
+    "力率",
+    "未記入"
+  ],
+  "explanation": {
+    "value": "印刷: 力率改善…無効電力を減らして力率を1に近づけること。",
+    "status": "original"
+  }
+}

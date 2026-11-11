@@ -1,0 +1,48 @@
+{
+  "id": "EIC3-P194",
+  "unit": "問題19.4〜19.7（直並列）",
+  "form": "calculation",
+  "stem": {
+    "value": "問題19.4: ω=100、E=4、I=IL=IC=2[A] のフェーザと R,L,C。",
+    "status": "original"
+  },
+  "answer": {
+    "value": "解答: IC=j2、IL=2∠-30°；C=5[mF]、R=√3[Ω]、L=10[mH]",
+    "status": "original"
+  },
+  "sources": [
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 10
+    },
+    {
+      "file": "RAW/exercises_quiz_2026-11_masked.pdf",
+      "page": 11
+    }
+  ],
+  "tags": [
+    "並列回路"
+  ],
+  "explanation": {
+    "value": "p.10 に学生解答なし。解答ページの印刷解を原文として採用。",
+    "status": "original"
+  },
+  "figures": [
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p010.png",
+      "page": 10,
+      "caption": {
+        "value": "問題19.4 回路",
+        "status": "original"
+      }
+    },
+    {
+      "path": "pipeline/images/pages/exercises_quiz_2026-11_masked_p011.png",
+      "page": 11,
+      "caption": {
+        "value": "19.4 解答フェーザ",
+        "status": "original"
+      }
+    }
+  ]
+}
