@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スキャン待ち — 2026/03 後期中間</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="top">
+      <div>
+        <h1>スキャン待ち一覧</h1>
+        <p class="sub" id="metaLine">2026/03 後期中間</p>
+        <a class="nav-back" href="../index.html">← ポータルへ戻る</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="テーマ切り替え">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </header>
+
+    <div class="notice" aria-label="注意">
+      <p id="privacy"></p>
+      <p id="rangePolicy"></p>
+      <p id="excluded"></p>
+    </div>
+
+    <div class="filters" aria-label="絞り込み">
+      <label>科目
+        <select id="subjectFilter">
+          <option value="all">すべて</option>
+        </select>
+      </label>
+      <label>優先度
+        <select id="priorityFilter">
+          <option value="all">すべて</option>
+          <option value="critical">最重要</option>
+          <option value="high">高</option>
+          <option value="medium">中</option>
+          <option value="done">受領済</option>
+        </select>
+      </label>
+    </div>
+
+    <p id="loading" class="empty">データを読み込み中…</p>
+    <p id="error" class="error" hidden></p>
+    <main id="content"></main>
+
+    <footer class="foot">
+      データ: <code>Web_App/data/scan_needed_2026_03.json</code>
+      ／ 教材メモ: <code>2026/03/スキャン待ち.md</code>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,518 @@
+{
+  "exam": "2026/03",
+  "title": "スキャン待ち一覧",
+  "period_name": "後期中間",
+  "window_jst": "2026-11-24〜2026-11-30",
+  "updated": "2026-11-12",
+  "source_of_truth": "リポジトリ（status.json・確認ノート・範囲表・公式範囲・README）と 2026-11-10 合意メモ",
+  "privacy_note": "採点済み答案・小テストを送る場合は、氏名・出席番号を隠して送ってよい。そのまま送ってもこちらでマスクする。個人名・学籍番号・メールは公開データに載せない。",
+  "range_policy": "公式範囲表が届いていない科目では、シラバスの週次を確定出題範囲として扱わない。",
+  "sections": [
+    {
+      "id": "agreed_2026-11-10",
+      "title": "11/10 合意：追加でスキャンが必要なもの（必ず全部）",
+      "description": "本人メモと、その場で追加した項目。物理Ⅵの課題表は受領済みとして明記する。",
+      "groups": [
+        {
+          "id": "textbooks_core",
+          "heading": "教科書（試験範囲の章だけで可）",
+          "items": [
+            {
+              "subject": "線形代数Ⅳ",
+              "what": "教科書（試験範囲の章）",
+              "reason": "11/10合意・教科書未受領",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "解析Ⅱ",
+              "what": "教科書（微積・試験範囲の章）",
+              "reason": "11/10合意・教材未取込",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "物理Ⅵ",
+              "what": "教科書（上・下の該当ページ。課題表に記載の範囲）",
+              "reason": "11/10合意。公式範囲は課題表で受領済だが教科書本文は未受領",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "ReadingⅥ",
+              "what": "教科書 / Dual Scope など授業で使う冊子（試験範囲の章）",
+              "reason": "11/10合意。課題プリント Unit 6〜8 は取込済、教科書側は未受領",
+              "priority": "high",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "id": "physics_pack",
+          "heading": "物理系（セミナー・問題集・課題の範囲表）",
+          "items": [
+            {
+              "subject": "物理Ⅵ",
+              "what": "課題の範囲表（その1／その2）",
+              "reason": "11/10合意の「課題の範囲表」。本人提供の課題表を公式範囲として受領済み",
+              "priority": "done",
+              "status": "received"
+            },
+            {
+              "subject": "物理Ⅵ",
+              "what": "セミナー問題（課題表に列挙の基本例題・プロセス・発展など）",
+              "reason": "11/10合意・課題表にあるが問題本文未受領",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "物理Ⅵ",
+              "what": "物理問題集（課題表の該当題）",
+              "reason": "11/10合意・課題表にあるが未受領",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "物理Ⅵ",
+              "what": "基礎演習プリント（電場、仕事と運動エネルギー、うなり、ドップラー効果、その他後期配布分。○×訂正付き）",
+              "reason": "課題表の提出物。後期配布分を含む。未受領",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "物理Ⅵ",
+              "what": "後日配布分（課題表見出しの「後日、配布分を参照」に相当するもの）",
+              "reason": "課題表で言及、未受領",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "物理Ⅵ",
+              "what": "前期末テスト直し（問題貼付・大問3題以上）",
+              "reason": "課題表の提出物。未受領",
+              "priority": "medium",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "id": "past_exams",
+          "heading": "過去問",
+          "items": [
+            {
+              "subject": "（筆記試験科目全般）",
+              "what": "過去問（中間・期末など）。リポジトリの 2025/03 に無い年度・科目のもの",
+              "reason": "11/10合意。2025/03 には科目フォルダの過去問がほぼ無く、新規スキャンが必要",
+              "priority": "high",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "id": "empty_subjects",
+          "heading": "まだ何も届いていない科目の資料",
+          "items": [
+            {
+              "subject": "化学Ⅵ",
+              "what": "授業プリント・ノート・教科書",
+              "reason": "骨格のみ・RAW空・教材未取込",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "電磁気学演習",
+              "what": "授業プリント・ノート・教科書",
+              "reason": "骨格のみ・RAW空・教材未取込",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "解析Ⅱ",
+              "what": "授業プリント・ノート・教科書",
+              "reason": "骨格のみ・RAW空・教材未取込",
+              "priority": "high",
+              "status": "needed"
+            },
+            {
+              "subject": "Science_English_Ⅱ",
+              "what": "授業プリント・教科書",
+              "reason": "暗記メーカー Lesson 1〜4 は取込済。授業プリント・教科書は未受領",
+              "priority": "high",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "id": "electrical_textbooks",
+          "heading": "電気系の教科書（空欄補完・検算の裏付け用）",
+          "items": [
+            {
+              "subject": "電磁気学Ⅱ",
+              "what": "教科書（試験範囲の章）",
+              "reason": "プリントは取込済。空欄補完と検算の裏付け用",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "subject": "電気回路Ⅲ",
+              "what": "教科書（試験範囲の章）",
+              "reason": "演習・小テストは取込済。空欄補完と検算の裏付け用",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "subject": "電子回路Ⅱ",
+              "what": "教科書（試験範囲の章）",
+              "reason": "オペアンプ課題は取込済。空欄補完と検算の裏付け用",
+              "priority": "medium",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "id": "class_notes",
+          "heading": "授業ノート",
+          "items": [
+            {
+              "subject": "科学技術から見る歴史Ⅱ",
+              "what": "C1 以外の章の授業ノート",
+              "reason": "授業プリントは C1〜C5 を取込済。ノート側で C1 以外の章を追加スキャン",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "subject": "電気回路Ⅲ",
+              "what": "授業ノート",
+              "reason": "演習・配布・ドリル・小テストは取込済。ノート本体は未受領",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "subject": "電子回路Ⅱ",
+              "what": "授業ノート",
+              "reason": "採点済み課題は取込済。ノート本体は未受領",
+              "priority": "medium",
+              "status": "needed"
+            }
+          ],
+          "excluded_note": "確率統計は第1〜6回（＋参考試験）を受領済みのため、この「授業ノート」枠には載せない。"
+        },
+        {
+          "id": "quizzes_returned",
+          "heading": "小テスト・返却された答案",
+          "items": [
+            {
+              "subject": "（筆記試験科目全般）",
+              "what": "小テスト・返却答案のうち、まだ送っていないもの",
+              "reason": "11/10追加。氏名・出席番号は隠して送るか、そのまま送ってこちらでマスク",
+              "priority": "medium",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "id": "official_range",
+          "heading": "公式の範囲表（最重要）",
+          "items": [
+            {
+              "subject": "物理Ⅵ",
+              "what": "公式範囲（課題表その1／その2）",
+              "reason": "受領済み（教員配布の課題表＝試験範囲）",
+              "priority": "done",
+              "status": "received"
+            },
+            {
+              "subject": "ReadingⅥ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "Science_English_Ⅱ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要。暗記メーカーは公式範囲ではない",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "科学技術から見る歴史Ⅱ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "線形代数Ⅳ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "確率統計",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要。参考試験プリントは公式範囲表ではない",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "解析Ⅱ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "化学Ⅵ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "電磁気学Ⅱ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "電磁気学演習",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "電気回路Ⅲ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            },
+            {
+              "subject": "電子回路Ⅱ",
+              "what": "公式範囲表（教員配布・掲示・Teams のスクショ可）",
+              "reason": "未入手・最重要",
+              "priority": "critical",
+              "status": "needed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "by_subject",
+      "title": "科目別の追加洗い出し（リポジトリ照合）",
+      "description": "status.json・確認ノート・範囲表などから、再撮影や未受領を科目ごとに補足。上の合意項目と重複するものは「合意分も参照」。",
+      "subjects": [
+        {
+          "subject": "解析Ⅱ",
+          "intake": "骨格のみ（仮ノート）",
+          "items": [
+            {
+              "what": "授業プリント・ノート・教科書・公式範囲表",
+              "reason": "教材未取込",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "化学Ⅵ",
+          "intake": "骨格のみ（仮ノート）",
+          "items": [
+            {
+              "what": "授業プリント・ノート・教科書・公式範囲表",
+              "reason": "教材未取込",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "電磁気学演習",
+          "intake": "骨格のみ（仮ノート）",
+          "items": [
+            {
+              "what": "授業プリント・ノート・教科書・公式範囲表",
+              "reason": "教材未取込",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "物理Ⅵ",
+          "intake": "公式範囲（課題表）のみ。教材本文未取込",
+          "items": [
+            {
+              "what": "セミナー・問題集・基礎演習プリント・後日配布分・前期末直し・教科書",
+              "reason": "課題表はあるが問題本文・配布物未受領",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            },
+            {
+              "what": "課題の範囲表",
+              "reason": "受領済み",
+              "priority": "done",
+              "status": "received"
+            }
+          ]
+        },
+        {
+          "subject": "Science_English_Ⅱ",
+          "intake": "暗記メーカー Lesson 1〜4（156問）取込済",
+          "items": [
+            {
+              "what": "授業プリント・教科書・公式範囲表",
+              "reason": "暗記メーカー以外未受領。暗記メーカーは公式範囲ではない",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "科学技術から見る歴史Ⅱ",
+          "intake": "授業プリント C1〜C5（ファイル名 C1_tools_print.pdf）構造化済",
+          "items": [
+            {
+              "what": "C1 以外の章の授業ノート",
+              "reason": "プリントは C1〜C5 取込済。ノート追加",
+              "priority": "medium",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            },
+            {
+              "what": "公式範囲表",
+              "reason": "未入手",
+              "priority": "critical",
+              "status": "needed"
+            }
+          ]
+        },
+        {
+          "subject": "ReadingⅥ",
+          "intake": "Unit 6〜8 課題プリント構造化済",
+          "items": [
+            {
+              "what": "RD6-U7-11（Unit 7 Post-reading）付近の原本を再撮影",
+              "reason": "判読困難な手書き記号（n₁ n₂ / t₁ t₂ 等）。文脈未確認",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "what": "教科書（Dual Scope 含む）・公式範囲表",
+              "reason": "教科書未受領・範囲表未入手",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "電子回路Ⅱ",
+          "intake": "オペアンプ採点済み課題（マスク版）構造化済",
+          "items": [
+            {
+              "what": "問6(2) 波形図ページの再撮影（周波数 318 Hz の周期読み取り確認用）",
+              "reason": "手書きは 318 Hz・採点○だが、横軸解釈で ≈159 Hz との疑い。グラフの再確認が必要",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "what": "教科書・授業ノート・公式範囲表・未送の小テスト／返却答案",
+              "reason": "合意分・裏付け用",
+              "priority": "medium",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "電気回路Ⅲ",
+          "intake": "演習・配布・ドリル・小テスト（マスク版14ページ）構造化済",
+          "items": [
+            {
+              "what": "p.14 小テスト No.1 の問2・問3 付近を再撮影",
+              "reason": "問2の分数（1/10・199/2000 等）を PDF で再確認したい旨が記録されている",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "what": "p.3・p.7 の判読不能箇所を再撮影",
+              "reason": "文字起こしに [判読不能]（p.3 の v_L 係数、p.7 の (100…)² など）",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "what": "教科書・授業ノート・公式範囲表・未送の返却答案",
+              "reason": "合意分・裏付け用",
+              "priority": "medium",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "線形代数Ⅳ",
+          "intake": "手書きノート5ページ構造化済",
+          "items": [
+            {
+              "what": "図があるページを余白多め・高解像度で再撮影（または図だけ接写）",
+              "reason": "図はページからクロップした手描き図。粗い／切れやすいため、写像・回転などの図の再スキャンが望ましい",
+              "priority": "medium",
+              "status": "needed"
+            },
+            {
+              "what": "教科書・公式範囲表",
+              "reason": "合意分・範囲表未入手",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "電磁気学Ⅱ",
+          "intake": "誘電体プリント等を構造化済",
+          "items": [
+            {
+              "what": "教科書・公式範囲表・未送の小テスト／返却答案",
+              "reason": "範囲表未入手。教科書は検算裏付け用",
+              "priority": "high",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            }
+          ]
+        },
+        {
+          "subject": "確率統計",
+          "intake": "第1〜6回＋後期中間試験（参考）構造化済",
+          "items": [
+            {
+              "what": "公式範囲表",
+              "reason": "未入手。参考試験は公式範囲表ではない。授業ノート枠には載せない（第1〜6回受領済）",
+              "priority": "critical",
+              "status": "needed",
+              "see_also": "agreed_2026-11-10"
+            },
+            {
+              "what": "未送の小テスト／返却答案・過去問（2025/03 に無いもの）",
+              "reason": "合意分",
+              "priority": "medium",
+              "status": "needed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_subjects_note": "実験・体育・ものづくりなど筆記試験のない科目は対象外。"
+}
