@@ -1,7 +1,7 @@
 {
   "exam": "2026/03",
   "subject": "電気回路Ⅲ",
-  "updated": "2026-11-11T01:13:47Z",
+  "updated": "2026-11-21T15:00:00+09:00",
   "pipeline": {
     "raw_ingested": true,
     "pages_split": true,
@@ -30,5 +30,9 @@
     "EIC3-D5-Q3",
     "EIC3-D6-Q1"
   ],
-  "notes": "進捗: 整備中。マスク済み exercises_quiz_2026-11_masked.pdf のみRAW。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank: eic3_2026_03。"
+  "notes": "試験日時: 2026-11-24 10:20–11:20 (2)。進捗: 整備中。マスク済み exercises_quiz_2026-11_masked.pdf のみRAW。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank: eic3_2026_03。",
+  "exam_datetime": {
+    "jst": "2026-11-24 10:20–11:20 (2)",
+    "source": "R08後期中間試験時間割【学生公開】（2026-11-17）"
+  }
 }

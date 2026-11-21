@@ -1,5 +1,122 @@
 {
+  "class": "3D",
+  "window_jst": "2026-11-24〜2026-11-30",
+  "timezone": "Asia/Tokyo",
   "date": null,
-  "note": "科目別の試験日時は未定（TBD）。2026-11-21 Teams収集でもクラス・学科Teamに科目別日時・教室は見つからず。後期時間割も未入手。公式日程が届き次第、date と subjectLists を記入する。暦の窓は 2026-11-24〜2026-11-30 JST（後期中間）。根拠の一端: 電磁気学演習日程.pdf・線型代数Ⅳガイダンス・確率統計I数学相談室案内。形は 2025/01/Schedule.json の date と subjectLists に合わせた空の置き場。",
-  "subjectLists": []
+  "slot_minutes": 60,
+  "slots": [
+    { "id": 1, "StartAt": "09:00", "EndAt": "10:00" },
+    { "id": 2, "StartAt": "10:20", "EndAt": "11:20" },
+    { "id": 3, "StartAt": "11:40", "EndAt": "12:40" }
+  ],
+  "source": {
+    "title": "R08後期中間試験時間割【学生公開】",
+    "published": "2026-11-17",
+    "kind": "センターボード掲示",
+    "raw_pdf": "RAW/exam_timetable_R08_late_midterm_student.pdf",
+    "raw_3d_crop": "RAW/exam_timetable_R08_late_midterm_3D_crop.png"
+  },
+  "note": "3D の科目別試験日時は公式時間割PDF（2026-11-17公開）から記入。各日3枠・各60分。特別教室の記載は3D行に無し。後期の通常授業時間割は未入手のまま。電磁気学演習・国語総合Vは試験枠なし。",
+  "subjectLists": [
+    {
+      "date": "2026-11-24",
+      "weekday": "火",
+      "slot": 1,
+      "StartAt": "09:00",
+      "EndAt": "10:00",
+      "subject": "解析Ⅱ"
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "火",
+      "slot": 2,
+      "StartAt": "10:20",
+      "EndAt": "11:20",
+      "subject": "電気回路Ⅲ"
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "水",
+      "slot": 2,
+      "StartAt": "10:20",
+      "EndAt": "11:20",
+      "subject": "化学Ⅵ"
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "水",
+      "slot": 3,
+      "StartAt": "11:40",
+      "EndAt": "12:40",
+      "subject": "線形代数Ⅳ"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "木",
+      "slot": 1,
+      "StartAt": "09:00",
+      "EndAt": "10:00",
+      "subject": "科学技術から見る歴史Ⅱ"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "木",
+      "slot": 2,
+      "StartAt": "10:20",
+      "EndAt": "11:20",
+      "subject": "ReadingⅥ"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "木",
+      "slot": 3,
+      "StartAt": "11:40",
+      "EndAt": "12:40",
+      "subject": "確率統計"
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "金",
+      "slot": 2,
+      "StartAt": "10:20",
+      "EndAt": "11:20",
+      "subject": "物理Ⅵ",
+      "teams_name": "物理V"
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "金",
+      "slot": 3,
+      "StartAt": "11:40",
+      "EndAt": "12:40",
+      "subject": "電子回路Ⅱ"
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "月",
+      "slot": 1,
+      "StartAt": "09:00",
+      "EndAt": "10:00",
+      "subject": "電磁気学Ⅱ"
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "月",
+      "slot": 2,
+      "StartAt": "10:20",
+      "EndAt": "11:20",
+      "subject": "Science_English_Ⅱ",
+      "timetable_label": "SEⅡ"
+    }
+  ],
+  "no_exam_slot": [
+    {
+      "subject": "電磁気学演習",
+      "note": "試験枠なし。定期試験なしと記録。科目フォルダは削除しない。"
+    },
+    {
+      "subject": "国語総合V",
+      "note": "3D行に試験枠なし。2026/03 に科目フォルダは無い。"
+    }
+  ]
 }

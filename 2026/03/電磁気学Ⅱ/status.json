@@ -1,7 +1,7 @@
 {
   "exam": "2026/03",
   "subject": "電磁気学Ⅱ",
-  "updated": "2026-11-21T14:00:00+09:00",
+  "updated": "2026-11-21T15:00:00+09:00",
   "pipeline": {
     "raw_ingested": true,
     "pages_split": true,
@@ -20,5 +20,9 @@
     "unverified": 7,
     "inferred_answers": 0
   },
-  "notes": "範囲未発表。RAWに開講資料・板書修正（2026-11-05）を追加。既存誘電体プリント構造化はそのまま。 / 既存: 進捗: 整備中。schema検証済み。空欄穴埋めは未実施（filled=false / unverified残）。公式範囲表は未入手。Question Bank catalog に em2_2026_03 を登録。"
+  "notes": "試験日時: 2026-11-30 09:00–10:00 (1)。範囲未発表。RAWに開講資料・板書修正（2026-11-05）を追加。既存誘電体プリント構造化はそのまま。 / 既存: 進捗: 整備中。schema検証済み。空欄穴埋めは未実施（filled=false / unverified残）。公式範囲表は未入手。Question Bank catalog に em2_2026_03 を登録。",
+  "exam_datetime": {
+    "jst": "2026-11-30 09:00–10:00 (1)",
+    "source": "R08後期中間試験時間割【学生公開】（2026-11-17）"
+  }
 }

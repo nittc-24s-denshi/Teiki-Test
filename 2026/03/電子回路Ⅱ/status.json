@@ -1,7 +1,7 @@
 {
   "exam": "2026/03",
   "subject": "電子回路Ⅱ",
-  "updated": "2026-11-11T00:47:04Z",
+  "updated": "2026-11-21T15:00:00+09:00",
   "pipeline": {
     "raw_ingested": true,
     "pages_split": true,
@@ -24,5 +24,9 @@
     "EC2-1105-Q1-REST",
     "EC2-1105-Q2"
   ],
-  "notes": "進捗: 整備中。schema検証済み。マスク済み課題PDFのみRAW。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に ec2_2026_03 を登録。"
+  "notes": "試験日時: 2026-11-27 11:40–12:40 (3)。進捗: 整備中。schema検証済み。マスク済み課題PDFのみRAW。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に ec2_2026_03 を登録。",
+  "exam_datetime": {
+    "jst": "2026-11-27 11:40–12:40 (3)",
+    "source": "R08後期中間試験時間割【学生公開】（2026-11-17）"
+  }
 }

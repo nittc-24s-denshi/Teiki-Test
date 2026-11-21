@@ -348,15 +348,15 @@
           "items": [
             {
               "subject": "（全体）",
-              "what": "科目別試験日時・教室",
-              "reason": "クラス・学科Teamに見つからず",
-              "priority": "critical",
-              "status": "needed"
+              "what": "科目別試験日時（3D）",
+              "reason": "R08後期中間試験時間割【学生公開】（2026-11-17）を Schedule.json に反映。特別教室記載は3D行に無し。後期通常時間割は未取得",
+              "priority": "done",
+              "status": "received"
             },
             {
               "subject": "（全体）",
               "what": "後期時間割",
-              "reason": "手元時間割は前期のみ",
+              "reason": "通常授業の後期時間割は未入手（試験時間割とは別）",
               "priority": "critical",
               "status": "needed"
             },
@@ -538,7 +538,7 @@
             },
             {
               "what": "教科書・授業ノート・公式範囲表・未送の小テスト／返却答案",
-              "reason": "合意分・裏付け用",
+              "reason": "合意分・裏付け用。試験日時は時間割PDFで受領済",
               "priority": "medium",
               "status": "needed",
               "see_also": "agreed_2026-11-10"
@@ -595,7 +595,7 @@
           "items": [
             {
               "what": "教科書・公式範囲表・未送の小テスト／返却答案",
-              "reason": "範囲表未入手。教科書は検算裏付け用",
+              "reason": "範囲表未入手。教科書は検算裏付け用。試験日時は時間割PDFで受領済",
               "priority": "high",
               "status": "needed",
               "see_also": "agreed_2026-11-10"
