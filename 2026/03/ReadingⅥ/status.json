@@ -1,7 +1,7 @@
 {
   "exam": "2026/03",
   "subject": "ReadingⅥ",
-  "updated": "2026-11-11T00:42:09Z",
+  "updated": "2026-11-21T14:00:00+09:00",
   "pipeline": {
     "raw_ingested": true,
     "pages_split": true,
@@ -56,5 +56,5 @@
     "RD6-U8B-02C",
     "RD6-U8B-03"
   ],
-  "notes": "進捗: 整備中。Unit 6〜8 課題プリント6ページを取り込み。schema検証済み。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に rd6_2026_03 を登録。"
+  "notes": "公式範囲（Teams 2026-11-17 樫村）を追加記録。Unit6–7 / Flash 12–17。2025後期中間過去問は Teams 403 で未取得。既存 Unit6–8 課題の構造化はそのまま。 / 既存: 進捗: 整備中。Unit 6〜8 課題プリント6ページを取り込み。schema検証済み。空欄穴埋めは未実施（filled=false）。公式範囲表は未入手。Question Bank catalog に rd6_2026_03 を登録。"
 }

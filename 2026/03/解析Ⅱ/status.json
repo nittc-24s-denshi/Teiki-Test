@@ -1,0 +1,18 @@
+{
+  "exam": "2026/03",
+  "subject": "解析Ⅱ",
+  "updated": "2026-11-21T14:00:00+09:00",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": false,
+    "transcribed": false,
+    "questions_split": false,
+    "filled": false,
+    "merged": false,
+    "corrected": false,
+    "structured": false,
+    "validated": false,
+    "app_data": false
+  },
+  "notes": "範囲未発表。RAW に 2025 解析2後期中間過去問を追加。公式範囲投稿なし。QB 未着手。"
+}

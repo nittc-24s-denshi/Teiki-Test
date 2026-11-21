@@ -1,7 +1,7 @@
 {
   "exam": "2026/03",
   "subject": "電磁気学Ⅱ",
-  "updated": "2026-11-10T14:03:07Z",
+  "updated": "2026-11-21T14:00:00+09:00",
   "pipeline": {
     "raw_ingested": true,
     "pages_split": true,
@@ -20,5 +20,5 @@
     "unverified": 7,
     "inferred_answers": 0
   },
-  "notes": "進捗: 整備中。schema検証済み。空欄穴埋めは未実施（filled=false / unverified残）。公式範囲表は未入手。Question Bank catalog に em2_2026_03 を登録。"
+  "notes": "範囲未発表。RAWに開講資料・板書修正（2026-11-05）を追加。既存誘電体プリント構造化はそのまま。 / 既存: 進捗: 整備中。schema検証済み。空欄穴埋めは未実施（filled=false / unverified残）。公式範囲表は未入手。Question Bank catalog に em2_2026_03 を登録。"
 }

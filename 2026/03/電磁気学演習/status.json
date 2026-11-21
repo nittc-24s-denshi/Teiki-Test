@@ -1,0 +1,18 @@
+{
+  "exam": "2026/03",
+  "subject": "電磁気学演習",
+  "updated": "2026-11-21T14:00:00+09:00",
+  "pipeline": {
+    "raw_ingested": true,
+    "pages_split": false,
+    "transcribed": false,
+    "questions_split": false,
+    "filled": false,
+    "merged": false,
+    "corrected": false,
+    "structured": false,
+    "validated": false,
+    "app_data": false
+  },
+  "notes": "公式範囲投稿なし。日程.pdf からの読み取りは推定として記載。RAW に日程＋演習0929〜1110を追加。QB 未着手。"
+}
